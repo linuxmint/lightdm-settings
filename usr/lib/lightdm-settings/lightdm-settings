@@ -60,7 +60,7 @@ class Application(Gtk.Application):
         switch_holder = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
         switch_holder.set_border_width(1)
         tool_item.add(switch_holder)
-        switch_holder.pack_start(stack_switcher, True, True, 0)
+        # switch_holder.pack_start(stack_switcher, True, True, 0)
         stack_switcher.set_halign(Gtk.Align.CENTER)
         toolbar.show_all()
 
