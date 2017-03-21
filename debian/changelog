@@ -1,3 +1,16 @@
+lightdm-settings (1.0.1) sonya; urgency=medium
+
+  * Add icons
+  * Add desktop file
+  * Create README.md
+  * Hide the Stack switcher for now
+  * Add makepot and POT file
+  * Add COPYING file
+  * l10n: Compile PO at build time
+  * l10n: Add generate_desktop_files script
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 21 Mar 2017 16:05:23 +0000
+
 lightdm-settings (1.0.0) sonya; urgency=low
 
   * Initial version
