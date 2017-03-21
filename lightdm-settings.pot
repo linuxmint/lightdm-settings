@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-21 15:53+0000\n"
+"POT-Creation-Date: 2017-03-21 16:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:37
+#: usr/lib/lightdm-settings/lightdm-settings:37 generate_desktop_files:27
 msgid "Login Window"
 msgstr ""
 
@@ -60,4 +60,8 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:91
 msgid "Icon theme"
+msgstr ""
+
+#: generate_desktop_files:27
+msgid "Configure the login window"
 msgstr ""

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-xgettext --language=Python --keyword=_ --output=lightdm-settings.pot usr/lib/lightdm-settings/lightdm-settings usr/lib/lightdm-settings/*.py usr/bin/*
+xgettext --language=Python --keyword=_ --output=lightdm-settings.pot usr/lib/lightdm-settings/lightdm-settings usr/lib/lightdm-settings/*.py usr/bin/* generate_desktop_files
