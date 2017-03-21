@@ -1,0 +1,13 @@
+Source: lightdm-settings
+Section: gnome
+Priority: optional
+Maintainer: Linux Mint <root@linuxmint.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: lightdm-settings
+Architecture: all
+Depends: ${misc:Depends}, python3-setproctitle
+Description: LightDM configuration tool
+ A configuration tool for the LightDM display manager.
+

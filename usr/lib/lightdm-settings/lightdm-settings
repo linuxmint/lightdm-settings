@@ -1,0 +1,178 @@
+#!/usr/bin/python3
+
+import setproctitle
+import os
+import gi
+import gettext
+import sys
+import glob
+from SettingsWidgets import *
+
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gtk, Gio
+
+setproctitle.setproctitle("lightdm-settings")
+
+gettext.install("lightdm-settings", "/usr/share/locale")
+
+
+class Application(Gtk.Application):
+    ''' Create the UI '''
+    def __init__(self):
+
+        Gtk.Application.__init__(self, application_id='com.linuxmint.lightdm-settings', flags=Gio.ApplicationFlags.FLAGS_NONE)
+        self.connect("activate", self.on_activate)
+
+    def on_activate(self, data=None):
+        list = self.get_windows()
+        if len(list) > 0:
+            # Application is already running, focus the window
+            self.get_active_window().present()
+        else:
+            self.create_window()
+
+    def create_window(self):
+        self.window = Gtk.Window(Gtk.WindowType.TOPLEVEL)
+
+        self.window.set_title(_("Login Window"))
+        self.window.set_icon_name("lightdm-settings")
+        self.window.set_default_size(640, 400)
+
+        self.main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+
+        # Toolbar
+        toolbar = Gtk.Toolbar()
+        toolbar.get_style_context().add_class("primary-toolbar")
+        self.main_box.pack_start(toolbar, False, False, 0)
+
+        self.main_stack = Gtk.Stack()
+        self.main_stack.set_transition_type(Gtk.StackTransitionType.SLIDE_LEFT_RIGHT)
+        self.main_stack.set_transition_duration(150)
+        self.main_box.pack_start(self.main_stack, True, True, 0)
+
+        stack_switcher = Gtk.StackSwitcher()
+        stack_switcher.set_stack(self.main_stack)
+
+        tool_item = Gtk.ToolItem()
+        tool_item.set_expand(True)
+        tool_item.get_style_context().add_class("raised")
+        toolbar.insert(tool_item, 0)
+        switch_holder = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+        switch_holder.set_border_width(1)
+        tool_item.add(switch_holder)
+        switch_holder.pack_start(stack_switcher, True, True, 0)
+        stack_switcher.set_halign(Gtk.Align.CENTER)
+        toolbar.show_all()
+
+        self.settings = Gio.Settings("com.canonical.unity-greeter")
+
+        debug = False
+        if len(sys.argv) > 1 and sys.argv[1] == "debug":
+            debug = True
+
+        # Settings
+
+        page = SettingsPage()
+
+        section = page.add_section(_("Settings"))
+
+        section.add_row(SettingsRow(Gtk.Label(_("Draw a grid")), GSettingsSwitch(self.settings, "draw-grid")))
+        section.add_row(SettingsRow(Gtk.Label(_("Draw user backgrounds")), GSettingsSwitch(self.settings, "draw-user-backgrounds")))
+        section.add_row(SettingsRow(Gtk.Label(_("Show hostname")), GSettingsSwitch(self.settings, "show-hostname")))
+
+        row = section.add_row(SettingsRow(Gtk.Label(_("Logo")), GSettingsFileChooser(self.settings, "logo")))
+        # row = section.add_row(SettingsRow(Gtk.Label(""), GSettingsReset(self.settings, "logo", _("Reset"))))
+        row = section.add_row(SettingsRow(Gtk.Label(_("Background logo")), GSettingsFileChooser(self.settings, "background-logo")))     
+        row = section.add_row(SettingsRow(Gtk.Label(_("Background")), GSettingsFileChooser(self.settings, "background")))
+
+        row = section.add_row(SettingsRow(Gtk.Label(_("Background color")), GSettingsColorChooser(self.settings, "background-color")))
+
+        row = section.add_row(SettingsRow(Gtk.Label(_("GTK theme")), GSettingsCombo(self.settings, "theme-name", self.get_gtk_themes(), "string")))
+        row = section.add_row(SettingsRow(Gtk.Label(_("Icon theme")), GSettingsCombo(self.settings, "icon-theme-name", self.get_icon_themes(), "string")))
+
+        self.window.add(self.main_box)
+
+        self.main_stack.add_titled(page, "settings", _("Settings"))
+
+        self.add_window(self.window)
+        self.window.show_all()
+
+    def walk_directories(self, dirs, filter_func, return_directories=False):
+        # If return_directories is False: returns a list of valid subdir names
+        # Else: returns a list of valid tuples (subdir-names, parent-directory)
+        valid = []
+        try:
+            for thdir in dirs:
+                if os.path.isdir(thdir):
+                    for t in os.listdir(thdir):
+                        if filter_func(os.path.join(thdir, t)):
+                            if return_directories:
+                                valid.append([t, thdir])
+                            else:
+                                valid.append(t)
+        except:
+            pass
+            #logging.critical("Error parsing directories", exc_info=True)
+        return valid
+
+
+    def filter_func_gtk_dir(self, directory):
+        # returns whether a directory is a valid GTK theme
+        if os.path.exists(os.path.join(directory, "gtk-2.0")):
+            if os.path.exists(os.path.join(directory, "gtk-3.0")):
+                return True
+            else:
+                for subdir in glob.glob("%s/gtk-3.*" % directory):
+                    return True
+        return False
+
+    def get_gtk_themes(self):
+        try:
+            """ Only shows themes that have variations for gtk+-3 and gtk+-2 """
+            dirs = ["/usr/share/themes"]
+            valid = self.walk_directories(dirs, self.filter_func_gtk_dir, return_directories=True)
+            valid.sort(key=lambda a: a[0].lower())
+            res = []
+            for i in valid:
+                for j in res:
+                    if i[0] == j[0]:
+                        if i[1] == dirs[0]:
+                            continue
+                        else:
+                            res.remove(j)
+                res.append((i[0], i[0]))
+            return res
+        except:
+            print ("WOW")
+
+    def get_icon_themes(self):
+        dirs = ("/usr/share/icons", os.path.join(os.path.expanduser("~"), ".icons"))
+        walked = self.walk_directories(dirs, lambda d: os.path.isdir(d), return_directories=True)
+        valid = []
+        for directory in walked:
+            path = os.path.join(directory[1], directory[0], "index.theme")
+            if os.path.exists(path):
+                try:
+                    for line in list(open(path)):
+                        if line.startswith("Directories="):
+                            valid.append(directory)
+                            break
+                except Exception as e:
+                    print (e)
+
+        valid.sort(key=lambda a: a[0].lower())
+        res = []
+        for i in valid:
+            for j in res:
+                if i[0] == j:
+                    if i[1] == dirs[0]:
+                        continue
+                    else:
+                        res.remove(j)
+            res.append([i[0], i[0]])
+        return res
+
+if __name__ == "__main__":
+    app = Application()
+    app.run(None)
+

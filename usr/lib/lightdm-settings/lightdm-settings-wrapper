@@ -1,0 +1,6 @@
+#!/bin/bash
+
+xhost +SI:localuser:lightdm
+
+gksu -u lightdm /usr/lib/lightdm-settings/lightdm-settings
+

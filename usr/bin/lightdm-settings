@@ -1,0 +1,4 @@
+#!/bin/bash
+
+gksu /usr/lib/lightdm-settings/lightdm-settings-wrapper
+
