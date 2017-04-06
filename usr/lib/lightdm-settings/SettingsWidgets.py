@@ -162,9 +162,20 @@ class SettingsColorChooser(Gtk.ColorButton):
         self.connect("color-set", self.on_color_set)
 
     def on_color_set(self, widget):
-        color_string = self.get_color().to_string()
-        self.keyfile.set_string(GROUP_NAME, self.key, color_string)
+        self.keyfile.set_string(GROUP_NAME, self.key, self.get_hex_code())
         self.keyfile.save_to_file(CONF_PATH)
+
+    def get_hex_code(self):
+            color = self.get_rgba()
+            #code = "#"
+            code = ""
+            for i in (color.red, color.green, color.blue):
+                i = hex(int(i*255.0))[2:]
+                if len(i) == 1:
+                    code = code + "0" + i
+                else:
+                    code = code + i
+            return code
 
 class SettingsCombo(Gtk.ComboBox):
     def __init__(self, keyfile, settings, key, options, valtype="string"):
