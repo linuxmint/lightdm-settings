@@ -4,6 +4,10 @@ import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, Gio, Gdk
 
+CONF_PATH = "/etc/lightdm/slick-greeter.conf"
+GROUP_NAME = "Greeter"
+SCHEMA = "x.dm.slick-greeter"
+
 def list_header_func(row, before, user_data):
     if before and not row.get_header():
         row.set_header(Gtk.Separator(orientation=Gtk.Orientation.HORIZONTAL))
@@ -109,64 +113,72 @@ class SettingsRow(Gtk.ListBoxRow):
         if self.alternative_widget is not None:
             self.stack.set_visible_child(self.alternative_widget)
 
-class GSettingsSwitch(Gtk.Switch):
-    def __init__(self, settings, key):
-        self.settings = settings
+class SettingsSwitch(Gtk.Switch):
+    def __init__(self, keyfile, settings, key):
         self.key = key
+        self.keyfile = keyfile
+        try:
+            self.value = keyfile.get_boolean(GROUP_NAME, key)
+        except:
+            self.value = settings.get_boolean(key)
         Gtk.Switch.__init__(self)
-        self.set_active(self.settings.get_boolean(self.key))
+        self.set_active(self.value)
         self.connect("notify::active", self.on_toggled)
 
     def on_toggled(self, widget, data=None):
-        self.settings.set_boolean(self.key, self.get_active())
+        self.keyfile.set_boolean(GROUP_NAME, self.key, self.get_active())
+        self.keyfile.save_to_file(CONF_PATH)
 
-class GSettingsFileChooser(Gtk.FileChooserButton):
-    def __init__(self, settings, key):
-        self.settings = settings
+class SettingsFileChooser(Gtk.FileChooserButton):
+    def __init__(self, keyfile, settings, key):
         self.key = key
+        self.keyfile = keyfile
+        try:
+            self.value = keyfile.get_string(GROUP_NAME, key)
+        except:
+            self.value = settings.get_string(key)
         Gtk.FileChooserButton.__init__(self, action=Gtk.FileChooserAction.OPEN)
-        filename = self.settings.get_string(self.key)
-        if filename is not None and filename != "":
-            self.set_filename(filename)
+        if self.value is not None and self.value != "":
+            self.set_filename(self.value)
         self.connect("file-set", self.on_file_selected)
 
     def on_file_selected(self, *args):
-        self.settings.set_string(self.key, self.get_filename())
+        self.keyfile.set_string(GROUP_NAME, self.key, self.get_filename())
+        self.keyfile.save_to_file(CONF_PATH)
 
-class GSettingsReset(Gtk.Button):
-    def __init__(self, settings, key, label):
-        self.settings = settings
+
+class SettingsColorChooser(Gtk.ColorButton):
+    def __init__(self, keyfile, settings, key):
         self.key = key
-        Gtk.Button.__init__(self)
-        self.set_label(label)
-        self.connect("clicked", self.on_click)
-
-    def on_click(self, *args):
-        self.settings.set_string(self.key, '')
-
-class GSettingsColorChooser(Gtk.ColorButton):
-    def __init__(self, settings, key):
-        self.settings = settings
-        self.key = key
+        self.keyfile = keyfile
+        try:
+            self.value = keyfile.get_string(GROUP_NAME, key)
+        except:
+            self.value = settings.get_string(key)
         Gtk.ColorButton.__init__(self)
         rgba = Gdk.RGBA()
-        rgba.parse(self.settings.get_string(self.key))
-        self.set_rgba(rgba)  
+        rgba.parse(self.value)
+        self.set_rgba(rgba)
         self.connect("color-set", self.on_color_set)
 
     def on_color_set(self, widget):
         color_string = self.get_color().to_string()
-        self.settings.set_string(self.key, color_string)
+        self.keyfile.set_string(GROUP_NAME, self.key, color_string)
+        self.keyfile.save_to_file(CONF_PATH)
 
-class GSettingsCombo(Gtk.ComboBox):
-    def __init__(self, settings, key, options, valtype="string"):
-        self.settings = settings
+class SettingsCombo(Gtk.ComboBox):
+    def __init__(self, keyfile, settings, key, options, valtype="string"):
         self.key = key
+        self.keyfile = keyfile
+        try:
+            self.value = keyfile.get_string(GROUP_NAME, key)
+        except:
+            self.value = settings.get_string(key)
         Gtk.ComboBox.__init__(self)
         renderer_text = Gtk.CellRendererText()
         self.pack_start(renderer_text, True)
         self.add_attribute(renderer_text, "text", 1)
-        self.set_valign(Gtk.Align.CENTER)      
+        self.set_valign(Gtk.Align.CENTER)
 
         # assume all keys are the same type (mixing types is going to cause an error somewhere)
         var_type = type(options[0][0])
@@ -179,14 +191,15 @@ class GSettingsCombo(Gtk.ComboBox):
         self.set_model(self.model)
         self.set_id_column(0)
 
-        value = self.settings.get_string(self.key)
-        if value in self.option_map.keys():
-            self.set_active_iter(self.option_map[value])
-        
+        if self.value in self.option_map.keys():
+            self.set_active_iter(self.option_map[self.value])
+
         self.connect("changed", self.on_changed)
 
     def on_changed(self, widget):
         tree_iter = widget.get_active_iter()
         if tree_iter != None:
             value = self.model[tree_iter][0]
-            self.settings.set_string(self.key, value)
+            self.keyfile.set_string(GROUP_NAME, self.key, value)
+            self.keyfile.save_to_file(CONF_PATH)
+

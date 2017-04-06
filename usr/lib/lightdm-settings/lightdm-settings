@@ -9,12 +9,13 @@ import glob
 from SettingsWidgets import *
 
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk, Gio
+from gi.repository import Gtk, Gio, GLib
 
 setproctitle.setproctitle("lightdm-settings")
 
 gettext.install("lightdm-settings", "/usr/share/locale")
 
+CONF_PATH = "/etc/lightdm/slick-greeter.conf"
 
 class Application(Gtk.Application):
     ''' Create the UI '''
@@ -64,7 +65,7 @@ class Application(Gtk.Application):
         stack_switcher.set_halign(Gtk.Align.CENTER)
         toolbar.show_all()
 
-        self.settings = Gio.Settings("com.canonical.unity-greeter")
+        settings = Gio.Settings("x.dm.slick-greeter")
 
         debug = False
         if len(sys.argv) > 1 and sys.argv[1] == "debug":
@@ -72,23 +73,28 @@ class Application(Gtk.Application):
 
         # Settings
 
+        keyfile = GLib.KeyFile()
+        try:
+            keyfile.load_from_file(CONF_PATH, 0)
+        except:
+            print("Could not load %s." % CONF_PATH)
+
         page = SettingsPage()
 
         section = page.add_section(_("Settings"))
 
-        section.add_row(SettingsRow(Gtk.Label(_("Draw a grid")), GSettingsSwitch(self.settings, "draw-grid")))
-        section.add_row(SettingsRow(Gtk.Label(_("Draw user backgrounds")), GSettingsSwitch(self.settings, "draw-user-backgrounds")))
-        section.add_row(SettingsRow(Gtk.Label(_("Show hostname")), GSettingsSwitch(self.settings, "show-hostname")))
+        section.add_row(SettingsRow(Gtk.Label(_("Draw a grid")), SettingsSwitch(keyfile, settings, "draw-grid")))
+        section.add_row(SettingsRow(Gtk.Label(_("Draw user backgrounds")), SettingsSwitch(keyfile, settings, "draw-user-backgrounds")))
+        section.add_row(SettingsRow(Gtk.Label(_("Show hostname")), SettingsSwitch(keyfile, settings, "show-hostname")))
 
-        row = section.add_row(SettingsRow(Gtk.Label(_("Logo")), GSettingsFileChooser(self.settings, "logo")))
-        # row = section.add_row(SettingsRow(Gtk.Label(""), GSettingsReset(self.settings, "logo", _("Reset"))))
-        row = section.add_row(SettingsRow(Gtk.Label(_("Background logo")), GSettingsFileChooser(self.settings, "background-logo")))     
-        row = section.add_row(SettingsRow(Gtk.Label(_("Background")), GSettingsFileChooser(self.settings, "background")))
+        row = section.add_row(SettingsRow(Gtk.Label(_("Logo")), SettingsFileChooser(keyfile, settings, "logo")))
+        row = section.add_row(SettingsRow(Gtk.Label(_("Background logo")), SettingsFileChooser(keyfile, settings, "background-logo")))
+        row = section.add_row(SettingsRow(Gtk.Label(_("Background")), SettingsFileChooser(keyfile, settings, "background")))
 
-        row = section.add_row(SettingsRow(Gtk.Label(_("Background color")), GSettingsColorChooser(self.settings, "background-color")))
+        row = section.add_row(SettingsRow(Gtk.Label(_("Background color")), SettingsColorChooser(keyfile, settings, "background-color")))
 
-        row = section.add_row(SettingsRow(Gtk.Label(_("GTK theme")), GSettingsCombo(self.settings, "theme-name", self.get_gtk_themes(), "string")))
-        row = section.add_row(SettingsRow(Gtk.Label(_("Icon theme")), GSettingsCombo(self.settings, "icon-theme-name", self.get_icon_themes(), "string")))
+        row = section.add_row(SettingsRow(Gtk.Label(_("GTK theme")), SettingsCombo(keyfile, settings, "theme-name", self.get_gtk_themes(), "string")))
+        row = section.add_row(SettingsRow(Gtk.Label(_("Icon theme")), SettingsCombo(keyfile, settings, "icon-theme-name", self.get_icon_themes(), "string")))
 
         self.window.add(self.main_box)
 
