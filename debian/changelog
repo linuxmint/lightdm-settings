@@ -1,3 +1,11 @@
+lightdm-settings (1.0.2) sonya; urgency=medium
+
+  * Change app icon
+  * Switch from unity-greeter to slick-greeter
+  * Fix color selection
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 06 Apr 2017 19:56:31 +0100
+
 lightdm-settings (1.0.1) sonya; urgency=medium
 
   * Add icons
