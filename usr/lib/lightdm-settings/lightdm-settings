@@ -42,28 +42,27 @@ class Application(Gtk.Application):
         self.main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
 
         # Toolbar
-        toolbar = Gtk.Toolbar()
-        toolbar.get_style_context().add_class("primary-toolbar")
-        self.main_box.pack_start(toolbar, False, False, 0)
+        # toolbar = Gtk.Toolbar()
+        # toolbar.get_style_context().add_class("primary-toolbar")
+        # self.main_box.pack_start(toolbar, False, False, 0)
 
         self.main_stack = Gtk.Stack()
         self.main_stack.set_transition_type(Gtk.StackTransitionType.SLIDE_LEFT_RIGHT)
         self.main_stack.set_transition_duration(150)
         self.main_box.pack_start(self.main_stack, True, True, 0)
 
-        stack_switcher = Gtk.StackSwitcher()
-        stack_switcher.set_stack(self.main_stack)
-
-        tool_item = Gtk.ToolItem()
-        tool_item.set_expand(True)
-        tool_item.get_style_context().add_class("raised")
-        toolbar.insert(tool_item, 0)
-        switch_holder = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
-        switch_holder.set_border_width(1)
-        tool_item.add(switch_holder)
-        # switch_holder.pack_start(stack_switcher, True, True, 0)
-        stack_switcher.set_halign(Gtk.Align.CENTER)
-        toolbar.show_all()
+        # stack_switcher = Gtk.StackSwitcher()
+        # stack_switcher.set_stack(self.main_stack)
+        # tool_item = Gtk.ToolItem()
+        # tool_item.set_expand(True)
+        # tool_item.get_style_context().add_class("raised")
+        # toolbar.insert(tool_item, 0)
+        # switch_holder = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+        # switch_holder.set_border_width(1)
+        # tool_item.add(switch_holder)
+        # # switch_holder.pack_start(stack_switcher, True, True, 0)
+        # stack_switcher.set_halign(Gtk.Align.CENTER)
+        # toolbar.show_all()
 
         settings = Gio.Settings("x.dm.slick-greeter")
 
