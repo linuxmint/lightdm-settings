@@ -7,7 +7,7 @@ Standards-Version: 3.9.5
 
 Package: lightdm-settings
 Architecture: all
-Depends: ${misc:Depends}, python3-setproctitle
+Depends: ${misc:Depends}, python3-setproctitle, lsb-release
 Description: LightDM configuration tool
  A configuration tool for the LightDM display manager.
 

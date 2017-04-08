@@ -11,6 +11,11 @@ from SettingsWidgets import *
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, Gio, GLib
 
+try:
+    import lsb_release
+except:
+    pass
+
 setproctitle.setproctitle("lightdm-settings")
 
 gettext.install("lightdm-settings", "/usr/share/locale")
@@ -83,7 +88,15 @@ class Application(Gtk.Application):
         section = page.add_section(_("Settings"))
 
         section.add_row(SettingsRow(Gtk.Label(_("Draw a grid")), SettingsSwitch(keyfile, settings, "draw-grid")))
-        section.add_row(SettingsRow(Gtk.Label(_("Draw user backgrounds")), SettingsSwitch(keyfile, settings, "draw-user-backgrounds")))
+
+        try:
+            distro = lsb_release.get_lsb_information()['ID']
+            if distro.lower() in ['linuxmint', 'ubuntu', 'elementary']:
+                # AccountsService doesn't support Background selection. It's something that is patched in Ubuntu, so only support this feature
+                # in Ubuntu derivatives
+                section.add_row(SettingsRow(Gtk.Label(_("Draw user backgrounds")), SettingsSwitch(keyfile, settings, "draw-user-backgrounds")))
+        except:
+            pass
         section.add_row(SettingsRow(Gtk.Label(_("Show hostname")), SettingsSwitch(keyfile, settings, "show-hostname")))
 
         row = section.add_row(SettingsRow(Gtk.Label(_("Logo")), SettingsFileChooser(keyfile, settings, "logo")))
