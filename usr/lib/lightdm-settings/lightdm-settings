@@ -96,7 +96,11 @@ class Application(Gtk.Application):
         row = section.add_row(SettingsRow(Gtk.Label(_("GTK theme")), SettingsCombo(keyfile, settings, "theme-name", self.get_gtk_themes(), "string")))
         row = section.add_row(SettingsRow(Gtk.Label(_("Icon theme")), SettingsCombo(keyfile, settings, "icon-theme-name", self.get_icon_themes(), "string")))
 
-        section.add_row(SettingsRow(Gtk.Label(_("Enable HiDPI support")), SettingsSwitch(keyfile, settings, "enable-hidpi")))
+        hidpi_options = []
+        hidpi_options.append(["auto", _("Auto")])
+        hidpi_options.append(["on", _("Enable")])
+        hidpi_options.append(["off", _("Disable")])
+        section.add_row(SettingsRow(Gtk.Label(_("HiDPI support")), SettingsCombo(keyfile, settings, "enable-hidpi", hidpi_options, "string")))
 
         self.window.add(self.main_box)
 

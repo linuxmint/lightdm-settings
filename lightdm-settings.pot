@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-07 18:45+0100\n"
+"POT-Creation-Date: 2017-04-08 14:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "Login Window"
 msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:84
-#: usr/lib/lightdm-settings/lightdm-settings:103
+#: usr/lib/lightdm-settings/lightdm-settings:107
 msgid "Settings"
 msgstr ""
 
@@ -62,8 +62,20 @@ msgstr ""
 msgid "Icon theme"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:99
-msgid "Enable HiDPI support"
+#: usr/lib/lightdm-settings/lightdm-settings:100
+msgid "Auto"
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:101
+msgid "Enable"
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:102
+msgid "Disable"
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:103
+msgid "HiDPI support"
 msgstr ""
 
 #: generate_desktop_files:27
