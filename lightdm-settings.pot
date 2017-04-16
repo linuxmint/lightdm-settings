@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-08 14:12+0100\n"
+"POT-Creation-Date: 2017-04-16 22:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,64 +17,64 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:38 generate_desktop_files:27
+#: usr/lib/lightdm-settings/lightdm-settings:43 generate_desktop_files:27
 msgid "Login Window"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:84
-#: usr/lib/lightdm-settings/lightdm-settings:107
+#: usr/lib/lightdm-settings/lightdm-settings:88
+#: usr/lib/lightdm-settings/lightdm-settings:119
 msgid "Settings"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:86
+#: usr/lib/lightdm-settings/lightdm-settings:90
 msgid "Draw a grid"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:87
+#: usr/lib/lightdm-settings/lightdm-settings:97
 msgid "Draw user backgrounds"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:88
+#: usr/lib/lightdm-settings/lightdm-settings:100
 msgid "Show hostname"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:90
+#: usr/lib/lightdm-settings/lightdm-settings:102
 msgid "Logo"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:91
+#: usr/lib/lightdm-settings/lightdm-settings:103
 msgid "Background logo"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:92
+#: usr/lib/lightdm-settings/lightdm-settings:104
 msgid "Background"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:94
+#: usr/lib/lightdm-settings/lightdm-settings:106
 msgid "Background color"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:96
+#: usr/lib/lightdm-settings/lightdm-settings:108
 msgid "GTK theme"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:97
+#: usr/lib/lightdm-settings/lightdm-settings:109
 msgid "Icon theme"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:100
+#: usr/lib/lightdm-settings/lightdm-settings:112
 msgid "Auto"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:101
+#: usr/lib/lightdm-settings/lightdm-settings:113
 msgid "Enable"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:102
+#: usr/lib/lightdm-settings/lightdm-settings:114
 msgid "Disable"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:103
+#: usr/lib/lightdm-settings/lightdm-settings:115
 msgid "HiDPI support"
 msgstr ""
 
