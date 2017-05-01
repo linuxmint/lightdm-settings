@@ -1,4 +1,9 @@
-#!/bin/bash
+#!/usr/bin/python3
 
-pkexec /usr/lib/lightdm-settings/lightdm-settings
+import xapp.os
+
+icon = "preferences-system-login.png"
+message = ("Please enter your password to configure the slick greeter")
+
+xapp.os.run_with_admin_privs("/usr/lib/lightdm-settings/lightdm-settings", message=message, icon=icon, support_pkexec=True)
 
