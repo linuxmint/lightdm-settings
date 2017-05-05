@@ -7,7 +7,7 @@
   <vendor>Linux Mint</vendor>
   <vendor_url>https://linuxmint.com/</vendor_url>
 
-  <action id="org.x.ligthdm-settings">
+  <action id="org.x.lightdm-settings">
     <description>A configuration tool for LightDM</description>
     <message>Please enter your password to configure the slick greeter</message>
     <icon_name>preferences-system-login</icon_name>
