@@ -1,3 +1,20 @@
+lightdm-settings (1.0.3) sonya; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Add support for HiDPI
+  * l10n: Update POT file
+  * HiDPI: Allow to force HiDPI on or off
+  * Don't show a toolbar for now
+  * Only support user backgrounds in Ubuntu derivatives
+
+  [ Sam Burgos ]
+  * make lightdm-settings executable
+
+  [ Santiago Burgos ]
+  * switch to pkexec (#4)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 05 May 2017 13:28:37 +0100
+
 lightdm-settings (1.0.2) sonya; urgency=medium
 
   * Change app icon
