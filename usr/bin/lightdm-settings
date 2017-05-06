@@ -1,9 +1,15 @@
 #!/usr/bin/python3
 
 import xapp.os
+import gettext
+
+DOMAIN = "lightdm-settings"
+PATH = "/usr/share/locale"
+gettext.install(DOMAIN, PATH)
 
 icon = "preferences-system-login.png"
-message = ("Please enter your password to configure the slick greeter")
+message = _("Login Window")
 
-xapp.os.run_with_admin_privs("/usr/lib/lightdm-settings/lightdm-settings", message=message, icon=icon, support_pkexec=True)
-
+# We disable pkexec here because it fails to apply the correct locale
+# The app should show in the user's locale, not the system one.
+xapp.os.run_with_admin_privs("/usr/lib/lightdm-settings/lightdm-settings", message=message, icon=icon, support_pkexec=False)
