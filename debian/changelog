@@ -1,3 +1,11 @@
+lightdm-settings (1.0.4) sonya; urgency=medium
+
+  * l10n: Update translations
+  * l10n: Generate desktop files
+  * Switch away from pkexec
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 06 May 2017 15:54:18 +0100
+
 lightdm-settings (1.0.3) sonya; urgency=medium
 
   [ Clement Lefebvre ]
