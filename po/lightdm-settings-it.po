@@ -1,0 +1,71 @@
+# Italian translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-04-07 18:45+0100\n"
+"PO-Revision-Date: 2017-04-07 21:48+0000\n"
+"Last-Translator: karm <melo@carmu.com>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-05-06 12:42+0000\n"
+"X-Generator: Launchpad (build 18366)\n"
+
+#: usr/lib/lightdm-settings/lightdm-settings:38 generate_desktop_files:27
+msgid "Login Window"
+msgstr "Schermata di accesso"
+
+#: usr/lib/lightdm-settings/lightdm-settings:84
+#: usr/lib/lightdm-settings/lightdm-settings:103
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: usr/lib/lightdm-settings/lightdm-settings:86
+msgid "Draw a grid"
+msgstr "Disegnare una griglia"
+
+#: usr/lib/lightdm-settings/lightdm-settings:87
+msgid "Draw user backgrounds"
+msgstr "Disegnare sfondi di utente"
+
+#: usr/lib/lightdm-settings/lightdm-settings:88
+msgid "Show hostname"
+msgstr "Mostrare il nome dell'host"
+
+#: usr/lib/lightdm-settings/lightdm-settings:90
+msgid "Logo"
+msgstr "Logo"
+
+#: usr/lib/lightdm-settings/lightdm-settings:91
+msgid "Background logo"
+msgstr "Logo della sfondo"
+
+#: usr/lib/lightdm-settings/lightdm-settings:92
+msgid "Background"
+msgstr "Sfondo"
+
+#: usr/lib/lightdm-settings/lightdm-settings:94
+msgid "Background color"
+msgstr "Colore di sfondo"
+
+#: usr/lib/lightdm-settings/lightdm-settings:96
+msgid "GTK theme"
+msgstr "Tema GTK"
+
+#: usr/lib/lightdm-settings/lightdm-settings:97
+msgid "Icon theme"
+msgstr "Tema delle icone"
+
+#: usr/lib/lightdm-settings/lightdm-settings:99
+msgid "Enable HiDPI support"
+msgstr "Activar le supporto de HiDPI"
+
+#: generate_desktop_files:27
+msgid "Configure the login window"
+msgstr "Configurare la finestra di connessione"

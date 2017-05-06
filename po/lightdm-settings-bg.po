@@ -1,0 +1,71 @@
+# Bulgarian translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-04-07 18:45+0100\n"
+"PO-Revision-Date: 2017-04-10 13:35+0000\n"
+"Last-Translator: spacy01 <Unknown>\n"
+"Language-Team: Bulgarian <bg@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-05-06 12:43+0000\n"
+"X-Generator: Launchpad (build 18366)\n"
+
+#: usr/lib/lightdm-settings/lightdm-settings:38 generate_desktop_files:27
+msgid "Login Window"
+msgstr "Прозорец за влизане"
+
+#: usr/lib/lightdm-settings/lightdm-settings:84
+#: usr/lib/lightdm-settings/lightdm-settings:103
+msgid "Settings"
+msgstr "Настройки"
+
+#: usr/lib/lightdm-settings/lightdm-settings:86
+msgid "Draw a grid"
+msgstr "Рисувай мрежа"
+
+#: usr/lib/lightdm-settings/lightdm-settings:87
+msgid "Draw user backgrounds"
+msgstr "Рисувай потребителски фонове"
+
+#: usr/lib/lightdm-settings/lightdm-settings:88
+msgid "Show hostname"
+msgstr "Покажи името на хоста"
+
+#: usr/lib/lightdm-settings/lightdm-settings:90
+msgid "Logo"
+msgstr "Лого"
+
+#: usr/lib/lightdm-settings/lightdm-settings:91
+msgid "Background logo"
+msgstr "Лого за фон"
+
+#: usr/lib/lightdm-settings/lightdm-settings:92
+msgid "Background"
+msgstr "Фон"
+
+#: usr/lib/lightdm-settings/lightdm-settings:94
+msgid "Background color"
+msgstr "Фонов цвят"
+
+#: usr/lib/lightdm-settings/lightdm-settings:96
+msgid "GTK theme"
+msgstr "GTK тема"
+
+#: usr/lib/lightdm-settings/lightdm-settings:97
+msgid "Icon theme"
+msgstr "Тема за иконките"
+
+#: usr/lib/lightdm-settings/lightdm-settings:99
+msgid "Enable HiDPI support"
+msgstr "Включи поддръжка на HiDPI"
+
+#: generate_desktop_files:27
+msgid "Configure the login window"
+msgstr "Конфигуриране на прозореца за вписване"

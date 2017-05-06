@@ -1,0 +1,71 @@
+# Japanese translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-04-07 18:45+0100\n"
+"PO-Revision-Date: 2017-03-26 15:38+0000\n"
+"Last-Translator: Keith Shellingfield <Unknown>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-05-06 12:42+0000\n"
+"X-Generator: Launchpad (build 18366)\n"
+
+#: usr/lib/lightdm-settings/lightdm-settings:38 generate_desktop_files:27
+msgid "Login Window"
+msgstr "ログイン画面"
+
+#: usr/lib/lightdm-settings/lightdm-settings:84
+#: usr/lib/lightdm-settings/lightdm-settings:103
+msgid "Settings"
+msgstr "設定"
+
+#: usr/lib/lightdm-settings/lightdm-settings:86
+msgid "Draw a grid"
+msgstr "グリッドを表示"
+
+#: usr/lib/lightdm-settings/lightdm-settings:87
+msgid "Draw user backgrounds"
+msgstr "ユーザのデスクトップ背景を表示"
+
+#: usr/lib/lightdm-settings/lightdm-settings:88
+msgid "Show hostname"
+msgstr "ホスト名を表示"
+
+#: usr/lib/lightdm-settings/lightdm-settings:90
+msgid "Logo"
+msgstr "ロゴ画像"
+
+#: usr/lib/lightdm-settings/lightdm-settings:91
+msgid "Background logo"
+msgstr "背景のロゴ画像"
+
+#: usr/lib/lightdm-settings/lightdm-settings:92
+msgid "Background"
+msgstr "背景画像"
+
+#: usr/lib/lightdm-settings/lightdm-settings:94
+msgid "Background color"
+msgstr "背景色"
+
+#: usr/lib/lightdm-settings/lightdm-settings:96
+msgid "GTK theme"
+msgstr "GTK テーマ"
+
+#: usr/lib/lightdm-settings/lightdm-settings:97
+msgid "Icon theme"
+msgstr "アイコンテーマ"
+
+#: usr/lib/lightdm-settings/lightdm-settings:99
+msgid "Enable HiDPI support"
+msgstr ""
+
+#: generate_desktop_files:27
+msgid "Configure the login window"
+msgstr "ログイン画面を設定"
