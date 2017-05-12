@@ -1,3 +1,10 @@
+lightdm-settings (1.0.5) sonya; urgency=medium
+
+  [ leigh123linux ]
+  * fix policy name spelling mistake (#5)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 12 May 2017 15:26:49 +0100
+
 lightdm-settings (1.0.4) sonya; urgency=medium
 
   * l10n: Update translations
