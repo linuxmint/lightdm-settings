@@ -6,7 +6,9 @@ from gi.repository import Gtk, Gio, Gdk
 
 CONF_PATH = "/etc/lightdm/slick-greeter.conf"
 GROUP_NAME = "Greeter"
-SCHEMA = "x.dm.slick-greeter"
+
+LIGHTDM_CONF_PATH = "/etc/lightdm/lightdm.conf.d/99-lightdm-settings.conf"
+LIGHTDM_GROUP_NAME = "Seat:*"
 
 def list_header_func(row, before, user_data):
     if before and not row.get_header():
@@ -214,3 +216,14 @@ class SettingsCombo(Gtk.ComboBox):
             self.keyfile.set_string(GROUP_NAME, self.key, value)
             self.keyfile.save_to_file(CONF_PATH)
 
+class LightDMSwitch(Gtk.Switch):
+    def __init__(self, keyfile, key, value):
+        self.key = key
+        self.keyfile = keyfile
+        Gtk.Switch.__init__(self)
+        self.set_active(value)
+        self.connect("notify::active", self.on_toggled)
+
+    def on_toggled(self, widget, data=None):
+        self.keyfile.set_boolean(LIGHTDM_GROUP_NAME, self.key, self.get_active())
+        self.keyfile.save_to_file(LIGHTDM_CONF_PATH)

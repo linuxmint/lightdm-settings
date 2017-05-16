@@ -21,6 +21,8 @@ setproctitle.setproctitle("lightdm-settings")
 gettext.install("lightdm-settings", "/usr/share/locale")
 
 CONF_PATH = "/etc/lightdm/slick-greeter.conf"
+LIGHTDM_CONF_PATH = "/etc/lightdm/lightdm.conf.d/99-lightdm-settings.conf"
+LIGHTDM_GROUP_NAMES = ["SeatDefaults", "Seat:*"]
 
 class Application(Gtk.Application):
     ''' Create the UI '''
@@ -75,13 +77,19 @@ class Application(Gtk.Application):
         if len(sys.argv) > 1 and sys.argv[1] == "debug":
             debug = True
 
-        # Settings
-
+        # Slick settings
         keyfile = GLib.KeyFile()
         try:
             keyfile.load_from_file(CONF_PATH, 0)
         except:
             print("Could not load %s." % CONF_PATH)
+
+        # LightDM settings
+        lightdm_keyfile = GLib.KeyFile()
+        try:
+            lightdm_keyfile.load_from_file(LIGHTDM_CONF_PATH, 0)
+        except:
+            print("Could not load %s." % LIGHTDM_CONF_PATH)
 
         page = SettingsPage()
 
@@ -113,6 +121,10 @@ class Application(Gtk.Application):
         hidpi_options.append(["on", _("Enable")])
         hidpi_options.append(["off", _("Disable")])
         section.add_row(SettingsRow(Gtk.Label(_("HiDPI support")), SettingsCombo(keyfile, settings, "enable-hidpi", hidpi_options, "string")))
+
+
+        guest_sessions_allowed = self.get_lightdm_config ("allow-guest", True)
+        section.add_row(SettingsRow(Gtk.Label(_("Allow guest sessions")), LightDMSwitch(lightdm_keyfile, "allow-guest", guest_sessions_allowed)))
 
         self.window.add(self.main_box)
 
@@ -196,7 +208,34 @@ class Application(Gtk.Application):
             res.append([i[0], i[0]])
         return res
 
+    def get_lightdm_config (self, key, default_value):
+        value = default_value
+        for path in ["/usr/share/lightdm/lightdm.conf.d", "/etc/lightdm/lightdm.conf.d", "/etc/lightdm/lightdm.conf"]:
+            if os.path.exists(path):
+                if os.path.isdir(path):
+                    files = sorted(os.listdir(path))
+                    for file in files:
+                        if file.endswith(".conf"):
+                            full_path = os.path.join(path, file)
+                            try:
+                                keyfile = GLib.KeyFile()
+                                keyfile.load_from_file(full_path, 0)
+                                for group in LIGHTDM_GROUP_NAMES:
+                                    if keyfile.has_group(group):
+                                        value = keyfile.get_boolean(group, key)
+                            except:
+                                pass
+                else:
+                    try:
+                        keyfile = GLib.KeyFile()
+                        keyfile.load_from_file(path, 0)
+                        for group in LIGHTDM_GROUP_NAMES:
+                            if keyfile.has_group(group):
+                                value = keyfile.get_boolean(group, key)
+                    except:
+                        pass
+        return (value)
+
 if __name__ == "__main__":
     app = Application()
     app.run(None)
-
