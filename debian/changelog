@@ -1,3 +1,10 @@
+lightdm-settings (1.0.6) sonya; urgency=medium
+
+  * Add the ability to enable/disable guest sessions
+  * l10n: Update POT file
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 16 May 2017 15:03:22 +0100
+
 lightdm-settings (1.0.5) sonya; urgency=medium
 
   [ leigh123linux ]
