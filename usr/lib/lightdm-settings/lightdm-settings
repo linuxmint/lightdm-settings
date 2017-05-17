@@ -21,7 +21,7 @@ setproctitle.setproctitle("lightdm-settings")
 gettext.install("lightdm-settings", "/usr/share/locale")
 
 CONF_PATH = "/etc/lightdm/slick-greeter.conf"
-LIGHTDM_CONF_PATH = "/etc/lightdm/lightdm.conf.d/99-lightdm-settings.conf"
+LIGHTDM_CONF_PATH = "/etc/lightdm/lightdm.conf"
 LIGHTDM_GROUP_NAMES = ["SeatDefaults", "Seat:*"]
 
 class Application(Gtk.Application):
@@ -87,7 +87,7 @@ class Application(Gtk.Application):
         # LightDM settings
         lightdm_keyfile = GLib.KeyFile()
         try:
-            lightdm_keyfile.load_from_file(LIGHTDM_CONF_PATH, 0)
+            lightdm_keyfile.load_from_file(LIGHTDM_CONF_PATH, GLib.KeyFileFlags.KEEP_COMMENTS)
         except:
             print("Could not load %s." % LIGHTDM_CONF_PATH)
 

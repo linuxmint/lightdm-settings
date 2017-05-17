@@ -7,7 +7,7 @@ from gi.repository import Gtk, Gio, Gdk
 CONF_PATH = "/etc/lightdm/slick-greeter.conf"
 GROUP_NAME = "Greeter"
 
-LIGHTDM_CONF_PATH = "/etc/lightdm/lightdm.conf.d/99-lightdm-settings.conf"
+LIGHTDM_CONF_PATH = "/etc/lightdm/lightdm.conf"
 LIGHTDM_GROUP_NAME = "Seat:*"
 
 def list_header_func(row, before, user_data):
