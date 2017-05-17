@@ -124,7 +124,9 @@ class Application(Gtk.Application):
 
 
         guest_sessions_allowed = self.get_lightdm_config ("allow-guest", True)
-        section.add_row(SettingsRow(Gtk.Label(_("Allow guest sessions")), LightDMSwitch(lightdm_keyfile, "allow-guest", guest_sessions_allowed)))
+        row  = SettingsRow(Gtk.Label(_("Allow guest sessions")), LightDMSwitch(lightdm_keyfile, "allow-guest", guest_sessions_allowed))
+        row.set_tooltip_text(_("Reboot for this option to take effect"))
+        section.add_row(row)
 
         self.window.add(self.main_box)
 

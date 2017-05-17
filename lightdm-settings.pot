@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-16 15:03+0100\n"
+"POT-Creation-Date: 2017-05-17 11:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "Login Window"
 msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:96
-#: usr/lib/lightdm-settings/lightdm-settings:131
+#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Settings"
 msgstr ""
 
@@ -81,6 +81,10 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:127
 msgid "Allow guest sessions"
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:128
+msgid "Reboot for this option to take effect"
 msgstr ""
 
 #: generate_desktop_files:27
