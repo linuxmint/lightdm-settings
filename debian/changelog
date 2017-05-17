@@ -1,3 +1,10 @@
+lightdm-settings (1.0.7) sonya; urgency=medium
+
+  * Save LightDM config in /etc/lightdm/lightdm.conf
+  * Add a tooltip on allow-guest option to indicate a reboot is necessary.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 17 May 2017 11:44:34 +0100
+
 lightdm-settings (1.0.6) sonya; urgency=medium
 
   * Add the ability to enable/disable guest sessions
