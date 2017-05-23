@@ -1,3 +1,9 @@
+lightdm-settings (1.0.8) sonya; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 23 May 2017 14:17:54 +0100
+
 lightdm-settings (1.0.7) sonya; urgency=medium
 
   * Save LightDM config in /etc/lightdm/lightdm.conf
