@@ -1,4 +1,4 @@
-# Interlingua translation for linuxmint
+# Romanian translation for linuxmint
 # Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
 # This file is distributed under the same license as the linuxmint package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-05-17 11:43+0100\n"
-"PO-Revision-Date: 2017-04-07 21:44+0000\n"
-"Last-Translator: karm <melo@carmu.com>\n"
-"Language-Team: Interlingua <ia@li.org>\n"
+"PO-Revision-Date: 2017-05-14 21:31+0000\n"
+"Last-Translator: alindt <Unknown>\n"
+"Language-Team: Romanian <ro@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,64 +20,64 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:45 usr/bin/lightdm-settings:11
 #: generate_desktop_files:27
 msgid "Login Window"
-msgstr "Fenestra de apertura de session"
+msgstr "Fereastră de autentificare"
 
 #: usr/lib/lightdm-settings/lightdm-settings:96
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Settings"
-msgstr "Configurationes"
+msgstr "Configurări"
 
 #: usr/lib/lightdm-settings/lightdm-settings:98
 msgid "Draw a grid"
-msgstr "Designar un grillia"
+msgstr "Afișează grilă"
 
 #: usr/lib/lightdm-settings/lightdm-settings:105
 msgid "Draw user backgrounds"
-msgstr "Designar fundos de usator"
+msgstr "Afișează fundalurile utilizatorului"
 
 #: usr/lib/lightdm-settings/lightdm-settings:108
 msgid "Show hostname"
-msgstr "Monstrar le nomine del hospite"
+msgstr "Afișează numele gazdei"
 
 #: usr/lib/lightdm-settings/lightdm-settings:110
 msgid "Logo"
-msgstr "Logo"
+msgstr "Siglă"
 
 #: usr/lib/lightdm-settings/lightdm-settings:111
 msgid "Background logo"
-msgstr "Logov de fundo"
+msgstr "Siglă fundal"
 
 #: usr/lib/lightdm-settings/lightdm-settings:112
 msgid "Background"
-msgstr "Fundo"
+msgstr "Fundal"
 
 #: usr/lib/lightdm-settings/lightdm-settings:114
 msgid "Background color"
-msgstr "Color de fundo"
+msgstr "Culoare fundal"
 
 #: usr/lib/lightdm-settings/lightdm-settings:116
 msgid "GTK theme"
-msgstr "Thema de GTK"
+msgstr "Temă GTK"
 
 #: usr/lib/lightdm-settings/lightdm-settings:117
 msgid "Icon theme"
-msgstr "Thema del icone"
+msgstr "Temă iconițe"
 
 #: usr/lib/lightdm-settings/lightdm-settings:120
 msgid "Auto"
-msgstr ""
+msgstr "Auto"
 
 #: usr/lib/lightdm-settings/lightdm-settings:121
 msgid "Enable"
-msgstr ""
+msgstr "Activează"
 
 #: usr/lib/lightdm-settings/lightdm-settings:122
 msgid "Disable"
-msgstr ""
+msgstr "Dezactivează"
 
 #: usr/lib/lightdm-settings/lightdm-settings:123
 msgid "HiDPI support"
-msgstr ""
+msgstr "Suport HiDPI"
 
 #: usr/lib/lightdm-settings/lightdm-settings:127
 msgid "Allow guest sessions"
@@ -89,4 +89,4 @@ msgstr ""
 
 #: generate_desktop_files:27
 msgid "Configure the login window"
-msgstr "Configurar le fenestra de connexion"
+msgstr "Configurare fereastră de autentificare"

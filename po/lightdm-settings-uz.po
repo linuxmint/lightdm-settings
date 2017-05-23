@@ -7,64 +7,85 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-04-07 18:45+0100\n"
-"PO-Revision-Date: 2017-04-19 04:57+0000\n"
+"POT-Creation-Date: 2017-05-17 11:43+0100\n"
+"PO-Revision-Date: 2017-05-19 16:38+0000\n"
 "Last-Translator: M. Nishonov <mnishonov@gmail.com>\n"
 "Language-Team: Uzbek <uz@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-05-06 12:42+0000\n"
-"X-Generator: Launchpad (build 18366)\n"
+"X-Launchpad-Export-Date: 2017-05-23 10:38+0000\n"
+"X-Generator: Launchpad (build 18387)\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:38 generate_desktop_files:27
+#: usr/lib/lightdm-settings/lightdm-settings:45 usr/bin/lightdm-settings:11
+#: generate_desktop_files:27
 msgid "Login Window"
 msgstr "Логин ойнаси"
 
-#: usr/lib/lightdm-settings/lightdm-settings:84
-#: usr/lib/lightdm-settings/lightdm-settings:103
+#: usr/lib/lightdm-settings/lightdm-settings:96
+#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Settings"
 msgstr "Созламалар"
 
-#: usr/lib/lightdm-settings/lightdm-settings:86
+#: usr/lib/lightdm-settings/lightdm-settings:98
 msgid "Draw a grid"
 msgstr "Панжара чизиш"
 
-#: usr/lib/lightdm-settings/lightdm-settings:87
+#: usr/lib/lightdm-settings/lightdm-settings:105
 msgid "Draw user backgrounds"
 msgstr "Фойдаланувчи учун фонлар чизиш"
 
-#: usr/lib/lightdm-settings/lightdm-settings:88
+#: usr/lib/lightdm-settings/lightdm-settings:108
 msgid "Show hostname"
 msgstr "Компьютер номини кўрсатиш"
 
-#: usr/lib/lightdm-settings/lightdm-settings:90
+#: usr/lib/lightdm-settings/lightdm-settings:110
 msgid "Logo"
 msgstr "Логотип"
 
-#: usr/lib/lightdm-settings/lightdm-settings:91
+#: usr/lib/lightdm-settings/lightdm-settings:111
 msgid "Background logo"
 msgstr "Фон логотипи"
 
-#: usr/lib/lightdm-settings/lightdm-settings:92
+#: usr/lib/lightdm-settings/lightdm-settings:112
 msgid "Background"
 msgstr "Фон"
 
-#: usr/lib/lightdm-settings/lightdm-settings:94
+#: usr/lib/lightdm-settings/lightdm-settings:114
 msgid "Background color"
 msgstr "Фон ранги"
 
-#: usr/lib/lightdm-settings/lightdm-settings:96
+#: usr/lib/lightdm-settings/lightdm-settings:116
 msgid "GTK theme"
 msgstr "GTK ташқи кўриниши"
 
-#: usr/lib/lightdm-settings/lightdm-settings:97
+#: usr/lib/lightdm-settings/lightdm-settings:117
 msgid "Icon theme"
 msgstr "Расмчалар ташқи кўриниши"
 
-#: usr/lib/lightdm-settings/lightdm-settings:99
-msgid "Enable HiDPI support"
-msgstr "HiDPI ни ёқиш"
+#: usr/lib/lightdm-settings/lightdm-settings:120
+msgid "Auto"
+msgstr "Автоматик"
+
+#: usr/lib/lightdm-settings/lightdm-settings:121
+msgid "Enable"
+msgstr "Ёқиш"
+
+#: usr/lib/lightdm-settings/lightdm-settings:122
+msgid "Disable"
+msgstr "Ўчириш"
+
+#: usr/lib/lightdm-settings/lightdm-settings:123
+msgid "HiDPI support"
+msgstr "HiDPI ни ишлатиш имконияти"
+
+#: usr/lib/lightdm-settings/lightdm-settings:127
+msgid "Allow guest sessions"
+msgstr "Мехмон сифатида киришга рухсат берилсин"
+
+#: usr/lib/lightdm-settings/lightdm-settings:128
+msgid "Reboot for this option to take effect"
+msgstr "Ушбу опция ишлаши учун тизимни ўчириб ёқинг"
 
 #: generate_desktop_files:27
 msgid "Configure the login window"
