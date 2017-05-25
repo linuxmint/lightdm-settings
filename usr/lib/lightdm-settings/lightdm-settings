@@ -107,9 +107,9 @@ class Application(Gtk.Application):
             pass
         section.add_row(SettingsRow(Gtk.Label(_("Show hostname")), SettingsSwitch(keyfile, settings, "show-hostname")))
 
-        row = section.add_row(SettingsRow(Gtk.Label(_("Logo")), SettingsFileChooser(keyfile, settings, "logo")))
-        row = section.add_row(SettingsRow(Gtk.Label(_("Background logo")), SettingsFileChooser(keyfile, settings, "background-logo")))
-        row = section.add_row(SettingsRow(Gtk.Label(_("Background")), SettingsFileChooser(keyfile, settings, "background")))
+        row = section.add_row(SettingsRow(Gtk.Label(_("Logo")), SettingsPictureChooser(keyfile, settings, "logo")))
+        row = section.add_row(SettingsRow(Gtk.Label(_("Background logo")), SettingsPictureChooser(keyfile, settings, "background-logo")))
+        row = section.add_row(SettingsRow(Gtk.Label(_("Background")), SettingsPictureChooser(keyfile, settings, "background")))
 
         row = section.add_row(SettingsRow(Gtk.Label(_("Background color")), SettingsColorChooser(keyfile, settings, "background-color")))
 
