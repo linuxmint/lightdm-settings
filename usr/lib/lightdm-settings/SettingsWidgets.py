@@ -170,20 +170,12 @@ class SettingsPictureChooser(Gtk.Box):
         if os.path.exists(val) and not os.path.isdir(val):
             img = GdkPixbuf.Pixbuf.new_from_file_at_size(val, -1, self.height)
             self.preview.set_from_pixbuf(img)
-
-            if val == self.value:
-                return
-
-            self.value = val
-            self.keyfile.set_string(GROUP_NAME, self.key, val)
-            self.keyfile.save_to_file(CONF_PATH)
         else:
             self.preview.set_from_icon_name("document-open", Gtk.IconSize.BUTTON)
 
-            if val == self.value:
-                return
-
-            self.keyfile.set_string(GROUP_NAME, self.key, "")
+        if val != self.value:
+            self.value = val
+            self.keyfile.set_string(GROUP_NAME, self.key, self.value)
             self.keyfile.save_to_file(CONF_PATH)
 
     def on_button_pressed(self, widget):
