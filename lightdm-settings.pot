@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-17 11:43+0100\n"
+"POT-Creation-Date: 2017-05-26 11:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,6 +85,22 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:128
 msgid "Reboot for this option to take effect"
+msgstr ""
+
+#: usr/lib/lightdm-settings/SettingsWidgets.py:182
+msgid "Choose an Image File"
+msgstr ""
+
+#: usr/lib/lightdm-settings/SettingsWidgets.py:185
+msgid "_Cancel"
+msgstr ""
+
+#: usr/lib/lightdm-settings/SettingsWidgets.py:186
+msgid "_Open"
+msgstr ""
+
+#: usr/lib/lightdm-settings/SettingsWidgets.py:189
+msgid "Image files"
 msgstr ""
 
 #: generate_desktop_files:27
