@@ -6,6 +6,8 @@ import gi
 import gettext
 import sys
 import glob
+import locale
+
 from SettingsWidgets import *
 
 gi.require_version('Gtk', '3.0')
@@ -18,8 +20,6 @@ except:
 
 setproctitle.setproctitle("lightdm-settings")
 
-gettext.install("lightdm-settings", "/usr/share/locale")
-
 CONF_PATH = "/etc/lightdm/slick-greeter.conf"
 LIGHTDM_CONF_PATH = "/etc/lightdm/lightdm.conf"
 LIGHTDM_GROUP_NAMES = ["SeatDefaults", "Seat:*"]
@@ -27,24 +27,56 @@ LIGHTDM_GROUP_NAMES = ["SeatDefaults", "Seat:*"]
 class Application(Gtk.Application):
     ''' Create the UI '''
     def __init__(self):
+        Gtk.Application.__init__(self,
+            application_id='com.linuxmint.lightdm-settings',
+            flags=Gio.ApplicationFlags.FLAGS_NONE)
 
-        Gtk.Application.__init__(self, application_id='com.linuxmint.lightdm-settings', flags=Gio.ApplicationFlags.FLAGS_NONE)
-        self.connect("activate", self.on_activate)
-
-    def on_activate(self, data=None):
+    def do_activate(self):
         list = self.get_windows()
         if len(list) > 0:
             # Application is already running, focus the window
             self.get_active_window().present()
         else:
+            self.window = Gtk.ApplicationWindow.new(self)
+            self.window.set_title(_("Login Window"))
+            self.window.set_icon_name("lightdm-settings")
+            self.window.set_default_size(640, 400)
             self.create_window()
+            self.window.show_all()
+
+    def _is_gnome(self):
+        try:
+            if "GNOME" in os.environ["XDG_CURRENT_DESKTOP"]:
+                return True
+        except:
+            return False
+
+        return False
+
+    # callback function for "quit"
+    def quit_cb(self, action, parameter):
+        self.quit()
+
+    def do_startup(self):
+        Gtk.Application.do_startup(self)
+
+        if self._is_gnome():
+            menu = Gio.Menu()
+            menu.append(_("Quit"), "app.quit")
+            quit_action = Gio.SimpleAction.new("quit", None)
+            quit_action.connect("activate", self.quit_cb)
+            self.add_action(quit_action)
+            self.set_app_menu(menu)
 
     def create_window(self):
-        self.window = Gtk.Window(Gtk.WindowType.TOPLEVEL)
-
-        self.window.set_title(_("Login Window"))
-        self.window.set_icon_name("lightdm-settings")
-        self.window.set_default_size(640, 400)
+        if self._is_gnome():
+            headerbar = Gtk.HeaderBar.new()
+            headerbar.set_show_close_button(True)
+            headerbar.set_title(_("Login Window"))
+            self.window.set_titlebar(headerbar)
+            self.window.set_show_menubar(False)
+        else:
+            self.add_window(self.window)
 
         self.main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
 
@@ -95,21 +127,26 @@ class Application(Gtk.Application):
 
         section = page.add_section(_("Settings"))
 
-        section.add_row(SettingsRow(Gtk.Label(_("Draw a grid")), SettingsSwitch(keyfile, settings, "draw-grid")))
+        section.add_row(SettingsRow(Gtk.Label(_("Draw a grid")),
+            SettingsSwitch(keyfile, settings, "draw-grid")))
 
         try:
             distro = lsb_release.get_lsb_information()['ID']
             if distro.lower() in ['linuxmint', 'ubuntu', 'elementary']:
-                # AccountsService doesn't support Background selection. It's something that is patched in Ubuntu, so only support this feature
-                # in Ubuntu derivatives
-                section.add_row(SettingsRow(Gtk.Label(_("Draw user backgrounds")), SettingsSwitch(keyfile, settings, "draw-user-backgrounds")))
+                # AccountsService doesn't support Background selection.
+                # It's something that is patched in Ubuntu, so only
+                # support this feature in Ubuntu derivatives
+                section.add_row(SettingsRow(Gtk.Label(_("Draw user backgrounds")),
+                    SettingsSwitch(keyfile, settings, "draw-user-backgrounds")))
         except:
             pass
-        section.add_row(SettingsRow(Gtk.Label(_("Show hostname")), SettingsSwitch(keyfile, settings, "show-hostname")))
 
-        row = section.add_row(SettingsRow(Gtk.Label(_("Logo")), SettingsPictureChooser(keyfile, settings, "logo")))
-        row = section.add_row(SettingsRow(Gtk.Label(_("Background logo")), SettingsPictureChooser(keyfile, settings, "background-logo")))
-        row = section.add_row(SettingsRow(Gtk.Label(_("Background")), SettingsPictureChooser(keyfile, settings, "background")))
+        section.add_row(SettingsRow(Gtk.Label(_("Show hostname")),
+            SettingsSwitch(keyfile, settings, "show-hostname")))
+
+        row = section.add_row(SettingsRow(Gtk.Label(_("Logo")),SettingsFileChooser(keyfile, settings, "logo")))
+        row = section.add_row(SettingsRow(Gtk.Label(_("Background logo")), SettingsFileChooser(keyfile, settings, "background-logo")))
+        row = section.add_row(SettingsRow(Gtk.Label(_("Background")), SettingsFileChooser(keyfile, settings, "background")))
 
         row = section.add_row(SettingsRow(Gtk.Label(_("Background color")), SettingsColorChooser(keyfile, settings, "background-color")))
 
@@ -132,7 +169,6 @@ class Application(Gtk.Application):
 
         self.main_stack.add_titled(page, "settings", _("Settings"))
 
-        self.add_window(self.window)
         self.window.show_all()
 
     def walk_directories(self, dirs, filter_func, return_directories=False):
@@ -239,5 +275,10 @@ class Application(Gtk.Application):
         return (value)
 
 if __name__ == "__main__":
+    os.environ["LANG"] = sys.argv[1]
+    os.environ["LANGUAGE"] = sys.argv[1]
+    os.environ['XDG_CURRENT_DESKTOP'] = sys.argv[2]
+    gettext.install("lightdm-settings", "/usr/share/locale")
+
     app = Application()
     app.run(None)
