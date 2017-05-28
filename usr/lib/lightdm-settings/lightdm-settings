@@ -6,6 +6,7 @@ import gi
 import gettext
 import sys
 import glob
+import locale
 from SettingsWidgets import *
 
 gi.require_version('Gtk', '3.0')
@@ -17,8 +18,6 @@ except:
     pass
 
 setproctitle.setproctitle("lightdm-settings")
-
-gettext.install("lightdm-settings", "/usr/share/locale")
 
 CONF_PATH = "/etc/lightdm/slick-greeter.conf"
 LIGHTDM_CONF_PATH = "/etc/lightdm/lightdm.conf"
@@ -239,5 +238,10 @@ class Application(Gtk.Application):
         return (value)
 
 if __name__ == "__main__":
+    os.environ["LANG"] = sys.argv[1]
+    os.environ["LANGUAGE"] = sys.argv[1]
+    os.environ['XDG_CURRENT_DESKTOP'] = sys.argv[2]
+    gettext.install("lightdm-settings", "/usr/share/locale")
+
     app = Application()
     app.run(None)
