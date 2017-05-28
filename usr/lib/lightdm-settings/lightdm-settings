@@ -29,22 +29,51 @@ class Application(Gtk.Application):
     def __init__(self):
 
         Gtk.Application.__init__(self, application_id='com.linuxmint.lightdm-settings', flags=Gio.ApplicationFlags.FLAGS_NONE)
-        self.connect("activate", self.on_activate)
 
-    def on_activate(self, data=None):
+    def do_activate(self):
         list = self.get_windows()
         if len(list) > 0:
             # Application is already running, focus the window
             self.get_active_window().present()
         else:
+            self.window = Gtk.ApplicationWindow.new(self)
+            self.window.set_title(_("Login Window"))
+            self.window.set_icon_name("lightdm-settings")
+            self.window.set_default_size(640, 400)
             self.create_window()
+            self.window.show_all()
+
+    def _is_gnome(self):
+        if "XDG_CURRENT_DESKTOP" in os.environ:
+            if "GNOME" in os.environ["XDG_CURRENT_DESKTOP"]:
+                return True
+
+        return False
+
+    # callback function for "quit"
+    def quit_cb(self, action, parameter):
+        self.quit()
+
+    def do_startup(self):
+        Gtk.Application.do_startup(self)
+
+        if self._is_gnome():
+            menu = Gio.Menu()
+            menu.append(_("Quit"), "app.quit")
+            quit_action = Gio.SimpleAction.new("quit", None)
+            quit_action.connect("activate", self.quit_cb)
+            self.add_action(quit_action)
+            self.set_app_menu(menu)
 
     def create_window(self):
-        self.window = Gtk.Window(Gtk.WindowType.TOPLEVEL)
-
-        self.window.set_title(_("Login Window"))
-        self.window.set_icon_name("lightdm-settings")
-        self.window.set_default_size(640, 400)
+        if self._is_gnome():
+            headerbar = Gtk.HeaderBar.new()
+            headerbar.set_show_close_button(True)
+            headerbar.set_title(_("Login Window"))
+            self.window.set_titlebar(headerbar)
+            self.window.set_show_menubar(False)
+        else:
+            self.add_window(self.window)
 
         self.main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
 
@@ -132,7 +161,6 @@ class Application(Gtk.Application):
 
         self.main_stack.add_titled(page, "settings", _("Settings"))
 
-        self.add_window(self.window)
         self.window.show_all()
 
     def walk_directories(self, dirs, filter_func, return_directories=False):
