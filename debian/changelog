@@ -1,3 +1,20 @@
+lightdm-settings (1.0.9) sonya; urgency=medium
+
+  [ Michael Webster ]
+  * Use a file picker widget for setting logos and backgrounds that allows (#8)
+
+  [ Clement Lefebvre ]
+  * Fix filechooser widget not setting value properly.
+  * l10n: Update POT file
+
+  [ David Mohammed ]
+  * add Headerbar support for GNOME based environments (#12)
+
+  [ Clement Lefebvre ]
+  * l10n: Generate additional files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 30 May 2017 15:10:53 +0100
+
 lightdm-settings (1.0.8) sonya; urgency=medium
 
   * l10n: Update translations
