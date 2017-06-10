@@ -260,8 +260,7 @@ class SettingsColorChooser(Gtk.ColorButton):
 
     def get_hex_code(self):
             color = self.get_rgba()
-            #code = "#"
-            code = ""
+            code = "#"
             for i in (color.red, color.green, color.blue):
                 i = hex(int(i*255.0))[2:]
                 if len(i) == 1:
