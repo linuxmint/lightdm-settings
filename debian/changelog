@@ -1,3 +1,9 @@
+lightdm-settings (1.1.1) sonya; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 28 Jun 2017 10:58:42 +0200
+
 lightdm-settings (1.1.0) sonya; urgency=medium
 
   * Fix bg color selection
