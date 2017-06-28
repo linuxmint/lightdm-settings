@@ -2,6 +2,8 @@
 
 import xapp.os
 import gettext
+import locale
+import os
 
 DOMAIN = "lightdm-settings"
 PATH = "/usr/share/locale"
@@ -10,6 +12,13 @@ gettext.install(DOMAIN, PATH)
 icon = "preferences-system-login.png"
 message = _("Login Window")
 
-# We disable pkexec here because it fails to apply the correct locale
-# The app should show in the user's locale, not the system one.
-xapp.os.run_with_admin_privs("/usr/lib/lightdm-settings/lightdm-settings", message=message, icon=icon, support_pkexec=False)
+# We add the current locale and desktop since for some sessions
+# (e.g. gnome-session) pkexec does not pass them - i.e. need to apply
+# the user's locale, not the system one (assuming there is one).
+loc = locale.getdefaultlocale()
+locstr = loc[0] + "." + loc[1]
+xapp.os.run_with_admin_privs("/usr/lib/lightdm-settings/lightdm-settings " +
+    locstr + " " + os.environ["XDG_CURRENT_DESKTOP"],
+    message=message,
+    icon=icon,
+    support_pkexec=True)
