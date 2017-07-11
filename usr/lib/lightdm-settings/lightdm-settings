@@ -151,6 +151,11 @@ class Application(Gtk.Application):
         hidpi_options.append(["off", _("Disable")])
         section.add_row(SettingsRow(Gtk.Label(_("HiDPI support")), SettingsCombo(keyfile, settings, "enable-hidpi", hidpi_options, "string")))
 
+        row = SettingsRow(Gtk.Label(_("Activate numlock")), SettingsSwitch(keyfile, settings, "activate-numlock"))
+        section.add_row(row)
+        if (not os.path.exists("/usr/bin/numlockx")):
+            row.set_sensitive(False)
+            row.set_tooltip_text(_("Requires the installation of numlockx."))
 
         guest_sessions_allowed = self.get_lightdm_config ("allow-guest", True)
         row  = SettingsRow(Gtk.Label(_("Allow guest sessions")), LightDMSwitch(lightdm_keyfile, "allow-guest", guest_sessions_allowed))
