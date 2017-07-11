@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-26 11:31+0100\n"
+"POT-Creation-Date: 2017-07-11 16:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,73 +17,86 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:45 usr/bin/lightdm-settings:11
+#: usr/lib/lightdm-settings/lightdm-settings:40
+#: usr/lib/lightdm-settings/lightdm-settings:72 usr/bin/lightdm-settings:11
 #: generate_desktop_files:27
 msgid "Login Window"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:96
-#: usr/lib/lightdm-settings/lightdm-settings:133
+#: usr/lib/lightdm-settings/lightdm-settings:62
+msgid "Quit"
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:125
+#: usr/lib/lightdm-settings/lightdm-settings:167
 msgid "Settings"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:98
+#: usr/lib/lightdm-settings/lightdm-settings:127
 msgid "Draw a grid"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:105
+#: usr/lib/lightdm-settings/lightdm-settings:134
 msgid "Draw user backgrounds"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:108
+#: usr/lib/lightdm-settings/lightdm-settings:137
 msgid "Show hostname"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:110
+#: usr/lib/lightdm-settings/lightdm-settings:139
 msgid "Logo"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:111
+#: usr/lib/lightdm-settings/lightdm-settings:140
 msgid "Background logo"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:112
+#: usr/lib/lightdm-settings/lightdm-settings:141
 msgid "Background"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:114
+#: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "Background color"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:116
+#: usr/lib/lightdm-settings/lightdm-settings:145
 msgid "GTK theme"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:117
+#: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "Icon theme"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:120
+#: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Auto"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:121
+#: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Enable"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:122
+#: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "Disable"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:123
+#: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "HiDPI support"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:127
+#: usr/lib/lightdm-settings/lightdm-settings:154
+msgid "Activate numlock"
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:158
+msgid "Requires the installation of numlockx."
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:161
 msgid "Allow guest sessions"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:128
+#: usr/lib/lightdm-settings/lightdm-settings:162
 msgid "Reboot for this option to take effect"
 msgstr ""
 
