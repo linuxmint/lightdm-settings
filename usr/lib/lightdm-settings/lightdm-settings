@@ -157,8 +157,23 @@ class Application(Gtk.Application):
             row.set_sensitive(False)
             row.set_tooltip_text(_("Requires the installation of numlockx."))
 
-        guest_sessions_allowed = self.get_lightdm_config ("allow-guest", True)
-        row  = SettingsRow(Gtk.Label(_("Allow guest sessions")), LightDMSwitch(lightdm_keyfile, "allow-guest", guest_sessions_allowed))
+        value = self.get_lightdm_config ("allow-guest", True)
+        row  = SettingsRow(Gtk.Label(_("Allow guest sessions")), LightDMSwitch(lightdm_keyfile, "allow-guest", value))
+        row.set_tooltip_text(_("Reboot for this option to take effect"))
+        section.add_row(row)
+
+        value = self.get_lightdm_config ("greeter-hide-users", False)
+        row  = SettingsRow(Gtk.Label(_("Hide user list")), LightDMSwitch(lightdm_keyfile, "greeter-hide-users", value))
+        row.set_tooltip_text(_("Reboot for this option to take effect"))
+        section.add_row(row)
+
+        value = self.get_lightdm_config ("greeter-show-manual-login", False)
+        row  = SettingsRow(Gtk.Label(_("Show manual login")), LightDMSwitch(lightdm_keyfile, "greeter-show-manual-login", value))
+        row.set_tooltip_text(_("Reboot for this option to take effect"))
+        section.add_row(row)
+
+        value = self.get_lightdm_config ("autologin-user", "")
+        row  = SettingsRow(Gtk.Label(_("Autologin")), LightDMEntry(lightdm_keyfile, "autologin-user", value))
         row.set_tooltip_text(_("Reboot for this option to take effect"))
         section.add_row(row)
 
@@ -257,7 +272,10 @@ class Application(Gtk.Application):
                                 keyfile.load_from_file(full_path, 0)
                                 for group in LIGHTDM_GROUP_NAMES:
                                     if keyfile.has_group(group):
-                                        value = keyfile.get_boolean(group, key)
+                                        if isinstance(default_value, str):
+                                            value = keyfile.get_string(group, key)
+                                        elif isinstance(default_value, bool):
+                                            value = keyfile.get_boolean(group, key)
                             except:
                                 pass
                 else:
@@ -266,7 +284,10 @@ class Application(Gtk.Application):
                         keyfile.load_from_file(path, 0)
                         for group in LIGHTDM_GROUP_NAMES:
                             if keyfile.has_group(group):
-                                value = keyfile.get_boolean(group, key)
+                                if isinstance(default_value, str):
+                                    value = keyfile.get_string(group, key)
+                                elif isinstance(default_value, bool):
+                                    value = keyfile.get_boolean(group, key)
                     except:
                         pass
         return (value)

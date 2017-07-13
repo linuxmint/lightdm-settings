@@ -335,3 +335,19 @@ class LightDMSwitch(Gtk.Switch):
     def on_toggled(self, widget, data=None):
         self.keyfile.set_boolean(LIGHTDM_GROUP_NAME, self.key, self.get_active())
         self.keyfile.save_to_file(LIGHTDM_CONF_PATH)
+
+class LightDMEntry(Gtk.Entry):
+    def __init__(self, keyfile, key, value):
+        self.key = key
+        self.keyfile = keyfile
+        Gtk.Entry.__init__(self)
+        self.set_text(value)
+        self.connect("changed", self.on_changed)
+
+    def on_changed(self, widget, data=None):
+        text = self.get_text().strip()
+        if text == "":
+            self.keyfile.remove_key(LIGHTDM_GROUP_NAME, self.key)
+        else:
+            self.keyfile.set_string(LIGHTDM_GROUP_NAME, self.key, self.get_text())
+        self.keyfile.save_to_file(LIGHTDM_CONF_PATH)
