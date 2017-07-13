@@ -116,6 +116,24 @@ class SettingsRow(Gtk.ListBoxRow):
         if self.alternative_widget is not None:
             self.stack.set_visible_child(self.alternative_widget)
 
+class SettingsSpinButton(Gtk.SpinButton):
+    def __init__(self, keyfile, settings, key, min_value, max_value):
+        self.key = key
+        self.keyfile = keyfile
+        try:
+            self.value = keyfile.get_integer(GROUP_NAME, key)
+        except:
+            self.value = settings.get_int(key)
+        Gtk.SpinButton.__init__(self)
+        adjustment = Gtk.Adjustment(self.value, min_value, max_value, 1, 10, 0)
+        self.set_adjustment(adjustment)
+        self.set_value(self.value)
+        self.connect("value-changed", self.on_value_changed)
+
+    def on_value_changed(self, widget, data=None):
+        self.keyfile.set_integer(GROUP_NAME, self.key, self.get_value_as_int())
+        self.keyfile.save_to_file(CONF_PATH)
+
 class SettingsSwitch(Gtk.Switch):
     def __init__(self, keyfile, settings, key):
         self.key = key
