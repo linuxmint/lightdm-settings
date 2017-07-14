@@ -163,7 +163,7 @@ class Application(Gtk.Application):
         section = page.add_section(_("Optional pictures"))
 
         row = SettingsRow(Gtk.Label(_("Other monitors")), SettingsPictureChooser(keyfile, settings, "other-monitors-logo"))
-        row.set_tooltip_text(_("If you have multiple monitors, the user list is shown on the active one, and this picture is shown on the others."))
+        row.set_tooltip_text(_("If you have multiple monitors, the user list is placed on the active one, and this picture on the others."))
         section.add_row(row)
 
         row = SettingsRow(Gtk.Label(_("Bottom left")), SettingsPictureChooser(keyfile, settings, "logo"))
