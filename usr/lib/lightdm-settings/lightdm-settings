@@ -224,6 +224,10 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Support for high pixel density and Retina displays."))
         section.add_row(row)
 
+        row = SettingsRow(Gtk.Label(_("Show only on monitor")), SettingsSpinButton(keyfile, settings, "only-on-monitor", -1, 16))
+        row.set_tooltip_text(_("The monitor on which the login window is shown.\n-1 means \"follow the mouse\""))
+        section.add_row(row)
+
         section = page.add_section(_("Panel indicators"))
 
         row = SettingsRow(Gtk.Label(_("Hostname")), SettingsSwitch(keyfile, settings, "show-hostname"))
