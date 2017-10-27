@@ -1,3 +1,15 @@
+lightdm-settings (1.1.2) sylvia; urgency=medium
+
+  * Add support for numlockx
+  * l10n: Update POT file
+  * SettingsWidgets: Add support for spin buttons
+  * Expose additional LightDM configuration options
+  * Organize settings by pages/sections.
+  * l10n: Update POT file
+  * l10n: Generate additional files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 27 Oct 2017 13:35:36 +0100
+
 lightdm-settings (1.1.1) sonya; urgency=medium
 
   * l10n: Update translations
