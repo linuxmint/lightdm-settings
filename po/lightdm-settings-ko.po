@@ -7,99 +7,250 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-05-26 11:31+0100\n"
-"PO-Revision-Date: 2017-06-14 08:45+0000\n"
+"POT-Creation-Date: 2017-10-27 13:35+0100\n"
+"PO-Revision-Date: 2017-07-17 05:29+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:55+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:46+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:45 usr/bin/lightdm-settings:11
+#: usr/lib/lightdm-settings/lightdm-settings:40
+#: usr/lib/lightdm-settings/lightdm-settings:72 usr/bin/lightdm-settings:11
 #: generate_desktop_files:27
 msgid "Login Window"
 msgstr "로그인 창"
 
-#: usr/lib/lightdm-settings/lightdm-settings:96
-#: usr/lib/lightdm-settings/lightdm-settings:133
-msgid "Settings"
-msgstr "설정"
+#: usr/lib/lightdm-settings/lightdm-settings:62
+msgid "Quit"
+msgstr "끝내기"
 
-#: usr/lib/lightdm-settings/lightdm-settings:98
-msgid "Draw a grid"
-msgstr "그리드 보이기"
+#: usr/lib/lightdm-settings/lightdm-settings:127
+msgid "Appearance"
+msgstr "꾸미기"
 
-#: usr/lib/lightdm-settings/lightdm-settings:105
-msgid "Draw user backgrounds"
-msgstr "사용 중인 배경화면 보이기"
-
-#: usr/lib/lightdm-settings/lightdm-settings:108
-msgid "Show hostname"
-msgstr "컴퓨터 이름 보이기"
-
-#: usr/lib/lightdm-settings/lightdm-settings:110
-msgid "Logo"
-msgstr "로고"
-
-#: usr/lib/lightdm-settings/lightdm-settings:111
-msgid "Background logo"
-msgstr "배경화면 로고"
-
-#: usr/lib/lightdm-settings/lightdm-settings:112
+#: usr/lib/lightdm-settings/lightdm-settings:128
+#: usr/lib/lightdm-settings/lightdm-settings:130
+#: usr/lib/lightdm-settings/lightdm-settings:131
 msgid "Background"
 msgstr "배경화면"
 
-#: usr/lib/lightdm-settings/lightdm-settings:114
+#: usr/lib/lightdm-settings/lightdm-settings:134
+#: usr/lib/lightdm-settings/lightdm-settings:135
 msgid "Background color"
 msgstr "배경 색"
 
-#: usr/lib/lightdm-settings/lightdm-settings:116
+#: usr/lib/lightdm-settings/lightdm-settings:143
+msgid "Draw user backgrounds"
+msgstr "사용 중인 배경화면 보이기"
+
+#: usr/lib/lightdm-settings/lightdm-settings:144
+msgid "When a user is selected, show that user's background."
+msgstr "사용자를 선택하면, 사용자가 사용하고 있는 배경화면을 보여줍니다."
+
+#: usr/lib/lightdm-settings/lightdm-settings:149
+msgid "Draw a grid"
+msgstr "그리드 보이기"
+
+#: usr/lib/lightdm-settings/lightdm-settings:150
+msgid "Draw a grid of white dots on top of the background."
+msgstr "배경화면에 하얀 점을 그리드를 이루며 보여줍니다."
+
+#: usr/lib/lightdm-settings/lightdm-settings:153
+msgid "Themes"
+msgstr "테마"
+
+#: usr/lib/lightdm-settings/lightdm-settings:155
+#: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "GTK theme"
 msgstr "GTK 테마"
 
-#: usr/lib/lightdm-settings/lightdm-settings:117
+#: usr/lib/lightdm-settings/lightdm-settings:159
+#: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Icon theme"
 msgstr "아이콘 테마"
 
-#: usr/lib/lightdm-settings/lightdm-settings:120
-msgid "Auto"
-msgstr "자동 지정"
+#: usr/lib/lightdm-settings/lightdm-settings:163
+msgid "Optional pictures"
+msgstr "사진 선택"
 
-#: usr/lib/lightdm-settings/lightdm-settings:121
-msgid "Enable"
-msgstr "사용"
+#: usr/lib/lightdm-settings/lightdm-settings:165
+msgid "Other monitors"
+msgstr "다른 모니터"
 
-#: usr/lib/lightdm-settings/lightdm-settings:122
-msgid "Disable"
-msgstr "사용 안 함"
+#: usr/lib/lightdm-settings/lightdm-settings:166
+msgid ""
+"If you have multiple monitors, the user list is placed on the active one, "
+"and this picture on the others."
+msgstr "여러 개의 모니터를 사용하시면, 지금 사용 중인 모니터에 사용자 목록을 표시하고, 이 사진은 다른 모니터에도 표시됩니다."
 
-#: usr/lib/lightdm-settings/lightdm-settings:123
-msgid "HiDPI support"
-msgstr "HiDPI 지원"
+#: usr/lib/lightdm-settings/lightdm-settings:169
+msgid "Bottom left"
+msgstr "왼쪽 아래"
 
-#: usr/lib/lightdm-settings/lightdm-settings:127
+#: usr/lib/lightdm-settings/lightdm-settings:170
+msgid "Select a picture to show on the bottom left of the login window."
+msgstr "로그인 창의 왼쪽 아래에 사용할 사진을 고르세요."
+
+#: usr/lib/lightdm-settings/lightdm-settings:176
+msgid "Users"
+msgstr "사용자"
+
+#: usr/lib/lightdm-settings/lightdm-settings:177
+msgid "User list"
+msgstr "사용자 목록"
+
+#: usr/lib/lightdm-settings/lightdm-settings:180
+msgid "Allow manual login"
+msgstr "수동 로그인 사용"
+
+#: usr/lib/lightdm-settings/lightdm-settings:181
+msgid "Add an option in the login window to enter a username."
+msgstr "로그인 창에서 사용자 계정을 입력하는 옵션을 추가합니다."
+
+#: usr/lib/lightdm-settings/lightdm-settings:185
+msgid "Hide the user list"
+msgstr "사용자 목록 감춤"
+
+#: usr/lib/lightdm-settings/lightdm-settings:186
+msgid "Hide the list of users in the login window."
+msgstr "로그인 창에서 사용자 목록을 감춥니다."
+
+#: usr/lib/lightdm-settings/lightdm-settings:189
+msgid "Guest sessions"
+msgstr "손님 모드로 들어가기"
+
+#: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "Allow guest sessions"
 msgstr "손님으로 들어가기 허용"
 
-#: usr/lib/lightdm-settings/lightdm-settings:128
-msgid "Reboot for this option to take effect"
-msgstr "이 옵션을 적용하시려면 다시 시작하세요"
+#: usr/lib/lightdm-settings/lightdm-settings:193
+msgid ""
+"Allow guests to use the computer without a password. A temporary guest "
+"account is created automatically when they log in."
+msgstr "비밀번호 없이 컴퓨터를 사용할 수 있는 손님 모드를 허용합니다. 로그인할 때 임시 손님 계정이 자동으로 만들어집니다."
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:182
+#: usr/lib/lightdm-settings/lightdm-settings:196
+msgid "Automatic login"
+msgstr "자동 로그인"
+
+#: usr/lib/lightdm-settings/lightdm-settings:199
+msgid "Username"
+msgstr "사용자 이름"
+
+#: usr/lib/lightdm-settings/lightdm-settings:200
+msgid ""
+"Warning: Automatic login will fail if the user's home directory is encrypted."
+msgstr "알림: 사용자의 홈 디렉토리가 암호화되어 있으면 로그인이 되지 않습니다."
+
+#: usr/lib/lightdm-settings/lightdm-settings:203
+msgid "These settings require a computer reboot to take effect."
+msgstr "이 설정은 다시 시작을  해야 적용됩니다."
+
+#: usr/lib/lightdm-settings/lightdm-settings:208
+#: usr/lib/lightdm-settings/lightdm-settings:209
+msgid "Settings"
+msgstr "설정"
+
+#: usr/lib/lightdm-settings/lightdm-settings:211
+msgid "Activate numlock"
+msgstr "numlock 사용"
+
+#: usr/lib/lightdm-settings/lightdm-settings:214
+msgid "Please install numlockx to use this option."
+msgstr "이 옵션을 사용하시려면 numlockx를 설치해주세요"
+
+#: usr/lib/lightdm-settings/lightdm-settings:216
+msgid "Activate numlock in the login window."
+msgstr "로그인 창에서 numlock를 사용합니다."
+
+#: usr/lib/lightdm-settings/lightdm-settings:220
+msgid "Auto"
+msgstr "자동 지정"
+
+#: usr/lib/lightdm-settings/lightdm-settings:221
+msgid "Enable"
+msgstr "사용"
+
+#: usr/lib/lightdm-settings/lightdm-settings:222
+msgid "Disable"
+msgstr "사용 안 함"
+
+#: usr/lib/lightdm-settings/lightdm-settings:223
+msgid "HiDPI support"
+msgstr "HiDPI 지원"
+
+#: usr/lib/lightdm-settings/lightdm-settings:224
+msgid "Support for high pixel density and Retina displays."
+msgstr "고밀도 화소와 레티나 디스플레이를 지원합니다."
+
+#: usr/lib/lightdm-settings/lightdm-settings:227
+msgid "Panel indicators"
+msgstr "패널 인디테이터"
+
+#: usr/lib/lightdm-settings/lightdm-settings:229
+msgid "Hostname"
+msgstr "호스트이름"
+
+#: usr/lib/lightdm-settings/lightdm-settings:230
+msgid "Show the computer hostname in the panel."
+msgstr "호스트 이름을 패널에 표시합니다."
+
+#: usr/lib/lightdm-settings/lightdm-settings:233
+msgid "Accessibility options"
+msgstr "편리한 기능 옵션"
+
+#: usr/lib/lightdm-settings/lightdm-settings:234
+msgid "Show accessibility options in the panel."
+msgstr "패널에 편리한 기능 옵션을 보여줍니다."
+
+#: usr/lib/lightdm-settings/lightdm-settings:237
+msgid "Battery power"
+msgstr "배터리 상태"
+
+#: usr/lib/lightdm-settings/lightdm-settings:238
+msgid "On laptops, show the battery power in the panel."
+msgstr "랩탑인 경우, 배터리 상태를 패널에 표시합니다."
+
+#: usr/lib/lightdm-settings/lightdm-settings:241
+msgid "Keyboard layout"
+msgstr "키보드 배치"
+
+#: usr/lib/lightdm-settings/lightdm-settings:242
+msgid "Show the keyboard layout in the panel."
+msgstr "키보드 배치를 패널에 보여줍니다."
+
+#: usr/lib/lightdm-settings/lightdm-settings:245
+msgid "Clock"
+msgstr "시계"
+
+#: usr/lib/lightdm-settings/lightdm-settings:246
+msgid "Show a clock in the panel."
+msgstr "시계를 패널에 표시합니다."
+
+#: usr/lib/lightdm-settings/lightdm-settings:249
+msgid "Quit menu"
+msgstr "끝내기 메뉴"
+
+#: usr/lib/lightdm-settings/lightdm-settings:250
+msgid "Show the quit menu in the panel."
+msgstr "패널에 끝내기 메뉴를 표시합니다."
+
+#: usr/lib/lightdm-settings/SettingsWidgets.py:200
 msgid "Choose an Image File"
 msgstr "사용하실 사진이나 그림을 고르세요"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:185
+#: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Cancel"
 msgstr "취소(_C)"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:186
+#: usr/lib/lightdm-settings/SettingsWidgets.py:204
 msgid "_Open"
 msgstr "열기(_O)"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:189
+#: usr/lib/lightdm-settings/SettingsWidgets.py:207
 msgid "Image files"
 msgstr "이미지 파일"
 

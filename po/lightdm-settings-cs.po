@@ -7,101 +7,262 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-05-26 11:31+0100\n"
-"PO-Revision-Date: 2017-06-07 08:43+0000\n"
-"Last-Translator: Tomáš Moravec <otoman100@gmail.com>\n"
+"POT-Creation-Date: 2017-10-27 13:35+0100\n"
+"PO-Revision-Date: 2017-09-08 10:43+0000\n"
+"Last-Translator: Pavel Borecki <Unknown>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-06-28 07:55+0000\n"
-"X-Generator: Launchpad (build 18416)\n"
+"X-Launchpad-Export-Date: 2017-11-03 11:46+0000\n"
+"X-Generator: Launchpad (build 18493)\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:45 usr/bin/lightdm-settings:11
+#: usr/lib/lightdm-settings/lightdm-settings:40
+#: usr/lib/lightdm-settings/lightdm-settings:72 usr/bin/lightdm-settings:11
 #: generate_desktop_files:27
 msgid "Login Window"
 msgstr "Přihlašovací okno"
 
-#: usr/lib/lightdm-settings/lightdm-settings:96
-#: usr/lib/lightdm-settings/lightdm-settings:133
-msgid "Settings"
-msgstr "Nastavení"
+#: usr/lib/lightdm-settings/lightdm-settings:62
+msgid "Quit"
+msgstr "Ukončit"
 
-#: usr/lib/lightdm-settings/lightdm-settings:98
-msgid "Draw a grid"
-msgstr "Zobrazit mřížku"
+#: usr/lib/lightdm-settings/lightdm-settings:127
+msgid "Appearance"
+msgstr "Vzhled"
 
-#: usr/lib/lightdm-settings/lightdm-settings:105
-msgid "Draw user backgrounds"
-msgstr "Zobrazit uživatelské pozadí"
-
-#: usr/lib/lightdm-settings/lightdm-settings:108
-msgid "Show hostname"
-msgstr "Zobrazit​ jméno počítače"
-
-#: usr/lib/lightdm-settings/lightdm-settings:110
-msgid "Logo"
-msgstr "Logo"
-
-#: usr/lib/lightdm-settings/lightdm-settings:111
-msgid "Background logo"
-msgstr "Logo na pozadí"
-
-#: usr/lib/lightdm-settings/lightdm-settings:112
+#: usr/lib/lightdm-settings/lightdm-settings:128
+#: usr/lib/lightdm-settings/lightdm-settings:130
+#: usr/lib/lightdm-settings/lightdm-settings:131
 msgid "Background"
 msgstr "Pozadí"
 
-#: usr/lib/lightdm-settings/lightdm-settings:114
+#: usr/lib/lightdm-settings/lightdm-settings:134
+#: usr/lib/lightdm-settings/lightdm-settings:135
 msgid "Background color"
 msgstr "Barva pozadí"
 
-#: usr/lib/lightdm-settings/lightdm-settings:116
+#: usr/lib/lightdm-settings/lightdm-settings:143
+msgid "Draw user backgrounds"
+msgstr "Zobrazovat pozadí ploch uživatelů"
+
+#: usr/lib/lightdm-settings/lightdm-settings:144
+msgid "When a user is selected, show that user's background."
+msgstr "Když je vybrán uživatel, zobrazit pozadí plochy jeho prostředí."
+
+#: usr/lib/lightdm-settings/lightdm-settings:149
+msgid "Draw a grid"
+msgstr "Zobrazovat mřížku"
+
+#: usr/lib/lightdm-settings/lightdm-settings:150
+msgid "Draw a grid of white dots on top of the background."
+msgstr "Vykreslovat nad pozadím mřížku z bílých teček."
+
+#: usr/lib/lightdm-settings/lightdm-settings:153
+msgid "Themes"
+msgstr "Motivy vzhledu"
+
+#: usr/lib/lightdm-settings/lightdm-settings:155
+#: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "GTK theme"
-msgstr "Motiv GTK"
+msgstr "Motiv vzhledu GTK"
 
-#: usr/lib/lightdm-settings/lightdm-settings:117
+#: usr/lib/lightdm-settings/lightdm-settings:159
+#: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Icon theme"
-msgstr "Motiv ikon"
+msgstr "Motiv vzhledu ikon"
 
-#: usr/lib/lightdm-settings/lightdm-settings:120
+#: usr/lib/lightdm-settings/lightdm-settings:163
+msgid "Optional pictures"
+msgstr "Volitelné obrázky"
+
+#: usr/lib/lightdm-settings/lightdm-settings:165
+msgid "Other monitors"
+msgstr "Ostatní monitory"
+
+#: usr/lib/lightdm-settings/lightdm-settings:166
+msgid ""
+"If you have multiple monitors, the user list is placed on the active one, "
+"and this picture on the others."
+msgstr ""
+"Pokud je připojeno vícero monitorů, seznam uživatelů je umístěn na ten, na "
+"kterém se nachází ukazatel myši a tento obrázek na těch ostatních."
+
+#: usr/lib/lightdm-settings/lightdm-settings:169
+msgid "Bottom left"
+msgstr "Vlevo dole"
+
+#: usr/lib/lightdm-settings/lightdm-settings:170
+msgid "Select a picture to show on the bottom left of the login window."
+msgstr ""
+"Vyberte obrázek který zobrazovat v levé spodní části přihlašovacího okna."
+
+#: usr/lib/lightdm-settings/lightdm-settings:176
+msgid "Users"
+msgstr "Uživatelé"
+
+#: usr/lib/lightdm-settings/lightdm-settings:177
+msgid "User list"
+msgstr "Seznam uživatelů"
+
+#: usr/lib/lightdm-settings/lightdm-settings:180
+msgid "Allow manual login"
+msgstr "Umožňovat ruční přihlášení"
+
+#: usr/lib/lightdm-settings/lightdm-settings:181
+msgid "Add an option in the login window to enter a username."
+msgstr "Přidat do přihlašovacího okna možnost zadat uživatelské jméno."
+
+#: usr/lib/lightdm-settings/lightdm-settings:185
+msgid "Hide the user list"
+msgstr "Skrýt seznam uživatelů"
+
+#: usr/lib/lightdm-settings/lightdm-settings:186
+msgid "Hide the list of users in the login window."
+msgstr "Skrýt v přihlašovacím okně seznam uživatelů."
+
+#: usr/lib/lightdm-settings/lightdm-settings:189
+msgid "Guest sessions"
+msgstr "Sezení hosta"
+
+#: usr/lib/lightdm-settings/lightdm-settings:192
+msgid "Allow guest sessions"
+msgstr "Umožnit sezení hosta"
+
+#: usr/lib/lightdm-settings/lightdm-settings:193
+msgid ""
+"Allow guests to use the computer without a password. A temporary guest "
+"account is created automatically when they log in."
+msgstr ""
+"Umožňovat hostům používat počítač i bez hesla. Při přihlášení pro ně bude "
+"automaticky vytvářen dočasný účet."
+
+#: usr/lib/lightdm-settings/lightdm-settings:196
+msgid "Automatic login"
+msgstr "Automatické přihlašování"
+
+#: usr/lib/lightdm-settings/lightdm-settings:199
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: usr/lib/lightdm-settings/lightdm-settings:200
+msgid ""
+"Warning: Automatic login will fail if the user's home directory is encrypted."
+msgstr ""
+"Varování: pokud je domovská složka uživatele šifrovaná, automatické "
+"přihlášování nebude fungovat."
+
+#: usr/lib/lightdm-settings/lightdm-settings:203
+msgid "These settings require a computer reboot to take effect."
+msgstr "Aby se projevila, tato nastavení vyžadují restart počítače."
+
+#: usr/lib/lightdm-settings/lightdm-settings:208
+#: usr/lib/lightdm-settings/lightdm-settings:209
+msgid "Settings"
+msgstr "Nastavení"
+
+#: usr/lib/lightdm-settings/lightdm-settings:211
+msgid "Activate numlock"
+msgstr "Zapnout číslicový blok klávesnice (numlock)"
+
+#: usr/lib/lightdm-settings/lightdm-settings:214
+msgid "Please install numlockx to use this option."
+msgstr ""
+"Aby bylo možné použít tuto předvolbu, je třeba nainstalovat balíček numlockx."
+
+#: usr/lib/lightdm-settings/lightdm-settings:216
+msgid "Activate numlock in the login window."
+msgstr ""
+"Se zobrazením přihlašovacího okna také zapnout číselný blok klávesnice."
+
+#: usr/lib/lightdm-settings/lightdm-settings:220
 msgid "Auto"
 msgstr "Automaticky"
 
-#: usr/lib/lightdm-settings/lightdm-settings:121
+#: usr/lib/lightdm-settings/lightdm-settings:221
 msgid "Enable"
-msgstr "Povolit"
+msgstr "Zapnout"
 
-#: usr/lib/lightdm-settings/lightdm-settings:122
+#: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "Disable"
-msgstr "Zakázat"
+msgstr "Vypnout"
 
-#: usr/lib/lightdm-settings/lightdm-settings:123
+#: usr/lib/lightdm-settings/lightdm-settings:223
 msgid "HiDPI support"
 msgstr "Podpora HiDPI"
 
-#: usr/lib/lightdm-settings/lightdm-settings:127
-msgid "Allow guest sessions"
-msgstr "Povolit sezení hosta"
+#: usr/lib/lightdm-settings/lightdm-settings:224
+msgid "Support for high pixel density and Retina displays."
+msgstr ""
+"Podpora pro displeje s vysokou hustotu obrazových bodů (např. Retina)."
 
-#: usr/lib/lightdm-settings/lightdm-settings:128
-msgid "Reboot for this option to take effect"
-msgstr "Pro uplatnění změn je vyžadován restart"
+#: usr/lib/lightdm-settings/lightdm-settings:227
+msgid "Panel indicators"
+msgstr "Indikátory na panelu"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:182
+#: usr/lib/lightdm-settings/lightdm-settings:229
+msgid "Hostname"
+msgstr "Název stroje"
+
+#: usr/lib/lightdm-settings/lightdm-settings:230
+msgid "Show the computer hostname in the panel."
+msgstr "Zobrazovat v panelu název počítače."
+
+#: usr/lib/lightdm-settings/lightdm-settings:233
+msgid "Accessibility options"
+msgstr "Předvolby zpřístupnění hendikepovaným"
+
+#: usr/lib/lightdm-settings/lightdm-settings:234
+msgid "Show accessibility options in the panel."
+msgstr "Zobrazovat v panelu předvolby pro zpřístupnění."
+
+#: usr/lib/lightdm-settings/lightdm-settings:237
+msgid "Battery power"
+msgstr "Napájení z akumulátoru"
+
+#: usr/lib/lightdm-settings/lightdm-settings:238
+msgid "On laptops, show the battery power in the panel."
+msgstr "Na přenosných zařízeních zobrazovat v panelu stav akumulátoru."
+
+#: usr/lib/lightdm-settings/lightdm-settings:241
+msgid "Keyboard layout"
+msgstr "Rozvržení klávesnice"
+
+#: usr/lib/lightdm-settings/lightdm-settings:242
+msgid "Show the keyboard layout in the panel."
+msgstr "Zobrazovat v panelu rozvržení klávesnice."
+
+#: usr/lib/lightdm-settings/lightdm-settings:245
+msgid "Clock"
+msgstr "Hodiny"
+
+#: usr/lib/lightdm-settings/lightdm-settings:246
+msgid "Show a clock in the panel."
+msgstr "Zobrazovat v panelu hodiny."
+
+#: usr/lib/lightdm-settings/lightdm-settings:249
+msgid "Quit menu"
+msgstr "Ukončovací nabídka"
+
+#: usr/lib/lightdm-settings/lightdm-settings:250
+msgid "Show the quit menu in the panel."
+msgstr "Zobrazovat v panelu ukončovací nabídku."
+
+#: usr/lib/lightdm-settings/SettingsWidgets.py:200
 msgid "Choose an Image File"
-msgstr "Vyberte obrázek"
+msgstr "Vyberte soubor s obrázkem"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:185
+#: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Cancel"
-msgstr "_Zrušit"
+msgstr "_Storno"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:186
+#: usr/lib/lightdm-settings/SettingsWidgets.py:204
 msgid "_Open"
 msgstr "_Otevřít"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:189
+#: usr/lib/lightdm-settings/SettingsWidgets.py:207
 msgid "Image files"
-msgstr "Soubory obrázků"
+msgstr "Soubory s obrázky"
 
 #: generate_desktop_files:27
 msgid "Configure the login window"

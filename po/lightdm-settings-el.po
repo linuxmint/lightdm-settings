@@ -1,4 +1,4 @@
-# Uzbek translation for linuxmint
+# Greek translation for linuxmint
 # Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
 # This file is distributed under the same license as the linuxmint package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-10-27 13:35+0100\n"
-"PO-Revision-Date: 2017-05-19 16:38+0000\n"
-"Last-Translator: M. Nishonov <mnishonov@gmail.com>\n"
-"Language-Team: Uzbek <uz@li.org>\n"
+"PO-Revision-Date: 2017-07-23 09:05+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:72 usr/bin/lightdm-settings:11
 #: generate_desktop_files:27
 msgid "Login Window"
-msgstr "Логин ойнаси"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:62
 msgid "Quit"
@@ -35,16 +35,16 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:130
 #: usr/lib/lightdm-settings/lightdm-settings:131
 msgid "Background"
-msgstr "Фон"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:134
 #: usr/lib/lightdm-settings/lightdm-settings:135
 msgid "Background color"
-msgstr "Фон ранги"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "Draw user backgrounds"
-msgstr "Фойдаланувчи учун фонлар чизиш"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:144
 msgid "When a user is selected, show that user's background."
@@ -52,7 +52,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid"
-msgstr "Панжара чизиш"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Draw a grid of white dots on top of the background."
@@ -65,12 +65,12 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:155
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "GTK theme"
-msgstr "GTK ташқи кўриниши"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 #: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Icon theme"
-msgstr "Расмчалар ташқи кўриниши"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "Optional pictures"
@@ -124,7 +124,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "Allow guest sessions"
-msgstr "Мехмон сифатида киришга рухсат берилсин"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:193
 msgid ""
@@ -152,7 +152,7 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:208
 #: usr/lib/lightdm-settings/lightdm-settings:209
 msgid "Settings"
-msgstr "Созламалар"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:211
 msgid "Activate numlock"
@@ -168,19 +168,19 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:220
 msgid "Auto"
-msgstr "Автоматик"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:221
 msgid "Enable"
-msgstr "Ёқиш"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "Disable"
-msgstr "Ўчириш"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 msgid "HiDPI support"
-msgstr "HiDPI ни ишлатиш имконияти"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:224
 msgid "Support for high pixel density and Retina displays."
@@ -256,4 +256,4 @@ msgstr ""
 
 #: generate_desktop_files:27
 msgid "Configure the login window"
-msgstr "Логин ойнасини созлаш"
+msgstr ""
