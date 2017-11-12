@@ -9,7 +9,7 @@ import glob
 from SettingsWidgets import *
 
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk, Gio, GLib
+from gi.repository import Gtk, Gdk, Gio, GLib
 
 try:
     import lsb_release
@@ -224,8 +224,13 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Support for high pixel density and Retina displays."))
         section.add_row(row)
 
-        row = SettingsRow(Gtk.Label(_("Show only on monitor")), SettingsSpinButton(keyfile, settings, "only-on-monitor", -1, 16))
-        row.set_tooltip_text(_("The monitor on which the login window is shown.\n-1 means \"follow the mouse\""))
+        monitors = [["auto", _("Auto")]] + self.get_monitors()
+        row = SettingsRow(Gtk.Label(_("Show only on monitor")), SettingsCombo(keyfile, settings, "only-on-monitor", monitors, "string"))
+        if len(monitors) > 1:
+            row.set_tooltip_text(_("The monitor on which the login window is shown.\n\"All\" means \"follow the mouse\""))
+        else:
+            row.set_sensitive(False)
+            row.set_tooltip_text(_("Monitor information could not be fetched. Falling back to automatic monitor selection."))
         section.add_row(row)
 
         section = page.add_section(_("Panel indicators"))
@@ -441,6 +446,34 @@ class Application(Gtk.Application):
                 return False
 
         return True
+
+    def get_monitors(self):
+        try:
+            gi.require_version("CinnamonDesktop", "3.0")
+            from gi.repository import CinnamonDesktop as desktopImpl
+        except:
+            try:
+                gi.require_version("MateDesktop", "2.0")
+                from gi.repository import MateDesktop as desktopImpl
+            except:
+                try:
+                    gi.require_version("GnomeDesktop", "3.0")
+                    from gi.repository import MateDesktop as desktopImpl
+                except:
+                    return []
+
+        try:
+            monitors = []
+            gdkScreen = Gdk.Screen.get_default()
+            screen = desktopImpl.RRScreen.new(gdkScreen)
+            currentConfig = desktopImpl.RRConfig.new_current(screen)
+            outputInfos = currentConfig.get_outputs()
+            for output in outputInfos:
+                if output.is_connected():
+                    monitors.append([output.get_name(), output.get_name() + " (" + output.get_display_name() + ")"])
+            return monitors
+        except GLib.GError as err:
+            return []
 
 if __name__ == "__main__":
     app = Application()
