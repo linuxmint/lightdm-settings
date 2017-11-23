@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-10-27 13:35+0100\n"
-"PO-Revision-Date: 2017-07-27 20:02+0000\n"
-"Last-Translator: Dusan Kazik <prescott66@gmail.com>\n"
+"PO-Revision-Date: 2017-11-12 08:13+0000\n"
+"Last-Translator: Igor Štefanko <istefanko@gmail.com>\n"
 "Language-Team: Slovak <sk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:46+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:46+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:40
 #: usr/lib/lightdm-settings/lightdm-settings:72 usr/bin/lightdm-settings:11
@@ -48,7 +48,7 @@ msgstr "Vykresliť pozadia používateľa"
 
 #: usr/lib/lightdm-settings/lightdm-settings:144
 msgid "When a user is selected, show that user's background."
-msgstr ""
+msgstr "Zobraziť pozadie vybraného používateľa."
 
 #: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid"
@@ -56,7 +56,7 @@ msgstr "Vykresliť mriežku"
 
 #: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Draw a grid of white dots on top of the background."
-msgstr ""
+msgstr "Vykresliť mriežku z bielych bodov ponad pozadie."
 
 #: usr/lib/lightdm-settings/lightdm-settings:153
 msgid "Themes"
@@ -90,11 +90,11 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:169
 msgid "Bottom left"
-msgstr ""
+msgstr "Vľavo dole"
 
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr ""
+msgstr "Vybrať obrázok, ktorý sa zobrazí vľavo dole v prihlasovacom okne."
 
 #: usr/lib/lightdm-settings/lightdm-settings:176
 msgid "Users"
@@ -111,6 +111,7 @@ msgstr "Umožniť ručné prihlásenie"
 #: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Add an option in the login window to enter a username."
 msgstr ""
+"Pridať voľbu do prihlasovacieho okna na zadávanie používateľského mena."
 
 #: usr/lib/lightdm-settings/lightdm-settings:185
 msgid "Hide the user list"
@@ -118,11 +119,11 @@ msgstr "Skryť zoznam používateľov"
 
 #: usr/lib/lightdm-settings/lightdm-settings:186
 msgid "Hide the list of users in the login window."
-msgstr ""
+msgstr "Skryť zoznam používateľov v prihlasovacom okne."
 
 #: usr/lib/lightdm-settings/lightdm-settings:189
 msgid "Guest sessions"
-msgstr ""
+msgstr "Relácie pre hostí"
 
 #: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "Allow guest sessions"
@@ -133,6 +134,8 @@ msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
+"Umožniť hosťom používať počítač bez zadania hesla. Po prihlásení je hosťovi "
+"vytvorené dočasný účet."
 
 #: usr/lib/lightdm-settings/lightdm-settings:196
 msgid "Automatic login"
@@ -146,10 +149,12 @@ msgstr "Používateľské meno"
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
+"Upozornenie: Automatické prihlásenie zlyhá, ak je domovský priečinok "
+"používateľa zašifrovaný."
 
 #: usr/lib/lightdm-settings/lightdm-settings:203
 msgid "These settings require a computer reboot to take effect."
-msgstr ""
+msgstr "Na uplatnenie týchto nastavení sa vyžaduje reštart počítača."
 
 #: usr/lib/lightdm-settings/lightdm-settings:208
 #: usr/lib/lightdm-settings/lightdm-settings:209
@@ -158,15 +163,15 @@ msgstr "Nastavenia"
 
 #: usr/lib/lightdm-settings/lightdm-settings:211
 msgid "Activate numlock"
-msgstr ""
+msgstr "Aktivovať funkciu Numlock"
 
 #: usr/lib/lightdm-settings/lightdm-settings:214
 msgid "Please install numlockx to use this option."
-msgstr ""
+msgstr "Na použitie tejto voľby, prosím, nainštalujte program numlockx."
 
 #: usr/lib/lightdm-settings/lightdm-settings:216
 msgid "Activate numlock in the login window."
-msgstr ""
+msgstr "Aktivovať funkciu Numlock v prihlasovacom okne."
 
 #: usr/lib/lightdm-settings/lightdm-settings:220
 msgid "Auto"
@@ -186,59 +191,59 @@ msgstr "Podpora rozlíšenia HiDPI"
 
 #: usr/lib/lightdm-settings/lightdm-settings:224
 msgid "Support for high pixel density and Retina displays."
-msgstr ""
+msgstr "Podpora vysokej hustoty pixelov a displejov Retina."
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 msgid "Panel indicators"
-msgstr ""
+msgstr "Indikátory panela"
 
 #: usr/lib/lightdm-settings/lightdm-settings:229
 msgid "Hostname"
-msgstr ""
+msgstr "Názov hostiteľa"
 
 #: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Show the computer hostname in the panel."
-msgstr ""
+msgstr "Zobraziť hostiteľký názov počítača v paneli."
 
 #: usr/lib/lightdm-settings/lightdm-settings:233
 msgid "Accessibility options"
-msgstr ""
+msgstr "Voľby zjednodušeného ovládania"
 
 #: usr/lib/lightdm-settings/lightdm-settings:234
 msgid "Show accessibility options in the panel."
-msgstr ""
+msgstr "Zobraziť voľby zjednodušeného ovládania v paneli."
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Battery power"
-msgstr ""
+msgstr "Energia batérie"
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "On laptops, show the battery power in the panel."
-msgstr ""
+msgstr "Na prenosných počítačoch zobraziť stav energie batérie v paneli."
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Keyboard layout"
-msgstr ""
+msgstr "Rozloženie klávesnice"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Show the keyboard layout in the panel."
-msgstr ""
+msgstr "Zobraziť rozloženie klávesnice v paneli."
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Clock"
-msgstr ""
+msgstr "Hodiny"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Show a clock in the panel."
-msgstr ""
+msgstr "Zobraziť hodiny v paneli."
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Quit menu"
-msgstr ""
+msgstr "Ponuka ukončenia"
 
 #: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Show the quit menu in the panel."
-msgstr ""
+msgstr "Zobraziť ponuku ukončenia v paneli."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:200
 msgid "Choose an Image File"

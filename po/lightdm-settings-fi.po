@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-10-27 13:35+0100\n"
-"PO-Revision-Date: 2017-10-05 15:36+0000\n"
+"PO-Revision-Date: 2017-11-18 16:52+0000\n"
 "Last-Translator: Ari Ervasti <ari.ervasti87@gmail.com>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:46+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:46+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:40
 #: usr/lib/lightdm-settings/lightdm-settings:72 usr/bin/lightdm-settings:11
@@ -94,7 +94,7 @@ msgstr "Vasen alareuna"
 
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr ""
+msgstr "Valitse kirjautumisikkunan vasemmassa alareunassa näytettävä kuva."
 
 #: usr/lib/lightdm-settings/lightdm-settings:176
 msgid "Users"

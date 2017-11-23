@@ -9,13 +9,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-10-27 13:35+0100\n"
 "PO-Revision-Date: 2017-09-20 11:04+0000\n"
-"Last-Translator: sharksoft <sharksmail@gmail.com>\n"
+"Last-Translator: Oliver Star <ewqstar@gmail.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:46+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:46+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:40
 #: usr/lib/lightdm-settings/lightdm-settings:72 usr/bin/lightdm-settings:11

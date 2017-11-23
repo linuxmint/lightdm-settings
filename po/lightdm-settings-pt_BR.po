@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-10-27 13:35+0100\n"
-"PO-Revision-Date: 2017-07-15 14:13+0000\n"
-"Last-Translator: Alberlan Lopes <alberlan@gmail.com>\n"
+"PO-Revision-Date: 2017-11-21 13:31+0000\n"
+"Last-Translator: Sitonir de Oliveira <sitonir@outlook.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:46+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:46+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:40
 #: usr/lib/lightdm-settings/lightdm-settings:72 usr/bin/lightdm-settings:11
@@ -52,7 +52,7 @@ msgstr "Quando um usuário é selecionado, mostra qual fundo de usuário."
 
 #: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid"
-msgstr "Desenhar um grade"
+msgstr "Desenhar grade"
 
 #: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Draw a grid of white dots on top of the background."
@@ -74,7 +74,7 @@ msgstr "Tema de ícones"
 
 #: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "Optional pictures"
-msgstr "Figuras opcionais"
+msgstr "Imagens opcionais"
 
 #: usr/lib/lightdm-settings/lightdm-settings:165
 msgid "Other monitors"
@@ -124,7 +124,7 @@ msgstr "Esconder a lista de usuários na janela de login."
 
 #: usr/lib/lightdm-settings/lightdm-settings:189
 msgid "Guest sessions"
-msgstr "Secção convidado"
+msgstr "Sessão de convidado"
 
 #: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "Allow guest sessions"
@@ -165,7 +165,7 @@ msgstr "Configurações"
 
 #: usr/lib/lightdm-settings/lightdm-settings:211
 msgid "Activate numlock"
-msgstr "Ativar nunlock"
+msgstr "Ativar Num Lock do teclado"
 
 #: usr/lib/lightdm-settings/lightdm-settings:214
 msgid "Please install numlockx to use this option."

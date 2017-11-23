@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-10-27 13:35+0100\n"
-"PO-Revision-Date: 2017-09-27 12:39+0000\n"
+"PO-Revision-Date: 2017-11-12 12:53+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-03 11:46+0000\n"
-"X-Generator: Launchpad (build 18493)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:46+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:40
 #: usr/lib/lightdm-settings/lightdm-settings:72 usr/bin/lightdm-settings:11
@@ -196,7 +196,7 @@ msgstr "Nagy felbontású és Retina kijelzők támogatása."
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 msgid "Panel indicators"
-msgstr "Éretesítési tálca"
+msgstr "Értesítési tálca"
 
 #: usr/lib/lightdm-settings/lightdm-settings:229
 msgid "Hostname"
@@ -216,11 +216,11 @@ msgstr "Akadálymentesítési beállítások megjelenítése a tálcán"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Battery power"
-msgstr "Akkumlátor töltöttsége"
+msgstr "Akkumulátor töltöttsége"
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "On laptops, show the battery power in the panel."
-msgstr "Laptopokon akkumlátor töltöttségének megjelenítése a tálcán"
+msgstr "Laptopokon akkumulátor töltöttségének megjelenítése a tálcán"
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Keyboard layout"
