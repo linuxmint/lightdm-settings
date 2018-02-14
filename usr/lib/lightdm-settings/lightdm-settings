@@ -136,10 +136,7 @@ class Application(Gtk.Application):
         section.add_row(row)
 
         try:
-            distro = lsb_release.get_lsb_information()['ID']
-            if distro.lower() in ['linuxmint', 'ubuntu', 'elementary']:
-                # AccountsService doesn't support Background selection. It's something that is patched in Ubuntu, so only support this feature
-                # in Ubuntu derivatives
+            if self.should_show_user_bg_switch ():
                 row = SettingsRow(Gtk.Label(_("Draw user backgrounds")), SettingsSwitch(keyfile, settings, "draw-user-backgrounds"))
                 row.set_tooltip_text(_("When a user is selected, show that user's background."))
                 section.add_row(row)
@@ -362,6 +359,81 @@ class Application(Gtk.Application):
                     except:
                         pass
         return (value)
+
+    def should_show_user_bg_switch (self):
+        # Setting the user background was an ubuntu-only patch to AccountsService, but as
+        # of lightdm 1.25.2, it's provided as a plugin to AccountsService.  We can check on
+        # the bus to see if we have either form of support (either via AccountsService.User or
+        # DisplayManager.AccountsService)
+        #
+        # It doesn't matter whether we're root here - we don't care about the return values,
+        # just that the calls succeed.
+        #
+        # see https://github.com/linuxmint/slick-greeter/issues/94
+
+        # Find a user node
+        try:
+            proxy = Gio.DBusProxy.new_for_bus_sync(Gio.BusType.SYSTEM,
+                                                   Gio.DBusProxyFlags.NONE,
+                                                   None,
+                                                   "org.freedesktop.Accounts",
+                                                   "/org/freedesktop/Accounts",
+                                                   "org.freedesktop.Accounts",
+                                                   None)
+
+            user_var = proxy.call_sync("FindUserByName",
+                                       GLib.Variant("(s)", (GLib.get_user_name(),)),
+                                       Gio.DBusCallFlags.NONE,
+                                       -1,
+                                       None)
+        except GLib.Error as e:
+            print(e.message)
+            return False
+
+        try:
+            object_path = user_var.unpack()[0]
+        except IndexError:
+            return False
+
+        # Initialize a properties interface
+        try:
+            props = Gio.DBusProxy.new_for_bus_sync(Gio.BusType.SYSTEM,
+                                                   Gio.DBusProxyFlags.NONE,
+                                                   None,
+                                                   "org.freedesktop.Accounts",
+                                                   object_path,
+                                                   "org.freedesktop.DBus.Properties",
+                                                   None)
+        except GLib.Error as e:
+            print(e.message)
+            return False
+
+        # Try the new way (plugin)
+        try:
+            ret = props.call_sync("Get",
+                                  GLib.Variant("(ss)",
+                                               ("org.freedesktop.DisplayManager.AccountsService",
+                                               "BackgroundFile")),
+                                  Gio.DBusCallFlags.NONE,
+                                  -1,
+                                  None)
+        except GLib.Error as e:
+            print(e.message)
+
+            # Try the old way (patched AccountsService)
+            try:
+                ret = props.call_sync("Get",
+                                      GLib.Variant("(ss)",
+                                                   ("org.freedesktop.Accounts.User",
+                                                   "BackgroundFile")),
+                                      Gio.DBusCallFlags.NONE,
+                                      -1,
+                                      None)
+            except GLib.Error as e:
+                print(e.message)
+                return False
+
+        return True
 
 if __name__ == "__main__":
     app = Application()
