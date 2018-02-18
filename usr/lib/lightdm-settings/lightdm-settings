@@ -89,6 +89,7 @@ class Application(Gtk.Application):
         stack_switcher = Gtk.StackSwitcher()
         stack_switcher.set_stack(self.main_stack)
         stack_switcher.set_halign(Gtk.Align.CENTER)
+        stack_switcher.set_homogeneous(True)
 
         switch_holder = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
         switch_holder.set_border_width(1)
