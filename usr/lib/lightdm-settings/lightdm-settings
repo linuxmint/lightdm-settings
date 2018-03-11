@@ -150,11 +150,13 @@ class Application(Gtk.Application):
 
         section = page.add_section(_("Themes"))
 
-        row = SettingsRow(Gtk.Label(_("GTK theme")), SettingsCombo(keyfile, settings, "theme-name", self.get_gtk_themes(), "string"))
+        size_group = Gtk.SizeGroup(Gtk.SizeGroupMode.HORIZONTAL)
+
+        row = SettingsRow(Gtk.Label(_("GTK theme")), SettingsCombo(keyfile, settings, "theme-name", self.get_gtk_themes(), "string", size_group))
         row.set_tooltip_text(_("GTK theme"))
         section.add_row(row)
 
-        row = SettingsRow(Gtk.Label(_("Icon theme")), SettingsCombo(keyfile, settings, "icon-theme-name", self.get_icon_themes(), "string"))
+        row = SettingsRow(Gtk.Label(_("Icon theme")), SettingsCombo(keyfile, settings, "icon-theme-name", self.get_icon_themes(), "string", size_group))
         row.set_tooltip_text(_("Icon theme"))
         section.add_row(row)
 
