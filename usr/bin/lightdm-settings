@@ -1,15 +1,11 @@
 #!/usr/bin/python3
 
-import xapp.os
-import gettext
+import os
+import subprocess
+import sys
 
-DOMAIN = "lightdm-settings"
-PATH = "/usr/share/locale"
-gettext.install(DOMAIN, PATH)
+if os.getuid() != 0:
+    print("lightdm-settings needs to be run as root.")
+    sys.exit(1)
 
-icon = "preferences-system-login.png"
-message = _("Login Window")
-
-# We disable pkexec here because it fails to apply the correct locale
-# The app should show in the user's locale, not the system one.
-xapp.os.run_with_admin_privs("/usr/lib/lightdm-settings/lightdm-settings", message=message, icon=icon, support_pkexec=False)
+subprocess.Popen("/usr/lib/lightdm-settings/lightdm-settings")

@@ -15,7 +15,7 @@ prefix = """[Desktop Entry]
 Encoding=UTF-8
 """
 
-suffix = """Exec=lightdm-settings
+suffix = """Exec=pkexec lightdm-settings
 Icon=lightdm-settings
 StartupNotify=true
 Terminal=false
