@@ -288,7 +288,7 @@ class SettingsColorChooser(Gtk.ColorButton):
             return code
 
 class SettingsCombo(Gtk.ComboBox):
-    def __init__(self, keyfile, settings, key, options, valtype="string"):
+    def __init__(self, keyfile, settings, key, options, valtype="string", size_group=None):
         self.key = key
         self.keyfile = keyfile
         try:
@@ -296,6 +296,10 @@ class SettingsCombo(Gtk.ComboBox):
         except:
             self.value = settings.get_string(key)
         Gtk.ComboBox.__init__(self)
+
+        if size_group:
+            size_group.add_widget(self)
+
         renderer_text = Gtk.CellRendererText()
         self.pack_start(renderer_text, True)
         self.add_attribute(renderer_text, "text", 1)
