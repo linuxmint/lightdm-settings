@@ -224,6 +224,13 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Support for high pixel density and Retina displays."))
         section.add_row(row)
 
+        section = page.add_section(_("Display setup script"))
+
+        value = self.get_lightdm_config ("display-setup-script", "")
+        row  = SettingsRow(Gtk.Label(_("Command or path to script")), LightDMEntry(lightdm_keyfile, "display-setup-script", value))
+        row.set_tooltip_text(_("display-setup-script is run after the X server starts but before the user session / greeter is run. Set this if you need to configure anything special in the X server. It is run as root. If this command returns an error code the X server is stopped."))
+        section.add_row(row)
+
         section = page.add_section(_("Panel indicators"))
 
         row = SettingsRow(Gtk.Label(_("Hostname")), SettingsSwitch(keyfile, settings, "show-hostname"))
