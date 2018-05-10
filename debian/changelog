@@ -1,3 +1,26 @@
+lightdm-settings (1.2.0) tara; urgency=medium
+
+  [ Michael Webster ]
+  * Use dbus to check for user background support, as it should now end up being more broadly-supported, rather than just being an Ubuntu patch.
+
+  [ JosephMcc ]
+  * Ensure the stack switcher buttons all have the same width (#19)
+
+  [ Clement Lefebvre ]
+  * Migrate to Pkexec
+
+  [ JosephMcc ]
+  * Add a couple of combos to a size group (#20)
+
+  [ Cobinja ]
+  * Add option to show the GUI on a specific monitor (#17)
+
+  [ Clement Lefebvre ]
+  * Simplify monitor settings
+  * l10n: Update files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 10 May 2018 14:34:23 +0100
+
 lightdm-settings (1.1.4) sylvia; urgency=medium
 
   * l10n: Update translations
