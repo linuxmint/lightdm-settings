@@ -6,10 +6,11 @@ import gi
 import gettext
 import sys
 import glob
+import subprocess, binascii
 from SettingsWidgets import *
 
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk, Gio, GLib
+from gi.repository import Gtk, Gdk, Gio, GLib
 
 try:
     import lsb_release
@@ -222,6 +223,15 @@ class Application(Gtk.Application):
         hidpi_options.append(["off", _("Disable")])
         row = SettingsRow(Gtk.Label(_("HiDPI support")), SettingsCombo(keyfile, settings, "enable-hidpi", hidpi_options, "string"))
         row.set_tooltip_text(_("Support for high pixel density and Retina displays."))
+        section.add_row(row)
+
+        monitors = [["auto", _("Auto")]] + self.get_monitors()
+        row = SettingsRow(Gtk.Label(_("Show only on monitor")), SettingsCombo(keyfile, settings, "only-on-monitor", monitors, "string"))
+        if len(monitors) > 1:
+            row.set_tooltip_text(_("The monitor on which the login window is shown.\n\"All\" means \"follow the mouse\""))
+        else:
+            row.set_sensitive(False)
+            row.set_tooltip_text(_("Monitor information could not be fetched. Falling back to automatic monitor selection."))
         section.add_row(row)
 
         section = page.add_section(_("Panel indicators"))
@@ -437,6 +447,50 @@ class Application(Gtk.Application):
                 return False
 
         return True
+
+    def get_monitors(self):
+        monitors = []
+
+        # Gather monitor names from Xrandr
+        monitor_names = {}
+        try:
+            output = subprocess.check_output("""
+            xrandr --prop | awk '
+              !/^[ \t]/ {
+                if (output && hex) print output, conn, hex
+                output=$1
+                hex=""
+              }
+              /ConnectorType:/ {conn=$2}
+              /[:.]/ && h {
+                sub(/.*000000fc00/, "", hex)
+                hex = substr(hex, 0, 26) "0a"
+                sub(/0a.*/, "", hex)
+                h=0
+              }
+              h {sub(/[ \t]+/, ""); hex = hex $0}
+              /EDID.*:/ {h=1}'
+            """, shell=True).decode("utf-8")
+            for line in output.split("\n"):
+                parts = line.split()
+                if len(parts) == 3:
+                    (plug_name, port, model) = parts
+                    model = binascii.unhexlify(model).decode()
+                    monitor_names[plug_name] = model
+        except Exception as e:
+          print(e)
+
+        # Gather monitors from Gdk
+        screen = Gdk.Screen.get_default()
+        display = screen.get_display()
+        for i in range(0, display.get_n_monitors()):
+          monitor = display.get_monitor(i)
+          plug_name = monitor.get_model()
+          if plug_name in monitor_names:
+            monitors.append([plug_name, "%s (%s)" % (plug_name, monitor_names[plug_name])])
+          else:
+            monitors.append([plug_name, plug_name])
+        return monitors
 
 if __name__ == "__main__":
     app = Application()
