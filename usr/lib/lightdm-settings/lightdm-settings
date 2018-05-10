@@ -6,6 +6,7 @@ import gi
 import gettext
 import sys
 import glob
+import subprocess, binascii
 from SettingsWidgets import *
 
 gi.require_version('Gtk', '3.0')
@@ -448,32 +449,48 @@ class Application(Gtk.Application):
         return True
 
     def get_monitors(self):
-        try:
-            gi.require_version("CinnamonDesktop", "3.0")
-            from gi.repository import CinnamonDesktop as desktopImpl
-        except:
-            try:
-                gi.require_version("MateDesktop", "2.0")
-                from gi.repository import MateDesktop as desktopImpl
-            except:
-                try:
-                    gi.require_version("GnomeDesktop", "3.0")
-                    from gi.repository import MateDesktop as desktopImpl
-                except:
-                    return []
+        monitors = []
 
+        # Gather monitor names from Xrandr
+        monitor_names = {}
         try:
-            monitors = []
-            gdkScreen = Gdk.Screen.get_default()
-            screen = desktopImpl.RRScreen.new(gdkScreen)
-            currentConfig = desktopImpl.RRConfig.new_current(screen)
-            outputInfos = currentConfig.get_outputs()
-            for output in outputInfos:
-                if output.is_connected():
-                    monitors.append([output.get_name(), output.get_name() + " (" + output.get_display_name() + ")"])
-            return monitors
-        except GLib.GError as err:
-            return []
+            output = subprocess.check_output("""
+            xrandr --prop | awk '
+              !/^[ \t]/ {
+                if (output && hex) print output, conn, hex
+                output=$1
+                hex=""
+              }
+              /ConnectorType:/ {conn=$2}
+              /[:.]/ && h {
+                sub(/.*000000fc00/, "", hex)
+                hex = substr(hex, 0, 26) "0a"
+                sub(/0a.*/, "", hex)
+                h=0
+              }
+              h {sub(/[ \t]+/, ""); hex = hex $0}
+              /EDID.*:/ {h=1}'
+            """, shell=True).decode("utf-8")
+            for line in output.split("\n"):
+                parts = line.split()
+                if len(parts) == 3:
+                    (plug_name, port, model) = parts
+                    model = binascii.unhexlify(model).decode()
+                    monitor_names[plug_name] = model
+        except Exception as e:
+          print(e)
+
+        # Gather monitors from Gdk
+        screen = Gdk.Screen.get_default()
+        display = screen.get_display()
+        for i in range(0, display.get_n_monitors()):
+          monitor = display.get_monitor(i)
+          plug_name = monitor.get_model()
+          if plug_name in monitor_names:
+            monitors.append([plug_name, "%s (%s)" % (plug_name, monitor_names[plug_name])])
+          else:
+            monitors.append([plug_name, plug_name])
+        return monitors
 
 if __name__ == "__main__":
     app = Application()
