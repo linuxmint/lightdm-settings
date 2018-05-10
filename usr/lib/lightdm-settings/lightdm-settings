@@ -217,21 +217,19 @@ class Application(Gtk.Application):
             row.set_tooltip_text(_("Activate numlock in the login window."))
         section.add_row(row)
 
+        size_group = Gtk.SizeGroup(Gtk.SizeGroupMode.HORIZONTAL)
+
         hidpi_options = []
         hidpi_options.append(["auto", _("Auto")])
         hidpi_options.append(["on", _("Enable")])
         hidpi_options.append(["off", _("Disable")])
-        row = SettingsRow(Gtk.Label(_("HiDPI support")), SettingsCombo(keyfile, settings, "enable-hidpi", hidpi_options, "string"))
+        row = SettingsRow(Gtk.Label(_("HiDPI support")), SettingsCombo(keyfile, settings, "enable-hidpi", hidpi_options, "string", size_group))
         row.set_tooltip_text(_("Support for high pixel density and Retina displays."))
         section.add_row(row)
 
         monitors = [["auto", _("Auto")]] + self.get_monitors()
-        row = SettingsRow(Gtk.Label(_("Show only on monitor")), SettingsCombo(keyfile, settings, "only-on-monitor", monitors, "string"))
-        if len(monitors) > 1:
-            row.set_tooltip_text(_("The monitor on which the login window is shown.\n\"All\" means \"follow the mouse\""))
-        else:
-            row.set_sensitive(False)
-            row.set_tooltip_text(_("Monitor information could not be fetched. Falling back to automatic monitor selection."))
+        row = SettingsRow(Gtk.Label(_("Monitor")), SettingsCombo(keyfile, settings, "only-on-monitor", monitors, "string", size_group))
+        row.set_tooltip_text(_("Choose which monitor should display the login window, or select 'Auto' if you want it to follow the mouse."))
         section.add_row(row)
 
         section = page.add_section(_("Panel indicators"))
