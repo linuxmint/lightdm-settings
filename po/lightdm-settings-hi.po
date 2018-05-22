@@ -1,16 +1,16 @@
-# Ukrainian translation for linuxmint
-# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# Hindi translation for linuxmint
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-10 14:33+0100\n"
-"PO-Revision-Date: 2018-05-15 09:25+0000\n"
-"Last-Translator: Yurii Bagrii <Unknown>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2018-05-17 13:34+0000\n"
+"Last-Translator: Panwar <Unknown>\n"
+"Language-Team: Hindi <hi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,260 +20,257 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:27
 msgid "Login Window"
-msgstr "Вікно входу у систему"
+msgstr "लॉगिन विंडो"
 
 #: usr/lib/lightdm-settings/lightdm-settings:63
 msgid "Quit"
-msgstr "Вийти"
+msgstr "छोड़ें"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Appearance"
-msgstr "Зовнішній вигляд"
+msgstr "स्वरूप"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 #: usr/lib/lightdm-settings/lightdm-settings:132
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
-msgstr "Фон"
+msgstr "बैकग्राउंड"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:137
 msgid "Background color"
-msgstr "Колір  фону"
+msgstr "बैकग्राउंड का रंग"
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Draw user backgrounds"
-msgstr "Малювання фону користувача"
+msgstr "प्रयोक्ता के बैकग्राउंड उपयोग करें"
 
 #: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "When a user is selected, show that user's background."
-msgstr "Коли користувач обраний, показує фонове зображеня користувача."
+msgstr "चयनित प्रयोक्ताके लिए, उसी प्रयोक्ता का बैकग्राउंड दिखाएँ।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Draw a grid"
-msgstr "Малювання сітки"
+msgstr "ग्रिड(जाल) प्रदर्शित करें"
 
 #: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid of white dots on top of the background."
-msgstr "Малює сітку з білих крапок у верхній частині фонового зображення."
+msgstr "बैकग्राउंड पर सफेद बिंदुओं का ग्रिड(जाल) प्रदर्शित करें।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "Themes"
-msgstr "Теми"
+msgstr "थीम"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 #: usr/lib/lightdm-settings/lightdm-settings:157
 msgid "GTK theme"
-msgstr "Тема GTK"
+msgstr "GTK थीम"
 
 #: usr/lib/lightdm-settings/lightdm-settings:160
 #: usr/lib/lightdm-settings/lightdm-settings:161
 msgid "Icon theme"
-msgstr "Тема піктограм"
+msgstr "आइकन थीम"
 
 #: usr/lib/lightdm-settings/lightdm-settings:164
 msgid "Optional pictures"
-msgstr "Додаткові зображення"
+msgstr "वैकल्पिक चित्र"
 
 #: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "Other monitors"
-msgstr "Інші монітори"
+msgstr "अन्य मॉनिटर"
 
 #: usr/lib/lightdm-settings/lightdm-settings:167
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
-"Якщо у Вас декілька моніторів, перелік користувачів показується на активному "
-"моніторі, а це зображення на інших."
+"एकाधिक मॉनिटर होने पर, प्रयोक्ता सूची सक्रिय मॉनिटर पर लगायी जायेगी व यह "
+"चित्र अन्य पर।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Bottom left"
-msgstr "Знизу ліворуч"
+msgstr "नीचे बाईं ओर"
 
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr ""
-"Оберіть зображення, яке повинне показуватися у лівій нижній частині екрану "
-"входу."
+msgstr "लॉगिन विंडो के नीचे बाईं ओर दिखाने के लिए चित्र चुनें।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Users"
-msgstr "Користувачі"
+msgstr "प्रयोक्ता"
 
 #: usr/lib/lightdm-settings/lightdm-settings:178
 msgid "User list"
-msgstr "Перелік користувачів"
+msgstr "प्रयोक्ता सूची"
 
 #: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Allow manual login"
-msgstr "Дозволити вхід у систему вручну"
+msgstr "मैनुअल लॉगिन के लिए अनुमति दें"
 
 #: usr/lib/lightdm-settings/lightdm-settings:182
 msgid "Add an option in the login window to enter a username."
-msgstr "Додає можливість введення імені користувача у вікні входу."
+msgstr "लॉगिन विंडो में प्रयोक्ता नाम दर्ज करने का भी विकल्प रखें।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:186
 msgid "Hide the user list"
-msgstr "Приховати перелік користувачів"
+msgstr "प्रयोक्ता सूची अदृश्य करें"
 
 #: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Hide the list of users in the login window."
-msgstr "Приховує перелік користувачів у вікні входу."
+msgstr "लॉगिन विंडो में प्रयोक्ता सूची अदृश्य करें"
 
 #: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Guest sessions"
-msgstr "Гостьові сеанси"
+msgstr "अतिथि सत्र"
 
 #: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Allow guest sessions"
-msgstr "Дозволити гостьові сеанси"
+msgstr "अतिथि सत्रों के लिए अनुमति दें"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
-"Дозволяє гостьовий доступ до комп’ютера без паролю. Тимчасовий гостьовий "
-"обліковий запис створюється автоматично під час входу у систему."
+"अतिथि को बिना कूटशब्द कंप्यूटर के उपयोग की अनुमति दें। लॉगिन के समय, एक "
+"अस्थाई अतिथि अकाउंट स्वत: ही बन जाता है ।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Automatic login"
-msgstr "Автоматичний вхід у систему"
+msgstr "स्वत: लॉगिन"
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Username"
-msgstr "Ім'я користувача"
+msgstr "प्रयोक्ता नाम"
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
-"Увага: Автоматичний вхід у систему не спрацює, якщо домашню папку "
-"користувача зашифровано."
+"चेतावनी: यदि प्रयोक्ता का होम फ़ोल्डर कूट-लिखित है तो स्वत: लॉगिन विफल रहेगा।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "These settings require a computer reboot to take effect."
-msgstr "Для застосування цих налаштувань потрібно перезавантажити комп’ютер."
+msgstr "ये सेटिंग्स कंप्यूटर को पुनः आरंभ करने पर ही लागू होगीं।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:209
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Settings"
-msgstr "Налаштування"
+msgstr "सेटिंग्स"
 
 #: usr/lib/lightdm-settings/lightdm-settings:212
 msgid "Activate numlock"
-msgstr "Активація numlock"
+msgstr "अंकीय लॉक चालू करें"
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Please install numlockx to use this option."
-msgstr "Будь ласка, встановіть numlockx для використання цього параметру."
+msgstr "इस विकल्प के उपयोग के लिए numlockx इंस्टॉल करें।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:217
 msgid "Activate numlock in the login window."
-msgstr "Вмикає numlock у вікні входу у систему."
+msgstr "लॉगिन विंडो में अंकीय लॉक चालू करें"
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 #: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Auto"
-msgstr "Авто"
+msgstr "स्वतः"
 
 #: usr/lib/lightdm-settings/lightdm-settings:224
 msgid "Enable"
-msgstr "Увімк."
+msgstr "चालू करें"
 
 #: usr/lib/lightdm-settings/lightdm-settings:225
 msgid "Disable"
-msgstr "Вимк."
+msgstr "बंद करें"
 
 #: usr/lib/lightdm-settings/lightdm-settings:226
 msgid "HiDPI support"
-msgstr "Підтримка HiDPI"
+msgstr "HiDPI का समर्थन करें"
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 msgid "Support for high pixel density and Retina displays."
-msgstr "Підтримка дисплеїв з високою щільністю пікселів та дисплеїв Retina."
+msgstr "उच्च पिक्सल घनत्व व Retina डिस्प्ले का समर्थन करें"
 
 #: usr/lib/lightdm-settings/lightdm-settings:231
 msgid "Monitor"
-msgstr "Монітор"
+msgstr "मॉनिटर"
 
 #: usr/lib/lightdm-settings/lightdm-settings:232
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
-"Виберіть, який монітор повинен відображати вікно входу в систему, або "
-"виберіть \"Авто\" - щоб вибрати монітор на якому курсор."
+"चुनें कि कौन सा मॉनिटर लॉगिन विंडो प्रदर्शित करेगा, या स्वतः चुनें अगर आप "
+"चाहते हैं कि सिस्टम माउस का अनुसरण करें।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Panel indicators"
-msgstr "Індикатори панелі"
+msgstr "पैनल सूचक"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Hostname"
-msgstr "Ім'я хосту"
+msgstr "होस्ट-नाम"
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Show the computer hostname in the panel."
-msgstr "Показує ім’я хосту комп’ютера на панелі."
+msgstr "पैनल में होस्ट-नाम दिखाएँ।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Accessibility options"
-msgstr "Спеціальні можливості"
+msgstr "अभिगम्यता के विकल्प"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Show accessibility options in the panel."
-msgstr "Показує спеціальні можливості на панелі."
+msgstr "पैनल में अभिगम्यता के विकल्प दिखाएँ।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Battery power"
-msgstr "Заряд батареї"
+msgstr "बैटरी पावर"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "On laptops, show the battery power in the panel."
-msgstr "Показує заряд батареї на панелі, для ноутбуків."
+msgstr "लैपटॉप पर, पैनल में बैटरी पावर दिखाएँ।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Keyboard layout"
-msgstr "Розкладка клавіатури"
+msgstr "कुंजीपटल अभिन्यास"
 
 #: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Show the keyboard layout in the panel."
-msgstr "Показує розкладку клавіатури на панелі."
+msgstr "पैनल में कुंजीपटल अभिन्यास दिखाएँ।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Clock"
-msgstr "Годинник"
+msgstr "घड़ी"
 
 #: usr/lib/lightdm-settings/lightdm-settings:254
 msgid "Show a clock in the panel."
-msgstr "Показує годинник на панелі."
+msgstr "पैनल में घड़ी दिखाएँ।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Quit menu"
-msgstr "Меню припинення роботи"
+msgstr "छोड़ने हेतु मेन्यू"
 
 #: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Show the quit menu in the panel."
-msgstr "Показує меню припинення роботи на панелі."
+msgstr "पैनल में 'छोड़ने हेतु मेन्यू' दिखाएँ।"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:200
 msgid "Choose an Image File"
-msgstr "Вибрати файл зображення"
+msgstr "इमेज फ़ाइल चुनें"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Cancel"
-msgstr "_Скасувати"
+msgstr "_रद्द करें"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:204
 msgid "_Open"
-msgstr "_Відкрити"
+msgstr "_खोलें"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:207
 msgid "Image files"
-msgstr "Файли зображень"
+msgstr "इमेज फ़ाइलें"
 
 #: generate_desktop_files:27
 msgid "Configure the login window"
-msgstr "Налаштування вікна входу у систему"
+msgstr "लॉगिन विंडो विन्यस्त करें"

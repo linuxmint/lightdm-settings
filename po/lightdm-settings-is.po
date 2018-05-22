@@ -8,81 +8,80 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-10-27 13:35+0100\n"
-"PO-Revision-Date: 2017-07-22 14:15+0000\n"
+"POT-Creation-Date: 2018-05-10 14:33+0100\n"
+"PO-Revision-Date: 2018-05-14 08:39+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <is@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-23 10:46+0000\n"
-"X-Generator: Launchpad (build 18509)\n"
+"X-Launchpad-Export-Date: 2018-05-22 09:24+0000\n"
+"X-Generator: Launchpad (build 18658)\n"
 "Language: is\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:40
-#: usr/lib/lightdm-settings/lightdm-settings:72 usr/bin/lightdm-settings:11
-#: generate_desktop_files:27
+#: usr/lib/lightdm-settings/lightdm-settings:41
+#: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:27
 msgid "Login Window"
 msgstr "Innskráningargluggi"
 
-#: usr/lib/lightdm-settings/lightdm-settings:62
+#: usr/lib/lightdm-settings/lightdm-settings:63
 msgid "Quit"
 msgstr "Hætta"
 
-#: usr/lib/lightdm-settings/lightdm-settings:127
+#: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Appearance"
 msgstr "Útlit"
 
-#: usr/lib/lightdm-settings/lightdm-settings:128
 #: usr/lib/lightdm-settings/lightdm-settings:130
-#: usr/lib/lightdm-settings/lightdm-settings:131
+#: usr/lib/lightdm-settings/lightdm-settings:132
+#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
 msgstr "Bakgrunnur"
 
-#: usr/lib/lightdm-settings/lightdm-settings:134
-#: usr/lib/lightdm-settings/lightdm-settings:135
+#: usr/lib/lightdm-settings/lightdm-settings:136
+#: usr/lib/lightdm-settings/lightdm-settings:137
 msgid "Background color"
 msgstr "Bakgrunnslitur"
 
-#: usr/lib/lightdm-settings/lightdm-settings:143
+#: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Draw user backgrounds"
 msgstr "Birta bakgrunna fyrir notendur"
 
-#: usr/lib/lightdm-settings/lightdm-settings:144
+#: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "When a user is selected, show that user's background."
 msgstr "Þegar notandi er valinn, sýna bakgrunnsmynd þess notanda."
 
-#: usr/lib/lightdm-settings/lightdm-settings:149
+#: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Draw a grid"
 msgstr "Teikna möskva"
 
-#: usr/lib/lightdm-settings/lightdm-settings:150
+#: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid of white dots on top of the background."
 msgstr "Teikna net hvítra punkta ofan á bakgrunni."
 
-#: usr/lib/lightdm-settings/lightdm-settings:153
+#: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "Themes"
 msgstr "Þemu"
 
-#: usr/lib/lightdm-settings/lightdm-settings:155
 #: usr/lib/lightdm-settings/lightdm-settings:156
+#: usr/lib/lightdm-settings/lightdm-settings:157
 msgid "GTK theme"
 msgstr "GTK-þema"
 
-#: usr/lib/lightdm-settings/lightdm-settings:159
 #: usr/lib/lightdm-settings/lightdm-settings:160
+#: usr/lib/lightdm-settings/lightdm-settings:161
 msgid "Icon theme"
 msgstr "Táknmyndaþema"
 
-#: usr/lib/lightdm-settings/lightdm-settings:163
+#: usr/lib/lightdm-settings/lightdm-settings:164
 msgid "Optional pictures"
 msgstr "Valfrjálsar myndir"
 
-#: usr/lib/lightdm-settings/lightdm-settings:165
+#: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "Other monitors"
 msgstr "Aðrir skjáir"
 
-#: usr/lib/lightdm-settings/lightdm-settings:166
+#: usr/lib/lightdm-settings/lightdm-settings:167
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
@@ -90,48 +89,48 @@ msgstr ""
 "Ef þú ert með marga skjái, er notendalistinn settur á virkan skjá og þessi "
 "mynd á hina."
 
-#: usr/lib/lightdm-settings/lightdm-settings:169
+#: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Bottom left"
 msgstr "Neðst til vinstri"
 
-#: usr/lib/lightdm-settings/lightdm-settings:170
+#: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr "Veldu mynd til birtingar neðst til vinstri í innskráningarglugganum."
 
-#: usr/lib/lightdm-settings/lightdm-settings:176
+#: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Users"
 msgstr "Notendur"
 
-#: usr/lib/lightdm-settings/lightdm-settings:177
+#: usr/lib/lightdm-settings/lightdm-settings:178
 msgid "User list"
 msgstr "Notendalisti"
 
-#: usr/lib/lightdm-settings/lightdm-settings:180
+#: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Allow manual login"
 msgstr "Leyfa handvirka innskráningu"
 
-#: usr/lib/lightdm-settings/lightdm-settings:181
+#: usr/lib/lightdm-settings/lightdm-settings:182
 msgid "Add an option in the login window to enter a username."
 msgstr ""
 "Bæta við þeim möguleika að setja inn notandanafn í innskráningarglugganum."
 
-#: usr/lib/lightdm-settings/lightdm-settings:185
+#: usr/lib/lightdm-settings/lightdm-settings:186
 msgid "Hide the user list"
 msgstr "Fela notendalistann"
 
-#: usr/lib/lightdm-settings/lightdm-settings:186
+#: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Hide the list of users in the login window."
 msgstr "Ekki birta lista yfir þekkta notendur í innskráningarglugganum."
 
-#: usr/lib/lightdm-settings/lightdm-settings:189
+#: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Guest sessions"
 msgstr "Gestasetur"
 
-#: usr/lib/lightdm-settings/lightdm-settings:192
+#: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Allow guest sessions"
 msgstr "Leyfa gestasetur"
 
-#: usr/lib/lightdm-settings/lightdm-settings:193
+#: usr/lib/lightdm-settings/lightdm-settings:194
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
@@ -139,112 +138,125 @@ msgstr ""
 "Leyfa gestum að nota tölvuna án lykilorðs. Tímabundinn gestaaðgangur er "
 "sjálfvirkt útbúinn þegar þeir skrá sig inn."
 
-#: usr/lib/lightdm-settings/lightdm-settings:196
+#: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Automatic login"
 msgstr "Sjálfvirk innskráning"
 
-#: usr/lib/lightdm-settings/lightdm-settings:199
+#: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Username"
 msgstr "Notandanafn"
 
-#: usr/lib/lightdm-settings/lightdm-settings:200
+#: usr/lib/lightdm-settings/lightdm-settings:201
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
 "Aðvörun: Sjálfvirk innskráning mun ekki virka ef heimamappa notandans er "
 "dulrituð."
 
-#: usr/lib/lightdm-settings/lightdm-settings:203
+#: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "These settings require a computer reboot to take effect."
 msgstr ""
 "Þessar stillingar krefjast endurræsingar áður en breytingar taka gildi."
 
-#: usr/lib/lightdm-settings/lightdm-settings:208
 #: usr/lib/lightdm-settings/lightdm-settings:209
+#: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Settings"
 msgstr "Stillingar"
 
-#: usr/lib/lightdm-settings/lightdm-settings:211
+#: usr/lib/lightdm-settings/lightdm-settings:212
 msgid "Activate numlock"
 msgstr "Virkja numlock-hnapp"
 
-#: usr/lib/lightdm-settings/lightdm-settings:214
+#: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Please install numlockx to use this option."
 msgstr "Settu upp numlockx til að geta notað þennan valkost."
 
-#: usr/lib/lightdm-settings/lightdm-settings:216
+#: usr/lib/lightdm-settings/lightdm-settings:217
 msgid "Activate numlock in the login window."
 msgstr "Virkja talnalás í innskráningarglugganum."
 
-#: usr/lib/lightdm-settings/lightdm-settings:220
+#: usr/lib/lightdm-settings/lightdm-settings:223
+#: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Auto"
 msgstr "Sjálfvirkt"
 
-#: usr/lib/lightdm-settings/lightdm-settings:221
+#: usr/lib/lightdm-settings/lightdm-settings:224
 msgid "Enable"
 msgstr "Virkja"
 
-#: usr/lib/lightdm-settings/lightdm-settings:222
+#: usr/lib/lightdm-settings/lightdm-settings:225
 msgid "Disable"
 msgstr "Gera óvirkt"
 
-#: usr/lib/lightdm-settings/lightdm-settings:223
+#: usr/lib/lightdm-settings/lightdm-settings:226
 msgid "HiDPI support"
 msgstr "HiDPI-stuðningur"
 
-#: usr/lib/lightdm-settings/lightdm-settings:224
+#: usr/lib/lightdm-settings/lightdm-settings:227
 msgid "Support for high pixel density and Retina displays."
 msgstr "Stuðningur við mikinn þéttleika mynddíla og Retina skjái."
 
-#: usr/lib/lightdm-settings/lightdm-settings:227
+#: usr/lib/lightdm-settings/lightdm-settings:231
+msgid "Monitor"
+msgstr "Skjár"
+
+#: usr/lib/lightdm-settings/lightdm-settings:232
+msgid ""
+"Choose which monitor should display the login window, or select 'Auto' if "
+"you want it to follow the mouse."
+msgstr ""
+"Veldu hvaða skjár ætti að birta innskráningargluggann, eða veldu "
+"'Sjálfvirkt' ef þú vilt að það fylgi músarbendlinum."
+
+#: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Panel indicators"
 msgstr "Ástandsvísar á skjástikum"
 
-#: usr/lib/lightdm-settings/lightdm-settings:229
+#: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Hostname"
 msgstr "Vélarheiti"
 
-#: usr/lib/lightdm-settings/lightdm-settings:230
+#: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Show the computer hostname in the panel."
 msgstr "Birta vélarheiti tölvu á skjástiku."
 
-#: usr/lib/lightdm-settings/lightdm-settings:233
+#: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Accessibility options"
 msgstr "Valkostir fyrir auðveldað aðgengi"
 
-#: usr/lib/lightdm-settings/lightdm-settings:234
+#: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Show accessibility options in the panel."
 msgstr "Birta valkosti fyrir auðveldað aðgengi á skjástiku."
 
-#: usr/lib/lightdm-settings/lightdm-settings:237
+#: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Battery power"
 msgstr "Orka rafhlöðu"
 
-#: usr/lib/lightdm-settings/lightdm-settings:238
+#: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "On laptops, show the battery power in the panel."
 msgstr "Á fartölvum, birta upplýsingar um orku rafhlöðu á skjástiku."
 
-#: usr/lib/lightdm-settings/lightdm-settings:241
+#: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Keyboard layout"
 msgstr "Lyklaborðsuppsetning"
 
-#: usr/lib/lightdm-settings/lightdm-settings:242
+#: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Show the keyboard layout in the panel."
 msgstr "Birta lyklaborðsuppsetningu á skjástiku."
 
-#: usr/lib/lightdm-settings/lightdm-settings:245
+#: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Clock"
 msgstr "Klukka"
 
-#: usr/lib/lightdm-settings/lightdm-settings:246
+#: usr/lib/lightdm-settings/lightdm-settings:254
 msgid "Show a clock in the panel."
 msgstr "Birta klukku á skjástiku."
 
-#: usr/lib/lightdm-settings/lightdm-settings:249
+#: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Quit menu"
 msgstr "Hætta-valmynd"
 
-#: usr/lib/lightdm-settings/lightdm-settings:250
+#: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Show the quit menu in the panel."
 msgstr "Birta 'Hætta'-valmynd á skjástiku."
 

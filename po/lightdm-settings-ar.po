@@ -1,279 +1,270 @@
-# Ukrainian translation for linuxmint
-# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
-# This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-10 14:33+0100\n"
-"PO-Revision-Date: 2018-05-15 09:25+0000\n"
-"Last-Translator: Yurii Bagrii <Unknown>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2018-04-09 18:31+0000\n"
+"Last-Translator: انور الاسكندرانى <Unknown>\n"
+"Language-Team: anwar AL_iskandrany <anwar eleskndrany13@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2018-05-22 09:24+0000\n"
 "X-Generator: Launchpad (build 18658)\n"
+"Language: ar_EG\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:27
 msgid "Login Window"
-msgstr "Вікно входу у систему"
+msgstr "نافذة تسجيل الدخول"
 
 #: usr/lib/lightdm-settings/lightdm-settings:63
 msgid "Quit"
-msgstr "Вийти"
+msgstr "إنهاء"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Appearance"
-msgstr "Зовнішній вигляд"
+msgstr "المظهر"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 #: usr/lib/lightdm-settings/lightdm-settings:132
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
-msgstr "Фон"
+msgstr "الخلفية"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:137
 msgid "Background color"
-msgstr "Колір  фону"
+msgstr "لون الخلفية"
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Draw user backgrounds"
-msgstr "Малювання фону користувача"
+msgstr "رسم خلفيات المستخدم"
 
 #: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "When a user is selected, show that user's background."
-msgstr "Коли користувач обраний, показує фонове зображеня користувача."
+msgstr "عندما يتم تحديد مستخدم، قم بعرض خلفية ذلك المستخدم."
 
 #: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Draw a grid"
-msgstr "Малювання сітки"
+msgstr "رسم شبكة"
 
 #: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid of white dots on top of the background."
-msgstr "Малює сітку з білих крапок у верхній частині фонового зображення."
+msgstr "رسم شبكة من النقاط البيضاء أعلى الخلفية."
 
 #: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "Themes"
-msgstr "Теми"
+msgstr "الثيمات"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 #: usr/lib/lightdm-settings/lightdm-settings:157
 msgid "GTK theme"
-msgstr "Тема GTK"
+msgstr "ثيم GTK"
 
 #: usr/lib/lightdm-settings/lightdm-settings:160
 #: usr/lib/lightdm-settings/lightdm-settings:161
 msgid "Icon theme"
-msgstr "Тема піктограм"
+msgstr "أيقونة الثيم"
 
 #: usr/lib/lightdm-settings/lightdm-settings:164
 msgid "Optional pictures"
-msgstr "Додаткові зображення"
+msgstr "صور اختيارية"
 
 #: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "Other monitors"
-msgstr "Інші монітори"
+msgstr "الشاشات الأخرى"
 
 #: usr/lib/lightdm-settings/lightdm-settings:167
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
-"Якщо у Вас декілька моніторів, перелік користувачів показується на активному "
-"моніторі, а це зображення на інших."
+"إذا كان لديك أجهزة عرض متعددة، يتم وضع قائمة المستخدمين على القائمة النشطة، "
+"وهذه الصورة على الآخرين."
 
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Bottom left"
-msgstr "Знизу ліворуч"
+msgstr "أسفل اليسار"
 
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr ""
-"Оберіть зображення, яке повинне показуватися у лівій нижній частині екрану "
-"входу."
+msgstr "تحديد صورة لعرضها في الجزء السفلي الأيسر من نافذة تسجيل الدخول."
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Users"
-msgstr "Користувачі"
+msgstr "المستخدمين"
 
 #: usr/lib/lightdm-settings/lightdm-settings:178
 msgid "User list"
-msgstr "Перелік користувачів"
+msgstr "قائمة المستخدم"
 
 #: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Allow manual login"
-msgstr "Дозволити вхід у систему вручну"
+msgstr "السماح بتسجيل الدخول اليدوي"
 
 #: usr/lib/lightdm-settings/lightdm-settings:182
 msgid "Add an option in the login window to enter a username."
-msgstr "Додає можливість введення імені користувача у вікні входу."
+msgstr "إضافة خيار في نافذة تسجيل الدخول لإدخال اسم مستخدم."
 
 #: usr/lib/lightdm-settings/lightdm-settings:186
 msgid "Hide the user list"
-msgstr "Приховати перелік користувачів"
+msgstr "إخفاء قائمة المستخدم"
 
 #: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Hide the list of users in the login window."
-msgstr "Приховує перелік користувачів у вікні входу."
+msgstr "إخفاء قائمة المستخدمين في نافذة تسجيل الدخول."
 
 #: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Guest sessions"
-msgstr "Гостьові сеанси"
+msgstr "جلسات الضيف"
 
 #: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Allow guest sessions"
-msgstr "Дозволити гостьові сеанси"
+msgstr "السماح بجلسات الضيف"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
-"Дозволяє гостьовий доступ до комп’ютера без паролю. Тимчасовий гостьовий "
-"обліковий запис створюється автоматично під час входу у систему."
+"السماح للضيوف باستخدام الكمبيوتر دون كلمة مرور. يتم إنشاء حساب ضيف مؤقت "
+"تلقائيًا عند تسجيل الدخول."
 
 #: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Automatic login"
-msgstr "Автоматичний вхід у систему"
+msgstr "تسجيل الدخول التلقائي"
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Username"
-msgstr "Ім'я користувача"
+msgstr "اسم المستخدم"
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
-"Увага: Автоматичний вхід у систему не спрацює, якщо домашню папку "
-"користувача зашифровано."
+"تحذير: سوف يفشل تسجيل الدخول التلقائي إذا تم تشفير الدليل الرئيسي للمستخدم."
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "These settings require a computer reboot to take effect."
-msgstr "Для застосування цих налаштувань потрібно перезавантажити комп’ютер."
+msgstr "تتطلب هذه الإعدادات إعادة تشغيل الكمبيوتر لتصبح نافذة المفعول."
 
 #: usr/lib/lightdm-settings/lightdm-settings:209
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Settings"
-msgstr "Налаштування"
+msgstr "الإعدادات"
 
 #: usr/lib/lightdm-settings/lightdm-settings:212
 msgid "Activate numlock"
-msgstr "Активація numlock"
+msgstr "تنشيط numlock"
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Please install numlockx to use this option."
-msgstr "Будь ласка, встановіть numlockx для використання цього параметру."
+msgstr "الرجاء تثبيت numlockx لاستخدام هذا الخيار."
 
 #: usr/lib/lightdm-settings/lightdm-settings:217
 msgid "Activate numlock in the login window."
-msgstr "Вмикає numlock у вікні входу у систему."
+msgstr "تنشيط numlock في نافذة تسجيل الدخول."
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 #: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Auto"
-msgstr "Авто"
+msgstr "تلقائي"
 
 #: usr/lib/lightdm-settings/lightdm-settings:224
 msgid "Enable"
-msgstr "Увімк."
+msgstr "تمكين"
 
 #: usr/lib/lightdm-settings/lightdm-settings:225
 msgid "Disable"
-msgstr "Вимк."
+msgstr "تعطيل"
 
 #: usr/lib/lightdm-settings/lightdm-settings:226
 msgid "HiDPI support"
-msgstr "Підтримка HiDPI"
+msgstr "دعم HiDPI"
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 msgid "Support for high pixel density and Retina displays."
-msgstr "Підтримка дисплеїв з високою щільністю пікселів та дисплеїв Retina."
+msgstr "الدعم لكثافة البكسل العالية والشاشات الشبكية."
 
 #: usr/lib/lightdm-settings/lightdm-settings:231
 msgid "Monitor"
-msgstr "Монітор"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:232
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
-"Виберіть, який монітор повинен відображати вікно входу в систему, або "
-"виберіть \"Авто\" - щоб вибрати монітор на якому курсор."
 
 #: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Panel indicators"
-msgstr "Індикатори панелі"
+msgstr "مؤشرات الشريط"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Hostname"
-msgstr "Ім'я хосту"
+msgstr "اسم المضيف"
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Show the computer hostname in the panel."
-msgstr "Показує ім’я хосту комп’ютера на панелі."
+msgstr "عرض اسم مضيف الكمبيوتر في الشريط."
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Accessibility options"
-msgstr "Спеціальні можливості"
+msgstr "خيارات سهولة الوصول"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Show accessibility options in the panel."
-msgstr "Показує спеціальні можливості на панелі."
+msgstr "عرض خيارات سهولة الوصول في الشريط."
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Battery power"
-msgstr "Заряд батареї"
+msgstr "طاقة البطارية"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "On laptops, show the battery power in the panel."
-msgstr "Показує заряд батареї на панелі, для ноутбуків."
+msgstr "على أجهزة الكمبيوتر المحمولة، عرض طاقة البطارية في الشريط."
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Keyboard layout"
-msgstr "Розкладка клавіатури"
+msgstr "تخطيط لوحة المفاتيح"
 
 #: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Show the keyboard layout in the panel."
-msgstr "Показує розкладку клавіатури на панелі."
+msgstr "عرض تخطيط لوحة المفاتيح في الشريط."
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Clock"
-msgstr "Годинник"
+msgstr "الساعة"
 
 #: usr/lib/lightdm-settings/lightdm-settings:254
 msgid "Show a clock in the panel."
-msgstr "Показує годинник на панелі."
+msgstr "عرض الساعة في الشريط"
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Quit menu"
-msgstr "Меню припинення роботи"
+msgstr "إنهاء القائمة"
 
 #: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Show the quit menu in the panel."
-msgstr "Показує меню припинення роботи на панелі."
+msgstr "عرض إنهاء القائمة في الشريط."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:200
 msgid "Choose an Image File"
-msgstr "Вибрати файл зображення"
+msgstr "اختيار ملف الصورة"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Cancel"
-msgstr "_Скасувати"
+msgstr "_إلغاء"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:204
 msgid "_Open"
-msgstr "_Відкрити"
+msgstr "_فتح"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:207
 msgid "Image files"
-msgstr "Файли зображень"
+msgstr "ملفات الصور"
 
 #: generate_desktop_files:27
 msgid "Configure the login window"
-msgstr "Налаштування вікна входу у систему"
+msgstr "تكوين نافذة تسجيل الدخول"

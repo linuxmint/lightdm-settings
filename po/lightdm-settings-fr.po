@@ -7,80 +7,79 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-10-27 13:35+0100\n"
-"PO-Revision-Date: 2017-07-14 15:30+0000\n"
+"POT-Creation-Date: 2018-05-10 14:33+0100\n"
+"PO-Revision-Date: 2018-05-15 14:45+0000\n"
 "Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-23 10:46+0000\n"
-"X-Generator: Launchpad (build 18509)\n"
+"X-Launchpad-Export-Date: 2018-05-22 09:24+0000\n"
+"X-Generator: Launchpad (build 18658)\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:40
-#: usr/lib/lightdm-settings/lightdm-settings:72 usr/bin/lightdm-settings:11
-#: generate_desktop_files:27
+#: usr/lib/lightdm-settings/lightdm-settings:41
+#: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:27
 msgid "Login Window"
 msgstr "Écran de connexion"
 
-#: usr/lib/lightdm-settings/lightdm-settings:62
+#: usr/lib/lightdm-settings/lightdm-settings:63
 msgid "Quit"
 msgstr "Quitter"
 
-#: usr/lib/lightdm-settings/lightdm-settings:127
+#: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Appearance"
 msgstr "Apparence"
 
-#: usr/lib/lightdm-settings/lightdm-settings:128
 #: usr/lib/lightdm-settings/lightdm-settings:130
-#: usr/lib/lightdm-settings/lightdm-settings:131
+#: usr/lib/lightdm-settings/lightdm-settings:132
+#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
 msgstr "Fond d'écran"
 
-#: usr/lib/lightdm-settings/lightdm-settings:134
-#: usr/lib/lightdm-settings/lightdm-settings:135
+#: usr/lib/lightdm-settings/lightdm-settings:136
+#: usr/lib/lightdm-settings/lightdm-settings:137
 msgid "Background color"
 msgstr "Couleur d'arrière-plan"
 
-#: usr/lib/lightdm-settings/lightdm-settings:143
+#: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Draw user backgrounds"
 msgstr "Utiliser les fonds d'écran des utilisateurs"
 
-#: usr/lib/lightdm-settings/lightdm-settings:144
+#: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "When a user is selected, show that user's background."
 msgstr "Quand un utilisateur est sélectionné, montrer son fond d'écran."
 
-#: usr/lib/lightdm-settings/lightdm-settings:149
+#: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Draw a grid"
 msgstr "Afficher une grille"
 
-#: usr/lib/lightdm-settings/lightdm-settings:150
+#: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid of white dots on top of the background."
 msgstr "Dessiner une grille de petits points blancs sur le fond d'écran."
 
-#: usr/lib/lightdm-settings/lightdm-settings:153
+#: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "Themes"
 msgstr "Thèmes"
 
-#: usr/lib/lightdm-settings/lightdm-settings:155
 #: usr/lib/lightdm-settings/lightdm-settings:156
+#: usr/lib/lightdm-settings/lightdm-settings:157
 msgid "GTK theme"
 msgstr "Thème GTK"
 
-#: usr/lib/lightdm-settings/lightdm-settings:159
 #: usr/lib/lightdm-settings/lightdm-settings:160
+#: usr/lib/lightdm-settings/lightdm-settings:161
 msgid "Icon theme"
 msgstr "Thème d'icônes"
 
-#: usr/lib/lightdm-settings/lightdm-settings:163
+#: usr/lib/lightdm-settings/lightdm-settings:164
 msgid "Optional pictures"
 msgstr "Images optionnelles"
 
-#: usr/lib/lightdm-settings/lightdm-settings:165
+#: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "Other monitors"
 msgstr "Autres écrans"
 
-#: usr/lib/lightdm-settings/lightdm-settings:166
+#: usr/lib/lightdm-settings/lightdm-settings:167
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
@@ -88,49 +87,49 @@ msgstr ""
 "Si vous avez plusieurs écrans, la liste des utilisateurs est placée sur "
 "l'écran actif, et cette image sur les autres écrans."
 
-#: usr/lib/lightdm-settings/lightdm-settings:169
+#: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Bottom left"
 msgstr "En bas à gauche"
 
-#: usr/lib/lightdm-settings/lightdm-settings:170
+#: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr ""
 "Choisissez une image pour le coin en bas à gauche de l'écran de connexion."
 
-#: usr/lib/lightdm-settings/lightdm-settings:176
+#: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Users"
 msgstr "Utilisateurs"
 
-#: usr/lib/lightdm-settings/lightdm-settings:177
+#: usr/lib/lightdm-settings/lightdm-settings:178
 msgid "User list"
 msgstr "Liste des utilisateurs"
 
-#: usr/lib/lightdm-settings/lightdm-settings:180
+#: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Allow manual login"
 msgstr "Permettre la connexion manuelle"
 
-#: usr/lib/lightdm-settings/lightdm-settings:181
+#: usr/lib/lightdm-settings/lightdm-settings:182
 msgid "Add an option in the login window to enter a username."
 msgstr ""
 "Ajouter une option dans l'écran de connexion pour taper un nom d'utilisateur."
 
-#: usr/lib/lightdm-settings/lightdm-settings:185
+#: usr/lib/lightdm-settings/lightdm-settings:186
 msgid "Hide the user list"
 msgstr "Cacher la liste des utilisateurs."
 
-#: usr/lib/lightdm-settings/lightdm-settings:186
+#: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Hide the list of users in the login window."
 msgstr "Cacher la liste des utilisateurs dans l'écran de connexion."
 
-#: usr/lib/lightdm-settings/lightdm-settings:189
+#: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Guest sessions"
 msgstr "Sessions invités"
 
-#: usr/lib/lightdm-settings/lightdm-settings:192
+#: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Allow guest sessions"
 msgstr "Autoriser les invités à se connecter"
 
-#: usr/lib/lightdm-settings/lightdm-settings:193
+#: usr/lib/lightdm-settings/lightdm-settings:194
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
@@ -138,113 +137,126 @@ msgstr ""
 "Permettre aux invités d'utiliser l'ordinateur sans mot de passe. Un compte "
 "invité temporaire est créé automatiquement lors de leur connexion."
 
-#: usr/lib/lightdm-settings/lightdm-settings:196
+#: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Automatic login"
 msgstr "Connexion automatique"
 
-#: usr/lib/lightdm-settings/lightdm-settings:199
+#: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Username"
 msgstr "Identifiant de l’utilisateur"
 
-#: usr/lib/lightdm-settings/lightdm-settings:200
+#: usr/lib/lightdm-settings/lightdm-settings:201
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
 "Attention : La connexion automatique échouera si le dossier personnel de "
 "l'utilisateur est crypté."
 
-#: usr/lib/lightdm-settings/lightdm-settings:203
+#: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "These settings require a computer reboot to take effect."
 msgstr ""
 "Ces paramètres ne prennent effet qu'après le redémarrage de l'ordinateur."
 
-#: usr/lib/lightdm-settings/lightdm-settings:208
 #: usr/lib/lightdm-settings/lightdm-settings:209
+#: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Settings"
 msgstr "Options"
 
-#: usr/lib/lightdm-settings/lightdm-settings:211
+#: usr/lib/lightdm-settings/lightdm-settings:212
 msgid "Activate numlock"
 msgstr "Activer le verrouillage du pavé numérique"
 
-#: usr/lib/lightdm-settings/lightdm-settings:214
+#: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Please install numlockx to use this option."
 msgstr "Veuillez installer numlockx pour utiliser cette option."
 
-#: usr/lib/lightdm-settings/lightdm-settings:216
+#: usr/lib/lightdm-settings/lightdm-settings:217
 msgid "Activate numlock in the login window."
 msgstr "Activer le vérrou numérique dans l'écran de connexion."
 
-#: usr/lib/lightdm-settings/lightdm-settings:220
+#: usr/lib/lightdm-settings/lightdm-settings:223
+#: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Auto"
 msgstr "Automatique"
 
-#: usr/lib/lightdm-settings/lightdm-settings:221
+#: usr/lib/lightdm-settings/lightdm-settings:224
 msgid "Enable"
 msgstr "Activé"
 
-#: usr/lib/lightdm-settings/lightdm-settings:222
+#: usr/lib/lightdm-settings/lightdm-settings:225
 msgid "Disable"
 msgstr "Desactivé"
 
-#: usr/lib/lightdm-settings/lightdm-settings:223
+#: usr/lib/lightdm-settings/lightdm-settings:226
 msgid "HiDPI support"
 msgstr "Support HiDPI"
 
-#: usr/lib/lightdm-settings/lightdm-settings:224
+#: usr/lib/lightdm-settings/lightdm-settings:227
 msgid "Support for high pixel density and Retina displays."
 msgstr "Support pour les écrans Retina et à haute densité de pixel."
 
-#: usr/lib/lightdm-settings/lightdm-settings:227
+#: usr/lib/lightdm-settings/lightdm-settings:231
+msgid "Monitor"
+msgstr "Écran"
+
+#: usr/lib/lightdm-settings/lightdm-settings:232
+msgid ""
+"Choose which monitor should display the login window, or select 'Auto' if "
+"you want it to follow the mouse."
+msgstr ""
+"Sélectionnez le moniteur pour la fenêtre de connexion, ou sélectionnez "
+"'Auto' si vous voulez qu'elle suive la souris."
+
+#: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Panel indicators"
 msgstr "Indicateurs de tableau de bord"
 
-#: usr/lib/lightdm-settings/lightdm-settings:229
+#: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Hostname"
 msgstr "Nom d'hôte"
 
-#: usr/lib/lightdm-settings/lightdm-settings:230
+#: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Show the computer hostname in the panel."
 msgstr "Montrer le nom d'hôte"
 
-#: usr/lib/lightdm-settings/lightdm-settings:233
+#: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Accessibility options"
 msgstr "Options d'accessibilité"
 
-#: usr/lib/lightdm-settings/lightdm-settings:234
+#: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Show accessibility options in the panel."
 msgstr "Montrer les options d'accessibilité dans le tableau de bord."
 
-#: usr/lib/lightdm-settings/lightdm-settings:237
+#: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Battery power"
 msgstr "Niveau de batterie"
 
-#: usr/lib/lightdm-settings/lightdm-settings:238
+#: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "On laptops, show the battery power in the panel."
 msgstr ""
 "Sur les portables, montrer le niveau de la batterie dans le tableau de bord."
 
-#: usr/lib/lightdm-settings/lightdm-settings:241
+#: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Keyboard layout"
 msgstr "Agencement du clavier"
 
-#: usr/lib/lightdm-settings/lightdm-settings:242
+#: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Show the keyboard layout in the panel."
 msgstr "Montrer l'agencement du clavier dans la tableau de bord."
 
-#: usr/lib/lightdm-settings/lightdm-settings:245
+#: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Clock"
 msgstr "Horloge"
 
-#: usr/lib/lightdm-settings/lightdm-settings:246
+#: usr/lib/lightdm-settings/lightdm-settings:254
 msgid "Show a clock in the panel."
 msgstr "Montrer l'horloge dans le tableau de bord."
 
-#: usr/lib/lightdm-settings/lightdm-settings:249
+#: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Quit menu"
 msgstr "Menu \"Quitter...\""
 
-#: usr/lib/lightdm-settings/lightdm-settings:250
+#: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Show the quit menu in the panel."
 msgstr "Montrer le menu \"Quitter...\" dans le tableau de bord."
 

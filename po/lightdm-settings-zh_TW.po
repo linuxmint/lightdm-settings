@@ -1,16 +1,16 @@
-# Ukrainian translation for linuxmint
-# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# Chinese (Traditional) translation for linuxmint
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-10 14:33+0100\n"
-"PO-Revision-Date: 2018-05-15 09:25+0000\n"
-"Last-Translator: Yurii Bagrii <Unknown>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2018-02-26 16:01+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,260 +20,250 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:27
 msgid "Login Window"
-msgstr "Вікно входу у систему"
+msgstr "登入視窗"
 
 #: usr/lib/lightdm-settings/lightdm-settings:63
 msgid "Quit"
-msgstr "Вийти"
+msgstr "退出"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Appearance"
-msgstr "Зовнішній вигляд"
+msgstr "外觀"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 #: usr/lib/lightdm-settings/lightdm-settings:132
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
-msgstr "Фон"
+msgstr "背景"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:137
 msgid "Background color"
-msgstr "Колір  фону"
+msgstr "背景色彩"
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Draw user backgrounds"
-msgstr "Малювання фону користувача"
+msgstr "描繪使用者背景"
 
 #: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "When a user is selected, show that user's background."
-msgstr "Коли користувач обраний, показує фонове зображеня користувача."
+msgstr "當選取使用者後顯示該使用者的背景。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Draw a grid"
-msgstr "Малювання сітки"
+msgstr "描繪網格"
 
 #: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid of white dots on top of the background."
-msgstr "Малює сітку з білих крапок у верхній частині фонового зображення."
+msgstr "在背景之上描繪由白點構成的網格。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "Themes"
-msgstr "Теми"
+msgstr "主題"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 #: usr/lib/lightdm-settings/lightdm-settings:157
 msgid "GTK theme"
-msgstr "Тема GTK"
+msgstr "GTK 布景主題"
 
 #: usr/lib/lightdm-settings/lightdm-settings:160
 #: usr/lib/lightdm-settings/lightdm-settings:161
 msgid "Icon theme"
-msgstr "Тема піктограм"
+msgstr "圖示主題"
 
 #: usr/lib/lightdm-settings/lightdm-settings:164
 msgid "Optional pictures"
-msgstr "Додаткові зображення"
+msgstr "選擇性圖片"
 
 #: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "Other monitors"
-msgstr "Інші монітори"
+msgstr "其他螢幕"
 
 #: usr/lib/lightdm-settings/lightdm-settings:167
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
-msgstr ""
-"Якщо у Вас декілька моніторів, перелік користувачів показується на активному "
-"моніторі, а це зображення на інших."
+msgstr "如果你有多部螢幕，則使用者清單會放置在使用中的螢幕上，而此圖片會放在其他螢幕上。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Bottom left"
-msgstr "Знизу ліворуч"
+msgstr "左下角"
 
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr ""
-"Оберіть зображення, яке повинне показуватися у лівій нижній частині екрану "
-"входу."
+msgstr "選擇一張在登入視窗左下角顯示的圖片。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Users"
-msgstr "Користувачі"
+msgstr "使用者"
 
 #: usr/lib/lightdm-settings/lightdm-settings:178
 msgid "User list"
-msgstr "Перелік користувачів"
+msgstr "使用者清單"
 
 #: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Allow manual login"
-msgstr "Дозволити вхід у систему вручну"
+msgstr "允許手動登入"
 
 #: usr/lib/lightdm-settings/lightdm-settings:182
 msgid "Add an option in the login window to enter a username."
-msgstr "Додає можливість введення імені користувача у вікні входу."
+msgstr "在登入視窗中加入個選項以便輸入使用者名稱。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:186
 msgid "Hide the user list"
-msgstr "Приховати перелік користувачів"
+msgstr "隱藏使用者清單"
 
 #: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Hide the list of users in the login window."
-msgstr "Приховує перелік користувачів у вікні входу."
+msgstr "隱藏登入視窗中的使用者清單。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Guest sessions"
-msgstr "Гостьові сеанси"
+msgstr "訪客作業階段"
 
 #: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Allow guest sessions"
-msgstr "Дозволити гостьові сеанси"
+msgstr "允許訪客作業階段"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
-msgstr ""
-"Дозволяє гостьовий доступ до комп’ютера без паролю. Тимчасовий гостьовий "
-"обліковий запис створюється автоматично під час входу у систему."
+msgstr "允許訪客不用密碼就能使用電腦。當訪客登入時會自動建立暫時性的訪客帳號。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Automatic login"
-msgstr "Автоматичний вхід у систему"
+msgstr "自動登入"
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Username"
-msgstr "Ім'я користувача"
+msgstr "使用者名稱"
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
-msgstr ""
-"Увага: Автоматичний вхід у систему не спрацює, якщо домашню папку "
-"користувача зашифровано."
+msgstr "警告：如果使用者的家目錄有加密的話，自動登入會失敗。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "These settings require a computer reboot to take effect."
-msgstr "Для застосування цих налаштувань потрібно перезавантажити комп’ютер."
+msgstr "這些設定值需要電腦重啟才能生效。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:209
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Settings"
-msgstr "Налаштування"
+msgstr "設定值"
 
 #: usr/lib/lightdm-settings/lightdm-settings:212
 msgid "Activate numlock"
-msgstr "Активація numlock"
+msgstr "啟用數字鎖 Numlock"
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Please install numlockx to use this option."
-msgstr "Будь ласка, встановіть numlockx для використання цього параметру."
+msgstr "請安裝 numlockx 以使用此選項。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:217
 msgid "Activate numlock in the login window."
-msgstr "Вмикає numlock у вікні входу у систему."
+msgstr "在登入視窗中啟用數字鎖。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 #: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Auto"
-msgstr "Авто"
+msgstr "自動"
 
 #: usr/lib/lightdm-settings/lightdm-settings:224
 msgid "Enable"
-msgstr "Увімк."
+msgstr "啟用"
 
 #: usr/lib/lightdm-settings/lightdm-settings:225
 msgid "Disable"
-msgstr "Вимк."
+msgstr "停用"
 
 #: usr/lib/lightdm-settings/lightdm-settings:226
 msgid "HiDPI support"
-msgstr "Підтримка HiDPI"
+msgstr "HiDPI 支援"
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 msgid "Support for high pixel density and Retina displays."
-msgstr "Підтримка дисплеїв з високою щільністю пікселів та дисплеїв Retina."
+msgstr "支援高像素密度螢幕和 Retina 螢幕。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:231
 msgid "Monitor"
-msgstr "Монітор"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:232
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
-"Виберіть, який монітор повинен відображати вікно входу в систему, або "
-"виберіть \"Авто\" - щоб вибрати монітор на якому курсор."
 
 #: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Panel indicators"
-msgstr "Індикатори панелі"
+msgstr "面板指示器"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Hostname"
-msgstr "Ім'я хосту"
+msgstr "主機名稱"
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Show the computer hostname in the panel."
-msgstr "Показує ім’я хосту комп’ютера на панелі."
+msgstr "在面板中顯示電腦主機名稱。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Accessibility options"
-msgstr "Спеціальні можливості"
+msgstr "無障礙輔助選項"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Show accessibility options in the panel."
-msgstr "Показує спеціальні можливості на панелі."
+msgstr "在面板中顯示無障礙輔助選項。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Battery power"
-msgstr "Заряд батареї"
+msgstr "電池電源"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "On laptops, show the battery power in the panel."
-msgstr "Показує заряд батареї на панелі, для ноутбуків."
+msgstr "如果使用筆電，則在面板中顯示電池電源。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Keyboard layout"
-msgstr "Розкладка клавіатури"
+msgstr "鍵盤配置"
 
 #: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Show the keyboard layout in the panel."
-msgstr "Показує розкладку клавіатури на панелі."
+msgstr "在面板中顯示鍵盤配置。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Clock"
-msgstr "Годинник"
+msgstr "時鐘"
 
 #: usr/lib/lightdm-settings/lightdm-settings:254
 msgid "Show a clock in the panel."
-msgstr "Показує годинник на панелі."
+msgstr "在面板中顯示時鐘。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Quit menu"
-msgstr "Меню припинення роботи"
+msgstr "退出選單"
 
 #: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Show the quit menu in the panel."
-msgstr "Показує меню припинення роботи на панелі."
+msgstr "在面板中顯示退出選單。"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:200
 msgid "Choose an Image File"
-msgstr "Вибрати файл зображення"
+msgstr "選擇影像檔"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Cancel"
-msgstr "_Скасувати"
+msgstr "取消(_C)"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:204
 msgid "_Open"
-msgstr "_Відкрити"
+msgstr "開啟(_O)"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:207
 msgid "Image files"
-msgstr "Файли зображень"
+msgstr "影像檔"
 
 #: generate_desktop_files:27
 msgid "Configure the login window"
-msgstr "Налаштування вікна входу у систему"
+msgstr "設定登入視窗"

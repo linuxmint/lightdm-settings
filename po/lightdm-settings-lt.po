@@ -7,80 +7,79 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-10-27 13:35+0100\n"
-"PO-Revision-Date: 2017-07-16 15:29+0000\n"
+"POT-Creation-Date: 2018-05-10 14:33+0100\n"
+"PO-Revision-Date: 2018-05-10 13:48+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-11-23 10:46+0000\n"
-"X-Generator: Launchpad (build 18509)\n"
+"X-Launchpad-Export-Date: 2018-05-22 09:24+0000\n"
+"X-Generator: Launchpad (build 18658)\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:40
-#: usr/lib/lightdm-settings/lightdm-settings:72 usr/bin/lightdm-settings:11
-#: generate_desktop_files:27
+#: usr/lib/lightdm-settings/lightdm-settings:41
+#: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:27
 msgid "Login Window"
 msgstr "Prisijungimo langas"
 
-#: usr/lib/lightdm-settings/lightdm-settings:62
+#: usr/lib/lightdm-settings/lightdm-settings:63
 msgid "Quit"
 msgstr "Išeiti"
 
-#: usr/lib/lightdm-settings/lightdm-settings:127
+#: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Appearance"
 msgstr "Išvaizda"
 
-#: usr/lib/lightdm-settings/lightdm-settings:128
 #: usr/lib/lightdm-settings/lightdm-settings:130
-#: usr/lib/lightdm-settings/lightdm-settings:131
+#: usr/lib/lightdm-settings/lightdm-settings:132
+#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
 msgstr "Fonas"
 
-#: usr/lib/lightdm-settings/lightdm-settings:134
-#: usr/lib/lightdm-settings/lightdm-settings:135
+#: usr/lib/lightdm-settings/lightdm-settings:136
+#: usr/lib/lightdm-settings/lightdm-settings:137
 msgid "Background color"
 msgstr "Fono spalva"
 
-#: usr/lib/lightdm-settings/lightdm-settings:143
+#: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Draw user backgrounds"
 msgstr "Brėžti naudotojų fonus"
 
-#: usr/lib/lightdm-settings/lightdm-settings:144
+#: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "When a user is selected, show that user's background."
 msgstr "Kai pasirenkamas naudotojas, rodyti to naudotojo foną."
 
-#: usr/lib/lightdm-settings/lightdm-settings:149
+#: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Draw a grid"
 msgstr "Brėžti tinklelį"
 
-#: usr/lib/lightdm-settings/lightdm-settings:150
+#: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid of white dots on top of the background."
 msgstr "Fono viršuje piešti baltų taškų tinklelį."
 
-#: usr/lib/lightdm-settings/lightdm-settings:153
+#: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "Themes"
 msgstr "Temos"
 
-#: usr/lib/lightdm-settings/lightdm-settings:155
 #: usr/lib/lightdm-settings/lightdm-settings:156
+#: usr/lib/lightdm-settings/lightdm-settings:157
 msgid "GTK theme"
 msgstr "GTK tema"
 
-#: usr/lib/lightdm-settings/lightdm-settings:159
 #: usr/lib/lightdm-settings/lightdm-settings:160
+#: usr/lib/lightdm-settings/lightdm-settings:161
 msgid "Icon theme"
 msgstr "Piktogramų tema"
 
-#: usr/lib/lightdm-settings/lightdm-settings:163
+#: usr/lib/lightdm-settings/lightdm-settings:164
 msgid "Optional pictures"
 msgstr "Pasirinktini paveikslai"
 
-#: usr/lib/lightdm-settings/lightdm-settings:165
+#: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "Other monitors"
 msgstr "Kiti monitoriai"
 
-#: usr/lib/lightdm-settings/lightdm-settings:166
+#: usr/lib/lightdm-settings/lightdm-settings:167
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
@@ -88,49 +87,49 @@ msgstr ""
 "Jei turite kelis monitorius, naudotojų sąrašas bus patalpinamas aktyviame "
 "monitoriuje, o šis paveikslas visuose kituose monitoriuose."
 
-#: usr/lib/lightdm-settings/lightdm-settings:169
+#: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Bottom left"
 msgstr "Apatinė kairė"
 
-#: usr/lib/lightdm-settings/lightdm-settings:170
+#: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr ""
 "Pasirinkti paveikslą, kuris bus rodomas prisijungimo lango apatinėje kairėje."
 
-#: usr/lib/lightdm-settings/lightdm-settings:176
+#: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Users"
 msgstr "Naudotojai"
 
-#: usr/lib/lightdm-settings/lightdm-settings:177
+#: usr/lib/lightdm-settings/lightdm-settings:178
 msgid "User list"
 msgstr "Naudotojų sąrašas"
 
-#: usr/lib/lightdm-settings/lightdm-settings:180
+#: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Allow manual login"
 msgstr "Leisti rankinį prisijungimą"
 
-#: usr/lib/lightdm-settings/lightdm-settings:181
+#: usr/lib/lightdm-settings/lightdm-settings:182
 msgid "Add an option in the login window to enter a username."
 msgstr ""
 "Pridėti į prisijungimo langą parametrą, skirtą įvesti naudotojo vardą."
 
-#: usr/lib/lightdm-settings/lightdm-settings:185
+#: usr/lib/lightdm-settings/lightdm-settings:186
 msgid "Hide the user list"
 msgstr "Slėpti naudotojų sąrašą"
 
-#: usr/lib/lightdm-settings/lightdm-settings:186
+#: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Hide the list of users in the login window."
 msgstr "Slėpti prisijungimo lange naudotojų sąrašą"
 
-#: usr/lib/lightdm-settings/lightdm-settings:189
+#: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Guest sessions"
 msgstr "Svečių seansai"
 
-#: usr/lib/lightdm-settings/lightdm-settings:192
+#: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Allow guest sessions"
 msgstr "Leisti svečio seansus"
 
-#: usr/lib/lightdm-settings/lightdm-settings:193
+#: usr/lib/lightdm-settings/lightdm-settings:194
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
@@ -138,112 +137,126 @@ msgstr ""
 "Leisti svečiams naudotis kompiuteriu nereikalaujant slaptažodžio. Jiems "
 "prisijungus, automatiškai yra sukuriama laikina svečio paskyra."
 
-#: usr/lib/lightdm-settings/lightdm-settings:196
+#: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Automatic login"
 msgstr "Automatinis prisijungimas"
 
-#: usr/lib/lightdm-settings/lightdm-settings:199
+#: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Username"
 msgstr "Naudotojo vardas"
 
-#: usr/lib/lightdm-settings/lightdm-settings:200
+#: usr/lib/lightdm-settings/lightdm-settings:201
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
 "Įspėjimas: Automatinis prisijungimas nepavyks, jeigu naudotojo namų "
 "katalogas yra užšifruotas."
 
-#: usr/lib/lightdm-settings/lightdm-settings:203
+#: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "These settings require a computer reboot to take effect."
 msgstr ""
 "Tam, kad įsigaliotų šie nustatymai, reikia paleisti kompiuterį iš naujo."
 
-#: usr/lib/lightdm-settings/lightdm-settings:208
 #: usr/lib/lightdm-settings/lightdm-settings:209
+#: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Settings"
 msgstr "Nustatymai"
 
-#: usr/lib/lightdm-settings/lightdm-settings:211
+#: usr/lib/lightdm-settings/lightdm-settings:212
 msgid "Activate numlock"
 msgstr "Aktyvuoti skaitmenų klavišus"
 
-#: usr/lib/lightdm-settings/lightdm-settings:214
+#: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Please install numlockx to use this option."
 msgstr "Norėdami naudoti šį parametrą, įdiekite numlockx."
 
-#: usr/lib/lightdm-settings/lightdm-settings:216
+#: usr/lib/lightdm-settings/lightdm-settings:217
 msgid "Activate numlock in the login window."
 msgstr "Aktyvuoti prisijungimo lange skaitmenų klavišus."
 
-#: usr/lib/lightdm-settings/lightdm-settings:220
+#: usr/lib/lightdm-settings/lightdm-settings:223
+#: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Auto"
 msgstr "Automatiškai"
 
-#: usr/lib/lightdm-settings/lightdm-settings:221
+#: usr/lib/lightdm-settings/lightdm-settings:224
 msgid "Enable"
 msgstr "Įjungti"
 
-#: usr/lib/lightdm-settings/lightdm-settings:222
+#: usr/lib/lightdm-settings/lightdm-settings:225
 msgid "Disable"
 msgstr "Išjungti"
 
-#: usr/lib/lightdm-settings/lightdm-settings:223
+#: usr/lib/lightdm-settings/lightdm-settings:226
 msgid "HiDPI support"
 msgstr "HiDPI palaikymas"
 
-#: usr/lib/lightdm-settings/lightdm-settings:224
+#: usr/lib/lightdm-settings/lightdm-settings:227
 msgid "Support for high pixel density and Retina displays."
 msgstr "Didelio tankio pikselių ir Retina ekranų palaikymas."
 
-#: usr/lib/lightdm-settings/lightdm-settings:227
+#: usr/lib/lightdm-settings/lightdm-settings:231
+msgid "Monitor"
+msgstr "Monitorius"
+
+#: usr/lib/lightdm-settings/lightdm-settings:232
+msgid ""
+"Choose which monitor should display the login window, or select 'Auto' if "
+"you want it to follow the mouse."
+msgstr ""
+"Pasirinkite kuriame monitoriuje turėtų būti rodomas prisijungimo langas arba "
+"pasirinkite \"Automatiškai\", norėdami, kad prisijungimo langas sektų paskui "
+"pelę."
+
+#: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Panel indicators"
 msgstr "Skydelio indikatoriai"
 
-#: usr/lib/lightdm-settings/lightdm-settings:229
+#: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Hostname"
 msgstr "Kompiuterio vardas"
 
-#: usr/lib/lightdm-settings/lightdm-settings:230
+#: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Show the computer hostname in the panel."
 msgstr "Rodyti skydelyje kompiuterio vardą."
 
-#: usr/lib/lightdm-settings/lightdm-settings:233
+#: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Accessibility options"
 msgstr "Prieinamumo parametrai"
 
-#: usr/lib/lightdm-settings/lightdm-settings:234
+#: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Show accessibility options in the panel."
 msgstr "Rodyti skydelyje prieinamumo parametrus."
 
-#: usr/lib/lightdm-settings/lightdm-settings:237
+#: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Battery power"
 msgstr "Baterijos energija"
 
-#: usr/lib/lightdm-settings/lightdm-settings:238
+#: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "On laptops, show the battery power in the panel."
 msgstr "Nešiojamuosiuose kompiuteriuose rodyti skydelyje baterijos energija."
 
-#: usr/lib/lightdm-settings/lightdm-settings:241
+#: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Keyboard layout"
 msgstr "Klaviatūros išdėstymas"
 
-#: usr/lib/lightdm-settings/lightdm-settings:242
+#: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Show the keyboard layout in the panel."
 msgstr "Rodyti skydelyje klaviatūros išdėstymą."
 
-#: usr/lib/lightdm-settings/lightdm-settings:245
+#: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Clock"
 msgstr "Laikrodis"
 
-#: usr/lib/lightdm-settings/lightdm-settings:246
+#: usr/lib/lightdm-settings/lightdm-settings:254
 msgid "Show a clock in the panel."
 msgstr "Rodyti skydelyje laikrodį."
 
-#: usr/lib/lightdm-settings/lightdm-settings:249
+#: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Quit menu"
 msgstr "Išėjimo meniu"
 
-#: usr/lib/lightdm-settings/lightdm-settings:250
+#: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Show the quit menu in the panel."
 msgstr "Rodyti skydelyje išėjimo meniu."
 
