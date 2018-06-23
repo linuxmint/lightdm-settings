@@ -8,6 +8,7 @@ import sys
 import glob
 import subprocess, binascii
 from SettingsWidgets import *
+from distutils.version import LooseVersion
 
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, Gdk, Gio, GLib
@@ -137,13 +138,10 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Background color"))
         section.add_row(row)
 
-        try:
-            if self.should_show_user_bg_switch ():
+        if self.should_show_user_bg_switch ():
                 row = SettingsRow(Gtk.Label(_("Draw user backgrounds")), SettingsSwitch(keyfile, settings, "draw-user-backgrounds"))
                 row.set_tooltip_text(_("When a user is selected, show that user's background."))
                 section.add_row(row)
-        except:
-            pass
 
         row = SettingsRow(Gtk.Label(_("Draw a grid")), SettingsSwitch(keyfile, settings, "draw-grid"))
         row.set_tooltip_text(_("Draw a grid of white dots on top of the background."))
@@ -372,79 +370,29 @@ class Application(Gtk.Application):
         return (value)
 
     def should_show_user_bg_switch (self):
-        # Setting the user background was an ubuntu-only patch to AccountsService, but as
-        # of lightdm 1.25.2, it's provided as a plugin to AccountsService.  We can check on
-        # the bus to see if we have either form of support (either via AccountsService.User or
-        # DisplayManager.AccountsService)
-        #
-        # It doesn't matter whether we're root here - we don't care about the return values,
-        # just that the calls succeed.
-        #
-        # see https://github.com/linuxmint/slick-greeter/issues/94
-
-        # Find a user node
-        try:
-            proxy = Gio.DBusProxy.new_for_bus_sync(Gio.BusType.SYSTEM,
-                                                   Gio.DBusProxyFlags.NONE,
-                                                   None,
-                                                   "org.freedesktop.Accounts",
-                                                   "/org/freedesktop/Accounts",
-                                                   "org.freedesktop.Accounts",
-                                                   None)
-
-            user_var = proxy.call_sync("FindUserByName",
-                                       GLib.Variant("(s)", (GLib.get_user_name(),)),
-                                       Gio.DBusCallFlags.NONE,
-                                       -1,
-                                       None)
-        except GLib.Error as e:
-            print(e.message)
-            return False
+        # Showing the current user's background on the login screen is unsupported
+        # in versions < 1.25.2.
 
         try:
-            object_path = user_var.unpack()[0]
-        except IndexError:
-            return False
+            ret = subprocess.run(["lightdm", "--version"],
+                                 stdout=subprocess.PIPE,
+                                 stderr=subprocess.STDOUT,
+                                 encoding="utf-8",
+                                 check=True)
 
-        # Initialize a properties interface
-        try:
-            props = Gio.DBusProxy.new_for_bus_sync(Gio.BusType.SYSTEM,
-                                                   Gio.DBusProxyFlags.NONE,
-                                                   None,
-                                                   "org.freedesktop.Accounts",
-                                                   object_path,
-                                                   "org.freedesktop.DBus.Properties",
-                                                   None)
-        except GLib.Error as e:
-            print(e.message)
-            return False
+            version_string = ret.stdout.strip("\n").strip("lightdm").strip()
 
-        # Try the new way (plugin)
-        try:
-            ret = props.call_sync("Get",
-                                  GLib.Variant("(ss)",
-                                               ("org.freedesktop.DisplayManager.AccountsService",
-                                               "BackgroundFile")),
-                                  Gio.DBusCallFlags.NONE,
-                                  -1,
-                                  None)
-        except GLib.Error as e:
-            print(e.message)
+            print("lightdm version: %s" % version_string)
 
-            # Try the old way (patched AccountsService)
-            try:
-                ret = props.call_sync("Get",
-                                      GLib.Variant("(ss)",
-                                                   ("org.freedesktop.Accounts.User",
-                                                   "BackgroundFile")),
-                                      Gio.DBusCallFlags.NONE,
-                                      -1,
-                                      None)
-            except GLib.Error as e:
-                print(e.message)
-                return False
+            return LooseVersion(version_string) >= LooseVersion("1.26.0")
+        except OSError as e:
+            print("lightdm not in path, is it installed? %s" % e)
+        except subprocess.CalledProcessError as e:
+            print("Problem getting lightdm version: ", e)
+        except Exception as e:
+            print(e)
 
-        return True
+        return False
 
     def get_monitors(self):
         monitors = []
