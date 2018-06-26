@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-10 14:33+0100\n"
-"PO-Revision-Date: 2017-07-14 17:10+0000\n"
+"PO-Revision-Date: 2018-05-24 21:17+0000\n"
 "Last-Translator: Asier Iturralde Sarasola <Unknown>\n"
 "Language-Team: Basque <eu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-05-22 09:24+0000\n"
-"X-Generator: Launchpad (build 18658)\n"
+"X-Launchpad-Export-Date: 2018-06-26 10:17+0000\n"
+"X-Generator: Launchpad (build 18688)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:27
@@ -196,13 +196,15 @@ msgstr "Pixel dentsitate handiko eta Retina pantailen euskarria."
 
 #: usr/lib/lightdm-settings/lightdm-settings:231
 msgid "Monitor"
-msgstr ""
+msgstr "Monitorea"
 
 #: usr/lib/lightdm-settings/lightdm-settings:232
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
+"Aukeratu saio hasierako leihoa zein monitoretan bistaratuko den edo hautatu "
+"\"Automatikoa\" saguari jarraitzea nahi baduzu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Panel indicators"
