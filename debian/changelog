@@ -1,3 +1,13 @@
+lightdm-settings (1.2.2) tara; urgency=medium
+
+  [ Michael Webster ]
+  * Remove complicated dbus check for user background switch.  It doesn't behave the same on all distros.  The special case of Ubuntu's patched lightdm is irrelevant now, we can just compare versions.
+
+  [ Clement Lefebvre ]
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 26 Jun 2018 13:45:00 +0200
+
 lightdm-settings (1.2.1) tara; urgency=medium
 
   * l10n: Update translations
