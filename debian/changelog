@@ -1,3 +1,9 @@
+lightdm-settings (1.2.3) tara; urgency=medium
+
+  * Don't show guest-account option if /usr/sbin/guest-account isn't present
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 12 Jul 2018 12:38:34 +0200
+
 lightdm-settings (1.2.2) tara; urgency=medium
 
   [ Michael Webster ]
