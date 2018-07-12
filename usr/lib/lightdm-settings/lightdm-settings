@@ -185,12 +185,12 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Hide the list of users in the login window."))
         section.add_row(row)
 
-        section = page.add_section(_("Guest sessions"))
-
-        value = self.get_lightdm_config ("allow-guest", True)
-        row  = SettingsRow(Gtk.Label(_("Allow guest sessions") + " *"), LightDMSwitch(lightdm_keyfile, "allow-guest", value))
-        row.set_tooltip_text(_("Allow guests to use the computer without a password. A temporary guest account is created automatically when they log in."))
-        section.add_row(row)
+        if os.path.exists("/usr/sbin/guest-account"):
+            section = page.add_section(_("Guest sessions"))
+            value = self.get_lightdm_config ("allow-guest", True)
+            row  = SettingsRow(Gtk.Label(_("Allow guest sessions") + " *"), LightDMSwitch(lightdm_keyfile, "allow-guest", value))
+            row.set_tooltip_text(_("Allow guests to use the computer without a password. A temporary guest account is created automatically when they log in."))
+            section.add_row(row)
 
         section = page.add_section(_("Automatic login"))
 
