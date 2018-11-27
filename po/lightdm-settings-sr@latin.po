@@ -1,16 +1,16 @@
-# Vietnamese translation for linuxmint
-# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# Serbian Latin translation for linuxmint
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-10 14:33+0100\n"
-"PO-Revision-Date: 2017-10-01 09:50+0000\n"
-"Last-Translator: Hoang Minh Hieu <Unknown>\n"
-"Language-Team: Vietnamese <vi@li.org>\n"
+"PO-Revision-Date: 2018-08-03 12:02+0000\n"
+"Last-Translator: Knez <Unknown>\n"
+"Language-Team: Serbian Latin <sr@latin@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,255 +20,261 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:27
 msgid "Login Window"
-msgstr "Màn hình đăng nhập"
+msgstr "Prozor za prijavu"
 
 #: usr/lib/lightdm-settings/lightdm-settings:63
 msgid "Quit"
-msgstr "Thoát"
+msgstr "Izađi"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Appearance"
-msgstr "Diện mạo"
+msgstr "Izgled"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 #: usr/lib/lightdm-settings/lightdm-settings:132
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
-msgstr "Hình nền"
+msgstr "Pozadina"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:137
 msgid "Background color"
-msgstr "Màu nền"
+msgstr "Boja pozadine"
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Draw user backgrounds"
-msgstr "Sử"
+msgstr "Iscrtaj korisničke pozadine"
 
 #: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "When a user is selected, show that user's background."
-msgstr "Khi lựa chọn một người dùng, hiện ra hình nền của người dùng đó"
+msgstr "Kada je korisnik izabran, prikaži pozadinu tog korisnika."
 
 #: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Draw a grid"
-msgstr "Vẽ một lưới"
+msgstr "Iscrtaj mrežu"
 
 #: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid of white dots on top of the background."
-msgstr "Vẽ một lưới chấm trắng ở trên hình nền"
+msgstr "Prikaži mrežu belih tačkica preko pozadine."
 
 #: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "Themes"
-msgstr "Chủ đề"
+msgstr "Teme"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 #: usr/lib/lightdm-settings/lightdm-settings:157
 msgid "GTK theme"
-msgstr "Chủ đề GTK"
+msgstr "GTK tema"
 
 #: usr/lib/lightdm-settings/lightdm-settings:160
 #: usr/lib/lightdm-settings/lightdm-settings:161
 msgid "Icon theme"
-msgstr "Biểu tượng chủ đề"
+msgstr "Ikona tema"
 
 #: usr/lib/lightdm-settings/lightdm-settings:164
 msgid "Optional pictures"
-msgstr "Hình ảnh phụ"
+msgstr "Opcionalna slika"
 
 #: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "Other monitors"
-msgstr "Các màn hình khác"
+msgstr "Drugi monitori"
 
 #: usr/lib/lightdm-settings/lightdm-settings:167
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
-"Nếu bạn có nhiều màn hình, danh sách người dùng và hình ảnh sẽ hiện trước "
-"những cái khác."
+"Ako imate više monitora, lista korisnika je prikazana na aktivnom, a ova "
+"slika na ostalima."
 
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Bottom left"
-msgstr "Góc dưới bên trái"
+msgstr "Dole levo"
 
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr "Chọn một hình ảnh để hiện ở góc trái bên dưới màn hình đăng nhập"
+msgstr ""
+"Izaberite sliku koja će se prikazati u donjem levem delu prozora za "
+"prijavljivanje."
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Users"
-msgstr "Người dùng"
+msgstr "Korisnici"
 
 #: usr/lib/lightdm-settings/lightdm-settings:178
 msgid "User list"
-msgstr "Danh sách Người dùng"
+msgstr "Lista korisnika"
 
 #: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Allow manual login"
-msgstr "Cho phép đăng nhập thủ công"
+msgstr "Dozvolite ručno prijavljivanje"
 
 #: usr/lib/lightdm-settings/lightdm-settings:182
 msgid "Add an option in the login window to enter a username."
-msgstr "Thêm tùy chọn nhập tên đăng nhập ở màn hình đăng nhập"
+msgstr "Dodaj opciju za unos korisničkog imena prozoru za prijavu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:186
 msgid "Hide the user list"
-msgstr "Ẩn danh sách người dùng"
+msgstr "Sakrij listu korisnika."
 
 #: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Hide the list of users in the login window."
-msgstr "Ẩn danh sách người dùng ở màn hình đăng nhập"
+msgstr "Sakrij listu korisnika u prozoru za prijavljivanje."
 
 #: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Guest sessions"
-msgstr "Phiên làm việc khách"
+msgstr "Sesije gosta"
 
 #: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Allow guest sessions"
-msgstr "Cho phép đăng nhập chế độ phiên làm việc khách"
+msgstr "Dozvoli sesiju gosta"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
-"Cho phép khách sử dụng máy tính mà không cần mật khẩu. Sẽ tự động tạo một "
-"tài khoản khách khi đăng nhập."
+"Dozvoli gostima da koriste ovaj kompijuter bez lozinke. Privremeni nalog za "
+"goste će biti automatski kreiran kada se oni prijave."
 
 #: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Automatic login"
-msgstr "Tự động đăng nhập"
+msgstr "Automatska prijava"
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Username"
-msgstr "Tên đăng nhập"
+msgstr "Korisničko ime"
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
-"Tự động đăng nhập sẽ bị lỗi nếu thư mục home của người dùng đã được mã hóa."
+"Upozorenje: Automatska prijava neće biti moguća ukoliko je kućni "
+"direktorijum korisnika šifrovan."
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "These settings require a computer reboot to take effect."
-msgstr "Những thiết lập này yêu cầu khởi động lại máy tính để có hiệu lực."
+msgstr ""
+"Da bi ova podešavanja postala aktivna potrebno je da restartujte kompijuter."
 
 #: usr/lib/lightdm-settings/lightdm-settings:209
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Settings"
-msgstr "Cài đặt"
+msgstr "Podešavanja"
 
 #: usr/lib/lightdm-settings/lightdm-settings:212
 msgid "Activate numlock"
-msgstr "Kích hoạt Numlock"
+msgstr "Aktiviraj numlock"
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Please install numlockx to use this option."
-msgstr "Vui lòng cài đặt numlockx để sử dụng tùy chọn này."
+msgstr "Molim vas instalirajte numlockx da bi ste koristili ovu opciju."
 
 #: usr/lib/lightdm-settings/lightdm-settings:217
 msgid "Activate numlock in the login window."
-msgstr "Kích hoạt numlock ở màn hình đăng nhập."
+msgstr "Aktivirajte numlock u prozoru za prijavljivanje."
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 #: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Auto"
-msgstr "Tự động"
+msgstr "Auto"
 
 #: usr/lib/lightdm-settings/lightdm-settings:224
 msgid "Enable"
-msgstr "Cho phép"
+msgstr "Omogući"
 
 #: usr/lib/lightdm-settings/lightdm-settings:225
 msgid "Disable"
-msgstr "Vô hiệu hóa"
+msgstr "Onemogući"
 
 #: usr/lib/lightdm-settings/lightdm-settings:226
 msgid "HiDPI support"
-msgstr "Hỗ trợ HiDPI"
+msgstr "Podrška za HiDPI"
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 msgid "Support for high pixel density and Retina displays."
-msgstr "Hỗ trợ màn hình độ phân giải cao và các loại màn hình Retina"
+msgstr "Podrška za visoku gustinu piksela i Retina ekrane."
 
 #: usr/lib/lightdm-settings/lightdm-settings:231
 msgid "Monitor"
-msgstr ""
+msgstr "Ekran"
 
 #: usr/lib/lightdm-settings/lightdm-settings:232
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
+"Odaberite kojem monitoru treba da biste prikazali prozor za prijavljivanje, "
+"ili izaberite „Auto”, ako želite da pratite mišem.‎"
 
 #: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Panel indicators"
-msgstr "Các nút điều hướng"
+msgstr "Indikatori panela"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Hostname"
-msgstr "Tên máy chủ"
+msgstr "Ime domaćina"
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Show the computer hostname in the panel."
-msgstr "Hiện tên máy chủ ở thanh trạng thái."
+msgstr "Pokažite ime domaćina računara na panelu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Accessibility options"
-msgstr "Tùy chọn khả năng truy cập"
+msgstr "Opcije pristupačnosti"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Show accessibility options in the panel."
-msgstr "Hiện tùy chọn khả năng truy cập ở thanh trạng thái."
+msgstr "Prikaži opcije pristupačnosti na panelu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Battery power"
-msgstr "Nguồn pin"
+msgstr "Snaga baterije"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "On laptops, show the battery power in the panel."
-msgstr "Khi dùng laptop, hiện nguồn pin ở thanh trạng thái."
+msgstr "Na laptopovima, prikaži snagu baterije na panelu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Keyboard layout"
-msgstr "Bố cục bàn phím"
+msgstr "Raspored tastature"
 
 #: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Show the keyboard layout in the panel."
-msgstr "Hiện bố cục bàn phím ở thanh trạng thái."
+msgstr "Prikazi raspored tastature na panelu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Clock"
-msgstr "Đồng hồ"
+msgstr "Sat"
 
 #: usr/lib/lightdm-settings/lightdm-settings:254
 msgid "Show a clock in the panel."
-msgstr "Hiện đồng hồ ở thanh trạng thái"
+msgstr "Prikaži sat na panelu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Quit menu"
-msgstr "Thực đơn thoát"
+msgstr "Meni za gašenje"
 
 #: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Show the quit menu in the panel."
-msgstr "Hiện thực đơn thoát ở thanh trạng thái."
+msgstr "Prikaži meni za gašenje na panelu."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:200
 msgid "Choose an Image File"
-msgstr "Chọn tập tin hình ảnh"
+msgstr "Izaberite datoteku slike"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Cancel"
-msgstr "_Hủy bỏ"
+msgstr "_Otkaži"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:204
 msgid "_Open"
-msgstr "_Mở"
+msgstr "_Otvori"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:207
 msgid "Image files"
-msgstr "Tập tin hình ảnh"
+msgstr "Datoteke slika"
 
 #: generate_desktop_files:27
 msgid "Configure the login window"
-msgstr "Cấu hình màn hình đăng nhập"
+msgstr "Podesite prozor za prijavu"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-10 14:33+0100\n"
-"PO-Revision-Date: 2018-03-29 20:06+0000\n"
+"PO-Revision-Date: 2018-11-04 17:34+0000\n"
 "Last-Translator: Alexander Vinbæk Strand <Unknown>\n"
 "Language-Team: Norwegian Bokmal <nb@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:17+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-11-27 17:53+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:27
@@ -43,11 +43,11 @@ msgstr "Bakgrunnsfarge"
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Draw user backgrounds"
-msgstr ""
+msgstr "Tegn brukerbakgrunner"
 
 #: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "When a user is selected, show that user's background."
-msgstr ""
+msgstr "Når en bruker er valgt, vis denne brukerens bakgrunn"
 
 #: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Draw a grid"
@@ -55,7 +55,7 @@ msgstr "Tegn opp rutenett"
 
 #: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid of white dots on top of the background."
-msgstr ""
+msgstr "Tegn et rutenett med hvite prikker på toppen av bakgrunnen"
 
 #: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "Themes"
@@ -73,25 +73,28 @@ msgstr "Ikontema"
 
 #: usr/lib/lightdm-settings/lightdm-settings:164
 msgid "Optional pictures"
-msgstr ""
+msgstr "Valgfrie bilder"
 
 #: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "Other monitors"
-msgstr ""
+msgstr "Andre skjermer"
 
 #: usr/lib/lightdm-settings/lightdm-settings:167
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
+"Hvis du har flere skjermer, er brukerlisten plassert på den aktive, og dette "
+"bildet på de andre"
 
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Bottom left"
-msgstr ""
+msgstr "Nederst til venstre"
 
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr ""
+"Velg et bilde som skal vises nederst til venstre i innloggingsvinduet."
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Users"
@@ -103,7 +106,7 @@ msgstr "Brukerliste"
 
 #: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Allow manual login"
-msgstr ""
+msgstr "Godta manuell innlogging"
 
 #: usr/lib/lightdm-settings/lightdm-settings:182
 msgid "Add an option in the login window to enter a username."
@@ -111,29 +114,31 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:186
 msgid "Hide the user list"
-msgstr ""
+msgstr "Skjul brukerlisten"
 
 #: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Hide the list of users in the login window."
-msgstr ""
+msgstr "Skjul listen over brukere i innlogginsvinduet"
 
 #: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Guest sessions"
-msgstr ""
+msgstr "Gjesteøkter"
 
 #: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Allow guest sessions"
-msgstr ""
+msgstr "Godta Gjesteøkter"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
+"Tillat at gjestene bruker datamaskinen uten et passord. En midlertidig "
+"gjestekonto blir opprettet automatisk når de logger på."
 
 #: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Automatic login"
-msgstr ""
+msgstr "Automatisk innlogging"
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Username"
@@ -143,10 +148,12 @@ msgstr "Brukernavn"
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
+"Advarsel: Automatisk innlogging mislykkes hvis brukerens hjemmekatalog er "
+"kryptert."
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "These settings require a computer reboot to take effect."
-msgstr ""
+msgstr "Disse innstillingene krever at datamaskinen starter opp igjen."
 
 #: usr/lib/lightdm-settings/lightdm-settings:209
 #: usr/lib/lightdm-settings/lightdm-settings:210
@@ -159,7 +166,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Please install numlockx to use this option."
-msgstr ""
+msgstr "Vennligst installer numlockx for å bruke dette valget"
 
 #: usr/lib/lightdm-settings/lightdm-settings:217
 msgid "Activate numlock in the login window."
@@ -188,7 +195,7 @@ msgstr "Støtte for høy pixel tetthet og retina skjermer."
 
 #: usr/lib/lightdm-settings/lightdm-settings:231
 msgid "Monitor"
-msgstr ""
+msgstr "Skjerm"
 
 #: usr/lib/lightdm-settings/lightdm-settings:232
 msgid ""
@@ -198,7 +205,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Panel indicators"
-msgstr ""
+msgstr "Panel indikatorer"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Hostname"
@@ -206,11 +213,11 @@ msgstr "Vertsnavn"
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Show the computer hostname in the panel."
-msgstr ""
+msgstr "Viser datamaskinens vertsnavn i panelet"
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Accessibility options"
-msgstr ""
+msgstr "Tilgjengelighets alternativer"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Show accessibility options in the panel."
@@ -218,11 +225,11 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Battery power"
-msgstr ""
+msgstr "Batteristrøm"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "On laptops, show the battery power in the panel."
-msgstr ""
+msgstr "På bærbare pcer, vis batteri strømnivå i panelet"
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Keyboard layout"
@@ -230,7 +237,7 @@ msgstr "Tastaturoppsett"
 
 #: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Show the keyboard layout in the panel."
-msgstr ""
+msgstr "Vis tastaturoppsettet i panelet."
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Clock"
@@ -238,15 +245,15 @@ msgstr "Klokke"
 
 #: usr/lib/lightdm-settings/lightdm-settings:254
 msgid "Show a clock in the panel."
-msgstr ""
+msgstr "Vis en klokke i panelet"
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Quit menu"
-msgstr ""
+msgstr "Avslutt meny"
 
 #: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Show the quit menu in the panel."
-msgstr ""
+msgstr "Vis avslutningsmenyen i panelet."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:200
 msgid "Choose an Image File"

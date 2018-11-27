@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-10 14:33+0100\n"
-"PO-Revision-Date: 2018-05-16 12:54+0000\n"
+"PO-Revision-Date: 2018-08-09 06:59+0000\n"
 "Last-Translator: karm <melo@carmu.com>\n"
 "Language-Team: Interlingua <ia@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:17+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-11-27 17:53+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:27
@@ -93,7 +93,8 @@ msgstr "In basso a sinistra"
 
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr "Elige un imagine"
+msgstr ""
+"Elige un imagine a monstrar in basso a sinistra del fenestra de connexion."
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Users"
@@ -118,7 +119,7 @@ msgstr "Celar le lista del usatores"
 
 #: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Hide the list of users in the login window."
-msgstr "Celar le lista del usatores i le fenestra de connexion."
+msgstr "Celar le lista del usatores in le fenestra de connexion."
 
 #: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Guest sessions"
@@ -126,14 +127,14 @@ msgstr "Session del hospite"
 
 #: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Allow guest sessions"
-msgstr "Consentir sessiones hospite"
+msgstr "Consentir sessiones de hospites"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
-"Permitter al hospites de usar le computator sin contrasigno. Un conto "
+"Permitte al hospites de usar le computator sin contrasigno. Un conto "
 "temporanee es create automaticamente al connexion."
 
 #: usr/lib/lightdm-settings/lightdm-settings:197
@@ -154,7 +155,7 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "These settings require a computer reboot to take effect."
 msgstr ""
-"Iste configurationes require de re-initiar le computator pro devenir "
+"Iste configurationes require de reinitiar le computator pro devenir "
 "effective."
 
 #: usr/lib/lightdm-settings/lightdm-settings:209
@@ -217,7 +218,7 @@ msgstr "Nomine de Host"
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Show the computer hostname in the panel."
-msgstr "Monstrar le nomine del computator host sur le quadro."
+msgstr "Monstra le nomine del computator host sur le quadro."
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Accessibility options"
@@ -253,11 +254,11 @@ msgstr "Monstrar un horologio sur le quadro."
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Quit menu"
-msgstr "Quitar le menu"
+msgstr "Menu quitar"
 
 #: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Show the quit menu in the panel."
-msgstr "Monstrar le menu de arresto sur le quadro."
+msgstr "Monstra le menu de arresto sur le quadro."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:200
 msgid "Choose an Image File"

@@ -1,16 +1,16 @@
-# Vietnamese translation for linuxmint
-# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# Hebrew translation for linuxmint
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-10 14:33+0100\n"
-"PO-Revision-Date: 2017-10-01 09:50+0000\n"
-"Last-Translator: Hoang Minh Hieu <Unknown>\n"
-"Language-Team: Vietnamese <vi@li.org>\n"
+"PO-Revision-Date: 2018-11-05 08:25+0000\n"
+"Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,255 +20,255 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:27
 msgid "Login Window"
-msgstr "Màn hình đăng nhập"
+msgstr "חלון כניסה"
 
 #: usr/lib/lightdm-settings/lightdm-settings:63
 msgid "Quit"
-msgstr "Thoát"
+msgstr "יציאה"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Appearance"
-msgstr "Diện mạo"
+msgstr "חזות"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 #: usr/lib/lightdm-settings/lightdm-settings:132
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
-msgstr "Hình nền"
+msgstr "רקע"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:137
 msgid "Background color"
-msgstr "Màu nền"
+msgstr "צבע רקע"
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Draw user backgrounds"
-msgstr "Sử"
+msgstr "ציור רקעי משתמש"
 
 #: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "When a user is selected, show that user's background."
-msgstr "Khi lựa chọn một người dùng, hiện ra hình nền của người dùng đó"
+msgstr "הצגת רקע משתמש, כאשר נבחר משתמש."
 
 #: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Draw a grid"
-msgstr "Vẽ một lưới"
+msgstr "שרטוט שבכה"
 
 #: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid of white dots on top of the background."
-msgstr "Vẽ một lưới chấm trắng ở trên hình nền"
+msgstr "שרטוט שבכה של נקודןת ךבנות על פני הרקע."
 
 #: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "Themes"
-msgstr "Chủ đề"
+msgstr "ערכות נושא"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 #: usr/lib/lightdm-settings/lightdm-settings:157
 msgid "GTK theme"
-msgstr "Chủ đề GTK"
+msgstr "ערכת נושא GTK"
 
 #: usr/lib/lightdm-settings/lightdm-settings:160
 #: usr/lib/lightdm-settings/lightdm-settings:161
 msgid "Icon theme"
-msgstr "Biểu tượng chủ đề"
+msgstr "ערכת נושא צלמית"
 
 #: usr/lib/lightdm-settings/lightdm-settings:164
 msgid "Optional pictures"
-msgstr "Hình ảnh phụ"
+msgstr "תמונה אופציונלית"
 
 #: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "Other monitors"
-msgstr "Các màn hình khác"
+msgstr "צגים אחרים"
 
 #: usr/lib/lightdm-settings/lightdm-settings:167
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
-"Nếu bạn có nhiều màn hình, danh sách người dùng và hình ảnh sẽ hiện trước "
-"những cái khác."
+"במידה וקיימים מספר צגים, רשימת המשתמשים תוצג על הצג פעיל, ותמונה זאת על "
+"האחרים."
 
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Bottom left"
-msgstr "Góc dưới bên trái"
+msgstr "בתחתית בצד שמאל"
 
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr "Chọn một hình ảnh để hiện ở góc trái bên dưới màn hình đăng nhập"
+msgstr "בחירת תמונה להצגה בתחתית חלון הכניסה בצד שמאל."
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Users"
-msgstr "Người dùng"
+msgstr "משתמשים"
 
 #: usr/lib/lightdm-settings/lightdm-settings:178
 msgid "User list"
-msgstr "Danh sách Người dùng"
+msgstr "רשימת משתמשים"
 
 #: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Allow manual login"
-msgstr "Cho phép đăng nhập thủ công"
+msgstr "אפשור כניסה ידנית"
 
 #: usr/lib/lightdm-settings/lightdm-settings:182
 msgid "Add an option in the login window to enter a username."
-msgstr "Thêm tùy chọn nhập tên đăng nhập ở màn hình đăng nhập"
+msgstr "הוספת אפשרות בחלון הכניסה להזנת שם משתמש."
 
 #: usr/lib/lightdm-settings/lightdm-settings:186
 msgid "Hide the user list"
-msgstr "Ẩn danh sách người dùng"
+msgstr "הסתרת רשימת משתמשים"
 
 #: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Hide the list of users in the login window."
-msgstr "Ẩn danh sách người dùng ở màn hình đăng nhập"
+msgstr "הסתרת רשימת המשתמשים בחלון הכניסה."
 
 #: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Guest sessions"
-msgstr "Phiên làm việc khách"
+msgstr "ביקור אורחים"
 
 #: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Allow guest sessions"
-msgstr "Cho phép đăng nhập chế độ phiên làm việc khách"
+msgstr "אפשור ביקור אורחים"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
-"Cho phép khách sử dụng máy tính mà không cần mật khẩu. Sẽ tự động tạo một "
-"tài khoản khách khi đăng nhập."
+"אפשור לאורחים להשתמש במחשב ללא סיסמה. חשבון אורח זמני נוצר באופן אוטומטי "
+"כאשר הם מתחברים."
 
 #: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Automatic login"
-msgstr "Tự động đăng nhập"
+msgstr "כניסה אוטומטית"
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Username"
-msgstr "Tên đăng nhập"
+msgstr "שם משתמש"
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
-msgstr ""
-"Tự động đăng nhập sẽ bị lỗi nếu thư mục home của người dùng đã được mã hóa."
+msgstr "אזהרה: התחברות אוטומטית תיכשל אם ספריית הבית של המשתמש מוצפנת."
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "These settings require a computer reboot to take effect."
-msgstr "Những thiết lập này yêu cầu khởi động lại máy tính để có hiệu lực."
+msgstr "הגדרות אלה מחייבות הפעלה מחדש של המחשב כדי שיכנסו לתוקף."
 
 #: usr/lib/lightdm-settings/lightdm-settings:209
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Settings"
-msgstr "Cài đặt"
+msgstr "הגדרות"
 
 #: usr/lib/lightdm-settings/lightdm-settings:212
 msgid "Activate numlock"
-msgstr "Kích hoạt Numlock"
+msgstr "הפעלת  numlock"
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Please install numlockx to use this option."
-msgstr "Vui lòng cài đặt numlockx để sử dụng tùy chọn này."
+msgstr "נא להתקין numlock על מנת להשתמש באפשרות זו."
 
 #: usr/lib/lightdm-settings/lightdm-settings:217
 msgid "Activate numlock in the login window."
-msgstr "Kích hoạt numlock ở màn hình đăng nhập."
+msgstr "הפעלת  numlock בחלון הכניסה."
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 #: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Auto"
-msgstr "Tự động"
+msgstr "אוטומטי"
 
 #: usr/lib/lightdm-settings/lightdm-settings:224
 msgid "Enable"
-msgstr "Cho phép"
+msgstr "אפשור"
 
 #: usr/lib/lightdm-settings/lightdm-settings:225
 msgid "Disable"
-msgstr "Vô hiệu hóa"
+msgstr "נטרל"
 
 #: usr/lib/lightdm-settings/lightdm-settings:226
 msgid "HiDPI support"
-msgstr "Hỗ trợ HiDPI"
+msgstr "תמיכת HiDPI"
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 msgid "Support for high pixel density and Retina displays."
-msgstr "Hỗ trợ màn hình độ phân giải cao và các loại màn hình Retina"
+msgstr "תמיכה בצפיפות פיקסלים גבוהה ותצוגות רשתית."
 
 #: usr/lib/lightdm-settings/lightdm-settings:231
 msgid "Monitor"
-msgstr ""
+msgstr "צג"
 
 #: usr/lib/lightdm-settings/lightdm-settings:232
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
+"בחירת הצג שיציג את חלון הכניסה, או בחירה ב 'אוטומטי'  לעקיבה אחר העכבר."
 
 #: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Panel indicators"
-msgstr "Các nút điều hướng"
+msgstr "לוח מחוונים"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Hostname"
-msgstr "Tên máy chủ"
+msgstr "שם מארח"
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Show the computer hostname in the panel."
-msgstr "Hiện tên máy chủ ở thanh trạng thái."
+msgstr "הצגת שם מחשב מארח בלוח."
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Accessibility options"
-msgstr "Tùy chọn khả năng truy cập"
+msgstr "אפשרויות נגישות"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Show accessibility options in the panel."
-msgstr "Hiện tùy chọn khả năng truy cập ở thanh trạng thái."
+msgstr "הצגת אפשרויות נגישות בלוח."
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Battery power"
-msgstr "Nguồn pin"
+msgstr "עצמת סוללה"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "On laptops, show the battery power in the panel."
-msgstr "Khi dùng laptop, hiện nguồn pin ở thanh trạng thái."
+msgstr "הצגת עוצמת הסוללה על הלוח, במחשבים ניידים."
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Keyboard layout"
-msgstr "Bố cục bàn phím"
+msgstr "פריסת מקלדת"
 
 #: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Show the keyboard layout in the panel."
-msgstr "Hiện bố cục bàn phím ở thanh trạng thái."
+msgstr "הצגת פריסת המקלדת בלוח."
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Clock"
-msgstr "Đồng hồ"
+msgstr "שעון"
 
 #: usr/lib/lightdm-settings/lightdm-settings:254
 msgid "Show a clock in the panel."
-msgstr "Hiện đồng hồ ở thanh trạng thái"
+msgstr "הצגת שעון בלוח."
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Quit menu"
-msgstr "Thực đơn thoát"
+msgstr "תפריט יציאה"
 
 #: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Show the quit menu in the panel."
-msgstr "Hiện thực đơn thoát ở thanh trạng thái."
+msgstr "הצגת תפריט יציאה בלוח."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:200
 msgid "Choose an Image File"
-msgstr "Chọn tập tin hình ảnh"
+msgstr "בחירת קובץ תמונה"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Cancel"
-msgstr "_Hủy bỏ"
+msgstr "_ביטול"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:204
 msgid "_Open"
-msgstr "_Mở"
+msgstr "_פתיחה"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:207
 msgid "Image files"
-msgstr "Tập tin hình ảnh"
+msgstr "קובץ תמונה"
 
 #: generate_desktop_files:27
 msgid "Configure the login window"
-msgstr "Cấu hình màn hình đăng nhập"
+msgstr "תיצור חלון הכניסה"

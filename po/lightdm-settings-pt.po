@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-10 14:33+0100\n"
-"PO-Revision-Date: 2017-07-24 18:10+0000\n"
-"Last-Translator: Tiago Santos <Unknown>\n"
+"PO-Revision-Date: 2018-10-09 17:28+0000\n"
+"Last-Translator: Alfredo Silva <alfredo.silva@sky.com>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:17+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-11-27 17:53+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:27
@@ -47,7 +47,8 @@ msgstr "Desenhar fundos do utilizador"
 
 #: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "When a user is selected, show that user's background."
-msgstr "Quando um utilizador é selecionado, mostrar fundo desse utilizador."
+msgstr ""
+"Quando é selecionado um utilizador, mostrar esse fundo do utilizador."
 
 #: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Draw a grid"
@@ -94,8 +95,8 @@ msgstr "Margem inferior esquerda"
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr ""
-"Escolha a imagem a mostrar na margem inferior esquerda da janela de "
-"autenticação."
+"Selecione uma imagem para mostrar na margem inferior esquerda da janela de "
+"início de sessão."
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Users"
@@ -112,20 +113,20 @@ msgstr "Permitir início de sessão manual"
 #: usr/lib/lightdm-settings/lightdm-settings:182
 msgid "Add an option in the login window to enter a username."
 msgstr ""
-"Adicionar uma opção à janela de autenticação para introduzir o nome de "
+"Adicionar uma opção à janela de início de sessão para inserir o nome de "
 "utilizador."
 
 #: usr/lib/lightdm-settings/lightdm-settings:186
 msgid "Hide the user list"
-msgstr "Esconder a lista de utilizadores."
+msgstr "Ocultar a lista de utilizadores"
 
 #: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Hide the list of users in the login window."
-msgstr "Esconder a lista de utilizadores da janela de autenticação."
+msgstr "Ocultar a lista de utilizadores na janela de início de sessão."
 
 #: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Guest sessions"
-msgstr "Sessão de convidado."
+msgstr "Sessões de convidado"
 
 #: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Allow guest sessions"
@@ -136,8 +137,9 @@ msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
-"Permite aos convidados utilizar o computador sem palavra passe. Uma conta de "
-"convidado temporária é criada automaticamente assim que se autenticar."
+"Permite que os convidados utilizem o computador sem uma palavra passe. Uma "
+"conta de convidado temporária é criada automaticamente assim que estes "
+"iniciem a sessão."
 
 #: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Automatic login"
@@ -151,12 +153,12 @@ msgstr "Nome de utilizador"
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
-"Aviso: A autenticação automática irá falhar se o diretório base do "
-"utilizador atual estiver encriptado."
+"Aviso: a autenticação automática irá falhar se a diretoria base do "
+"utilizador atual estiver encriptada."
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "These settings require a computer reboot to take effect."
-msgstr "Para que estas definição tenham efeito o computar tem de reiniciar."
+msgstr "Para que estas definição sejam aplicadas, deve reiniciar o computar."
 
 #: usr/lib/lightdm-settings/lightdm-settings:209
 #: usr/lib/lightdm-settings/lightdm-settings:210
@@ -190,25 +192,28 @@ msgstr "Desativar"
 
 #: usr/lib/lightdm-settings/lightdm-settings:226
 msgid "HiDPI support"
-msgstr "Suport HiDPI"
+msgstr "Suporte para HiDPI"
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 msgid "Support for high pixel density and Retina displays."
-msgstr "Suporte a monitores com alta densidade de pixeis e do tipo Retina."
+msgstr ""
+"Suporte para os monitores com alta densidade de pixeis e do tipo Retina."
 
 #: usr/lib/lightdm-settings/lightdm-settings:231
 msgid "Monitor"
-msgstr ""
+msgstr "Monitor"
 
 #: usr/lib/lightdm-settings/lightdm-settings:232
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
+"Escolha o monitor que deverá exibir a janela de início de sessão, ou "
+"selecione 'Automático' se quiser que este siga o ponteiro do rato."
 
 #: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Panel indicators"
-msgstr "Indicadores do painel."
+msgstr "Indicadores do painel"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Hostname"
@@ -216,11 +221,11 @@ msgstr "Nome do anfitrião"
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Show the computer hostname in the panel."
-msgstr "Mosta o nome do computador anfitrião no painel."
+msgstr "Mosta o nome de anfitrião do computador no painel."
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Accessibility options"
-msgstr "Opções de acessibilidade."
+msgstr "Opções de acessibilidade"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Show accessibility options in the panel."
@@ -240,7 +245,7 @@ msgstr "Disposição do teclado"
 
 #: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Show the keyboard layout in the panel."
-msgstr "Mostra a disposição d teclado no painel."
+msgstr "Mostra a disposição do teclado no painel."
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Clock"
@@ -256,11 +261,11 @@ msgstr "Menu Sair"
 
 #: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Show the quit menu in the panel."
-msgstr "Mostra o menu Sair no painel."
+msgstr "Mostra o menu de sair no painel."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:200
 msgid "Choose an Image File"
-msgstr "Escolha um ficheiro de imagem"
+msgstr "Escolher um Ficheiro de Imagem"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Cancel"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-05-10 14:33+0100\n"
-"PO-Revision-Date: 2018-06-16 04:12+0000\n"
+"PO-Revision-Date: 2018-07-01 11:26+0000\n"
 "Last-Translator: jemmy surya <j4m13s@yahoo.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2018-06-26 10:17+0000\n"
-"X-Generator: Launchpad (build 18688)\n"
+"X-Launchpad-Export-Date: 2018-11-27 17:53+0000\n"
+"X-Generator: Launchpad (build 18826)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:27
@@ -212,15 +212,15 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Accessibility options"
-msgstr ""
+msgstr "Opsi aksesibilitas"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Show accessibility options in the panel."
-msgstr ""
+msgstr "Tampilkan opsi aksesibilitas dipanel"
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Battery power"
-msgstr ""
+msgstr "Kekuatan baterai"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "On laptops, show the battery power in the panel."
