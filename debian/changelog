@@ -1,3 +1,14 @@
+lightdm-settings (1.2.4) tessa; urgency=medium
+
+  [ JosephMcc ]
+  * Settings-widgets: Fix broken theming (#29)
+
+  [ Clement Lefebvre ]
+  * l10n: Update translations
+  * l10n: Update files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 27 Nov 2018 19:36:26 +0000
+
 lightdm-settings (1.2.3) tara; urgency=medium
 
   * Don't show guest-account option if /usr/sbin/guest-account isn't present
