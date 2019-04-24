@@ -296,7 +296,7 @@ class SettingsCombo(Gtk.ComboBox):
         self.set_valign(Gtk.Align.CENTER)
 
         # assume all keys are the same type (mixing types is going to cause an error somewhere)
-        var_type = type(options[0][0])
+        var_type = type(options[0][0]) if options else None
         self.model = Gtk.ListStore(var_type, str)
         self.valtype = valtype
         self.option_map = {}
