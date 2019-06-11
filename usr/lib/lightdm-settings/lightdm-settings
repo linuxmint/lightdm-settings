@@ -2,16 +2,16 @@
 
 import setproctitle
 import os
-import gi
 import gettext
 import sys
 import glob
 import subprocess, binascii
-from SettingsWidgets import *
 from distutils.version import LooseVersion
 
+import gi
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk, Gdk, Gio, GLib
+from gi.repository import Gtk, Gdk, Gio, GLib, GdkPixbuf
+from xapp.GSettingsWidgets import *
 
 try:
     import lsb_release
@@ -26,85 +26,35 @@ CONF_PATH = "/etc/lightdm/slick-greeter.conf"
 LIGHTDM_CONF_PATH = "/etc/lightdm/lightdm.conf"
 LIGHTDM_GROUP_NAMES = ["SeatDefaults", "Seat:*"]
 
-class Application(Gtk.Application):
-    ''' Create the UI '''
+class SidePage:
+
+    def __init__(self, notebook_index, name, icon):
+        self.notebook_index = notebook_index
+        self.name = name
+        self.icon = icon
+
+class LightDMSettings:
+
+    # Change pages and sidebar menus
+    def side_view_nav(self, param):
+        treePaths = param.get_selected_items()
+        if (len(treePaths) > 0):
+            treePath = treePaths[0]
+            index = int("%s" % treePath) #Hack to turn treePath into an int
+            target = self.sidePages[index].notebook_index
+            self.builder.get_object("notebook1").set_current_page(target)
+
+    # Creating the UI
     def __init__(self):
 
-        Gtk.Application.__init__(self, application_id='com.linuxmint.lightdm-settings', flags=Gio.ApplicationFlags.FLAGS_NONE)
+        # Load the glade ui file
+        self.builder = Gtk.Builder()
+        #self.builder.add_from_file('/usr/lib/lightdm-settings/lightdm-settings.ui')
+        self.builder.add_from_file('/home/santiago/Git/lightdm-settings/usr/lib/lightdm-settings/lightdm-settings.ui')
+        self.window = self.builder.get_object("main_window")
+        self.window.connect("destroy", Gtk.main_quit)
 
-    def do_activate(self):
-        list = self.get_windows()
-        if len(list) > 0:
-            # Application is already running, focus the window
-            self.get_active_window().present()
-        else:
-            self.window = Gtk.ApplicationWindow.new(self)
-            self.window.set_title(_("Login Window"))
-            self.window.set_icon_name("lightdm-settings")
-            self.window.set_default_size(640, 400)
-            self.create_window()
-            self.window.show_all()
-
-    def _is_gnome(self):
-        if "XDG_CURRENT_DESKTOP" in os.environ:
-            if "GNOME" in os.environ["XDG_CURRENT_DESKTOP"]:
-                return True
-
-        return False
-
-    # callback function for "quit"
-    def quit_cb(self, action, parameter):
-        self.quit()
-
-    def do_startup(self):
-        Gtk.Application.do_startup(self)
-
-        if self._is_gnome():
-            menu = Gio.Menu()
-            menu.append(_("Quit"), "app.quit")
-            quit_action = Gio.SimpleAction.new("quit", None)
-            quit_action.connect("activate", self.quit_cb)
-            self.add_action(quit_action)
-            self.set_app_menu(menu)
-
-    def create_window(self):
-        if self._is_gnome():
-            headerbar = Gtk.HeaderBar.new()
-            headerbar.set_show_close_button(True)
-            headerbar.set_title(_("Login Window"))
-            self.window.set_titlebar(headerbar)
-            self.window.set_show_menubar(False)
-        else:
-            self.add_window(self.window)
-
-        self.main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
-
-        toolbar = Gtk.Toolbar()
-        toolbar.get_style_context().add_class("primary-toolbar")
-        self.main_box.pack_start(toolbar, False, False, 0)
-
-        self.main_stack = Gtk.Stack()
-        self.main_stack.set_transition_type(Gtk.StackTransitionType.SLIDE_LEFT_RIGHT)
-        self.main_stack.set_transition_duration(150)
-        self.main_box.pack_start(self.main_stack, True, True, 0)
-
-        stack_switcher = Gtk.StackSwitcher()
-        stack_switcher.set_stack(self.main_stack)
-        stack_switcher.set_halign(Gtk.Align.CENTER)
-        stack_switcher.set_homogeneous(True)
-
-        switch_holder = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
-        switch_holder.set_border_width(1)
-        switch_holder.pack_start(stack_switcher, True, True, 0)
-
-        tool_item = Gtk.ToolItem()
-        tool_item.set_expand(True)
-        tool_item.get_style_context().add_class("raised")
-        tool_item.add(switch_holder)
-
-        toolbar.insert(tool_item, 0)
-        toolbar.show_all()
-
+        # Reading settings and debugging
         settings = Gio.Settings("x.dm.slick-greeter")
 
         debug = False
@@ -125,319 +75,80 @@ class Application(Gtk.Application):
         except:
             print("Could not load %s." % LIGHTDM_CONF_PATH)
 
-        # APPEARANCE
+        # Setting up the components
+        # Using normal icons
+        side_appearance = SidePage(0, _("Appearance"), "applications-graphics")
+        side_users = SidePage(1, _("Users"), "system-users")
+        side_settings = SidePage(2, _("Settings"), "applications-system-symbolic")
+
+        self.sidePages = [side_appearance, side_users, side_settings]
+
+        # create the backing store for the side nav-view.
+        theme = Gtk.IconTheme.get_default()
+        self.store = Gtk.ListStore(str, GdkPixbuf.Pixbuf)
+        for sidePage in self.sidePages:
+            img = theme.load_icon(sidePage.icon, 36, 0)
+            self.store.append([sidePage.name, img])
+
+        target = self.sidePages[0].notebook_index
+        self.builder.get_object("notebook1").set_current_page(target)
+
+        # set up the side view - navigation.
+        self.builder.get_object("side_view").set_text_column(0)
+        self.builder.get_object("side_view").set_pixbuf_column(1)
+        self.builder.get_object("side_view").set_model(self.store)
+        self.builder.get_object("side_view").select_path(Gtk.TreePath.new_first())
+        self.builder.get_object("side_view").connect("selection_changed", self.side_view_nav)
+
+        # set up larger components.
+        self.window.set_title(_("LightDM Settings"))
+        self.window.connect("destroy", Gtk.main_quit)
+
+        # Appearance section
+        vbox = self.builder.get_object("vbox_appearance")
         page = SettingsPage()
-        self.main_stack.add_titled(page, "appearance", _("Appearance"))
+        vbox.pack_start(page, True, True, 0)
+
         section = page.add_section(_("Background"))
-
-        row = SettingsRow(Gtk.Label(_("Background")), SettingsPictureChooser(keyfile, settings, "background"))
-        row.set_tooltip_text(_("Background"))
-        section.add_row(row)
-
-        row = SettingsRow(Gtk.Label(_("Background color")), SettingsColorChooser(keyfile, settings, "background-color"))
-        row.set_tooltip_text(_("Background color"))
-        section.add_row(row)
-
-        if self.should_show_user_bg_switch ():
-                row = SettingsRow(Gtk.Label(_("Draw user backgrounds")), SettingsSwitch(keyfile, settings, "draw-user-backgrounds"))
-                row.set_tooltip_text(_("When a user is selected, show that user's background."))
-                section.add_row(row)
-
-        row = SettingsRow(Gtk.Label(_("Draw a grid")), SettingsSwitch(keyfile, settings, "draw-grid"))
-        row.set_tooltip_text(_("Draw a grid of white dots on top of the background."))
-        section.add_row(row)
 
         section = page.add_section(_("Themes"))
 
-        size_group = Gtk.SizeGroup(Gtk.SizeGroupMode.HORIZONTAL)
-
-        row = SettingsRow(Gtk.Label(_("GTK theme")), SettingsCombo(keyfile, settings, "theme-name", self.get_gtk_themes(), "string", size_group))
-        row.set_tooltip_text(_("GTK theme"))
-        section.add_row(row)
-
-        row = SettingsRow(Gtk.Label(_("Icon theme")), SettingsCombo(keyfile, settings, "icon-theme-name", self.get_icon_themes(), "string", size_group))
-        row.set_tooltip_text(_("Icon theme"))
-        section.add_row(row)
-
         section = page.add_section(_("Optional pictures"))
 
-        row = SettingsRow(Gtk.Label(_("Other monitors")), SettingsPictureChooser(keyfile, settings, "other-monitors-logo"))
-        row.set_tooltip_text(_("If you have multiple monitors, the user list is placed on the active one, and this picture on the others."))
-        section.add_row(row)
+        page.show_all()
+        # End of Appearance section
 
-        row = SettingsRow(Gtk.Label(_("Bottom left")), SettingsPictureChooser(keyfile, settings, "logo"))
-        row.set_tooltip_text(_("Select a picture to show on the bottom left of the login window."))
-        section.add_row(row)
+        # Users section
+        size_group = Gtk.SizeGroup()
+        size_group.set_mode(Gtk.SizeGroupMode.HORIZONTAL)
 
-        # USERS
+        vbox = self.builder.get_object("vbox_users")
         page = SettingsPage()
+        vbox.pack_start(page, True, True, 0)
 
-        self.main_stack.add_titled(page, "users", _("Users"))
-        section = page.add_section(_("User list"))
+        section = page.add_section(_("Login and session settings"), "* " + _("These settings require a computer reboot to take effect."))
 
-        value = self.get_lightdm_config ("greeter-show-manual-login", False)
-        row  = SettingsRow(Gtk.Label(_("Allow manual login") + " *"), LightDMSwitch(lightdm_keyfile, "greeter-show-manual-login", value))
-        row.set_tooltip_text(_("Add an option in the login window to enter a username."))
-        section.add_row(row)
+        page.show_all()
+        # End of Users section
 
-        value = self.get_lightdm_config ("greeter-hide-users", False)
-        row  = SettingsRow(Gtk.Label(_("Hide the user list") + " *"), LightDMSwitch(lightdm_keyfile, "greeter-hide-users", value))
-        row.set_tooltip_text(_("Hide the list of users in the login window."))
-        section.add_row(row)
+        # Settings section
+        size_group = Gtk.SizeGroup()
+        size_group.set_mode(Gtk.SizeGroupMode.HORIZONTAL)
 
-        if os.path.exists("/usr/sbin/guest-account"):
-            section = page.add_section(_("Guest sessions"))
-            value = self.get_lightdm_config ("allow-guest", True)
-            row  = SettingsRow(Gtk.Label(_("Allow guest sessions") + " *"), LightDMSwitch(lightdm_keyfile, "allow-guest", value))
-            row.set_tooltip_text(_("Allow guests to use the computer without a password. A temporary guest account is created automatically when they log in."))
-            section.add_row(row)
-
-        section = page.add_section(_("Automatic login"))
-
-        value = self.get_lightdm_config ("autologin-user", "")
-        row  = SettingsRow(Gtk.Label(_("Username") + " *"), LightDMEntry(lightdm_keyfile, "autologin-user", value))
-        row.set_tooltip_text(_("Warning: Automatic login will fail if the user's home directory is encrypted."))
-        section.add_row(row)
-
-        description = Gtk.Label("* " + _("These settings require a computer reboot to take effect."))
-        page.pack_start(description, False, False, 0)
-
-        # SETTINGS
+        vbox = self.builder.get_object("vbox_settings")
         page = SettingsPage()
-        self.main_stack.add_titled(page, "settings", _("Settings"))
+        vbox.pack_start(page, True, True, 0)
+
         section = page.add_section(_("Settings"))
-
-        row = SettingsRow(Gtk.Label(_("Activate numlock")), SettingsSwitch(keyfile, settings, "activate-numlock"))
-        if (not os.path.exists("/usr/bin/numlockx")):
-            row.set_sensitive(False)
-            row.set_tooltip_text(_("Please install numlockx to use this option."))
-        else:
-            row.set_tooltip_text(_("Activate numlock in the login window."))
-        section.add_row(row)
-
-        size_group = Gtk.SizeGroup(Gtk.SizeGroupMode.HORIZONTAL)
-
-        hidpi_options = []
-        hidpi_options.append(["auto", _("Auto")])
-        hidpi_options.append(["on", _("Enable")])
-        hidpi_options.append(["off", _("Disable")])
-        row = SettingsRow(Gtk.Label(_("HiDPI support")), SettingsCombo(keyfile, settings, "enable-hidpi", hidpi_options, "string", size_group))
-        row.set_tooltip_text(_("Support for high pixel density and Retina displays."))
-        section.add_row(row)
-
-        monitors = [["auto", _("Auto")]] + self.get_monitors()
-        row = SettingsRow(Gtk.Label(_("Monitor")), SettingsCombo(keyfile, settings, "only-on-monitor", monitors, "string", size_group))
-        row.set_tooltip_text(_("Choose which monitor should display the login window, or select 'Auto' if you want it to follow the mouse."))
-        section.add_row(row)
 
         section = page.add_section(_("Panel indicators"))
 
-        row = SettingsRow(Gtk.Label(_("Hostname")), SettingsSwitch(keyfile, settings, "show-hostname"))
-        row.set_tooltip_text(_("Show the computer hostname in the panel."))
-        section.add_row(row)
+        page.show_all()
+        # End of Settings section
 
-        row = SettingsRow(Gtk.Label(_("Accessibility options")), SettingsSwitch(keyfile, settings, "show-a11y"))
-        row.set_tooltip_text(_("Show accessibility options in the panel."))
-        section.add_row(row)
+        self.window.show()
 
-        row = SettingsRow(Gtk.Label(_("Battery power")), SettingsSwitch(keyfile, settings, "show-power"))
-        row.set_tooltip_text(_("On laptops, show the battery power in the panel."))
-        section.add_row(row)
-
-        row = SettingsRow(Gtk.Label(_("Keyboard layout")), SettingsSwitch(keyfile, settings, "show-keyboard"))
-        row.set_tooltip_text(_("Show the keyboard layout in the panel."))
-        section.add_row(row)
-
-        row = SettingsRow(Gtk.Label(_("Clock")), SettingsSwitch(keyfile, settings, "show-clock"))
-        row.set_tooltip_text(_("Show a clock in the panel."))
-        section.add_row(row)
-
-        row = SettingsRow(Gtk.Label(_("Quit menu")), SettingsSwitch(keyfile, settings, "show-quit"))
-        row.set_tooltip_text(_("Show the quit menu in the panel."))
-        section.add_row(row)
-
-        self.window.add(self.main_box)
-
-        self.window.show_all()
-
-    def walk_directories(self, dirs, filter_func, return_directories=False):
-        # If return_directories is False: returns a list of valid subdir names
-        # Else: returns a list of valid tuples (subdir-names, parent-directory)
-        valid = []
-        try:
-            for thdir in dirs:
-                if os.path.isdir(thdir):
-                    for t in os.listdir(thdir):
-                        if filter_func(os.path.join(thdir, t)):
-                            if return_directories:
-                                valid.append([t, thdir])
-                            else:
-                                valid.append(t)
-        except:
-            pass
-            #logging.critical("Error parsing directories", exc_info=True)
-        return valid
-
-
-    def filter_func_gtk_dir(self, directory):
-        # returns whether a directory is a valid GTK theme
-        if os.path.exists(os.path.join(directory, "gtk-2.0")):
-            if os.path.exists(os.path.join(directory, "gtk-3.0")):
-                return True
-            else:
-                for subdir in glob.glob("%s/gtk-3.*" % directory):
-                    return True
-        return False
-
-    def get_gtk_themes(self):
-        try:
-            """ Only shows themes that have variations for gtk+-3 and gtk+-2 """
-            dirs = ["/usr/share/themes"]
-            valid = self.walk_directories(dirs, self.filter_func_gtk_dir, return_directories=True)
-            valid.sort(key=lambda a: a[0].lower())
-            res = []
-            for i in valid:
-                for j in res:
-                    if i[0] == j[0]:
-                        if i[1] == dirs[0]:
-                            continue
-                        else:
-                            res.remove(j)
-                res.append((i[0], i[0]))
-            return res
-        except:
-            print ("WOW")
-
-    def get_icon_themes(self):
-        dirs = ("/usr/share/icons", os.path.join(os.path.expanduser("~"), ".icons"))
-        walked = self.walk_directories(dirs, lambda d: os.path.isdir(d), return_directories=True)
-        valid = []
-        for directory in walked:
-            path = os.path.join(directory[1], directory[0], "index.theme")
-            if os.path.exists(path):
-                try:
-                    for line in list(open(path)):
-                        if line.startswith("Directories="):
-                            valid.append(directory)
-                            break
-                except Exception as e:
-                    print (e)
-
-        valid.sort(key=lambda a: a[0].lower())
-        res = []
-        for i in valid:
-            for j in res:
-                if i[0] == j:
-                    if i[1] == dirs[0]:
-                        continue
-                    else:
-                        res.remove(j)
-            res.append([i[0], i[0]])
-        return res
-
-    def get_lightdm_config (self, key, default_value):
-        value = default_value
-        for path in ["/usr/share/lightdm/lightdm.conf.d", "/etc/lightdm/lightdm.conf.d", "/etc/lightdm/lightdm.conf"]:
-            if os.path.exists(path):
-                if os.path.isdir(path):
-                    files = sorted(os.listdir(path))
-                    for file in files:
-                        if file.endswith(".conf"):
-                            full_path = os.path.join(path, file)
-                            try:
-                                keyfile = GLib.KeyFile()
-                                keyfile.load_from_file(full_path, 0)
-                                for group in LIGHTDM_GROUP_NAMES:
-                                    if keyfile.has_group(group):
-                                        if isinstance(default_value, str):
-                                            value = keyfile.get_string(group, key)
-                                        elif isinstance(default_value, bool):
-                                            value = keyfile.get_boolean(group, key)
-                            except:
-                                pass
-                else:
-                    try:
-                        keyfile = GLib.KeyFile()
-                        keyfile.load_from_file(path, 0)
-                        for group in LIGHTDM_GROUP_NAMES:
-                            if keyfile.has_group(group):
-                                if isinstance(default_value, str):
-                                    value = keyfile.get_string(group, key)
-                                elif isinstance(default_value, bool):
-                                    value = keyfile.get_boolean(group, key)
-                    except:
-                        pass
-        return (value)
-
-    def should_show_user_bg_switch (self):
-        # Showing the current user's background on the login screen is unsupported
-        # in versions < 1.25.2.
-
-        try:
-            ret = subprocess.run(["lightdm", "--version"],
-                                 stdout=subprocess.PIPE,
-                                 stderr=subprocess.STDOUT,
-                                 encoding="utf-8",
-                                 check=True)
-
-            version_string = ret.stdout.strip("\n").strip("lightdm").strip()
-
-            print("lightdm version: %s" % version_string)
-
-            return LooseVersion(version_string) >= LooseVersion("1.26.0")
-        except OSError as e:
-            print("lightdm not in path, is it installed? %s" % e)
-        except subprocess.CalledProcessError as e:
-            print("Problem getting lightdm version: ", e)
-        except Exception as e:
-            print(e)
-
-        return False
-
-    def get_monitors(self):
-        monitors = []
-
-        # Gather monitor names from Xrandr
-        monitor_names = {}
-        try:
-            output = subprocess.check_output("""
-            xrandr --prop | awk '
-              !/^[ \t]/ {
-                if (output && hex) print output, conn, hex
-                output=$1
-                hex=""
-              }
-              /ConnectorType:/ {conn=$2}
-              /[:.]/ && h {
-                sub(/.*000000fc00/, "", hex)
-                hex = substr(hex, 0, 26) "0a"
-                sub(/0a.*/, "", hex)
-                h=0
-              }
-              h {sub(/[ \t]+/, ""); hex = hex $0}
-              /EDID.*:/ {h=1}'
-            """, shell=True).decode("utf-8")
-            for line in output.split("\n"):
-                parts = line.split()
-                if len(parts) == 3:
-                    (plug_name, port, model) = parts
-                    model = binascii.unhexlify(model).decode()
-                    monitor_names[plug_name] = model
-        except Exception as e:
-          print(e)
-
-        # Gather monitors from Gdk
-        screen = Gdk.Screen.get_default()
-        display = screen.get_display()
-        for i in range(0, display.get_n_monitors()):
-          monitor = display.get_monitor(i)
-          plug_name = monitor.get_model()
-          if plug_name in monitor_names:
-            monitors.append([plug_name, "%s (%s)" % (plug_name, monitor_names[plug_name])])
-          else:
-            monitors.append([plug_name, plug_name])
-        return monitors
 
 if __name__ == "__main__":
-    app = Application()
-    app.run(None)
+    LightDMSettings()
+    Gtk.main()
