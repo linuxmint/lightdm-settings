@@ -210,7 +210,11 @@ class Application(Gtk.Application):
         row = SettingsRow(Gtk.Label(_("Activate numlock")), SettingsSwitch(keyfile, settings, "activate-numlock"))
         if (not os.path.exists("/usr/bin/numlockx")):
             row.set_sensitive(False)
-            row.set_tooltip_text(_("Please install numlockx to use this option."))
+            # Set button to OFF state.
+            row.main_widget.set_active(False)
+            # Inform user to install dependency in the label.
+            row.label.set_text(_("Activate numlock\nPlease install numlockx to use this option."))
+            row.label.set_tooltip_text(_("Please install numlockx to use this option."))
         else:
             row.set_tooltip_text(_("Activate numlock in the login window."))
         section.add_row(row)
