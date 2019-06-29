@@ -27,7 +27,6 @@ LIGHTDM_CONF_PATH = "/etc/lightdm/lightdm.conf"
 LIGHTDM_GROUP_NAMES = ["SeatDefaults", "Seat:*"]
 
 class SidePage:
-
     def __init__(self, notebook_index, name, icon):
         self.notebook_index = notebook_index
         self.name = name
@@ -54,9 +53,6 @@ class LightDMSettings:
         self.window = self.builder.get_object("main_window")
         self.window.connect("destroy", Gtk.main_quit)
 
-        # Reading settings and debugging
-        settings = Gio.Settings("x.dm.slick-greeter")
-
         debug = False
         if len(sys.argv) > 1 and sys.argv[1] == "debug":
             debug = True
@@ -79,7 +75,7 @@ class LightDMSettings:
         # Using normal icons
         side_appearance = SidePage(0, _("Appearance"), "applications-graphics")
         side_users = SidePage(1, _("Users"), "system-users")
-        side_settings = SidePage(2, _("Settings"), "applications-system-symbolic")
+        side_settings = SidePage(2, _("Settings"), "applications-system")
 
         self.sidePages = [side_appearance, side_users, side_settings]
 
@@ -110,10 +106,29 @@ class LightDMSettings:
         vbox.pack_start(page, True, True, 0)
 
         section = page.add_section(_("Background"))
+        #section.add_row(GSettings+Widget(_("name of the label"), "location of dconf configuration", "name of dconf property"))
+        background = GSettingsFileChooser(_("Background"), "x.dm.slick-greeter", "background")
+        #background.set_tooltip_text(_("Background"))
+        background.set_tooltip_text(_("Set the background picture of the greeter"))
+        section.add_row(background)
+        background_color = GSettingsColorChooser(_("Background color"), "x.dm.slick-greeter", "background-color")
+        #background_color.set_tooltip_text(_("Background color"))
+        background_color.set_tooltip_text(_("Set the background color of the greeter"))
+        section.add_row(background_color)
+        user_background = GSettingsSwitch(_("Draw user backgrounds"), "x.dm.slick-greeter", "draw-user-backgrounds")
+        user_background.set_tooltip_text(_("When a user is selected, show that user's background."))
+        section.add_row(user_background)
+        draw_grid = GSettingsSwitch(_("Draw a grid"), "x.dm.slick-greeter", "draw-grid")
+        draw_grid.set_tooltip_text(_("Draw a grid of white dots on top of the background."))
+        section.add_row(draw_grid)
 
         section = page.add_section(_("Themes"))
+        #section.add_row(GSettingsRange(_("GTK theme"), "x.dm.slick-greeter", "theme-name"))
+        #section.add_row(GSettingsRange(_("Icon theme"), "x.dm.slick-greeter", "icon-theme-name"))
 
         section = page.add_section(_("Optional pictures"))
+        section.add_row(GSettingsFileChooser(_("Other monitors"), "x.dm.slick-greeter", "other-monitors-logo"))
+        section.add_row(GSettingsFileChooser(_("Bottom left"), "x.dm.slick-greeter", "logo"))
 
         page.show_all()
         # End of Appearance section
@@ -127,6 +142,7 @@ class LightDMSettings:
         vbox.pack_start(page, True, True, 0)
 
         section = page.add_section(_("Login and session settings"), "* " + _("These settings require a computer reboot to take effect."))
+        #section.add_row(GSettingsFileChooser(_("Allow manual login") + " *", "x.dm.slick-greeter", "background"))
 
         page.show_all()
         # End of Users section
@@ -140,6 +156,25 @@ class LightDMSettings:
         vbox.pack_start(page, True, True, 0)
 
         section = page.add_section(_("Settings"))
+        numlock = GSettingsSwitch(_("Activate numlock"), "x.dm.slick-greeter", "activate-numlock")
+        if (not os.path.exists("/usr/bin/numlockx")):
+            numlock.set_sensitive(False)
+            numlock.set_tooltip_text(_("Please install numlockx to use this option."))
+            #numlock.set_tooltip_text(_("Package numlockx is not installed, please use your package manager and install it to use this option."))
+        else:
+            numlockx.set_tooltip_text(_("Activate numlock in the login window."))
+        section.add_row(numlock)
+
+        # Adding options to the HiDPI ComboBox
+        hidpi_options = []
+        hidpi_options.append(["auto", _("Auto")])
+        hidpi_options.append(["on", _("Enable")])
+        hidpi_options.append(["off", _("Disable")])
+
+        hidpi_support = GSettingsComboBox(_("HiDPI support"), "x.dm.slick-greeter", "enable-hidpi", hidpi_options)
+        #hidpi_support.set_tooltip_text(_("Support for high pixel density and Retina displays."))
+        hidpi_support.set_tooltip_text(_("Support for high pixel density and Retina displays, usually known as 4K."))
+        section.add_row(hidpi_support)#, size_group=size_group))
 
         section = page.add_section(_("Panel indicators"))
 
