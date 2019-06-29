@@ -199,6 +199,11 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Warning: Automatic login will fail if the user's home directory is encrypted."))
         section.add_row(row)
 
+        value = self.get_lightdm_config ("autologin-user-timeout", "")
+        row  = SettingsRow(Gtk.Label(_("Autologin Timeout") + " *"), LightDMEntry(lightdm_keyfile, "autologin-user-timeout", value))
+        row.set_tooltip_text(_("Set time (in seconds) before automatic login occurs. Any user activity will cancel this timeout."))
+        section.add_row(row)
+
         description = Gtk.Label("* " + _("These settings require a computer reboot to take effect."))
         page.pack_start(description, False, False, 0)
 
