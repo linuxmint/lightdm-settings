@@ -200,8 +200,8 @@ class Application(Gtk.Application):
         section.add_row(row)
 
         value = self.get_lightdm_config ("autologin-user-timeout", "")
-        row  = SettingsRow(Gtk.Label(_("Autologin Timeout") + " *"), LightDMEntry(lightdm_keyfile, "autologin-user-timeout", value))
-        row.set_tooltip_text(_("Set time (in seconds) before automatic login occurs. Any user activity will cancel this timeout."))
+        row  = SettingsRow(Gtk.Label(_("Delay before connection (in seconds)") + " *"), LightDMEntry(lightdm_keyfile, "autologin-user-timeout", value))
+        row.set_tooltip_text(_("If this option is set the login screen will be shown for this many seconds before the automatic login occurs. Any user activity will cancel the countdown."))
         section.add_row(row)
 
         description = Gtk.Label("* " + _("These settings require a computer reboot to take effect."))
