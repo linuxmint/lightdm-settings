@@ -1,3 +1,26 @@
+lightdm-settings (1.2.6) tina; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Fix generate_desktop_files
+
+  [ Julien Negrotto ]
+  * Fix IndexError when no GTK themes are installed (#33)
+
+  [ shanmukhateja ]
+  * inform user about numlockx on label for better UX (#36)
+
+  [ Clement Lefebvre ]
+  * l10n: Fix msgids
+
+  [ shanmukhateja ]
+  * feat: add autologin timeout (#37)
+
+  [ Clement Lefebvre ]
+  * l10n: Fix msgids
+  * l10n: Update POT
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 30 Jun 2019 16:44:53 +0200
+
 lightdm-settings (1.2.5) tessa; urgency=medium
 
   * Update translations
