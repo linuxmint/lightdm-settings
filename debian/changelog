@@ -1,3 +1,10 @@
+lightdm-settings (1.2.7) tina; urgency=medium
+
+  * l10n: Update translations
+  * l10n: Generate files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 10 Jul 2019 12:34:01 +0200
+
 lightdm-settings (1.2.6) tina; urgency=medium
 
   [ Clement Lefebvre ]
