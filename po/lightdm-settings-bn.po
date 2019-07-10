@@ -1,16 +1,16 @@
-# Hungarian translation for linuxmint
-# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# Bengali translation for linuxmint
+# Copyright (c) 2019 Rosetta Contributors and Canonical Ltd 2019
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-06-30 16:43+0200\n"
-"PO-Revision-Date: 2018-05-18 14:06+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
-"Language-Team: Hungarian <hu@li.org>\n"
+"PO-Revision-Date: 2019-05-11 12:36+0000\n"
+"Last-Translator: Soham Sen <Unknown>\n"
+"Language-Team: Bengali <bn@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,135 +20,135 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:42
 #: usr/lib/lightdm-settings/lightdm-settings:74 generate_desktop_files:25
 msgid "Login Window"
-msgstr "Bejelentkezési ablak"
+msgstr "লগইন উইন্ডো"
 
 #: usr/lib/lightdm-settings/lightdm-settings:64
 msgid "Quit"
-msgstr "Kilépés"
+msgstr "প্রস্থান করুন"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 msgid "Appearance"
-msgstr "Megjelenés"
+msgstr "চেহারা"
 
 #: usr/lib/lightdm-settings/lightdm-settings:131
 #: usr/lib/lightdm-settings/lightdm-settings:133
 #: usr/lib/lightdm-settings/lightdm-settings:134
 msgid "Background"
-msgstr "Háttér"
+msgstr "পটভুমি"
 
 #: usr/lib/lightdm-settings/lightdm-settings:137
 #: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Background color"
-msgstr "Háttérszín"
+msgstr "পটভূমির রং"
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Draw user backgrounds"
-msgstr "Háttérkép megjelenítése"
+msgstr "ব্যবহারকারী ব্যাকগ্রাউন্ড আঁকা"
 
 #: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "When a user is selected, show that user's background."
-msgstr "A kiválasztott felhasználó háttérképének megjelenítése"
+msgstr "একটি ব্যবহারকারী নির্বাচিত হলে, ব্যবহারকারীর পটভূমি প্রদর্শন"
 
 #: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "Draw a grid"
-msgstr "Rács rajzolása"
+msgstr "একটি গ্রিড আঁকা"
 
 #: usr/lib/lightdm-settings/lightdm-settings:147
 msgid "Draw a grid of white dots on top of the background."
-msgstr "Pontrács rajzolása a háttérképen"
+msgstr "পটভূমির উপরে সাদা বিন্দুর একটি গ্রিড আঁকা"
 
 #: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Themes"
-msgstr "Témák"
+msgstr "থিমসমূহ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:154
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "GTK theme"
-msgstr "GTK téma"
+msgstr "GTK থিম"
 
 #: usr/lib/lightdm-settings/lightdm-settings:158
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Icon theme"
-msgstr "Ikontéma"
+msgstr "আইকন থিম"
 
 #: usr/lib/lightdm-settings/lightdm-settings:162
 msgid "Optional pictures"
-msgstr "Választható képek"
+msgstr "ঐচ্ছিক ছবি"
 
 #: usr/lib/lightdm-settings/lightdm-settings:164
 msgid "Other monitors"
-msgstr "További kijelzők"
+msgstr "অন্যান্য মনিটর"
 
 #: usr/lib/lightdm-settings/lightdm-settings:165
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
-"Több képernyő használata esetén a felhasználók listája az aktív kijelzőn "
-"jelenik meg, és ez a kép a további kijelzőkön."
+"যদি আপনার একাধিক মনিটর থাকে, তবে ব্যবহারকারীর তালিকাটি সক্রিয় এক, এবং "
+"অন্যদের উপর এই ছবিটি স্থাপন করা হয়।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:168
 msgid "Bottom left"
-msgstr "Bal alsó"
+msgstr "নীচে বাঁদিকে"
 
 #: usr/lib/lightdm-settings/lightdm-settings:169
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr "Válassza ki a bejelentkező ablak bal alsó sarkában megjelenő képet"
+msgstr "লগইন উইন্ডোতে নিচের বামে দেখানোর জন্য একটি ছবি নির্বাচন করুন।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:175
 msgid "Users"
-msgstr "Felhasználók"
+msgstr "ব্যবহারকারীগণ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:176
 msgid "User list"
-msgstr "Felhasználók listája"
+msgstr "ব্যবহারকারীর তালিকা"
 
 #: usr/lib/lightdm-settings/lightdm-settings:179
 msgid "Allow manual login"
-msgstr "Kézi bejelentkezés engedélyezése"
+msgstr "ম্যানুয়াল লগইন মঞ্জুরি দিন"
 
 #: usr/lib/lightdm-settings/lightdm-settings:180
 msgid "Add an option in the login window to enter a username."
-msgstr "Bejelentkező ablakban a felhasználónév megadásának lehetősége"
+msgstr "একটি ব্যবহারকারী নাম প্রবেশ করতে লগইন উইন্ডোতে একটি বিকল্প যোগ করুন।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Hide the user list"
-msgstr "Felhasználólista elrejtése"
+msgstr "ব্যবহারকারী তালিকা লুকান"
 
 #: usr/lib/lightdm-settings/lightdm-settings:185
 msgid "Hide the list of users in the login window."
-msgstr "A bejelentkező ablakban a felhasználók listájának elrejtése"
+msgstr "লগইন উইন্ডোতে ব্যবহারকারীদের তালিকা লুকান।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:189
 msgid "Guest sessions"
-msgstr "Vendég munkamenetek"
+msgstr "অতিথি সেশন"
 
 #: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "Allow guest sessions"
-msgstr "Vendég munkamenetek engedélyezése"
+msgstr "অতিথি সেশন অনুমতি দিন"
 
 #: usr/lib/lightdm-settings/lightdm-settings:192
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
-"Vendégfiók a számítógép jelszó nélküli használatához. Bejelentkezéskor "
-"automatikusan egy ideiglenes felhasználó lesz létrehozva."
+"অতিথিদের কম্পিউটার ছাড়া কম্পিউটার ব্যবহার করার অনুমতি দিন। একটি অস্থায়ী "
+"অতিথি অ্যাকাউন্ট লগ ইন করার সময় স্বয়ংক্রিয়ভাবে তৈরি হয়"
 
 #: usr/lib/lightdm-settings/lightdm-settings:195
 msgid "Automatic login"
-msgstr "Automatikus bejelentkezés"
+msgstr "স্বয়ংক্রিয় লগইন"
 
 #: usr/lib/lightdm-settings/lightdm-settings:198
 msgid "Username"
-msgstr "Felhasználónév"
+msgstr "ব্যবহারকারী নাম"
 
 #: usr/lib/lightdm-settings/lightdm-settings:199
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
-"Figyelmeztetés: Az automatikus bejelentkezés meghiúsul ha a felhasználó "
-"„home” mappája titkosítva van."
+"সতর্কতা: ব্যবহারকারীর হোম ডিরেক্টরি এনক্রিপ্ট করা থাকলে স্বয়ংক্রিয় লগইন "
+"ব্যর্থ হবে।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:203
 msgid "Delay before connection (in seconds)"
@@ -163,130 +163,127 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "These settings require a computer reboot to take effect."
-msgstr ""
-"A változtatások érvényre juttatásához újra kell indítani a számítógépet."
+msgstr "এই সেটিংস কার্যকর করতে একটি কম্পিউটার রিবুট প্রয়োজন।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:212
 #: usr/lib/lightdm-settings/lightdm-settings:213
 msgid "Settings"
-msgstr "Beállítások"
+msgstr "সেটিংস"
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 #: usr/lib/lightdm-settings/lightdm-settings:221
 msgid "Activate numlock"
-msgstr "Numlock bekapcsolása"
+msgstr "Numlock সক্রিয় করুন"
 
 #: usr/lib/lightdm-settings/lightdm-settings:221
 msgid "Please install numlockx to use this option."
-msgstr ""
-"Kérjük, telepítse a numlockx csomagot, ennek a funkciónak a használatához."
+msgstr "এই বিকল্পটি ব্যবহার করতে numlockx ইনস্টল করুন।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 msgid "Activate numlock in the login window."
-msgstr "Numlock bekapcsolása a bejelentkezési ablakban."
+msgstr "লগইন উইন্ডোতে numlock সক্রিয় করুন।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:229
 #: usr/lib/lightdm-settings/lightdm-settings:236
 msgid "Auto"
-msgstr "Automatikus"
+msgstr "স্বয়ংক্রিয়"
 
 #: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Enable"
-msgstr "Engedélyezés"
+msgstr "সত্রিয় করুন"
 
 #: usr/lib/lightdm-settings/lightdm-settings:231
 msgid "Disable"
-msgstr "Letiltás"
+msgstr "নিস্ক্রিয় করুন"
 
 #: usr/lib/lightdm-settings/lightdm-settings:232
 msgid "HiDPI support"
-msgstr "HiDPI támogatás"
+msgstr "HiDPI সমর্থন"
 
 #: usr/lib/lightdm-settings/lightdm-settings:233
 msgid "Support for high pixel density and Retina displays."
-msgstr "Nagy felbontású és Retina kijelzők támogatása."
+msgstr "উচ্চ পিক্সেল ঘনত্ব এবং র্যাটিনা প্রদর্শন জন্য সমর্থন।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Monitor"
-msgstr "Kijelző"
+msgstr "মনিটর"
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
-"Válassza ki a bejelentkezési ablakot megjelenítő kijelzőt, vagy az "
-"„Automatikus” beállítással a bejelentkezési ablak azon a kijelzőn jelenik "
-"meg, ahol az egérmutató is van."
+"লগইন উইন্ডোটি কোন মনিটরটি প্রদর্শন করা উচিত তা চয়ন করুন বা যদি আপনি এটি "
+"মাউস অনুসরণ করতে চান তবে 'অটো' নির্বাচন করুন।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "Panel indicators"
-msgstr "Értesítési tálca"
+msgstr "প্যানেল সূচক"
 
 #: usr/lib/lightdm-settings/lightdm-settings:243
 msgid "Hostname"
-msgstr "Gépnév"
+msgstr "হোস্ট-নেম"
 
 #: usr/lib/lightdm-settings/lightdm-settings:244
 msgid "Show the computer hostname in the panel."
-msgstr "Gépnév megjelenítése a tálcán"
+msgstr "প্যানেলে কম্পিউটার হোস্টনাম দেখান।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:247
 msgid "Accessibility options"
-msgstr "Akadálymentesítési beállítások"
+msgstr "অভিগম্যতা অপশন"
 
 #: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "Show accessibility options in the panel."
-msgstr "Akadálymentesítési beállítások megjelenítése a tálcán"
+msgstr "প্যানেলে অ্যাক্সেসিবিলিটি অপশন প্রদর্শন করুন।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:251
 msgid "Battery power"
-msgstr "Akkumulátor töltöttsége"
+msgstr "ব্যাটারির ক্ষমতা"
 
 #: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "On laptops, show the battery power in the panel."
-msgstr "Laptopokon akkumulátor töltöttségének megjelenítése a tálcán"
+msgstr "ল্যাপটপে, প্যানেলে ব্যাটারি পাওয়ার দেখান।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:255
 msgid "Keyboard layout"
-msgstr "Billentyűzetkiosztás"
+msgstr "কীবোর্ড বিন্যাস (Layout)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Show the keyboard layout in the panel."
-msgstr "Billentyűzetkiosztás megjelenítése a tálcán"
+msgstr "প্যানেলে কীবোর্ড বিন্যাস প্রদর্শন করুন।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Clock"
-msgstr "Óra"
+msgstr "ঘড়ি (Clock)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Show a clock in the panel."
-msgstr "Óra megjelenítése a tálcán"
+msgstr "প্যানেল একটি ঘড়ি দেখান।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Quit menu"
-msgstr "Kilépés menü"
+msgstr "মেনু ছাড়ুন"
 
 #: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "Show the quit menu in the panel."
-msgstr "Kilépés menü megjelenítése a tálcán"
+msgstr "প্যানেলে প্রস্থান মেনু প্রদর্শন করুন।"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:190
 msgid "Choose an Image File"
-msgstr "Válasszon egy képfájlt"
+msgstr "একটি চিত্র ফাইল চয়ন করুন"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:193
 msgid "_Cancel"
-msgstr "_Mégse"
+msgstr "_বাতিল"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:194
 msgid "_Open"
-msgstr "_Megnyitás"
+msgstr "_খুলুন"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:197
 msgid "Image files"
-msgstr "Képfájlok"
+msgstr "ইমেজ ফাইল"
 
 #: generate_desktop_files:25
 msgid "Configure the login window"
-msgstr "Bejelentkezési ablak beállítása"
+msgstr "লগইন উইন্ডো কনফিগার করুন"
