@@ -22,8 +22,11 @@ setproctitle.setproctitle("lightdm-settings")
 
 gettext.install("lightdm-settings", "/usr/share/locale")
 # Only for translation of "Mouse Pointer":
-T = gettext.translation("cinnamon", "/usr/share/locale")
-_T = T.gettext
+try:
+    T = gettext.translation("cinnamon", "/usr/share/locale")
+    _T = T.gettext
+except OSError:
+    _T = _
 
 MPOINTER_CONF_PATH = "/usr/share/icons/default/index.theme"
 CONF_PATH = "/etc/lightdm/slick-greeter.conf"
