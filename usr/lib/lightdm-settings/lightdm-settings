@@ -21,7 +21,11 @@ except:
 setproctitle.setproctitle("lightdm-settings")
 
 gettext.install("lightdm-settings", "/usr/share/locale")
+# Only for translation of "Mouse Pointer":
+T = gettext.translation("cinnamon", "/usr/share/locale")
+_T = T.gettext
 
+MPOINTER_CONF_PATH = "/usr/share/icons/default/index.theme"
 CONF_PATH = "/etc/lightdm/slick-greeter.conf"
 LIGHTDM_CONF_PATH = "/etc/lightdm/lightdm.conf"
 LIGHTDM_GROUP_NAMES = ["SeatDefaults", "Seat:*"]
@@ -125,6 +129,13 @@ class Application(Gtk.Application):
         except:
             print("Could not load %s." % LIGHTDM_CONF_PATH)
 
+        # Mouse Pointer settings
+        mpointer_keyfile = GLib.KeyFile()
+        try:
+            mpointer_keyfile.load_from_file(MPOINTER_CONF_PATH, GLib.KeyFileFlags.KEEP_COMMENTS)
+        except:
+            print("Could not load %s." % MPOINTER_CONF_PATH)
+
         # APPEARANCE
         page = SettingsPage()
         self.main_stack.add_titled(page, "appearance", _("Appearance"))
@@ -157,6 +168,11 @@ class Application(Gtk.Application):
 
         row = SettingsRow(Gtk.Label(_("Icon theme")), SettingsCombo(keyfile, settings, "icon-theme-name", self.get_icon_themes(), "string", size_group))
         row.set_tooltip_text(_("Icon theme"))
+        section.add_row(row)
+
+        #row = SettingsRow(Gtk.Label(_T("Mouse Pointer")), SettingsCombo(mpointer_keyfile, settings, "mouse-pointer-name", self.get_mouse_pointers(), "string", size_group))
+        row = SettingsRow(Gtk.Label(_T("Mouse Pointer")), SettingsComboMousePointer(mpointer_keyfile, "Inherits", MPOINTER_CONF_PATH, self.get_mouse_pointers(), "string", size_group))
+        row.set_tooltip_text(_("Mouse Pointer"))
         section.add_row(row)
 
         section = page.add_section(_("Optional pictures"))
@@ -315,6 +331,33 @@ class Application(Gtk.Application):
             return res
         except:
             print ("WOW")
+    
+    def get_mouse_pointers(self):
+        dirs = ("/usr/share/icons", os.path.join(os.path.expanduser("~"), ".icons"))
+        walked = self.walk_directories(dirs, lambda d: os.path.isdir(d), return_directories=True)
+        valid = []
+        for directory in walked:
+            path = os.path.join(directory[1], directory[0], "cursor.theme")
+            if os.path.exists(path):
+                try:
+                    for line in list(open(path)):
+                        if line.startswith("Inherits="):
+                            valid.append(directory)
+                            break
+                except Exception as e:
+                    print (e)
+
+        valid.sort(key=lambda a: a[0].lower())
+        res = []
+        for i in valid:
+            for j in res:
+                if i[0] == j:
+                    if i[1] == dirs[0]:
+                        continue
+                    else:
+                        res.remove(j)
+            res.append([i[0], i[0]])
+        return res
 
     def get_icon_themes(self):
         dirs = ("/usr/share/icons", os.path.join(os.path.expanduser("~"), ".icons"))
