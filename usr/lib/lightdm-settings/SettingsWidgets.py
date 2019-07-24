@@ -325,7 +325,7 @@ class SettingsComboMousePointer(Gtk.ComboBox):
         self.backup_filename = backup_filename
         try:
             self.value = keyfile.get_string("Icon Theme", key)
-        except:
+        except Exception:
             self.value = "DMZ-White"
         Gtk.ComboBox.__init__(self)
 

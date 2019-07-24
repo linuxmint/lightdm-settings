@@ -122,21 +122,21 @@ class Application(Gtk.Application):
         keyfile = GLib.KeyFile()
         try:
             keyfile.load_from_file(CONF_PATH, 0)
-        except:
+        except Exception:
             print("Could not load %s." % CONF_PATH)
 
         # LightDM settings
         lightdm_keyfile = GLib.KeyFile()
         try:
             lightdm_keyfile.load_from_file(LIGHTDM_CONF_PATH, GLib.KeyFileFlags.KEEP_COMMENTS)
-        except:
+        except Exception:
             print("Could not load %s." % LIGHTDM_CONF_PATH)
 
         # Mouse Pointer settings
         mpointer_keyfile = GLib.KeyFile()
         try:
             mpointer_keyfile.load_from_file(MPOINTER_CONF_PATH, GLib.KeyFileFlags.KEEP_COMMENTS)
-        except:
+        except Exception:
             print("Could not load %s." % MPOINTER_CONF_PATH)
 
         # APPEARANCE
@@ -173,9 +173,8 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Icon theme"))
         section.add_row(row)
 
-        #row = SettingsRow(Gtk.Label(_T("Mouse Pointer")), SettingsCombo(mpointer_keyfile, settings, "mouse-pointer-name", self.get_mouse_pointers(), "string", size_group))
         row = SettingsRow(Gtk.Label(_T("Mouse Pointer")), SettingsComboMousePointer(mpointer_keyfile, "Inherits", MPOINTER_CONF_PATH, self.get_mouse_pointers(), "string", size_group))
-        row.set_tooltip_text(_("Mouse Pointer"))
+        row.set_tooltip_text(_T("Mouse Pointer"))
         section.add_row(row)
 
         section = page.add_section(_("Optional pictures"))
@@ -334,23 +333,41 @@ class Application(Gtk.Application):
             return res
         except:
             print ("WOW")
-    
+
     def get_mouse_pointers(self):
-        dirs = ("/usr/share/icons", os.path.join(os.path.expanduser("~"), ".icons"))
+        dirs = tuple(["/usr/share/icons", os.path.join(os.path.expanduser("~"), ".icons")] + [os.path.join(datadir, "icons") for datadir in GLib.get_system_data_dirs()])
         walked = self.walk_directories(dirs, lambda d: os.path.isdir(d), return_directories=True)
         valid = []
         for directory in walked:
             path = os.path.join(directory[1], directory[0], "cursor.theme")
+            path2 = os.path.join(directory[1], directory[0], "cursors")
+            path3 = os.path.join(directory[1], directory[0], "index.theme")
+            name = directory [0]
             if os.path.exists(path):
                 try:
                     for line in list(open(path)):
                         if line.startswith("Inherits="):
-                            valid.append(directory)
+                            name = str(line.split('=')[1]).strip()
+                            if [name, directory [0]] not in valid:
+                                valid.append([name, directory [0]])
                             break
                 except Exception as e:
                     print (e)
 
-        valid.sort(key=lambda a: a[0].lower())
+            elif os.path.isdir(path2):
+                try:
+                    if os.path.exists(path3):
+                        for line in list(open(path3)):
+                            if line.startswith("Name"):
+                                name = str(line.split('=')[1]).strip()
+                                break
+
+                    if [name, directory [0]] not in valid:
+                        valid.append([name, directory [0]])
+                except Exception as e:
+                    print (e)
+
+        valid.sort(key=lambda a: a[1].lower())
         res = []
         for i in valid:
             for j in res:
@@ -359,7 +376,7 @@ class Application(Gtk.Application):
                         continue
                     else:
                         res.remove(j)
-            res.append([i[0], i[0]])
+            res.append([i[1], i[0]])
         return res
 
     def get_icon_themes(self):
