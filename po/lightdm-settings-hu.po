@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-06-30 16:43+0200\n"
-"PO-Revision-Date: 2018-05-18 14:06+0000\n"
+"PO-Revision-Date: 2019-07-23 16:24+0000\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-07-10 08:31+0000\n"
-"X-Generator: Launchpad (build 19007)\n"
+"X-Launchpad-Export-Date: 2019-07-28 09:36+0000\n"
+"X-Generator: Launchpad (build 19010)\n"
+"Language: hu\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:42
 #: usr/lib/lightdm-settings/lightdm-settings:74 generate_desktop_files:25
@@ -152,7 +153,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:203
 msgid "Delay before connection (in seconds)"
-msgstr ""
+msgstr "Várakozás a kapcsolódás előtt (másodpercben)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid ""
@@ -160,6 +161,10 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
+"Ha ez a lehetőség beállításra kerül, akkor a megadott másodpercig a "
+"bejelentkezési képernyő lesz megjelenítve, mielőtt az automatikus "
+"bejelentkezés megtörténik. Bármilyen felhasználói aktivitás megszakítja ezt "
+"a visszaszámlálást."
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "These settings require a computer reboot to take effect."
