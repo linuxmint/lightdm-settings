@@ -1,3 +1,9 @@
+lightdm-settings (1.2.9) tina; urgency=medium
+
+  * Remove Python 3.6 code
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 05 Aug 2019 14:45:52 +0200
+
 lightdm-settings (1.2.8) tina; urgency=medium
 
   * l10n: Update translations
