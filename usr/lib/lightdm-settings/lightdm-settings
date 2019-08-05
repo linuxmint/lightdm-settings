@@ -385,10 +385,9 @@ class Application(Gtk.Application):
             ret = subprocess.run(["lightdm", "--version"],
                                  stdout=subprocess.PIPE,
                                  stderr=subprocess.STDOUT,
-                                 encoding="utf-8",
                                  check=True)
 
-            version_string = ret.stdout.strip("\n").strip("lightdm").strip()
+            version_string = ret.stdout.decode("UTF-8").strip("\n").strip("lightdm").strip()
 
             print("lightdm version: %s" % version_string)
 
