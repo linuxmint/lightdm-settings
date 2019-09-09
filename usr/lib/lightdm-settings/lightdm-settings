@@ -41,7 +41,7 @@ class Application(Gtk.Application):
             self.window = Gtk.ApplicationWindow.new(self)
             self.window.set_title(_("Login Window"))
             self.window.set_icon_name("lightdm-settings")
-            self.window.set_default_size(640, 400)
+            self.window.set_default_size(800, 400)
             self.create_window()
             self.window.show_all()
 
