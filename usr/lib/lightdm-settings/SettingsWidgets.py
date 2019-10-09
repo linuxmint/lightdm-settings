@@ -26,43 +26,52 @@ class SettingsPage(Gtk.Box):
         self.set_margin_top(15)
         self.set_margin_bottom(15)
 
-    def add_section(self, title):
-        section = SettingsBox(title)
+    def add_section(self, title=None):
+        section = SettingsSection(title)
         self.pack_start(section, False, False, 0)
 
         return section
 
-class SettingsBox(Gtk.Frame):
+class SettingsSection(Gtk.Box):
+    def __init__(self, title=None):
+        Gtk.Box.__init__(self, orientation=Gtk.Orientation.VERTICAL)
+        self.set_spacing(10)
 
-    def __init__(self, title):
-        Gtk.Frame.__init__(self)
-        self.set_shadow_type(Gtk.ShadowType.IN)
-        frame_style = self.get_style_context()
+        if title:
+            header_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+            header_box.set_spacing(5)
+            self.add(header_box)
+            label = Gtk.Label()
+            label.set_markup("<b>%s</b>" % title)
+            label.set_alignment(0, 0.5)
+            header_box.add(label)
+
+        self.frame = Gtk.Frame()
+        self.frame.set_shadow_type(Gtk.ShadowType.IN)
+        frame_style = self.frame.get_style_context()
         frame_style.add_class("view")
         self.size_group = Gtk.SizeGroup()
         self.size_group.set_mode(Gtk.SizeGroupMode.VERTICAL)
 
         self.box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
-        self.add(self.box)
+        self.frame.add(self.box)
 
-        toolbar = Gtk.Toolbar.new()
-        toolbar_context = toolbar.get_style_context()
-        Gtk.StyleContext.add_class(Gtk.Widget.get_style_context(toolbar), "cs-header")
+        self.need_separator = False
 
-        label = Gtk.Label.new()
-        label.set_markup("<b>%s</b>" % title)
-        title_holder = Gtk.ToolItem()
-        title_holder.add(label)
-        toolbar.add(title_holder)
-        self.box.add(toolbar)
+    def add_row(self, widget):
+        vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        if self.need_separator:
+            vbox.add(Gtk.Separator(orientation=Gtk.Orientation.HORIZONTAL))
+        list_box = Gtk.ListBox()
+        list_box.set_selection_mode(Gtk.SelectionMode.NONE)
+        list_box.add(widget)
+        vbox.add(list_box)
+        self.box.add(vbox)
 
-        self.list_box = Gtk.ListBox()
-        self.list_box.set_selection_mode(Gtk.SelectionMode.NONE)
-        self.list_box.set_header_func(list_header_func, None)
-        self.box.add(self.list_box)
+        if self.frame.get_parent() is None:
+            self.add(self.frame)
 
-    def add_row(self, row):
-        self.list_box.add(row)
+        self.need_separator = True
 
 
 class SettingsRow(Gtk.ListBoxRow):
