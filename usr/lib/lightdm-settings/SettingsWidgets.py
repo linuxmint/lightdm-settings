@@ -327,6 +327,49 @@ class SettingsCombo(Gtk.ComboBox):
             self.keyfile.set_string(GROUP_NAME, self.key, value)
             self.keyfile.save_to_file(CONF_PATH)
 
+class SettingsComboMousePointer(Gtk.ComboBox):
+    def __init__(self, keyfile, key, backup_filename, options, valtype="string", size_group=None):
+        self.key = key
+        self.keyfile = keyfile
+        self.backup_filename = backup_filename
+        try:
+            self.value = keyfile.get_string("Icon Theme", key)
+        except Exception:
+            self.value = "DMZ-White"
+        Gtk.ComboBox.__init__(self)
+
+        if size_group:
+            size_group.add_widget(self)
+
+        renderer_text = Gtk.CellRendererText()
+        self.pack_start(renderer_text, True)
+        self.add_attribute(renderer_text, "text", 1)
+        self.set_valign(Gtk.Align.CENTER)
+
+        # assume all keys are the same type (mixing types is going to cause an error somewhere)
+        var_type = type(options[0][0]) if options else None
+        self.model = Gtk.ListStore(var_type, str)
+        self.valtype = valtype
+        self.option_map = {}
+        for option in options:
+            self.option_map[option[0]] = self.model.append([option[0], option[1]])
+
+        self.set_model(self.model)
+        self.set_id_column(0)
+
+        if self.value in self.option_map.keys():
+            self.set_active_iter(self.option_map[self.value])
+
+        self.connect("changed", self.on_changed)
+
+    def on_changed(self, widget):
+        tree_iter = widget.get_active_iter()
+        if tree_iter != None:
+            value = self.model[tree_iter][0]
+            self.keyfile.set_string("Icon Theme", self.key, value)
+            self.keyfile.save_to_file(self.backup_filename)
+
+
 class LightDMSwitch(Gtk.Switch):
     def __init__(self, keyfile, key, value):
         self.key = key
