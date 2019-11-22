@@ -21,12 +21,6 @@ except:
 setproctitle.setproctitle("lightdm-settings")
 
 gettext.install("lightdm-settings", "/usr/share/locale")
-# Only for translation of "Mouse Pointer":
-try:
-    T = gettext.translation("cinnamon", "/usr/share/locale")
-    _T = T.gettext
-except OSError:
-    _T = _
 
 MPOINTER_CONF_PATH = "/usr/share/icons/default/index.theme"
 CONF_PATH = "/etc/lightdm/slick-greeter.conf"
@@ -173,8 +167,8 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Icon theme"))
         section.add_row(row)
 
-        row = SettingsRow(Gtk.Label(_T("Mouse Pointer")), SettingsComboMousePointer(mpointer_keyfile, "Inherits", MPOINTER_CONF_PATH, self.get_mouse_pointers(), "string", size_group))
-        row.set_tooltip_text(_T("Mouse Pointer"))
+        row = SettingsRow(Gtk.Label(_("Mouse cursor")), SettingsComboMousePointer(mpointer_keyfile, "Inherits", MPOINTER_CONF_PATH, self.get_mouse_pointers(), "string", size_group))
+        row.set_tooltip_text(_("Mouse cursor"))
         section.add_row(row)
 
         section = page.add_section(_("Optional pictures"))
