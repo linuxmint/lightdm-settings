@@ -1,16 +1,16 @@
-# Tamil translation for linuxmint
-# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# Irish translation for linuxmint
+# Copyright (c) 2019 Rosetta Contributors and Canonical Ltd 2019
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-11-22 12:45+0000\n"
-"PO-Revision-Date: 2018-08-22 02:11+0000\n"
-"Last-Translator: karthhic <karthhic@gmail.com>\n"
-"Language-Team: Tamil <ta@li.org>\n"
+"PO-Revision-Date: 2019-10-20 23:05+0000\n"
+"Last-Translator: Eva ni Shuilleabhain <Unknown>\n"
+"Language-Team: Irish <ga@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,46 +20,46 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
 msgid "Login Window"
-msgstr "நுழைவுச் சாளரம்"
+msgstr "Fuinneog Logála Isteach"
 
 #: usr/lib/lightdm-settings/lightdm-settings:65
 msgid "Quit"
-msgstr "வெளியேறு"
+msgstr "Scoir"
 
 #: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Appearance"
-msgstr "தோற்றம்"
+msgstr "Cruth"
 
 #: usr/lib/lightdm-settings/lightdm-settings:139
 #: usr/lib/lightdm-settings/lightdm-settings:141
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Background"
-msgstr "பின்புலம்"
+msgstr "Cúlra"
 
 #: usr/lib/lightdm-settings/lightdm-settings:145
 #: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "Background color"
-msgstr "பின்புல வண்ணம்"
+msgstr "Dath Cúlra"
 
 #: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Draw user backgrounds"
-msgstr ""
+msgstr "Tarraing cúlraí úsáideora"
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "When a user is selected, show that user's background."
-msgstr ""
+msgstr "Nuair atá úsáideoir roghnaithe, taispeáin cúlra an úsáideoir sin."
 
 #: usr/lib/lightdm-settings/lightdm-settings:154
 msgid "Draw a grid"
-msgstr ""
+msgstr "Tarraing greille"
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw a grid of white dots on top of the background."
-msgstr ""
+msgstr "Tarraing greille le spotaí bána ar bharr an chúlra"
 
 #: usr/lib/lightdm-settings/lightdm-settings:158
 msgid "Themes"
-msgstr "வடிவக்கரு"
+msgstr "Téamaí"
 
 #: usr/lib/lightdm-settings/lightdm-settings:162
 #: usr/lib/lightdm-settings/lightdm-settings:163
@@ -69,7 +69,7 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:166
 #: usr/lib/lightdm-settings/lightdm-settings:167
 msgid "Icon theme"
-msgstr ""
+msgstr "Téama deilbhín"
 
 #: usr/lib/lightdm-settings/lightdm-settings:170
 #: usr/lib/lightdm-settings/lightdm-settings:171
@@ -78,80 +78,89 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Optional pictures"
-msgstr ""
+msgstr "Pictiúr roghnacha"
 
 #: usr/lib/lightdm-settings/lightdm-settings:176
 msgid "Other monitors"
-msgstr ""
+msgstr "Monatóirí eile"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
+"Má tá go leor monatóirí agat, tá an liosta úsáideora cuireadh ar liosta "
+"gníomhach, agus an pictiúr seo ar na cinn eile."
 
 #: usr/lib/lightdm-settings/lightdm-settings:180
 msgid "Bottom left"
-msgstr ""
+msgstr "Ag Bun ar Chlé"
 
 #: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr ""
+"Roghnaigh pictiúr le taispeáint ag bun ar chlé an fhuinneog logála isteach"
 
 #: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Users"
-msgstr ""
+msgstr "Úsáideoirí"
 
 #: usr/lib/lightdm-settings/lightdm-settings:188
 msgid "User list"
-msgstr ""
+msgstr "Liosta Úsáideora"
 
 #: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "Allow manual login"
-msgstr ""
+msgstr "Logáil láimhe a cheadú"
 
 #: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "Add an option in the login window to enter a username."
 msgstr ""
+"Chuir rogha isteach ar an bhfuinneog logála isteach chun ainm úsáideora a n-"
+"iontráil."
 
 #: usr/lib/lightdm-settings/lightdm-settings:196
 msgid "Hide the user list"
-msgstr ""
+msgstr "An liosta úsáideora a cheilt"
 
 #: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Hide the list of users in the login window."
-msgstr ""
+msgstr "An liosta úsáideora a cheilt san fhuinneog logála isteach."
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid "Guest sessions"
-msgstr ""
+msgstr "Seisiún aoi"
 
 #: usr/lib/lightdm-settings/lightdm-settings:203
 msgid "Allow guest sessions"
-msgstr ""
+msgstr "Seisiún aoi a cheadú"
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
+"Lig leis na haíonna an ríomhaire a n-úsáid gan pasfhocal. Beidh cúntas aoi "
+"sealadach cruthaithe go huathoibríoch nuair a logálann siad isteach."
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Automatic login"
-msgstr ""
+msgstr "Logáil isteach go huathoibríoch"
 
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Username"
-msgstr ""
+msgstr "Ainm Úsáideora"
 
 #: usr/lib/lightdm-settings/lightdm-settings:211
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
+"Rabhadh : Theipeann air an logáil isteach go huathoibríoch má tá eolaire "
+"baile an úsáideora criptithe"
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Delay before connection (in seconds)"
-msgstr ""
+msgstr "Moill roimh an nasc"
 
 #: usr/lib/lightdm-settings/lightdm-settings:216
 msgid ""
@@ -159,41 +168,44 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
+"Má tá an rogha seo socraithe taispeánfar an fhuinneog logála isteach i gcóir "
+"an mhéid seo soicind roimh a tharlaíonn an logáil amach uathoibríoch. "
+"Cuirfidh aon gníomhaíocht úsáideora an comhaireamh síos ar ceal."
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "These settings require a computer reboot to take effect."
-msgstr ""
+msgstr "Éilíonn na socruithe seo go ndéanfear athbhútháil ar an ríomhaire."
 
 #: usr/lib/lightdm-settings/lightdm-settings:224
 #: usr/lib/lightdm-settings/lightdm-settings:225
 msgid "Settings"
-msgstr ""
+msgstr "Socruithe"
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 #: usr/lib/lightdm-settings/lightdm-settings:233
 msgid "Activate numlock"
-msgstr ""
+msgstr "Uimhirghlas gníomhachtaigh"
 
 #: usr/lib/lightdm-settings/lightdm-settings:233
 msgid "Please install numlockx to use this option."
-msgstr ""
+msgstr "Le do thoil, suiteáil uimhirghlasx chun an rogha seo a n-úsáid."
 
 #: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Activate numlock in the login window."
-msgstr ""
+msgstr "Gníomhaigh uimhirghlas ar an bhfuinneog logála isteach"
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 #: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "Auto"
-msgstr ""
+msgstr "Uathoibríoch"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Enable"
-msgstr ""
+msgstr "Cumasaigh"
 
 #: usr/lib/lightdm-settings/lightdm-settings:243
 msgid "Disable"
-msgstr ""
+msgstr "Díchumasaigh"
 
 #: usr/lib/lightdm-settings/lightdm-settings:244
 msgid "HiDPI support"
@@ -201,86 +213,88 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Support for high pixel density and Retina displays."
-msgstr ""
+msgstr "Tacaíocht do dhlús ardpicteilíní agus taispeántais reitine"
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Monitor"
-msgstr ""
+msgstr "Monatóir"
 
 #: usr/lib/lightdm-settings/lightdm-settings:250
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
+"Roghnaigh cén monatoír ba chóir don fhuinneog logála isteach a thaispeánt, "
+"nó roghnagh 'Uathoibriú' má theasatíonn uait an luchóg a leanúint."
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Panel indicators"
-msgstr ""
+msgstr "Taiscairí painéal"
 
 #: usr/lib/lightdm-settings/lightdm-settings:255
 msgid "Hostname"
-msgstr ""
+msgstr "Óstainm"
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Show the computer hostname in the panel."
-msgstr ""
+msgstr "Taispeáin óstainm an ríomhaire insan painéal."
 
 #: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Accessibility options"
-msgstr ""
+msgstr "Roghanna inrochtaineacht"
 
 #: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Show accessibility options in the panel."
-msgstr ""
+msgstr "Taispeáin roghanna inrochtaineacht insan painéal"
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Battery power"
-msgstr ""
+msgstr "Cumhacht ceallraí"
 
 #: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "On laptops, show the battery power in the panel."
-msgstr ""
+msgstr "Ar ríomhaire glúine, taispeáin an chumhacht ceallraí insan painéal"
 
 #: usr/lib/lightdm-settings/lightdm-settings:267
 msgid "Keyboard layout"
-msgstr ""
+msgstr "Leagan amach an mhéarchláir"
 
 #: usr/lib/lightdm-settings/lightdm-settings:268
 msgid "Show the keyboard layout in the panel."
-msgstr ""
+msgstr "Taispeán leagan amach an mhéarchláir insan painéal"
 
 #: usr/lib/lightdm-settings/lightdm-settings:271
 msgid "Clock"
-msgstr ""
+msgstr "Clog"
 
 #: usr/lib/lightdm-settings/lightdm-settings:272
 msgid "Show a clock in the panel."
-msgstr ""
+msgstr "Taispeán clog insan painéal."
 
 #: usr/lib/lightdm-settings/lightdm-settings:275
 msgid "Quit menu"
-msgstr ""
+msgstr "Roghchlár scoir"
 
 #: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "Show the quit menu in the panel."
-msgstr ""
+msgstr "Taispeán an roghchlár scoir  insan painéal."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:199
 msgid "Choose an Image File"
-msgstr ""
+msgstr "Roghnaigh an comhad íomhá"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:202
 msgid "_Cancel"
-msgstr ""
+msgstr "_Cealaigh"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Open"
-msgstr ""
+msgstr "_Oscail"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:206
 msgid "Image files"
-msgstr ""
+msgstr "Comhaid íomhá"
 
 #: generate_desktop_files:25
 msgid "Configure the login window"
-msgstr ""
+msgstr "Cumraigh an fhuinneog logála isteach"

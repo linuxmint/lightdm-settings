@@ -1,16 +1,16 @@
-# Tamil translation for linuxmint
-# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# Galician translation for linuxmint
+# Copyright (c) 2019 Rosetta Contributors and Canonical Ltd 2019
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-11-22 12:45+0000\n"
-"PO-Revision-Date: 2018-08-22 02:11+0000\n"
-"Last-Translator: karthhic <karthhic@gmail.com>\n"
-"Language-Team: Tamil <ta@li.org>\n"
+"PO-Revision-Date: 2019-08-24 17:42+0000\n"
+"Last-Translator: Jorge Teijeiro <jorge.teijeiro.ramos@gmail.com>\n"
+"Language-Team: Galician <gl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,26 +20,26 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
 msgid "Login Window"
-msgstr "நுழைவுச் சாளரம்"
+msgstr "Xanela de acceso"
 
 #: usr/lib/lightdm-settings/lightdm-settings:65
 msgid "Quit"
-msgstr "வெளியேறு"
+msgstr "Saír"
 
 #: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Appearance"
-msgstr "தோற்றம்"
+msgstr "Aparencia"
 
 #: usr/lib/lightdm-settings/lightdm-settings:139
 #: usr/lib/lightdm-settings/lightdm-settings:141
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Background"
-msgstr "பின்புலம்"
+msgstr "Fondo do escritorio"
 
 #: usr/lib/lightdm-settings/lightdm-settings:145
 #: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "Background color"
-msgstr "பின்புல வண்ணம்"
+msgstr "Cor de fondo"
 
 #: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Draw user backgrounds"
@@ -47,29 +47,29 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "When a user is selected, show that user's background."
-msgstr ""
+msgstr "Cando un usuario é seleccionado, mostrar o seu fondo de escritorio."
 
 #: usr/lib/lightdm-settings/lightdm-settings:154
 msgid "Draw a grid"
-msgstr ""
+msgstr "Debuxar unha grella"
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw a grid of white dots on top of the background."
-msgstr ""
+msgstr "Debuxar unha grella de putnos brancos"
 
 #: usr/lib/lightdm-settings/lightdm-settings:158
 msgid "Themes"
-msgstr "வடிவக்கரு"
+msgstr "Temas"
 
 #: usr/lib/lightdm-settings/lightdm-settings:162
 #: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "GTK theme"
-msgstr ""
+msgstr "Tema GTK"
 
 #: usr/lib/lightdm-settings/lightdm-settings:166
 #: usr/lib/lightdm-settings/lightdm-settings:167
 msgid "Icon theme"
-msgstr ""
+msgstr "Tema das iconas"
 
 #: usr/lib/lightdm-settings/lightdm-settings:170
 #: usr/lib/lightdm-settings/lightdm-settings:171
@@ -78,37 +78,39 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Optional pictures"
-msgstr ""
+msgstr "Imaxes opcionais"
 
 #: usr/lib/lightdm-settings/lightdm-settings:176
 msgid "Other monitors"
-msgstr ""
+msgstr "Outros monitores"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
+"Se tes varios monitores, a lista de usuarios é colocada no activo e esta "
+"imaxe no resto."
 
 #: usr/lib/lightdm-settings/lightdm-settings:180
 msgid "Bottom left"
-msgstr ""
+msgstr "Abaixo á esquerda"
 
 #: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr ""
+msgstr "Elixe unha imaxe para mostrar abaixo á esquerda da xanela de acceso."
 
 #: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Users"
-msgstr ""
+msgstr "Usuarios"
 
 #: usr/lib/lightdm-settings/lightdm-settings:188
 msgid "User list"
-msgstr ""
+msgstr "Lista de usuarios"
 
 #: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "Allow manual login"
-msgstr ""
+msgstr "Permitir acceso manual"
 
 #: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "Add an option in the login window to enter a username."

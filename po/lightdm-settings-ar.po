@@ -2,80 +2,85 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-30 16:43+0200\n"
+"POT-Creation-Date: 2019-11-22 12:45+0000\n"
 "PO-Revision-Date: 2018-06-02 19:12+0000\n"
 "Last-Translator: Kemeral Jones <kemeral@gmail.com>\n"
 "Language-Team: anwar AL_iskandrany <anwar eleskndrany13@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-07-28 09:36+0000\n"
-"X-Generator: Launchpad (build 19010)\n"
+"X-Launchpad-Export-Date: 2019-11-26 16:02+0000\n"
+"X-Generator: Launchpad (build c597c3229eb023b1e626162d5947141bf7befb13)\n"
 "Language: ar_EG\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:42
-#: usr/lib/lightdm-settings/lightdm-settings:74 generate_desktop_files:25
+#: usr/lib/lightdm-settings/lightdm-settings:43
+#: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
 msgid "Login Window"
 msgstr "نافذة تسجيل الدخول"
 
-#: usr/lib/lightdm-settings/lightdm-settings:64
+#: usr/lib/lightdm-settings/lightdm-settings:65
 msgid "Quit"
 msgstr "إنهاء"
 
-#: usr/lib/lightdm-settings/lightdm-settings:130
+#: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Appearance"
 msgstr "المظهر"
 
-#: usr/lib/lightdm-settings/lightdm-settings:131
-#: usr/lib/lightdm-settings/lightdm-settings:133
-#: usr/lib/lightdm-settings/lightdm-settings:134
+#: usr/lib/lightdm-settings/lightdm-settings:139
+#: usr/lib/lightdm-settings/lightdm-settings:141
+#: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Background"
 msgstr "الخلفية"
 
-#: usr/lib/lightdm-settings/lightdm-settings:137
-#: usr/lib/lightdm-settings/lightdm-settings:138
+#: usr/lib/lightdm-settings/lightdm-settings:145
+#: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "Background color"
 msgstr "لون الخلفية"
 
-#: usr/lib/lightdm-settings/lightdm-settings:142
+#: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Draw user backgrounds"
 msgstr "رسم خلفيات المستخدم"
 
-#: usr/lib/lightdm-settings/lightdm-settings:143
+#: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "When a user is selected, show that user's background."
 msgstr "عندما يتم تحديد مستخدم، قم بعرض خلفية ذلك المستخدم."
 
-#: usr/lib/lightdm-settings/lightdm-settings:146
+#: usr/lib/lightdm-settings/lightdm-settings:154
 msgid "Draw a grid"
 msgstr "رسم شبكة"
 
-#: usr/lib/lightdm-settings/lightdm-settings:147
+#: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw a grid of white dots on top of the background."
 msgstr "رسم شبكة من النقاط البيضاء أعلى الخلفية."
 
-#: usr/lib/lightdm-settings/lightdm-settings:150
+#: usr/lib/lightdm-settings/lightdm-settings:158
 msgid "Themes"
 msgstr "الثيمات"
 
-#: usr/lib/lightdm-settings/lightdm-settings:154
-#: usr/lib/lightdm-settings/lightdm-settings:155
+#: usr/lib/lightdm-settings/lightdm-settings:162
+#: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "GTK theme"
 msgstr "ثيم GTK"
 
-#: usr/lib/lightdm-settings/lightdm-settings:158
-#: usr/lib/lightdm-settings/lightdm-settings:159
+#: usr/lib/lightdm-settings/lightdm-settings:166
+#: usr/lib/lightdm-settings/lightdm-settings:167
 msgid "Icon theme"
 msgstr "أيقونة الثيم"
 
-#: usr/lib/lightdm-settings/lightdm-settings:162
+#: usr/lib/lightdm-settings/lightdm-settings:170
+#: usr/lib/lightdm-settings/lightdm-settings:171
+msgid "Mouse cursor"
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Optional pictures"
 msgstr "صور اختيارية"
 
-#: usr/lib/lightdm-settings/lightdm-settings:164
+#: usr/lib/lightdm-settings/lightdm-settings:176
 msgid "Other monitors"
 msgstr "الشاشات الأخرى"
 
-#: usr/lib/lightdm-settings/lightdm-settings:165
+#: usr/lib/lightdm-settings/lightdm-settings:177
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
@@ -83,47 +88,47 @@ msgstr ""
 "إذا كان لديك أجهزة عرض متعددة، يتم وضع قائمة المستخدمين على القائمة النشطة، "
 "وهذه الصورة على الآخرين."
 
-#: usr/lib/lightdm-settings/lightdm-settings:168
+#: usr/lib/lightdm-settings/lightdm-settings:180
 msgid "Bottom left"
 msgstr "أسفل اليسار"
 
-#: usr/lib/lightdm-settings/lightdm-settings:169
+#: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr "تحديد صورة لعرضها في الجزء السفلي الأيسر من نافذة تسجيل الدخول."
 
-#: usr/lib/lightdm-settings/lightdm-settings:175
+#: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Users"
 msgstr "المستخدمين"
 
-#: usr/lib/lightdm-settings/lightdm-settings:176
+#: usr/lib/lightdm-settings/lightdm-settings:188
 msgid "User list"
 msgstr "قائمة المستخدم"
 
-#: usr/lib/lightdm-settings/lightdm-settings:179
+#: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "Allow manual login"
 msgstr "السماح بتسجيل الدخول اليدوي"
 
-#: usr/lib/lightdm-settings/lightdm-settings:180
+#: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "Add an option in the login window to enter a username."
 msgstr "إضافة خيار في نافذة تسجيل الدخول لإدخال اسم مستخدم."
 
-#: usr/lib/lightdm-settings/lightdm-settings:184
+#: usr/lib/lightdm-settings/lightdm-settings:196
 msgid "Hide the user list"
 msgstr "إخفاء قائمة المستخدم"
 
-#: usr/lib/lightdm-settings/lightdm-settings:185
+#: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Hide the list of users in the login window."
 msgstr "إخفاء قائمة المستخدمين في نافذة تسجيل الدخول."
 
-#: usr/lib/lightdm-settings/lightdm-settings:189
+#: usr/lib/lightdm-settings/lightdm-settings:201
 msgid "Guest sessions"
 msgstr "جلسات الضيف"
 
-#: usr/lib/lightdm-settings/lightdm-settings:191
+#: usr/lib/lightdm-settings/lightdm-settings:203
 msgid "Allow guest sessions"
 msgstr "السماح بجلسات الضيف"
 
-#: usr/lib/lightdm-settings/lightdm-settings:192
+#: usr/lib/lightdm-settings/lightdm-settings:204
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
@@ -131,79 +136,79 @@ msgstr ""
 "السماح للضيوف باستخدام الكمبيوتر دون كلمة مرور. يتم إنشاء حساب ضيف مؤقت "
 "تلقائيًا عند تسجيل الدخول."
 
-#: usr/lib/lightdm-settings/lightdm-settings:195
+#: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Automatic login"
 msgstr "تسجيل الدخول التلقائي"
 
-#: usr/lib/lightdm-settings/lightdm-settings:198
+#: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Username"
 msgstr "اسم المستخدم"
 
-#: usr/lib/lightdm-settings/lightdm-settings:199
+#: usr/lib/lightdm-settings/lightdm-settings:211
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
 "تحذير: سوف يفشل تسجيل الدخول التلقائي إذا تم تشفير الدليل الرئيسي للمستخدم."
 
-#: usr/lib/lightdm-settings/lightdm-settings:203
+#: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Delay before connection (in seconds)"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:204
+#: usr/lib/lightdm-settings/lightdm-settings:216
 msgid ""
 "If this option is set the login screen will be shown for this many seconds "
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:207
+#: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "These settings require a computer reboot to take effect."
 msgstr "تتطلب هذه الإعدادات إعادة تشغيل الكمبيوتر لتصبح نافذة المفعول."
 
-#: usr/lib/lightdm-settings/lightdm-settings:212
-#: usr/lib/lightdm-settings/lightdm-settings:213
+#: usr/lib/lightdm-settings/lightdm-settings:224
+#: usr/lib/lightdm-settings/lightdm-settings:225
 msgid "Settings"
 msgstr "الإعدادات"
 
-#: usr/lib/lightdm-settings/lightdm-settings:215
-#: usr/lib/lightdm-settings/lightdm-settings:221
+#: usr/lib/lightdm-settings/lightdm-settings:227
+#: usr/lib/lightdm-settings/lightdm-settings:233
 msgid "Activate numlock"
 msgstr "تنشيط numlock"
 
-#: usr/lib/lightdm-settings/lightdm-settings:221
+#: usr/lib/lightdm-settings/lightdm-settings:233
 msgid "Please install numlockx to use this option."
 msgstr "الرجاء تثبيت numlockx لاستخدام هذا الخيار."
 
-#: usr/lib/lightdm-settings/lightdm-settings:223
+#: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Activate numlock in the login window."
 msgstr "تنشيط numlock في نافذة تسجيل الدخول."
 
-#: usr/lib/lightdm-settings/lightdm-settings:229
-#: usr/lib/lightdm-settings/lightdm-settings:236
+#: usr/lib/lightdm-settings/lightdm-settings:241
+#: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "Auto"
 msgstr "تلقائي"
 
-#: usr/lib/lightdm-settings/lightdm-settings:230
+#: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Enable"
 msgstr "تمكين"
 
-#: usr/lib/lightdm-settings/lightdm-settings:231
+#: usr/lib/lightdm-settings/lightdm-settings:243
 msgid "Disable"
 msgstr "تعطيل"
 
-#: usr/lib/lightdm-settings/lightdm-settings:232
+#: usr/lib/lightdm-settings/lightdm-settings:244
 msgid "HiDPI support"
 msgstr "دعم HiDPI"
 
-#: usr/lib/lightdm-settings/lightdm-settings:233
+#: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Support for high pixel density and Retina displays."
 msgstr "الدعم لكثافة البكسل العالية والشاشات الشبكية."
 
-#: usr/lib/lightdm-settings/lightdm-settings:237
+#: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Monitor"
 msgstr "شاشة العرض"
 
-#: usr/lib/lightdm-settings/lightdm-settings:238
+#: usr/lib/lightdm-settings/lightdm-settings:250
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
@@ -211,71 +216,71 @@ msgstr ""
 "اختر الشاشة التي يفترض أن تعرض نافذة تسجيل الدخول ، أو اختر \"تلقائي\" إذا "
 "كنت تريد أن تتبع الماوس."
 
-#: usr/lib/lightdm-settings/lightdm-settings:241
+#: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Panel indicators"
 msgstr "مؤشرات الشريط"
 
-#: usr/lib/lightdm-settings/lightdm-settings:243
+#: usr/lib/lightdm-settings/lightdm-settings:255
 msgid "Hostname"
 msgstr "اسم المضيف"
 
-#: usr/lib/lightdm-settings/lightdm-settings:244
+#: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Show the computer hostname in the panel."
 msgstr "عرض اسم مضيف الكمبيوتر في الشريط."
 
-#: usr/lib/lightdm-settings/lightdm-settings:247
+#: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Accessibility options"
 msgstr "خيارات سهولة الوصول"
 
-#: usr/lib/lightdm-settings/lightdm-settings:248
+#: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Show accessibility options in the panel."
 msgstr "عرض خيارات سهولة الوصول في الشريط."
 
-#: usr/lib/lightdm-settings/lightdm-settings:251
+#: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Battery power"
 msgstr "طاقة البطارية"
 
-#: usr/lib/lightdm-settings/lightdm-settings:252
+#: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "On laptops, show the battery power in the panel."
 msgstr "على أجهزة الكمبيوتر المحمولة، عرض طاقة البطارية في الشريط."
 
-#: usr/lib/lightdm-settings/lightdm-settings:255
+#: usr/lib/lightdm-settings/lightdm-settings:267
 msgid "Keyboard layout"
 msgstr "تخطيط لوحة المفاتيح"
 
-#: usr/lib/lightdm-settings/lightdm-settings:256
+#: usr/lib/lightdm-settings/lightdm-settings:268
 msgid "Show the keyboard layout in the panel."
 msgstr "عرض تخطيط لوحة المفاتيح في الشريط."
 
-#: usr/lib/lightdm-settings/lightdm-settings:259
+#: usr/lib/lightdm-settings/lightdm-settings:271
 msgid "Clock"
 msgstr "الساعة"
 
-#: usr/lib/lightdm-settings/lightdm-settings:260
+#: usr/lib/lightdm-settings/lightdm-settings:272
 msgid "Show a clock in the panel."
 msgstr "عرض الساعة في الشريط"
 
-#: usr/lib/lightdm-settings/lightdm-settings:263
+#: usr/lib/lightdm-settings/lightdm-settings:275
 msgid "Quit menu"
 msgstr "إنهاء القائمة"
 
-#: usr/lib/lightdm-settings/lightdm-settings:264
+#: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "Show the quit menu in the panel."
 msgstr "عرض إنهاء القائمة في الشريط."
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:190
+#: usr/lib/lightdm-settings/SettingsWidgets.py:199
 msgid "Choose an Image File"
 msgstr "اختيار ملف الصورة"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:193
+#: usr/lib/lightdm-settings/SettingsWidgets.py:202
 msgid "_Cancel"
 msgstr "_إلغاء"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:194
+#: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Open"
 msgstr "_فتح"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:197
+#: usr/lib/lightdm-settings/SettingsWidgets.py:206
 msgid "Image files"
 msgstr "ملفات الصور"
 

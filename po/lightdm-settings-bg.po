@@ -7,79 +7,84 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-06-30 16:43+0200\n"
+"POT-Creation-Date: 2019-11-22 12:45+0000\n"
 "PO-Revision-Date: 2019-07-01 04:05+0000\n"
 "Last-Translator: spacy01 <Unknown>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-07-28 09:36+0000\n"
-"X-Generator: Launchpad (build 19010)\n"
+"X-Launchpad-Export-Date: 2019-11-26 16:02+0000\n"
+"X-Generator: Launchpad (build c597c3229eb023b1e626162d5947141bf7befb13)\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:42
-#: usr/lib/lightdm-settings/lightdm-settings:74 generate_desktop_files:25
+#: usr/lib/lightdm-settings/lightdm-settings:43
+#: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
 msgid "Login Window"
 msgstr "Прозорец за влизане"
 
-#: usr/lib/lightdm-settings/lightdm-settings:64
+#: usr/lib/lightdm-settings/lightdm-settings:65
 msgid "Quit"
 msgstr "Изход"
 
-#: usr/lib/lightdm-settings/lightdm-settings:130
+#: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Appearance"
 msgstr "Външен вид"
 
-#: usr/lib/lightdm-settings/lightdm-settings:131
-#: usr/lib/lightdm-settings/lightdm-settings:133
-#: usr/lib/lightdm-settings/lightdm-settings:134
+#: usr/lib/lightdm-settings/lightdm-settings:139
+#: usr/lib/lightdm-settings/lightdm-settings:141
+#: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Background"
 msgstr "Фон"
 
-#: usr/lib/lightdm-settings/lightdm-settings:137
-#: usr/lib/lightdm-settings/lightdm-settings:138
+#: usr/lib/lightdm-settings/lightdm-settings:145
+#: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "Background color"
 msgstr "Фонов цвят"
 
-#: usr/lib/lightdm-settings/lightdm-settings:142
+#: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Draw user backgrounds"
 msgstr "Рисувай потребителски фонове"
 
-#: usr/lib/lightdm-settings/lightdm-settings:143
+#: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "When a user is selected, show that user's background."
 msgstr "Когато е избран потребител, покажи тапета му."
 
-#: usr/lib/lightdm-settings/lightdm-settings:146
+#: usr/lib/lightdm-settings/lightdm-settings:154
 msgid "Draw a grid"
 msgstr "Рисувай мрежа"
 
-#: usr/lib/lightdm-settings/lightdm-settings:147
+#: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw a grid of white dots on top of the background."
 msgstr "Нарусувай решетка от бели точки върху тапета."
 
-#: usr/lib/lightdm-settings/lightdm-settings:150
+#: usr/lib/lightdm-settings/lightdm-settings:158
 msgid "Themes"
 msgstr "Теми"
 
-#: usr/lib/lightdm-settings/lightdm-settings:154
-#: usr/lib/lightdm-settings/lightdm-settings:155
+#: usr/lib/lightdm-settings/lightdm-settings:162
+#: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "GTK theme"
 msgstr "GTK тема"
 
-#: usr/lib/lightdm-settings/lightdm-settings:158
-#: usr/lib/lightdm-settings/lightdm-settings:159
+#: usr/lib/lightdm-settings/lightdm-settings:166
+#: usr/lib/lightdm-settings/lightdm-settings:167
 msgid "Icon theme"
 msgstr "Тема за иконките"
 
-#: usr/lib/lightdm-settings/lightdm-settings:162
+#: usr/lib/lightdm-settings/lightdm-settings:170
+#: usr/lib/lightdm-settings/lightdm-settings:171
+msgid "Mouse cursor"
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Optional pictures"
 msgstr "Опционални картини"
 
-#: usr/lib/lightdm-settings/lightdm-settings:164
+#: usr/lib/lightdm-settings/lightdm-settings:176
 msgid "Other monitors"
 msgstr "Други монитори"
 
-#: usr/lib/lightdm-settings/lightdm-settings:165
+#: usr/lib/lightdm-settings/lightdm-settings:177
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
@@ -87,48 +92,48 @@ msgstr ""
 "Ако имате няколко монитора, списъка с потребители ще бъде на активния, а "
 "тази картина на останалите."
 
-#: usr/lib/lightdm-settings/lightdm-settings:168
+#: usr/lib/lightdm-settings/lightdm-settings:180
 msgid "Bottom left"
 msgstr "Долу вляво"
 
-#: usr/lib/lightdm-settings/lightdm-settings:169
+#: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr ""
 "Избери картинка, която да се показва долу вляво на прозореца за вписване."
 
-#: usr/lib/lightdm-settings/lightdm-settings:175
+#: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Users"
 msgstr "Потребители"
 
-#: usr/lib/lightdm-settings/lightdm-settings:176
+#: usr/lib/lightdm-settings/lightdm-settings:188
 msgid "User list"
 msgstr "Списък с потребители"
 
-#: usr/lib/lightdm-settings/lightdm-settings:179
+#: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "Allow manual login"
 msgstr "Разреши ръчно вписване"
 
-#: usr/lib/lightdm-settings/lightdm-settings:180
+#: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "Add an option in the login window to enter a username."
 msgstr "Добавя опция за въвеждане на име в прозореца за вписване."
 
-#: usr/lib/lightdm-settings/lightdm-settings:184
+#: usr/lib/lightdm-settings/lightdm-settings:196
 msgid "Hide the user list"
 msgstr "Скрий списъка с потребители"
 
-#: usr/lib/lightdm-settings/lightdm-settings:185
+#: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Hide the list of users in the login window."
 msgstr "Скрива списъка с потребителите в прозореца за вписване"
 
-#: usr/lib/lightdm-settings/lightdm-settings:189
+#: usr/lib/lightdm-settings/lightdm-settings:201
 msgid "Guest sessions"
 msgstr "Гост"
 
-#: usr/lib/lightdm-settings/lightdm-settings:191
+#: usr/lib/lightdm-settings/lightdm-settings:203
 msgid "Allow guest sessions"
 msgstr "Разреши вписване като гост"
 
-#: usr/lib/lightdm-settings/lightdm-settings:192
+#: usr/lib/lightdm-settings/lightdm-settings:204
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
@@ -136,26 +141,26 @@ msgstr ""
 "Разрешава на гости да използват компютъра без парола. Автоматично се създава "
 "гост акаунт при вписване."
 
-#: usr/lib/lightdm-settings/lightdm-settings:195
+#: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Automatic login"
 msgstr "Автоматично вписване"
 
-#: usr/lib/lightdm-settings/lightdm-settings:198
+#: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Username"
 msgstr "Потребителско име"
 
-#: usr/lib/lightdm-settings/lightdm-settings:199
+#: usr/lib/lightdm-settings/lightdm-settings:211
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
 "Внимание: Автоматичното вписване ще се провали ако домашната папка е "
 "криптирана."
 
-#: usr/lib/lightdm-settings/lightdm-settings:203
+#: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Delay before connection (in seconds)"
 msgstr "Забавяне преди вписване (в секунди)"
 
-#: usr/lib/lightdm-settings/lightdm-settings:204
+#: usr/lib/lightdm-settings/lightdm-settings:216
 msgid ""
 "If this option is set the login screen will be shown for this many seconds "
 "before the automatic login occurs. Any user activity will cancel the "
@@ -165,54 +170,54 @@ msgstr ""
 "секунди, преди да настъпи автоматичното вписване. Всяка потребителска "
 "активност ще прекъсне това отброяване."
 
-#: usr/lib/lightdm-settings/lightdm-settings:207
+#: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "These settings require a computer reboot to take effect."
 msgstr "Тези настройки изискват рестартиране."
 
-#: usr/lib/lightdm-settings/lightdm-settings:212
-#: usr/lib/lightdm-settings/lightdm-settings:213
+#: usr/lib/lightdm-settings/lightdm-settings:224
+#: usr/lib/lightdm-settings/lightdm-settings:225
 msgid "Settings"
 msgstr "Настройки"
 
-#: usr/lib/lightdm-settings/lightdm-settings:215
-#: usr/lib/lightdm-settings/lightdm-settings:221
+#: usr/lib/lightdm-settings/lightdm-settings:227
+#: usr/lib/lightdm-settings/lightdm-settings:233
 msgid "Activate numlock"
 msgstr "Включи numlock"
 
-#: usr/lib/lightdm-settings/lightdm-settings:221
+#: usr/lib/lightdm-settings/lightdm-settings:233
 msgid "Please install numlockx to use this option."
 msgstr "За да използвате тази опция, моля инсталирайте numlockx."
 
-#: usr/lib/lightdm-settings/lightdm-settings:223
+#: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Activate numlock in the login window."
 msgstr "Активиране на numlock в прозореца за вписване."
 
-#: usr/lib/lightdm-settings/lightdm-settings:229
-#: usr/lib/lightdm-settings/lightdm-settings:236
+#: usr/lib/lightdm-settings/lightdm-settings:241
+#: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "Auto"
 msgstr "Автоматично"
 
-#: usr/lib/lightdm-settings/lightdm-settings:230
+#: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Enable"
 msgstr "Включване"
 
-#: usr/lib/lightdm-settings/lightdm-settings:231
+#: usr/lib/lightdm-settings/lightdm-settings:243
 msgid "Disable"
 msgstr "Изключване"
 
-#: usr/lib/lightdm-settings/lightdm-settings:232
+#: usr/lib/lightdm-settings/lightdm-settings:244
 msgid "HiDPI support"
 msgstr "Поддръжка на HiDPI"
 
-#: usr/lib/lightdm-settings/lightdm-settings:233
+#: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Support for high pixel density and Retina displays."
 msgstr "Поддръжка на висока гъстота на пикселите и на Retina екрани."
 
-#: usr/lib/lightdm-settings/lightdm-settings:237
+#: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Monitor"
 msgstr "Монитор"
 
-#: usr/lib/lightdm-settings/lightdm-settings:238
+#: usr/lib/lightdm-settings/lightdm-settings:250
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
@@ -220,71 +225,71 @@ msgstr ""
 "Изберете на кой монитор да се показва прозореца за вписване, или изберете "
 "'Автоматично' ако искате да се следва мишката."
 
-#: usr/lib/lightdm-settings/lightdm-settings:241
+#: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Panel indicators"
 msgstr "Индикатори в панела"
 
-#: usr/lib/lightdm-settings/lightdm-settings:243
+#: usr/lib/lightdm-settings/lightdm-settings:255
 msgid "Hostname"
 msgstr "Име на хост"
 
-#: usr/lib/lightdm-settings/lightdm-settings:244
+#: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Show the computer hostname in the panel."
 msgstr "Показва името на хоста в панела."
 
-#: usr/lib/lightdm-settings/lightdm-settings:247
+#: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Accessibility options"
 msgstr "Опции на достъпност"
 
-#: usr/lib/lightdm-settings/lightdm-settings:248
+#: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Show accessibility options in the panel."
 msgstr "Показва опциите за равностоен достъп в панела."
 
-#: usr/lib/lightdm-settings/lightdm-settings:251
+#: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Battery power"
 msgstr "Заряд на батерията"
 
-#: usr/lib/lightdm-settings/lightdm-settings:252
+#: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "On laptops, show the battery power in the panel."
 msgstr "Показва заряда на батерията на лаптопите."
 
-#: usr/lib/lightdm-settings/lightdm-settings:255
+#: usr/lib/lightdm-settings/lightdm-settings:267
 msgid "Keyboard layout"
 msgstr "Клавиатурна подредба"
 
-#: usr/lib/lightdm-settings/lightdm-settings:256
+#: usr/lib/lightdm-settings/lightdm-settings:268
 msgid "Show the keyboard layout in the panel."
 msgstr "Показва клавиатурната подредба в панела."
 
-#: usr/lib/lightdm-settings/lightdm-settings:259
+#: usr/lib/lightdm-settings/lightdm-settings:271
 msgid "Clock"
 msgstr "Часовник"
 
-#: usr/lib/lightdm-settings/lightdm-settings:260
+#: usr/lib/lightdm-settings/lightdm-settings:272
 msgid "Show a clock in the panel."
 msgstr "Показва часовник в панела."
 
-#: usr/lib/lightdm-settings/lightdm-settings:263
+#: usr/lib/lightdm-settings/lightdm-settings:275
 msgid "Quit menu"
 msgstr "Меню за изход"
 
-#: usr/lib/lightdm-settings/lightdm-settings:264
+#: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "Show the quit menu in the panel."
 msgstr "Показва менюто за изход в панела."
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:190
+#: usr/lib/lightdm-settings/SettingsWidgets.py:199
 msgid "Choose an Image File"
 msgstr "Избери файл с изображение"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:193
+#: usr/lib/lightdm-settings/SettingsWidgets.py:202
 msgid "_Cancel"
 msgstr "_Отказ"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:194
+#: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Open"
 msgstr "_Отвори"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:197
+#: usr/lib/lightdm-settings/SettingsWidgets.py:206
 msgid "Image files"
 msgstr "Файлове с изображения"
 

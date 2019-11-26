@@ -1,16 +1,16 @@
-# Tamil translation for linuxmint
-# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# Marathi translation for linuxmint
+# Copyright (c) 2019 Rosetta Contributors and Canonical Ltd 2019
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-11-22 12:45+0000\n"
-"PO-Revision-Date: 2018-08-22 02:11+0000\n"
-"Last-Translator: karthhic <karthhic@gmail.com>\n"
-"Language-Team: Tamil <ta@li.org>\n"
+"PO-Revision-Date: 2019-10-08 13:09+0000\n"
+"Last-Translator: hemantrmore <Unknown>\n"
+"Language-Team: Marathi <mr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,46 +20,48 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
 msgid "Login Window"
-msgstr "நுழைவுச் சாளரம்"
+msgstr "प्रवेश पटल"
 
 #: usr/lib/lightdm-settings/lightdm-settings:65
 msgid "Quit"
-msgstr "வெளியேறு"
+msgstr "बाहेर पडा"
 
 #: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Appearance"
-msgstr "தோற்றம்"
+msgstr "स्वरुप"
 
 #: usr/lib/lightdm-settings/lightdm-settings:139
 #: usr/lib/lightdm-settings/lightdm-settings:141
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Background"
-msgstr "பின்புலம்"
+msgstr "पार्श्वभूमी"
 
 #: usr/lib/lightdm-settings/lightdm-settings:145
 #: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "Background color"
-msgstr "பின்புல வண்ணம்"
+msgstr "पार्श्वभूमी रंग"
 
 #: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Draw user backgrounds"
-msgstr ""
+msgstr "वापरकर्ता पार्श्वभूमी रेखाटा"
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "When a user is selected, show that user's background."
 msgstr ""
+"जेव्हा एखादा वापरकर्ता निवडला जातो तेव्हा त्या वापरकर्त्याची पार्श्वभूमी "
+"दर्शवा."
 
 #: usr/lib/lightdm-settings/lightdm-settings:154
 msgid "Draw a grid"
-msgstr ""
+msgstr "एक ग्रीड रेखाटा"
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw a grid of white dots on top of the background."
-msgstr ""
+msgstr "पार्श्वभूमीवर पांढर्‍या ठिपक्यांची एक ग्रीड रेखाटा."
 
 #: usr/lib/lightdm-settings/lightdm-settings:158
 msgid "Themes"
-msgstr "வடிவக்கரு"
+msgstr "दृश्य प्रकार"
 
 #: usr/lib/lightdm-settings/lightdm-settings:162
 #: usr/lib/lightdm-settings/lightdm-settings:163
@@ -92,7 +94,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:180
 msgid "Bottom left"
-msgstr ""
+msgstr "खालून डावीकडे"
 
 #: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Select a picture to show on the bottom left of the login window."
@@ -100,11 +102,11 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Users"
-msgstr ""
+msgstr "वापरकर्ते"
 
 #: usr/lib/lightdm-settings/lightdm-settings:188
 msgid "User list"
-msgstr ""
+msgstr "वापरकर्ता यादी"
 
 #: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "Allow manual login"
