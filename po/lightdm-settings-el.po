@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-11-22 12:45+0000\n"
-"PO-Revision-Date: 2019-08-11 13:20+0000\n"
+"PO-Revision-Date: 2019-12-01 07:30+0000\n"
 "Last-Translator: Vasilis Thomopoulos <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-11-26 16:02+0000\n"
+"X-Launchpad-Export-Date: 2019-12-11 11:58+0000\n"
 "X-Generator: Launchpad (build c597c3229eb023b1e626162d5947141bf7befb13)\n"
 "Language: el\n"
 
@@ -75,7 +75,7 @@ msgstr "Θέμα εικονιδίων"
 #: usr/lib/lightdm-settings/lightdm-settings:170
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Mouse cursor"
-msgstr ""
+msgstr "Δείκτης ποντικιού"
 
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Optional pictures"
