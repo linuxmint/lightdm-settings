@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-11-22 12:45+0000\n"
-"PO-Revision-Date: 2019-09-06 10:27+0000\n"
-"Last-Translator: Abdul Munif Hanafi <amunifhanafi@gmail.com>\n"
+"PO-Revision-Date: 2019-12-22 23:01+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-12-11 11:58+0000\n"
-"X-Generator: Launchpad (build c597c3229eb023b1e626162d5947141bf7befb13)\n"
+"X-Launchpad-Export-Date: 2020-01-06 10:07+0000\n"
+"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
@@ -74,21 +74,23 @@ msgstr "Tema ikon"
 #: usr/lib/lightdm-settings/lightdm-settings:170
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Mouse cursor"
-msgstr ""
+msgstr "Kursor tetikus"
 
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Optional pictures"
-msgstr ""
+msgstr "Gambar opsional"
 
 #: usr/lib/lightdm-settings/lightdm-settings:176
 msgid "Other monitors"
-msgstr ""
+msgstr "Layar lain"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
+"Jika terdapat beberapa layar, daftar pengguna diletakkan pada yang aktif, "
+"dan gambar ini pada layar lain."
 
 #: usr/lib/lightdm-settings/lightdm-settings:180
 msgid "Bottom left"
@@ -96,7 +98,7 @@ msgstr "Kiri bawah"
 
 #: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr ""
+msgstr "Pilih gambar untuk ditampilkan di kiri bawah dari jendela login."
 
 #: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Users"
@@ -113,6 +115,7 @@ msgstr "Ijinkan masuk manual"
 #: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "Add an option in the login window to enter a username."
 msgstr ""
+"Menambahkan suatu pilihan pada jendela login untuk memasukkan nama pengguna."
 
 #: usr/lib/lightdm-settings/lightdm-settings:196
 msgid "Hide the user list"
@@ -135,6 +138,8 @@ msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
+"Mengizinkan tamu menggunakan komputer tanpa kata sandi. Sebuah akun tamu "
+"dibuat secara otomatis ketika mereka login."
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Automatic login"
@@ -153,7 +158,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Delay before connection (in seconds)"
-msgstr ""
+msgstr "Tundaan sebelum koneksi (dalam detik)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:216
 msgid ""
@@ -161,10 +166,13 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
+"Bila opsi ini ditata, layar login akan ditampilkan selama sekian detik "
+"sebelum login otomatis terjadi. Sebarang aktivitas pengguna akan membatalkan "
+"hitung mundur."
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "These settings require a computer reboot to take effect."
-msgstr ""
+msgstr "Pengaturan ini memerlukan boot ulang komputer agar berdampak."
 
 #: usr/lib/lightdm-settings/lightdm-settings:224
 #: usr/lib/lightdm-settings/lightdm-settings:225
@@ -174,7 +182,7 @@ msgstr "Pengaturan"
 #: usr/lib/lightdm-settings/lightdm-settings:227
 #: usr/lib/lightdm-settings/lightdm-settings:233
 msgid "Activate numlock"
-msgstr ""
+msgstr "Aktifkan numlock"
 
 #: usr/lib/lightdm-settings/lightdm-settings:233
 msgid "Please install numlockx to use this option."
@@ -182,7 +190,7 @@ msgstr "Mohon pasang numlockxx untuk menggunakan pilihan ini"
 
 #: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Activate numlock in the login window."
-msgstr ""
+msgstr "Aktifkan numlock di jendela login."
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 #: usr/lib/lightdm-settings/lightdm-settings:248
@@ -191,11 +199,11 @@ msgstr "Otomatis"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Enable"
-msgstr ""
+msgstr "Fungsikan"
 
 #: usr/lib/lightdm-settings/lightdm-settings:243
 msgid "Disable"
-msgstr ""
+msgstr "Nonakftifkan"
 
 #: usr/lib/lightdm-settings/lightdm-settings:244
 msgid "HiDPI support"
@@ -207,7 +215,7 @@ msgstr "Dukungan untuk kerapatan piksel tinggi dan layar Retina."
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Monitor"
-msgstr ""
+msgstr "Monitor"
 
 #: usr/lib/lightdm-settings/lightdm-settings:250
 msgid ""
@@ -219,15 +227,15 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Panel indicators"
-msgstr ""
+msgstr "Panel indikator"
 
 #: usr/lib/lightdm-settings/lightdm-settings:255
 msgid "Hostname"
-msgstr ""
+msgstr "Nama host"
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Show the computer hostname in the panel."
-msgstr ""
+msgstr "Tampilkan nama host komputer di panel."
 
 #: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Accessibility options"
@@ -243,15 +251,15 @@ msgstr "Kekuatan baterai"
 
 #: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "On laptops, show the battery power in the panel."
-msgstr ""
+msgstr "Pada laptop, tampilkan daya baterai di panel."
 
 #: usr/lib/lightdm-settings/lightdm-settings:267
 msgid "Keyboard layout"
-msgstr ""
+msgstr "Tata letak papan ketik"
 
 #: usr/lib/lightdm-settings/lightdm-settings:268
 msgid "Show the keyboard layout in the panel."
-msgstr ""
+msgstr "Tampilkan tata letak papan ketik di panel."
 
 #: usr/lib/lightdm-settings/lightdm-settings:271
 msgid "Clock"
@@ -259,7 +267,7 @@ msgstr "Jam"
 
 #: usr/lib/lightdm-settings/lightdm-settings:272
 msgid "Show a clock in the panel."
-msgstr ""
+msgstr "Tampilkan sebuah jam di panel."
 
 #: usr/lib/lightdm-settings/lightdm-settings:275
 msgid "Quit menu"
@@ -267,19 +275,19 @@ msgstr "Menu keluar"
 
 #: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "Show the quit menu in the panel."
-msgstr ""
+msgstr "Tampilkan menu keluar di panel."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:199
 msgid "Choose an Image File"
-msgstr ""
+msgstr "Pilih sebuah Berkas Gambar"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:202
 msgid "_Cancel"
-msgstr ""
+msgstr "Ba_tal"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Open"
-msgstr ""
+msgstr "_Buka"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:206
 msgid "Image files"
