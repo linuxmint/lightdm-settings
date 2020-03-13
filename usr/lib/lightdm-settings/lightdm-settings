@@ -146,6 +146,15 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Background color"))
         section.add_row(row)
 
+        size_group = Gtk.SizeGroup(mode=Gtk.SizeGroupMode.HORIZONTAL)
+
+        mode_options = []
+        mode_options.append(["zoom", _("Zoom")])
+        mode_options.append(["spanned", _("Spanned")])
+        row = SettingsRow(Gtk.Label(label=_("Background mode")), SettingsCombo(keyfile, settings, "background-mode", mode_options, "string", size_group))
+        row.set_tooltip_text(_("Determine how the background image is rendered."))
+        section.add_row(row)
+
         if self.should_show_user_bg_switch ():
                 row = SettingsRow(Gtk.Label(label=_("Draw user backgrounds")), SettingsSwitch(keyfile, settings, "draw-user-backgrounds"))
                 row.set_tooltip_text(_("When a user is selected, show that user's background."))
@@ -156,8 +165,6 @@ class Application(Gtk.Application):
         section.add_row(row)
 
         section = page.add_section(_("Themes"))
-
-        size_group = Gtk.SizeGroup(mode=Gtk.SizeGroupMode.HORIZONTAL)
 
         row = SettingsRow(Gtk.Label(label=_("GTK theme")), SettingsCombo(keyfile, settings, "theme-name", self.get_gtk_themes(), "string", size_group))
         row.set_tooltip_text(_("GTK theme"))
