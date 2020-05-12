@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-11-22 12:45+0000\n"
-"PO-Revision-Date: 2019-11-25 13:55+0000\n"
-"Last-Translator: Gilberto vagner <vagner.unix@gmail.com>\n"
+"PO-Revision-Date: 2020-02-28 22:23+0000\n"
+"Last-Translator: Wellington Oliveira dos Santos <welblade@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-01-06 10:07+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Launchpad-Export-Date: 2020-05-11 11:03+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
@@ -69,7 +69,7 @@ msgstr "Tema GTK"
 #: usr/lib/lightdm-settings/lightdm-settings:166
 #: usr/lib/lightdm-settings/lightdm-settings:167
 msgid "Icon theme"
-msgstr "Tema dos ícones"
+msgstr "Tema de ícones"
 
 #: usr/lib/lightdm-settings/lightdm-settings:170
 #: usr/lib/lightdm-settings/lightdm-settings:171
@@ -130,11 +130,11 @@ msgstr "Oculta a lista de usuários na janela de início de sessão."
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid "Guest sessions"
-msgstr "Sessão convidado"
+msgstr "Sessões de convidado"
 
 #: usr/lib/lightdm-settings/lightdm-settings:203
 msgid "Allow guest sessions"
-msgstr "Permitir sessões convidado"
+msgstr "Permitir sessões de convidado"
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid ""
@@ -142,7 +142,7 @@ msgid ""
 "account is created automatically when they log in."
 msgstr ""
 "Permite que convidados usem o computador sem uma senha. Uma conta temporária "
-"de convidado é criada automaticamente ao iniciar sessão."
+"de convidado é criada automaticamente ao iniciar a sessão."
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Automatic login"
@@ -150,7 +150,7 @@ msgstr "Início de sessão automático"
 
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Username"
-msgstr "Nome de Usuário"
+msgstr "Nome de usuário"
 
 #: usr/lib/lightdm-settings/lightdm-settings:211
 msgid ""
@@ -169,15 +169,14 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
-"Se esta opção for marcada, a tela de login será mostrada por muitos segundos "
-"antes que o login automático ocorra. Qualquer atividade do usuário cancelará "
-"a contagem regressiva."
+"Se esta opção for marcada, a tela de início de sessão será mostrada por um "
+"tempo antes que a sessão inicie automaticamente. Qualquer atividade do "
+"usuário cancelará a contagem regressiva."
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "These settings require a computer reboot to take effect."
 msgstr ""
-"É necessária a reinicialização do computador para que as configurações sejam "
-"ativadas."
+"É necessário reiniciar o computador para que as configurações tenham efeito."
 
 #: usr/lib/lightdm-settings/lightdm-settings:224
 #: usr/lib/lightdm-settings/lightdm-settings:225
@@ -212,7 +211,7 @@ msgstr "Desabilitar"
 
 #: usr/lib/lightdm-settings/lightdm-settings:244
 msgid "HiDPI support"
-msgstr "Suporte à HiDPI"
+msgstr "Suporte a HiDPI"
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Support for high pixel density and Retina displays."
@@ -229,7 +228,7 @@ msgid ""
 "you want it to follow the mouse."
 msgstr ""
 "Escolha qual monitor deve exibir a janela de login ou selecione 'Auto' se "
-"você quiser que seja seguido o mouse."
+"você quiser que siga o mouse."
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Panel indicators"
@@ -261,11 +260,11 @@ msgstr "Em notebooks, exibe o nível de energia da bateria no painel."
 
 #: usr/lib/lightdm-settings/lightdm-settings:267
 msgid "Keyboard layout"
-msgstr "Layout do teclado"
+msgstr "Leiaute do teclado"
 
 #: usr/lib/lightdm-settings/lightdm-settings:268
 msgid "Show the keyboard layout in the panel."
-msgstr "Mostrar o layout do teclado no painel."
+msgstr "Mostrar o leiaute do teclado no painel."
 
 #: usr/lib/lightdm-settings/lightdm-settings:271
 msgid "Clock"

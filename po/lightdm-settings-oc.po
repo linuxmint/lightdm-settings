@@ -1,16 +1,16 @@
-# Dutch translation for linuxmint
-# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# Occitan (post 1500) translation for linuxmint
+# Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-11-22 12:45+0000\n"
-"PO-Revision-Date: 2019-11-22 23:29+0000\n"
-"Last-Translator: Pjotr12345 <Unknown>\n"
-"Language-Team: Dutch <nl@li.org>\n"
+"PO-Revision-Date: 2020-05-07 14:43+0000\n"
+"Last-Translator: Quentin PAGÈS <Unknown>\n"
+"Language-Team: Occitan (post 1500) <oc@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,148 +20,143 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
 msgid "Login Window"
-msgstr "Aanmeldvenster"
+msgstr "Fenèstra de connexion"
 
 #: usr/lib/lightdm-settings/lightdm-settings:65
 msgid "Quit"
-msgstr "Sluiten"
+msgstr "Quitar"
 
 #: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Appearance"
-msgstr "Uiterlijk"
+msgstr "Aparéncia"
 
 #: usr/lib/lightdm-settings/lightdm-settings:139
 #: usr/lib/lightdm-settings/lightdm-settings:141
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Background"
-msgstr "Achtergrond"
+msgstr "Rèireplan"
 
 #: usr/lib/lightdm-settings/lightdm-settings:145
 #: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "Background color"
-msgstr "Achtergrondkleur"
+msgstr "Color de rèireplan"
 
 #: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Draw user backgrounds"
-msgstr "Toon gebruikersachtergronden"
+msgstr "Dessenhar rèireplans de utilizaire"
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "When a user is selected, show that user's background."
 msgstr ""
-"Wanneer er een gebruiker is gekozen, toon de bureaubladachtergrond van die "
-"gebruiker."
+"Quand un utilizaire es causit, mostrar lo rèireplan d'aquel utilizaire."
 
 #: usr/lib/lightdm-settings/lightdm-settings:154
 msgid "Draw a grid"
-msgstr "Toon een raster"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw a grid of white dots on top of the background."
-msgstr "Toon een raster van witte puntjes op de bureaubladachtergrond."
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:158
 msgid "Themes"
-msgstr "Thema´s"
+msgstr "Tèmas"
 
 #: usr/lib/lightdm-settings/lightdm-settings:162
 #: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "GTK theme"
-msgstr "GTK-thema"
+msgstr "Tèma GTK"
 
 #: usr/lib/lightdm-settings/lightdm-settings:166
 #: usr/lib/lightdm-settings/lightdm-settings:167
 msgid "Icon theme"
-msgstr "Pictogramthema"
+msgstr "Tèma d'icònas"
 
 #: usr/lib/lightdm-settings/lightdm-settings:170
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Mouse cursor"
-msgstr "Muispijl"
+msgstr "Cursor del mirga"
 
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Optional pictures"
-msgstr "Optionele afbeeldingen"
+msgstr "Imatges opcionales"
 
 #: usr/lib/lightdm-settings/lightdm-settings:176
 msgid "Other monitors"
-msgstr "Andere beeldschermen"
+msgstr "Autres monitores"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
-"Indien u meerdere beeldschermen heeft, wordt de gebruikerslijst op het "
-"actieve scherm geplaatst, en deze afbeelding op de andere."
 
 #: usr/lib/lightdm-settings/lightdm-settings:180
 msgid "Bottom left"
-msgstr "Linksonder"
+msgstr "En bas a esquèrra"
 
 #: usr/lib/lightdm-settings/lightdm-settings:181
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr "Kies een afbeelding om linksonder te tonen op het aanmeldvenster."
+msgstr ""
+"Seleccionar un imatge a afichar enbàs a man esquèrra de la fenèstra de "
+"connexion."
 
 #: usr/lib/lightdm-settings/lightdm-settings:187
 msgid "Users"
-msgstr "Gebruikers"
+msgstr "Utilizaires"
 
 #: usr/lib/lightdm-settings/lightdm-settings:188
 msgid "User list"
-msgstr "Gebruikerslijst"
+msgstr "Lista dels utilizaires"
 
 #: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "Allow manual login"
-msgstr "Handmatige aanmelding toestaan"
+msgstr "Autorizar la connexion manuala"
 
 #: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "Add an option in the login window to enter a username."
 msgstr ""
-"Voeg een optie toe in het aanmeldvenster voor het handmatig invoeren van een "
-"gebruikersnaam."
+"Ajustar una opcion dins la fenèstra de connexion per picar un nom "
+"d’utilizaire"
 
 #: usr/lib/lightdm-settings/lightdm-settings:196
 msgid "Hide the user list"
-msgstr "Verberg de gebruikerslijst"
+msgstr "Amagar la lista d’utilizaires"
 
 #: usr/lib/lightdm-settings/lightdm-settings:197
 msgid "Hide the list of users in the login window."
-msgstr "Verberg de gebruikerslijst in het aanmeldvenster."
+msgstr "Amagar la lista d’utilizaire dins la fenèstra de connexion"
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid "Guest sessions"
-msgstr "Gastsessies"
+msgstr "Sessions convidat"
 
 #: usr/lib/lightdm-settings/lightdm-settings:203
 msgid "Allow guest sessions"
-msgstr "Sta gastsessies toe"
+msgstr "Autorizar las sessions convidat"
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
-"Sta gasten toe om de computer te gebruiken zonder wachtwoord. Er wordt een "
-"tijdelijk gastenaccount aangemaakt wanneer zij zich aanmelden."
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Automatic login"
-msgstr "Automatische aanmelding"
+msgstr "Connexion auto"
 
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Username"
-msgstr "Gebruikersnaam"
+msgstr "Nom d'utilizaire"
 
 #: usr/lib/lightdm-settings/lightdm-settings:211
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
-"Waarschuwing: automatische aanmelding zal mislukken indien de gebruikersmap "
-"is versleuteld."
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Delay before connection (in seconds)"
-msgstr "Vertraging voorafgaand aan verbinding (in seconden)"
+msgstr "Relambi abans connexion (en segondas)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:216
 msgid ""
@@ -169,135 +164,128 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
-"Indien deze optie is ingesteld, zal het aanmeldscherm gedurende dit aantal "
-"seconden worden getoond alvorens de automatische aanmelding plaatsvindt. "
-"Gebruikersactiviteit zal het aftellen afbreken."
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "These settings require a computer reboot to take effect."
 msgstr ""
-"Deze instellingen vereisen een herstart van de computer alvorens zij effect "
-"hebben."
 
 #: usr/lib/lightdm-settings/lightdm-settings:224
 #: usr/lib/lightdm-settings/lightdm-settings:225
 msgid "Settings"
-msgstr "Instellingen"
+msgstr "Paramètres"
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 #: usr/lib/lightdm-settings/lightdm-settings:233
 msgid "Activate numlock"
-msgstr "Numlock activeren"
+msgstr "Activar pavat numeric"
 
 #: usr/lib/lightdm-settings/lightdm-settings:233
 msgid "Please install numlockx to use this option."
-msgstr "Installeer a.u.b. numlockx om deze optie te kunnen gebruiken."
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:235
 msgid "Activate numlock in the login window."
-msgstr "Activeer numlockx in het aanmeldvenster."
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 #: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "Auto"
-msgstr "Automatisch"
+msgstr "Auto"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Enable"
-msgstr "Inschakelen"
+msgstr "Activar"
 
 #: usr/lib/lightdm-settings/lightdm-settings:243
 msgid "Disable"
-msgstr "Uitschakelen"
+msgstr "Desactivar"
 
 #: usr/lib/lightdm-settings/lightdm-settings:244
 msgid "HiDPI support"
-msgstr "HiDPI-ondersteuning"
+msgstr "Compatibilitat HiDPI"
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Support for high pixel density and Retina displays."
-msgstr "Ondersteuning voor hoge beeldpuntendichtheid en Retina-schermen."
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Monitor"
-msgstr "Beeldscherm"
+msgstr "Ecran"
 
 #: usr/lib/lightdm-settings/lightdm-settings:250
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
-"Kies welk beeldscherm het aanmeldscherm zou moeten weergeven, of kies 'Auto' "
-"indien u wilt dat het de muis volgt."
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Panel indicators"
-msgstr "Werkbalkaanwijzers"
+msgstr "Indifcators del panèl"
 
 #: usr/lib/lightdm-settings/lightdm-settings:255
 msgid "Hostname"
-msgstr "Computernaam"
+msgstr "Nom d'òste"
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Show the computer hostname in the panel."
-msgstr "Toon de computernaam in de werkbalk."
+msgstr "Afichar lo nom d’òste de l’ordenador pel panèl."
 
 #: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Accessibility options"
-msgstr "Toegankelijkheidsopties"
+msgstr "Opcions d’accessibilitat"
 
 #: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Show accessibility options in the panel."
-msgstr "Toon toegankelijkheidsopties in de werkbalk."
+msgstr "Afichar las opcions d’accessibilitat pel panèl."
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Battery power"
-msgstr "Accustroom"
+msgstr "Energia batariá"
 
 #: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "On laptops, show the battery power in the panel."
-msgstr "Toon bij laptops de accustroom in de werkbalk."
+msgstr "Suls portables, aficha la carga de la batariá pel panèl."
 
 #: usr/lib/lightdm-settings/lightdm-settings:267
 msgid "Keyboard layout"
-msgstr "Toetsenbordindeling"
+msgstr "Disposicion del clavièr"
 
 #: usr/lib/lightdm-settings/lightdm-settings:268
 msgid "Show the keyboard layout in the panel."
-msgstr "Toon de toetsenbordindeling in de werkbalk."
+msgstr "Afichar la disposicion clavièr pel panèl."
 
 #: usr/lib/lightdm-settings/lightdm-settings:271
 msgid "Clock"
-msgstr "Klok"
+msgstr "Relòtge"
 
 #: usr/lib/lightdm-settings/lightdm-settings:272
 msgid "Show a clock in the panel."
-msgstr "Toon een klok in de werkbalk."
+msgstr "Afichar un relòtge pel panèl."
 
 #: usr/lib/lightdm-settings/lightdm-settings:275
 msgid "Quit menu"
-msgstr "Afsluitmenu"
+msgstr "Menú quitar"
 
 #: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "Show the quit menu in the panel."
-msgstr "Toon het afsluitmenu in de werkbalk."
+msgstr "Afichar lo menú de sortida pel panèl."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:199
 msgid "Choose an Image File"
-msgstr "Kies een schijfkopiebestand"
+msgstr "Causir un fichièr imatge"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:202
 msgid "_Cancel"
-msgstr "Af_breken"
+msgstr "_Anullar"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Open"
-msgstr "_Openen"
+msgstr "_Dobrir"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:206
 msgid "Image files"
-msgstr "Schijfkopiebestanden"
+msgstr "Fichièrs imatge"
 
 #: generate_desktop_files:25
 msgid "Configure the login window"
-msgstr "Aanmeldvenster instellen"
+msgstr "Configurar la fenèstra de connexion"

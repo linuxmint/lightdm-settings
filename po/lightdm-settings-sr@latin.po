@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-11-22 12:45+0000\n"
-"PO-Revision-Date: 2018-08-03 12:02+0000\n"
+"PO-Revision-Date: 2020-01-22 14:16+0000\n"
 "Last-Translator: Knez <Unknown>\n"
 "Language-Team: Serbian Latin <sr@latin@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-01-06 10:07+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Launchpad-Export-Date: 2020-05-11 11:03+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
@@ -74,7 +74,7 @@ msgstr "Ikona tema"
 #: usr/lib/lightdm-settings/lightdm-settings:170
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Mouse cursor"
-msgstr ""
+msgstr "Pokazivač miša"
 
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Optional pictures"
@@ -159,7 +159,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid "Delay before connection (in seconds)"
-msgstr ""
+msgstr "Odlaganje pre prijave (u sekundama)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:216
 msgid ""
@@ -167,6 +167,9 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
+"Ako je ova opcija izabrana, ekran za prijavljivanje će se prikazati u toku "
+"ovih nekoliko sekundi koje su ovde postavljene pre automatskog "
+"prijavljivanja. Bilo kakva aktivnost korisnika poništiti će odbrojavanje."
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "These settings require a computer reboot to take effect."
