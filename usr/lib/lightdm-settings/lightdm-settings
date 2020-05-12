@@ -148,11 +148,7 @@ class Application(Gtk.Application):
 
         size_group = Gtk.SizeGroup(mode=Gtk.SizeGroupMode.HORIZONTAL)
 
-        mode_options = []
-        mode_options.append(["zoom", _("Zoom")])
-        mode_options.append(["spanned", _("Spanned")])
-        row = SettingsRow(Gtk.Label(label=_("Background mode")), SettingsCombo(keyfile, settings, "background-mode", mode_options, "string", size_group))
-        row.set_tooltip_text(_("Determine how the background image is rendered."))
+        row = SettingsRow(Gtk.Label(label=_("Stretch background across multiple monitors")), SettingsSwitch(keyfile, settings, "stretch-background-across-monitors"))
         section.add_row(row)
 
         if self.should_show_user_bg_switch ():
