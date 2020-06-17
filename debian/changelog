@@ -1,3 +1,9 @@
+lightdm-settings (1.4.2) ulyana; urgency=medium
+
+  * Fix title in pkexec policy
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 17 Jun 2020 17:37:40 +0100
+
 lightdm-settings (1.4.1) ulyana; urgency=medium
 
   * l10n: Update translations
