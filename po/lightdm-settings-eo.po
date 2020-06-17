@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-11-22 12:45+0000\n"
-"PO-Revision-Date: 2020-05-04 12:02+0000\n"
+"POT-Creation-Date: 2020-05-12 11:10+0100\n"
+"PO-Revision-Date: 2020-05-13 19:54+0000\n"
 "Last-Translator: Piet Coppens <Unknown>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-05-11 11:03+0000\n"
-"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
+"X-Launchpad-Export-Date: 2020-06-17 12:02+0000\n"
+"X-Generator: Launchpad (build 1cbd0aa39df153c901321817f9b57cf3f232b507)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
@@ -41,50 +41,54 @@ msgstr "Fono"
 msgid "Background color"
 msgstr "Fona koloro"
 
-#: usr/lib/lightdm-settings/lightdm-settings:150
+#: usr/lib/lightdm-settings/lightdm-settings:151
+msgid "Stretch background across multiple monitors"
+msgstr "Streĉi fonon tra pluraj ekranoj"
+
+#: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw user backgrounds"
 msgstr "Montri uzantajn fonojn"
 
-#: usr/lib/lightdm-settings/lightdm-settings:151
+#: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "When a user is selected, show that user's background."
 msgstr "Kiam uzanto estas elektita, tiam montri la fonon de tiu uzanto."
 
-#: usr/lib/lightdm-settings/lightdm-settings:154
+#: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Draw a grid"
 msgstr "Montri kradon"
 
-#: usr/lib/lightdm-settings/lightdm-settings:155
+#: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Draw a grid of white dots on top of the background."
 msgstr "Montri kradon de blankaj punktoj sur la fono."
 
-#: usr/lib/lightdm-settings/lightdm-settings:158
+#: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "Themes"
 msgstr "Etosoj"
 
-#: usr/lib/lightdm-settings/lightdm-settings:162
-#: usr/lib/lightdm-settings/lightdm-settings:163
+#: usr/lib/lightdm-settings/lightdm-settings:165
+#: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "GTK theme"
 msgstr "Gtk-etoso"
 
-#: usr/lib/lightdm-settings/lightdm-settings:166
-#: usr/lib/lightdm-settings/lightdm-settings:167
+#: usr/lib/lightdm-settings/lightdm-settings:169
+#: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Icon theme"
 msgstr "Piktogrametoso"
 
-#: usr/lib/lightdm-settings/lightdm-settings:170
-#: usr/lib/lightdm-settings/lightdm-settings:171
+#: usr/lib/lightdm-settings/lightdm-settings:173
+#: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Mouse cursor"
 msgstr "musmontrilo"
 
-#: usr/lib/lightdm-settings/lightdm-settings:174
+#: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
 msgstr "Eventualaj bildoj"
 
-#: usr/lib/lightdm-settings/lightdm-settings:176
+#: usr/lib/lightdm-settings/lightdm-settings:179
 msgid "Other monitors"
 msgstr "Aliaj ekranoj"
 
-#: usr/lib/lightdm-settings/lightdm-settings:177
+#: usr/lib/lightdm-settings/lightdm-settings:180
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
@@ -92,48 +96,48 @@ msgstr ""
 "Se vi havas plurajn ekranojn, la listo de uzantoj estas metita sur la "
 "aktivan ekranon, kaj ĉi tiu bildo sur la aliajn."
 
-#: usr/lib/lightdm-settings/lightdm-settings:180
+#: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
 msgstr "Malsupre maldekstre"
 
-#: usr/lib/lightdm-settings/lightdm-settings:181
+#: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr ""
 "Elektu bildon por tiun montri malsupre maldekstre sur la ensalutfenestro."
 
-#: usr/lib/lightdm-settings/lightdm-settings:187
+#: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Users"
 msgstr "Uzantoj"
 
-#: usr/lib/lightdm-settings/lightdm-settings:188
+#: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "User list"
 msgstr "Listo de uzantoj"
 
-#: usr/lib/lightdm-settings/lightdm-settings:191
+#: usr/lib/lightdm-settings/lightdm-settings:194
 msgid "Allow manual login"
 msgstr "Permesi permanan ensaluton"
 
-#: usr/lib/lightdm-settings/lightdm-settings:192
+#: usr/lib/lightdm-settings/lightdm-settings:195
 msgid "Add an option in the login window to enter a username."
 msgstr "Aldoni opcion en ensalutfenestro por enigi uzantonomon."
 
-#: usr/lib/lightdm-settings/lightdm-settings:196
+#: usr/lib/lightdm-settings/lightdm-settings:199
 msgid "Hide the user list"
 msgstr "Kaŝi la liston de uzantoj"
 
-#: usr/lib/lightdm-settings/lightdm-settings:197
+#: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Hide the list of users in the login window."
 msgstr "Kaŝi la liston de uzantoj en ensalutfenestro."
 
-#: usr/lib/lightdm-settings/lightdm-settings:201
+#: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "Guest sessions"
 msgstr "Gastoseancoj"
 
-#: usr/lib/lightdm-settings/lightdm-settings:203
+#: usr/lib/lightdm-settings/lightdm-settings:206
 msgid "Allow guest sessions"
 msgstr "Permesi gastoseancojn"
 
-#: usr/lib/lightdm-settings/lightdm-settings:204
+#: usr/lib/lightdm-settings/lightdm-settings:207
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
@@ -141,26 +145,26 @@ msgstr ""
 "Permesi al gastoj uzi la komputilon sen pasvorto. Portempa gastokonto estas "
 "aŭtomate kreita, kiam ili ensalutas."
 
-#: usr/lib/lightdm-settings/lightdm-settings:207
+#: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Automatic login"
 msgstr "Aŭtomata ensaluto"
 
-#: usr/lib/lightdm-settings/lightdm-settings:210
+#: usr/lib/lightdm-settings/lightdm-settings:213
 msgid "Username"
 msgstr "Uzantonomo"
 
-#: usr/lib/lightdm-settings/lightdm-settings:211
+#: usr/lib/lightdm-settings/lightdm-settings:214
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
 "Averto: Aŭtomata ensaluto malsukcesos, se la hejma dosierujo de la uzanto "
 "estas ĉifrita."
 
-#: usr/lib/lightdm-settings/lightdm-settings:215
+#: usr/lib/lightdm-settings/lightdm-settings:218
 msgid "Delay before connection (in seconds)"
 msgstr "Prokrasto antaŭ konekto (en sekundoj)"
 
-#: usr/lib/lightdm-settings/lightdm-settings:216
+#: usr/lib/lightdm-settings/lightdm-settings:219
 msgid ""
 "If this option is set the login screen will be shown for this many seconds "
 "before the automatic login occurs. Any user activity will cancel the "
@@ -170,55 +174,55 @@ msgstr ""
 "da sekundoj, antaŭ ke la aŭtomata ensaluto okazos. Iu ajn uzanta aktiveco "
 "nuligos la ĝisnombradon."
 
-#: usr/lib/lightdm-settings/lightdm-settings:219
+#: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "These settings require a computer reboot to take effect."
 msgstr ""
 "Ĉi tiuj agordoj postulas restarton de la komputilo por ilin efektivigi."
 
-#: usr/lib/lightdm-settings/lightdm-settings:224
-#: usr/lib/lightdm-settings/lightdm-settings:225
+#: usr/lib/lightdm-settings/lightdm-settings:227
+#: usr/lib/lightdm-settings/lightdm-settings:228
 msgid "Settings"
 msgstr "Agordoj"
 
-#: usr/lib/lightdm-settings/lightdm-settings:227
-#: usr/lib/lightdm-settings/lightdm-settings:233
+#: usr/lib/lightdm-settings/lightdm-settings:230
+#: usr/lib/lightdm-settings/lightdm-settings:236
 msgid "Activate numlock"
 msgstr "Aktivigi nombran baskulon"
 
-#: usr/lib/lightdm-settings/lightdm-settings:233
+#: usr/lib/lightdm-settings/lightdm-settings:236
 msgid "Please install numlockx to use this option."
 msgstr "Bonvolu instali numlockx por uzi ĉi tiun opcion."
 
-#: usr/lib/lightdm-settings/lightdm-settings:235
+#: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Activate numlock in the login window."
 msgstr "Aktivigi nombran baskulon en ensalutfenestro."
 
-#: usr/lib/lightdm-settings/lightdm-settings:241
-#: usr/lib/lightdm-settings/lightdm-settings:248
+#: usr/lib/lightdm-settings/lightdm-settings:244
+#: usr/lib/lightdm-settings/lightdm-settings:251
 msgid "Auto"
 msgstr "Aŭtomate"
 
-#: usr/lib/lightdm-settings/lightdm-settings:242
+#: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Enable"
 msgstr "Ŝalti"
 
-#: usr/lib/lightdm-settings/lightdm-settings:243
+#: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Disable"
 msgstr "Malŝalti"
 
-#: usr/lib/lightdm-settings/lightdm-settings:244
+#: usr/lib/lightdm-settings/lightdm-settings:247
 msgid "HiDPI support"
 msgstr "HiDPI-subteno"
 
-#: usr/lib/lightdm-settings/lightdm-settings:245
+#: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "Support for high pixel density and Retina displays."
 msgstr "Subteno por alta bildera denseco kaj Retina-ekranoj."
 
-#: usr/lib/lightdm-settings/lightdm-settings:249
+#: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Monitor"
 msgstr "Ekrano"
 
-#: usr/lib/lightdm-settings/lightdm-settings:250
+#: usr/lib/lightdm-settings/lightdm-settings:253
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
@@ -226,55 +230,55 @@ msgstr ""
 "Elektu la ekranon, kiu montru la ensalutfenestron, aŭ elektu 'Aŭtomate', se "
 "vi volas por tio sekvi la muson."
 
-#: usr/lib/lightdm-settings/lightdm-settings:253
+#: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Panel indicators"
 msgstr "Panelaj indikiloj"
 
-#: usr/lib/lightdm-settings/lightdm-settings:255
+#: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Hostname"
 msgstr "Nomo de gastiga komputilo"
 
-#: usr/lib/lightdm-settings/lightdm-settings:256
+#: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Show the computer hostname in the panel."
 msgstr "Montri la gastigan nomon de la komputilo en la panelo."
 
-#: usr/lib/lightdm-settings/lightdm-settings:259
+#: usr/lib/lightdm-settings/lightdm-settings:262
 msgid "Accessibility options"
 msgstr "Opcioj de alireblo"
 
-#: usr/lib/lightdm-settings/lightdm-settings:260
+#: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Show accessibility options in the panel."
 msgstr "Montri opciojn de alireblo en la panelo."
 
-#: usr/lib/lightdm-settings/lightdm-settings:263
+#: usr/lib/lightdm-settings/lightdm-settings:266
 msgid "Battery power"
 msgstr "Bateria kurento"
 
-#: usr/lib/lightdm-settings/lightdm-settings:264
+#: usr/lib/lightdm-settings/lightdm-settings:267
 msgid "On laptops, show the battery power in the panel."
 msgstr "Sur tekokomputiloj, montri la baterian kurenton en la panelo."
 
-#: usr/lib/lightdm-settings/lightdm-settings:267
+#: usr/lib/lightdm-settings/lightdm-settings:270
 msgid "Keyboard layout"
 msgstr "Klavararanĝo"
 
-#: usr/lib/lightdm-settings/lightdm-settings:268
+#: usr/lib/lightdm-settings/lightdm-settings:271
 msgid "Show the keyboard layout in the panel."
 msgstr "Montri klavararanĝon en la panelo."
 
-#: usr/lib/lightdm-settings/lightdm-settings:271
+#: usr/lib/lightdm-settings/lightdm-settings:274
 msgid "Clock"
 msgstr "Horloĝo"
 
-#: usr/lib/lightdm-settings/lightdm-settings:272
+#: usr/lib/lightdm-settings/lightdm-settings:275
 msgid "Show a clock in the panel."
 msgstr "Montri horloĝon en la panelo."
 
-#: usr/lib/lightdm-settings/lightdm-settings:275
+#: usr/lib/lightdm-settings/lightdm-settings:278
 msgid "Quit menu"
 msgstr "Elirmenuo"
 
-#: usr/lib/lightdm-settings/lightdm-settings:276
+#: usr/lib/lightdm-settings/lightdm-settings:279
 msgid "Show the quit menu in the panel."
 msgstr "Montri elirmenuon en la panelo."
 

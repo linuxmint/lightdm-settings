@@ -1,16 +1,16 @@
-# Thai translation for linuxmint
-# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# Afrikaans translation for linuxmint
+# Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-05-12 11:10+0100\n"
-"PO-Revision-Date: 2018-04-26 14:31+0000\n"
-"Last-Translator: Rockworld <sumoisrock@gmail.com>\n"
-"Language-Team: Thai <th@li.org>\n"
+"PO-Revision-Date: 2020-06-09 13:36+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Afrikaans <af@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,26 +20,26 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
 msgid "Login Window"
-msgstr "หน้าต่างการเข้าสู่ระบบ"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:65
 msgid "Quit"
-msgstr "เลิก"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Appearance"
-msgstr "รูปโฉม"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:139
 #: usr/lib/lightdm-settings/lightdm-settings:141
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Background"
-msgstr "ภาพพื้นหลัง"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:145
 #: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "Background color"
-msgstr "สีพื้นหลัง"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "Stretch background across multiple monitors"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw user backgrounds"
-msgstr "วาดภาพพื้นหลังของผู้ใช้"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "When a user is selected, show that user's background."
@@ -55,7 +55,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Draw a grid"
-msgstr "วาดเส้นตาราง"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Draw a grid of white dots on top of the background."
@@ -63,17 +63,17 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "Themes"
-msgstr "ชุดตกแต่ง"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:165
 #: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "GTK theme"
-msgstr "ชุดรูปแบบ GTK"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:169
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Icon theme"
-msgstr "ชุดรูปแบบไอคอน"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:173
 #: usr/lib/lightdm-settings/lightdm-settings:174
@@ -104,11 +104,11 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Users"
-msgstr "ผู้ใช้"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "User list"
-msgstr "รายชื่อผู้ใช้"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid "Allow manual login"
@@ -142,11 +142,11 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Automatic login"
-msgstr "การเข้าระบบโดยอัตโนมัติ"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:213
 msgid "Username"
-msgstr "ชื่อผู้ใช้"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:214
 msgid ""
@@ -171,7 +171,7 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:227
 #: usr/lib/lightdm-settings/lightdm-settings:228
 msgid "Settings"
-msgstr "การตั้งค่า"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:230
 #: usr/lib/lightdm-settings/lightdm-settings:236
@@ -189,15 +189,15 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:244
 #: usr/lib/lightdm-settings/lightdm-settings:251
 msgid "Auto"
-msgstr "อัตโนมัติ"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Enable"
-msgstr "เปิดใช้งาน"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Disable"
-msgstr "ปิดใช้งาน"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:247
 msgid "HiDPI support"
@@ -223,7 +223,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Hostname"
-msgstr "ชื่อโฮสต์"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Show the computer hostname in the panel."
@@ -247,7 +247,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:270
 msgid "Keyboard layout"
-msgstr "รูปแบบแป้นพิมพ์"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:271
 msgid "Show the keyboard layout in the panel."
@@ -255,7 +255,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:274
 msgid "Clock"
-msgstr "นาฬิกา"
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:275
 msgid "Show a clock in the panel."
@@ -275,16 +275,16 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:202
 msgid "_Cancel"
-msgstr "_ยกเลิก"
+msgstr ""
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Open"
-msgstr "เ_ปิด"
+msgstr ""
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:206
 msgid "Image files"
-msgstr "แฟ้มภาพ"
+msgstr ""
 
 #: generate_desktop_files:25
 msgid "Configure the login window"
-msgstr "กำหนดค่าหน้าต่างการเข้าสู่ระบบ"
+msgstr ""
