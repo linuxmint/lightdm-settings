@@ -8,6 +8,70 @@
   <vendor_url>https://linuxmint.com/</vendor_url>
 
   <action id="org.x.lightdm-settings">
+<message>Login Window</message>
+<message xml:lang="am">የ መግቢያ መስኮት</message>
+<message xml:lang="ar">نافذة تسجيل الدخول</message>
+<message xml:lang="be">Акно ўваходу</message>
+<message xml:lang="bg">Прозорец за влизане</message>
+<message xml:lang="bn">লগইন উইন্ডো</message>
+<message xml:lang="ca">Finestra d'inici de sessió</message>
+<message xml:lang="ca@valencia">Finestra d'inici de sessió</message>
+<message xml:lang="cs">Přihlašovací okno</message>
+<message xml:lang="cy">Ffenestr Mewngofnodi</message>
+<message xml:lang="da">Loginvindue</message>
+<message xml:lang="de">Anmeldefenster</message>
+<message xml:lang="el">Παράθυρο σύνδεσης</message>
+<message xml:lang="eo">Ensalutfenestro</message>
+<message xml:lang="es">Ventana de inicio de sesión</message>
+<message xml:lang="et">Sisselogimisaken</message>
+<message xml:lang="eu">Saio-hasieraren leihoa</message>
+<message xml:lang="fi">Kirjautumisikkuna</message>
+<message xml:lang="fr">Écran de connexion</message>
+<message xml:lang="fr_CA">Fenêtre de connexion</message>
+<message xml:lang="ga">Fuinneog Logála Isteach</message>
+<message xml:lang="gl">Xanela de acceso</message>
+<message xml:lang="he">חלון כניסה</message>
+<message xml:lang="hi">लॉगिन विंडो</message>
+<message xml:lang="hr">Zaslon prijave</message>
+<message xml:lang="hu">Bejelentkezési ablak</message>
+<message xml:lang="ia">Fenestra de apertura de session</message>
+<message xml:lang="id">Jendela Login</message>
+<message xml:lang="is">Innskráningargluggi</message>
+<message xml:lang="it">Finestra di accesso</message>
+<message xml:lang="ja">ログイン画面</message>
+<message xml:lang="kab">Asfaylu n unekcum</message>
+<message xml:lang="kk">Жүйеге кіру терезесі</message>
+<message xml:lang="ko">로그인 창</message>
+<message xml:lang="ku">Paceya têketinê</message>
+<message xml:lang="lt">Prisijungimo langas</message>
+<message xml:lang="mai">लोगिन विंडो</message>
+<message xml:lang="mr">प्रवेश पटल</message>
+<message xml:lang="nap">Fenestra d''o Login</message>
+<message xml:lang="nb">Innloggingsvindu</message>
+<message xml:lang="ne">लगइन उइन्डो</message>
+<message xml:lang="nl">Aanmeldvenster</message>
+<message xml:lang="oc">Fenèstra de connexion</message>
+<message xml:lang="pl">Okno logowania</message>
+<message xml:lang="pt">Janela de início de sessão</message>
+<message xml:lang="pt_BR">Janela de Início de Sessão</message>
+<message xml:lang="ro">Fereastră de autentificare</message>
+<message xml:lang="ru">Окно входа в систему</message>
+<message xml:lang="sc">Bentana de imbucada</message>
+<message xml:lang="sk">Prihlasovacie okno</message>
+<message xml:lang="sl">Prijavno okno</message>
+<message xml:lang="sr">Прозор за пријаву</message>
+<message xml:lang="sr@latin">Prozor za prijavu</message>
+<message xml:lang="sv">Inloggningsfönster</message>
+<message xml:lang="ta">நுழைவுச் சாளரம்</message>
+<message xml:lang="th">หน้าต่างการเข้าสู่ระบบ</message>
+<message xml:lang="tr">Giriş Ekranı</message>
+<message xml:lang="uk">Вікно входу у систему</message>
+<message xml:lang="uz">Логин ойнаси</message>
+<message xml:lang="vi">Màn hình đăng nhập</message>
+<message xml:lang="zh_CN">登录窗口</message>
+<message xml:lang="zh_HK">登入視窗</message>
+<message xml:lang="zh_TW">登入視窗</message>
+
     <icon_name>preferences-system-login</icon_name>
     <defaults>
       <allow_any>no</allow_any>

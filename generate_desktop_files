@@ -23,3 +23,30 @@ X-KDE-SubstituteUID=true
 """
 
 additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/lightdm-settings.desktop", prefix, _("Login Window"), _("Configure the login window"), suffix)
+
+prefix="""<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+"-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+"http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+
+  <vendor>Linux Mint</vendor>
+  <vendor_url>https://linuxmint.com/</vendor_url>
+
+  <action id="org.x.lightdm-settings">
+"""
+
+suffix="""
+    <icon_name>preferences-system-login</icon_name>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/lightdm-settings</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+
+</policyconfig>"""
+
+additionalfiles.generate_polkit_policy(DOMAIN, PATH, "usr/share/polkit-1/actions/org.x.lightdm-settings.policy", prefix, _("Login Window"), suffix)
