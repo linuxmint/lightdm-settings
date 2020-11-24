@@ -11,7 +11,7 @@ from SettingsWidgets import *
 from distutils.version import LooseVersion
 
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk, Gdk, Gio, GLib
+from gi.repository import GObject, Gtk, Gdk, Gio, GLib
 
 try:
     import lsb_release
@@ -170,7 +170,7 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Icon theme"))
         section.add_row(row)
 
-        row = SettingsRow(Gtk.Label(_("Mouse cursor")), SettingsComboMousePointer(mpointer_keyfile, "Inherits", MPOINTER_CONF_PATH, self.get_mouse_pointers(), "string", size_group))
+        row = SettingsRow(Gtk.Label(label=_("Mouse cursor")), SettingsComboMousePointer(mpointer_keyfile, "Inherits", MPOINTER_CONF_PATH, self.get_mouse_pointers(), "string", size_group))
         row.set_tooltip_text(_("Mouse cursor"))
         section.add_row(row)
 
@@ -271,13 +271,27 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Show the keyboard layout in the panel."))
         section.add_row(row)
 
-        row = SettingsRow(Gtk.Label(label=_("Clock")), SettingsSwitch(keyfile, settings, "show-clock"))
-        row.set_tooltip_text(_("Show a clock in the panel."))
-        section.add_row(row)
-
         row = SettingsRow(Gtk.Label(label=_("Quit menu")), SettingsSwitch(keyfile, settings, "show-quit"))
         row.set_tooltip_text(_("Show the quit menu in the panel."))
         section.add_row(row)
+
+        clock_switch = SettingsSwitch(keyfile, settings, "show-clock")
+        row = SettingsRow(Gtk.Label(label=_("Clock")), clock_switch)
+        row.set_tooltip_text(_("Show a clock in the panel."))
+        section.add_row(row)
+
+        # TODO: using su -c almost works to launch a link as root, but it creates authentication issues
+        # for websites. For now the url is in the tooltip.
+
+        entry = SettingsEntry(keyfile, settings, "clock-format")
+        box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+        box.pack_end(entry, False, False, 0)
+
+        row  = SettingsRow(Gtk.Label(label=_("Clock format")), box)
+        row.set_tooltip_text(_("See https://www.foragoodstrftime.com for more information on formatting."))
+        section.add_row(row)
+
+        clock_switch.bind_property("active", row, "sensitive", GObject.BindingFlags.DEFAULT | GObject.BindingFlags.SYNC_CREATE)
 
         self.window.add(self.main_box)
 

@@ -369,6 +369,22 @@ class SettingsComboMousePointer(Gtk.ComboBox):
             self.keyfile.set_string("Icon Theme", self.key, value)
             self.keyfile.save_to_file(self.backup_filename)
 
+class SettingsEntry(Gtk.Entry):
+    def __init__(self, keyfile, settings, key):
+        self.key = key
+        self.keyfile = keyfile
+        try:
+            self.value = keyfile.get_string(GROUP_NAME, key)
+        except:
+            self.value = settings.get_string(key)
+
+        Gtk.Entry.__init__(self)
+        self.set_text(self.value)
+        self.connect("changed", self.on_changed)
+
+    def on_changed(self, widget, data=None):
+        self.keyfile.set_string(GROUP_NAME, self.key, self.get_text())
+        self.keyfile.save_to_file(CONF_PATH)
 
 class LightDMSwitch(Gtk.Switch):
     def __init__(self, keyfile, key, value):
