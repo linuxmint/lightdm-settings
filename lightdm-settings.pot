@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-12 11:10+0100\n"
+"POT-Creation-Date: 2020-11-30 11:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
+#: generate_desktop_files:52
 msgid "Login Window"
 msgstr ""
 
@@ -254,19 +255,28 @@ msgid "Show the keyboard layout in the panel."
 msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:274
-msgid "Clock"
-msgstr ""
-
-#: usr/lib/lightdm-settings/lightdm-settings:275
-msgid "Show a clock in the panel."
-msgstr ""
-
-#: usr/lib/lightdm-settings/lightdm-settings:278
 msgid "Quit menu"
 msgstr ""
 
-#: usr/lib/lightdm-settings/lightdm-settings:279
+#: usr/lib/lightdm-settings/lightdm-settings:275
 msgid "Show the quit menu in the panel."
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:279
+msgid "Clock"
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:280
+msgid "Show a clock in the panel."
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:290
+msgid "Clock format"
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:291
+msgid ""
+"See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:199
