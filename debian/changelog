@@ -1,3 +1,13 @@
+lightdm-settings (1.5.0) ulyssa; urgency=medium
+
+  [ Michael Webster ]
+  * Add setting for editing the clock format.
+
+  [ Clement Lefebvre ]
+  * l10n: Update POT
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 30 Nov 2020 11:31:15 +0000
+
 lightdm-settings (1.4.2) ulyana; urgency=medium
 
   * Fix title in pkexec policy
