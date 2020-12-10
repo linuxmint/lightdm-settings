@@ -1,3 +1,10 @@
+lightdm-settings (1.5.1) ulyssa; urgency=medium
+
+  * l10n: Update translations
+  * l10n: Generate files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 10 Dec 2020 12:41:07 +0000
+
 lightdm-settings (1.5.0) ulyssa; urgency=medium
 
   [ Michael Webster ]
