@@ -7,28 +7,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-05-12 11:10+0100\n"
-"PO-Revision-Date: 2017-05-16 18:27+0000\n"
-"Last-Translator: tomoe_musashi <hkg.musashi@gmail.com>\n"
+"POT-Creation-Date: 2020-11-30 11:30+0000\n"
+"PO-Revision-Date: 2020-06-29 17:20+0000\n"
+"Last-Translator: Robert K <Unknown>\n"
 "Language-Team: Chinese (Hong Kong) <zh_HK@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-06-17 12:02+0000\n"
-"X-Generator: Launchpad (build 1cbd0aa39df153c901321817f9b57cf3f232b507)\n"
+"X-Launchpad-Export-Date: 2020-12-10 10:31+0000\n"
+"X-Generator: Launchpad (build 4853cb86c14c5a9e513816c8a61121c639b30835)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
+#: generate_desktop_files:52
 msgid "Login Window"
 msgstr "登入視窗"
 
 #: usr/lib/lightdm-settings/lightdm-settings:65
 msgid "Quit"
-msgstr ""
+msgstr "結束"
 
 #: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Appearance"
-msgstr ""
+msgstr "外觀"
 
 #: usr/lib/lightdm-settings/lightdm-settings:139
 #: usr/lib/lightdm-settings/lightdm-settings:141
@@ -43,7 +44,7 @@ msgstr "背景顏色"
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "Stretch background across multiple monitors"
-msgstr ""
+msgstr "在多台顯示器上延伸背景"
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw user backgrounds"
@@ -51,7 +52,7 @@ msgstr "繪畫使用者背景"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "When a user is selected, show that user's background."
-msgstr ""
+msgstr "當選擇使用者時，顯示它的背景。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Draw a grid"
@@ -59,11 +60,11 @@ msgstr "繪畫網格"
 
 #: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Draw a grid of white dots on top of the background."
-msgstr ""
+msgstr "在背景之上繪製由白點構成的網格。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "Themes"
-msgstr ""
+msgstr "主題"
 
 #: usr/lib/lightdm-settings/lightdm-settings:165
 #: usr/lib/lightdm-settings/lightdm-settings:166
@@ -78,57 +79,57 @@ msgstr "圖示主題"
 #: usr/lib/lightdm-settings/lightdm-settings:173
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Mouse cursor"
-msgstr ""
+msgstr "滑鼠游標"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
-msgstr ""
+msgstr "選擇性圖片"
 
 #: usr/lib/lightdm-settings/lightdm-settings:179
 msgid "Other monitors"
-msgstr ""
+msgstr "其他螢幕"
 
 #: usr/lib/lightdm-settings/lightdm-settings:180
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
-msgstr ""
+msgstr "若您有有多部螢幕，則使用者清單會放置在使用中的螢幕上，而此圖片會放在其他螢幕上。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
-msgstr ""
+msgstr "左下"
 
 #: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr ""
+msgstr "選擇一張在登入視窗左下角顯示的圖片。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Users"
-msgstr ""
+msgstr "使用者"
 
 #: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "User list"
-msgstr ""
+msgstr "使用者列表"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid "Allow manual login"
-msgstr ""
+msgstr "允許手動登入"
 
 #: usr/lib/lightdm-settings/lightdm-settings:195
 msgid "Add an option in the login window to enter a username."
-msgstr ""
+msgstr "在登入視窗新增一個選項以輸入使用者名稱。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:199
 msgid "Hide the user list"
-msgstr ""
+msgstr "隱藏使用者清單"
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Hide the list of users in the login window."
-msgstr ""
+msgstr "隱藏登入視窗中的使用者清單。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "Guest sessions"
-msgstr ""
+msgstr "訪客作業階段"
 
 #: usr/lib/lightdm-settings/lightdm-settings:206
 msgid "Allow guest sessions"
@@ -138,35 +139,35 @@ msgstr "允許訪客作業階段"
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
-msgstr ""
+msgstr "允許訪客免密碼使用電腦，系統將在他們登入時自動建立臨時帳號。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Automatic login"
-msgstr ""
+msgstr "自動登入"
 
 #: usr/lib/lightdm-settings/lightdm-settings:213
 msgid "Username"
-msgstr ""
+msgstr "使用者名稱"
 
 #: usr/lib/lightdm-settings/lightdm-settings:214
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
-msgstr ""
+msgstr "警告：若使用者的家目錄有加密的話，自動登入將會失敗。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:218
 msgid "Delay before connection (in seconds)"
-msgstr ""
+msgstr "連接前的延遲（秒）"
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid ""
 "If this option is set the login screen will be shown for this many seconds "
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
-msgstr ""
+msgstr "若設定了此選項，則在自動登入之前，登入畫面將顯示此秒數。任何使用者活動都將中斷倒數。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "These settings require a computer reboot to take effect."
-msgstr ""
+msgstr "這些設定值需要電腦重新啓動以生效。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 #: usr/lib/lightdm-settings/lightdm-settings:228
@@ -176,15 +177,15 @@ msgstr "設定"
 #: usr/lib/lightdm-settings/lightdm-settings:230
 #: usr/lib/lightdm-settings/lightdm-settings:236
 msgid "Activate numlock"
-msgstr ""
+msgstr "啟用數字鎖 Numlock"
 
 #: usr/lib/lightdm-settings/lightdm-settings:236
 msgid "Please install numlockx to use this option."
-msgstr ""
+msgstr "請安裝 numlockx 以使用此選項。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Activate numlock in the login window."
-msgstr ""
+msgstr "在登入視窗中啟用數字鎖。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:244
 #: usr/lib/lightdm-settings/lightdm-settings:251
@@ -205,85 +206,94 @@ msgstr "HiDPI 支援"
 
 #: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "Support for high pixel density and Retina displays."
-msgstr ""
+msgstr "支援高像素密度螢幕和 Retina 螢幕。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Monitor"
-msgstr ""
+msgstr "顯示器"
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
-msgstr ""
+msgstr "選擇哪一個顯示器要顯示登入視窗，如果您想要跟隨滑鼠所在的位置，可以選擇「自動」。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Panel indicators"
-msgstr ""
+msgstr "面板指示器"
 
 #: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Hostname"
-msgstr ""
+msgstr "主機名稱"
 
 #: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Show the computer hostname in the panel."
-msgstr ""
+msgstr "在面板中顯示電腦主機名稱。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:262
 msgid "Accessibility options"
-msgstr ""
+msgstr "無障礙輔助選項"
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Show accessibility options in the panel."
-msgstr ""
+msgstr "在面板中顯示無障礙輔助選項。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:266
 msgid "Battery power"
-msgstr ""
+msgstr "電池電源"
 
 #: usr/lib/lightdm-settings/lightdm-settings:267
 msgid "On laptops, show the battery power in the panel."
-msgstr ""
+msgstr "如果使用筆電，則在面板中顯示電池電源。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:270
 msgid "Keyboard layout"
-msgstr ""
+msgstr "鍵盤佈局"
 
 #: usr/lib/lightdm-settings/lightdm-settings:271
 msgid "Show the keyboard layout in the panel."
-msgstr ""
+msgstr "在面板中顯示鍵盤配置。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:274
-msgid "Clock"
-msgstr ""
+msgid "Quit menu"
+msgstr "退出選單"
 
 #: usr/lib/lightdm-settings/lightdm-settings:275
-msgid "Show a clock in the panel."
-msgstr ""
-
-#: usr/lib/lightdm-settings/lightdm-settings:278
-msgid "Quit menu"
-msgstr ""
+msgid "Show the quit menu in the panel."
+msgstr "在面板中顯示退出選單。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:279
-msgid "Show the quit menu in the panel."
+msgid "Clock"
+msgstr "時鐘"
+
+#: usr/lib/lightdm-settings/lightdm-settings:280
+msgid "Show a clock in the panel."
+msgstr "在面板中顯示時鐘。"
+
+#: usr/lib/lightdm-settings/lightdm-settings:290
+msgid "Clock format"
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:291
+msgid ""
+"See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:199
 msgid "Choose an Image File"
-msgstr ""
+msgstr "選擇圖像檔"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:202
 msgid "_Cancel"
-msgstr ""
+msgstr "取消（_C）"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:203
 msgid "_Open"
-msgstr ""
+msgstr "開啟 (_O)"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:206
 msgid "Image files"
-msgstr ""
+msgstr "圖像檔"
 
 #: generate_desktop_files:25
 msgid "Configure the login window"

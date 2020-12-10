@@ -7,18 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-05-12 11:10+0100\n"
-"PO-Revision-Date: 2020-05-16 14:34+0000\n"
+"POT-Creation-Date: 2020-11-30 11:30+0000\n"
+"PO-Revision-Date: 2020-12-06 10:16+0000\n"
 "Last-Translator: Asier Iturralde Sarasola <Unknown>\n"
 "Language-Team: Basque <eu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-06-17 12:02+0000\n"
-"X-Generator: Launchpad (build 1cbd0aa39df153c901321817f9b57cf3f232b507)\n"
+"X-Launchpad-Export-Date: 2020-12-10 10:31+0000\n"
+"X-Generator: Launchpad (build 4853cb86c14c5a9e513816c8a61121c639b30835)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
+#: generate_desktop_files:52
 msgid "Login Window"
 msgstr "Saio-hasieraren leihoa"
 
@@ -267,20 +268,31 @@ msgid "Show the keyboard layout in the panel."
 msgstr "Erakutsi teklatuaren diseinua panelean."
 
 #: usr/lib/lightdm-settings/lightdm-settings:274
-msgid "Clock"
-msgstr "Ordularia"
-
-#: usr/lib/lightdm-settings/lightdm-settings:275
-msgid "Show a clock in the panel."
-msgstr "Erakutsi ordularia panelean."
-
-#: usr/lib/lightdm-settings/lightdm-settings:278
 msgid "Quit menu"
 msgstr "Irten menutik"
 
-#: usr/lib/lightdm-settings/lightdm-settings:279
+#: usr/lib/lightdm-settings/lightdm-settings:275
 msgid "Show the quit menu in the panel."
 msgstr "Erakutsi irteteko menua panelean."
+
+#: usr/lib/lightdm-settings/lightdm-settings:279
+msgid "Clock"
+msgstr "Ordularia"
+
+#: usr/lib/lightdm-settings/lightdm-settings:280
+msgid "Show a clock in the panel."
+msgstr "Erakutsi ordularia panelean."
+
+#: usr/lib/lightdm-settings/lightdm-settings:290
+msgid "Clock format"
+msgstr "Erlojuaren formatua"
+
+#: usr/lib/lightdm-settings/lightdm-settings:291
+msgid ""
+"See https://www.foragoodstrftime.com for more information on formatting."
+msgstr ""
+"Ikusi https://www.foragoodstrftime.com formatuari buruzko informazio "
+"gehiagorako."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:199
 msgid "Choose an Image File"
