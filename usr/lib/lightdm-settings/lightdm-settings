@@ -357,13 +357,13 @@ class Application(Gtk.Application):
             if os.path.exists(path):
                 try:
                     for line in list(open(path)):
-                        if line.startswith("Inherits="):
+                        if line.startswith("Name"):
                             name = str(line.split('=')[1]).strip()
-                            if [name, directory [0]] not in valid:
-                                valid.append([name, directory [0]])
                             break
                 except Exception as e:
                     print (e)
+                if [name, directory [0]] not in valid:
+                    valid.append([name, directory [0]])
 
             elif os.path.isdir(path2):
                 try:
