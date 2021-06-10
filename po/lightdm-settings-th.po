@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-11-30 11:30+0000\n"
-"PO-Revision-Date: 2018-04-26 14:31+0000\n"
+"PO-Revision-Date: 2021-04-02 06:52+0000\n"
 "Last-Translator: Rockworld <sumoisrock@gmail.com>\n"
 "Language-Team: Thai <th@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-01-02 14:17+0000\n"
-"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
+"X-Launchpad-Export-Date: 2021-06-09 14:21+0000\n"
+"X-Generator: Launchpad (build b45bdbe3a00b6b668fa7f2069bd545c35c41f7f4)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
@@ -25,17 +25,17 @@ msgstr "หน้าต่างการเข้าสู่ระบบ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:65
 msgid "Quit"
-msgstr "เลิก"
+msgstr "ออก"
 
 #: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Appearance"
-msgstr "รูปโฉม"
+msgstr "ลักษณะที่ปรากฏ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:139
 #: usr/lib/lightdm-settings/lightdm-settings:141
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Background"
-msgstr "ภาพพื้นหลัง"
+msgstr "พื้นหลัง"
 
 #: usr/lib/lightdm-settings/lightdm-settings:145
 #: usr/lib/lightdm-settings/lightdm-settings:146
@@ -52,7 +52,7 @@ msgstr "วาดภาพพื้นหลังของผู้ใช้"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "When a user is selected, show that user's background."
-msgstr ""
+msgstr "เมื่อผู้ใช้ถูกเลือก ให้แสดงพื้นหลังของผู้ใช้นั้น"
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Draw a grid"
@@ -60,11 +60,11 @@ msgstr "วาดเส้นตาราง"
 
 #: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Draw a grid of white dots on top of the background."
-msgstr ""
+msgstr "วาดเส้นตารางจุดสีขาวเหนือพื้นหลัง"
 
 #: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "Themes"
-msgstr "ชุดตกแต่ง"
+msgstr "ชุดรูปแบบ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:165
 #: usr/lib/lightdm-settings/lightdm-settings:166
@@ -83,25 +83,27 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
-msgstr ""
+msgstr "รูปภาพทางเลือก"
 
 #: usr/lib/lightdm-settings/lightdm-settings:179
 msgid "Other monitors"
-msgstr ""
+msgstr "จอภาพอื่น ๆ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:180
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
+"ถ้าคุณมีจอภาพหลายจอ รายการผู้ใช้จะถูกวางบนจอภาพที่ใช้งานอยู่ "
+"และรูปภาพนี้จะถูกวางบนจอภาพอื่น ๆ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
-msgstr ""
+msgstr "มุมซ้ายล่าง"
 
 #: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr ""
+msgstr "เลือกรูปภาพที่จะแสดงบริเวณด้านซ้ายล่างของหน้าต่างการเข้าสู่ระบบ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Users"
@@ -113,37 +115,39 @@ msgstr "รายชื่อผู้ใช้"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid "Allow manual login"
-msgstr ""
+msgstr "อนุญาตการเข้าสู่ระบบด้วนตนเอง"
 
 #: usr/lib/lightdm-settings/lightdm-settings:195
 msgid "Add an option in the login window to enter a username."
-msgstr ""
+msgstr "เพิ่มตัวเลือกในหน้าต่างการเข้าสู่ระบบเพื่อป้อนชื่อผู้ใช้"
 
 #: usr/lib/lightdm-settings/lightdm-settings:199
 msgid "Hide the user list"
-msgstr ""
+msgstr "ซ่อนรายชื่อผู้ใช้"
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Hide the list of users in the login window."
-msgstr ""
+msgstr "ซ่อนรายชื่อผู้ใช้ในหน้าต่างการเข้าสู่ระบบ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "Guest sessions"
-msgstr ""
+msgstr "เซสชันผู้มาเยือน"
 
 #: usr/lib/lightdm-settings/lightdm-settings:206
 msgid "Allow guest sessions"
-msgstr ""
+msgstr "อนุญาตเซสชันผู้มาเยือน"
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
+"อนุญาตให้ผู้มาเยือนใช้คอมพิวเตอร์โดยไม่ต้องมีรหัสผ่านได้ "
+"บัญชีผู้มาเยือนแบบชั่วคราวจะถูกสร้างขึ้นโดยอัตโนมัติเมื่อเข้าสู่ระบบ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Automatic login"
-msgstr "การเข้าระบบโดยอัตโนมัติ"
+msgstr "การเข้าสู่ระบบอัตโนมัติ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:213
 msgid "Username"
@@ -153,10 +157,11 @@ msgstr "ชื่อผู้ใช้"
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
+"คำเตือน: การเข้าสู่ระบบอัตโนมัติจะล้มเหลวถ้าไดเรกทอรีบ้านของผู้ใช้ถูกเข้ารหัส"
 
 #: usr/lib/lightdm-settings/lightdm-settings:218
 msgid "Delay before connection (in seconds)"
-msgstr ""
+msgstr "หน่วงเวลาก่อนการเชื่อมต่อ (เป็นวินาที)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid ""
@@ -164,10 +169,13 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
+"ถ้ากำหนดตัวเลือกนี้ "
+"หน้าจอการเข้าสู่ระบบจะถูกแสดงเป็นเวลาหลายวินาทีก่อนจะทำการเข้าสู่ระบบอัตโนมัต"
+"ิ กิจกรรมใดๆ ก็ตามของผู้ใช้จะยกเลิกการนับถอยหลัง"
 
 #: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "These settings require a computer reboot to take effect."
-msgstr ""
+msgstr "การตั้งค่าเหล่านี้ต้องการการเริ่มการทำงานของคอมพิวเตอร์ใหม่จึงจะมีผล"
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 #: usr/lib/lightdm-settings/lightdm-settings:228
@@ -181,7 +189,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:236
 msgid "Please install numlockx to use this option."
-msgstr ""
+msgstr "โปรดติดตั้ง numlockx เพื่อใช้ตัวเลือกนี้"
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Activate numlock in the login window."
@@ -202,15 +210,15 @@ msgstr "ปิดใช้งาน"
 
 #: usr/lib/lightdm-settings/lightdm-settings:247
 msgid "HiDPI support"
-msgstr ""
+msgstr "การสนับสนุน HiDPI"
 
 #: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "Support for high pixel density and Retina displays."
-msgstr ""
+msgstr "การสนับสนุนความหนาแน่นพิกเซลสูงและจอแสดงผล Retina"
 
 #: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Monitor"
-msgstr ""
+msgstr "จอภาพ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid ""
@@ -220,7 +228,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Panel indicators"
-msgstr ""
+msgstr "ตัวบ่งชี้แผง"
 
 #: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Hostname"
@@ -228,11 +236,11 @@ msgstr "ชื่อโฮสต์"
 
 #: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Show the computer hostname in the panel."
-msgstr ""
+msgstr "แสดงชื่อโฮสต์คอมพิวเตอร์ในแผง"
 
 #: usr/lib/lightdm-settings/lightdm-settings:262
 msgid "Accessibility options"
-msgstr ""
+msgstr "ตัวเลือกการช่วยสำหรับการเข้าถึง"
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Show accessibility options in the panel."
@@ -240,27 +248,27 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:266
 msgid "Battery power"
-msgstr ""
+msgstr "พลังงานแบตเตอรี่"
 
 #: usr/lib/lightdm-settings/lightdm-settings:267
 msgid "On laptops, show the battery power in the panel."
-msgstr ""
+msgstr "บนแล็ปท็อป แสดงพลังงานแบตเตอรี่ในแผง"
 
 #: usr/lib/lightdm-settings/lightdm-settings:270
 msgid "Keyboard layout"
-msgstr "รูปแบบแป้นพิมพ์"
+msgstr "เค้าโครงแป้นพิมพ์"
 
 #: usr/lib/lightdm-settings/lightdm-settings:271
 msgid "Show the keyboard layout in the panel."
-msgstr ""
+msgstr "แสดงผังแป้นพิมพ์ในแผง"
 
 #: usr/lib/lightdm-settings/lightdm-settings:274
 msgid "Quit menu"
-msgstr ""
+msgstr "เมนูออก"
 
 #: usr/lib/lightdm-settings/lightdm-settings:275
 msgid "Show the quit menu in the panel."
-msgstr ""
+msgstr "แสดงเมนูออกในแผง"
 
 #: usr/lib/lightdm-settings/lightdm-settings:279
 msgid "Clock"
@@ -268,7 +276,7 @@ msgstr "นาฬิกา"
 
 #: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "Show a clock in the panel."
-msgstr ""
+msgstr "แสดงนาฬิกาในแผง"
 
 #: usr/lib/lightdm-settings/lightdm-settings:290
 msgid "Clock format"
@@ -281,7 +289,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:199
 msgid "Choose an Image File"
-msgstr ""
+msgstr "เลือกแฟ้มภาพ"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:202
 msgid "_Cancel"
