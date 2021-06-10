@@ -36,6 +36,7 @@
 <message xml:lang="hu">Bejelentkezési ablak</message>
 <message xml:lang="ia">Fenestra de apertura de session</message>
 <message xml:lang="id">Jendela Login</message>
+<message xml:lang="ie">Fenestre de inicie</message>
 <message xml:lang="is">Innskráningargluggi</message>
 <message xml:lang="it">Finestra di accesso</message>
 <message xml:lang="ja">ログイン画面</message>
@@ -43,6 +44,7 @@
 <message xml:lang="kk">Жүйеге кіру терезесі</message>
 <message xml:lang="ko">로그인 창</message>
 <message xml:lang="ku">Paceya têketinê</message>
+<message xml:lang="la">Fenestra Ingressus</message>
 <message xml:lang="lt">Prisijungimo langas</message>
 <message xml:lang="mai">लोगिन विंडो</message>
 <message xml:lang="mr">प्रवेश पटल</message>
@@ -66,7 +68,7 @@
 <message xml:lang="ta">நுழைவுச் சாளரம்</message>
 <message xml:lang="th">หน้าต่างการเข้าสู่ระบบ</message>
 <message xml:lang="tr">Giriş Ekranı</message>
-<message xml:lang="uk">Вікно входу у систему</message>
+<message xml:lang="uk">Вікно входу в систему</message>
 <message xml:lang="uz">Логин ойнаси</message>
 <message xml:lang="vi">Màn hình đăng nhập</message>
 <message xml:lang="zgh">ⴰⵙⴰⵜⵎ ⵏ ⵓⴽⵛⴰⵎ</message>
