@@ -8,59 +8,59 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-11-30 11:30+0000\n"
-"PO-Revision-Date: 2020-01-04 11:27+0000\n"
-"Last-Translator: Saidazim Nazirov <Unknown>\n"
+"PO-Revision-Date: 2021-06-22 07:53+0000\n"
+"Last-Translator: Anvar Alimov <Unknown>\n"
 "Language-Team: Uzbek <uz@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-06-09 14:21+0000\n"
-"X-Generator: Launchpad (build b45bdbe3a00b6b668fa7f2069bd545c35c41f7f4)\n"
+"X-Launchpad-Export-Date: 2021-06-25 10:42+0000\n"
+"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
 #: generate_desktop_files:52
 msgid "Login Window"
-msgstr "Логин ойнаси"
+msgstr "Tizimga kirish oynasi"
 
 #: usr/lib/lightdm-settings/lightdm-settings:65
 msgid "Quit"
-msgstr "Tizimdan chiqish"
+msgstr "Chiqish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Appearance"
-msgstr ""
+msgstr "Tashqi Ko‘rinishi"
 
 #: usr/lib/lightdm-settings/lightdm-settings:139
 #: usr/lib/lightdm-settings/lightdm-settings:141
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Background"
-msgstr "Фон"
+msgstr "Orqa fon"
 
 #: usr/lib/lightdm-settings/lightdm-settings:145
 #: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "Background color"
-msgstr "Фон ранги"
+msgstr "Orqa fon rangi"
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "Stretch background across multiple monitors"
-msgstr ""
+msgstr "Orqa fonni bir nechta monitor bo'ylab uzaytirish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw user backgrounds"
-msgstr "Фойдаланувчи учун фонлар чизиш"
+msgstr "Foydalauvchi uchun orqa fon rasmlarini chisiz"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "When a user is selected, show that user's background."
-msgstr ""
+msgstr "Agar foydalauvchi uni tanlasa, fon rasmini ko'rsating"
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Draw a grid"
-msgstr "Панжара чизиш"
+msgstr "Panjara chizish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Draw a grid of white dots on top of the background."
-msgstr ""
+msgstr "Fonning yuqori qismida oq nuqta panjarasini chizish."
 
 #: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "Themes"
@@ -69,12 +69,12 @@ msgstr "Ko‘rinishlar"
 #: usr/lib/lightdm-settings/lightdm-settings:165
 #: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "GTK theme"
-msgstr "GTK ташқи кўриниши"
+msgstr "GTK tashqi ko'rinish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:169
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Icon theme"
-msgstr "Расмчалар ташқи кўриниши"
+msgstr "Belgichalar ko'rinishi"
 
 #: usr/lib/lightdm-settings/lightdm-settings:173
 #: usr/lib/lightdm-settings/lightdm-settings:174
@@ -83,7 +83,7 @@ msgstr "Sichqoncha kursori"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
-msgstr ""
+msgstr "Ixtiyoriy rasmlar"
 
 #: usr/lib/lightdm-settings/lightdm-settings:179
 msgid "Other monitors"
@@ -94,6 +94,8 @@ msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
+"Agar sizda bir nechta monitor bo'lsa, foydalanuvchi ro'yxati faol qismga, "
+"boshqalari esa ushbu rasmga joylashtirilgan."
 
 #: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
@@ -102,6 +104,7 @@ msgstr "Past chapda"
 #: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr ""
+"Kirish oynasining pastki chap qismida ko'rsatish uchun rasmni tanlang."
 
 #: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Users"
@@ -113,33 +116,36 @@ msgstr "Foydalanuvchilar ro'yxati"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid "Allow manual login"
-msgstr ""
+msgstr "Qo'lda kirishga ruxsat bering"
 
 #: usr/lib/lightdm-settings/lightdm-settings:195
 msgid "Add an option in the login window to enter a username."
 msgstr ""
+"Foydalanuvchi nomini kiritish uchun kirish oynasida parametr qo'shing."
 
 #: usr/lib/lightdm-settings/lightdm-settings:199
 msgid "Hide the user list"
-msgstr ""
+msgstr "Foydalaluvchilar roýxatini yashirish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Hide the list of users in the login window."
-msgstr ""
+msgstr "Foydalauvchilar roýxatini kirish oynasida yashirish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "Guest sessions"
-msgstr ""
+msgstr "Mehmon sessiyasi"
 
 #: usr/lib/lightdm-settings/lightdm-settings:206
 msgid "Allow guest sessions"
-msgstr "Мехмон сифатида киришга рухсат берилсин"
+msgstr "Mehmon sifatida kirishga ruxsat berish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
+"Parolsiz mehmonlarga kompyuterdan foydalanishga ruxsat bering. Vaqtinchalik "
+"mehmon hisobi ular kirganda avtomatik ravishda yaratiladi."
 
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Automatic login"
@@ -153,10 +159,12 @@ msgstr "Foydalanuvchi nomi"
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
+"Ogohlantirish: Agar foydalanuvchining uy katalogi shifrlangan bo'lsa, "
+"avtomatik kirish muvaffaqiyatsiz tugaydi."
 
 #: usr/lib/lightdm-settings/lightdm-settings:218
 msgid "Delay before connection (in seconds)"
-msgstr ""
+msgstr "Ulanishdan oldin kechikish (soniyalarda)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid ""
@@ -164,15 +172,20 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
+"Agar ushbu parametr o'rnatilgan bo'lsa, avtomatik kirish sodir bo'lishidan "
+"oldin kirish ekrani bir necha soniya davomida ko'rsatiladi. Har qanday "
+"foydalanuvchi harakati hisoblashni bekor qiladi."
 
 #: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "These settings require a computer reboot to take effect."
 msgstr ""
+"Ushbu sozlamalar kuchga kirishi uchun kompyuterni qayta yuklashni talab "
+"qiladi."
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 #: usr/lib/lightdm-settings/lightdm-settings:228
 msgid "Settings"
-msgstr "Созламалар"
+msgstr "Sozlamalar"
 
 #: usr/lib/lightdm-settings/lightdm-settings:230
 #: usr/lib/lightdm-settings/lightdm-settings:236
@@ -181,32 +194,32 @@ msgstr "Numlock chiroqchasini aktivlashtirish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:236
 msgid "Please install numlockx to use this option."
-msgstr ""
+msgstr "Ushbu parametrdan foydalanish uchun, iltimos, numlockx-ni o'rnating."
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Activate numlock in the login window."
-msgstr ""
+msgstr "Kirish oynasida numlock-ni faollashtiring."
 
 #: usr/lib/lightdm-settings/lightdm-settings:244
 #: usr/lib/lightdm-settings/lightdm-settings:251
 msgid "Auto"
-msgstr "Автоматик"
+msgstr "Avtomatik"
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Enable"
-msgstr "Ёқиш"
+msgstr "Yoqish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Disable"
-msgstr "Ўчириш"
+msgstr "O'chirish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:247
 msgid "HiDPI support"
-msgstr "HiDPI ни ишлатиш имконияти"
+msgstr "HiDPini qo'llash"
 
 #: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "Support for high pixel density and Retina displays."
-msgstr ""
+msgstr "Yuqori piksel zichligi va Retina displeylarini qo'llab-quvvatlash."
 
 #: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Monitor"
@@ -217,67 +230,71 @@ msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
+"Kirish oynasini qaysi monitor ko'rsatishi kerakligini tanlang yoki "
+"sichqonchani kuzatib borishni istasangiz, \"Avtomatik\" ni tanlang."
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Panel indicators"
-msgstr ""
+msgstr "Indikatorlar paneli"
 
 #: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Hostname"
-msgstr "Xost nomi"
+msgstr "Kompyuter nomi"
 
 #: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Show the computer hostname in the panel."
-msgstr ""
+msgstr "Kompyuter nomini panelda ko'rsatish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:262
 msgid "Accessibility options"
-msgstr ""
+msgstr "Maxsus imkoniyatlar"
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Show accessibility options in the panel."
-msgstr ""
+msgstr "Paneldagi maxsus imkoniyatlarni ko'rsating."
 
 #: usr/lib/lightdm-settings/lightdm-settings:266
 msgid "Battery power"
-msgstr ""
+msgstr "Batareya quvvati"
 
 #: usr/lib/lightdm-settings/lightdm-settings:267
 msgid "On laptops, show the battery power in the panel."
-msgstr ""
+msgstr "Noutbooklarda batareya quvvatini panelda ko'rish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:270
 msgid "Keyboard layout"
-msgstr ""
+msgstr "Klaviatura tartibi"
 
 #: usr/lib/lightdm-settings/lightdm-settings:271
 msgid "Show the keyboard layout in the panel."
-msgstr ""
+msgstr "Klaviatura tartibini panelda ko'rsatish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:274
 msgid "Quit menu"
-msgstr ""
+msgstr "Menyudan chiqish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:275
 msgid "Show the quit menu in the panel."
-msgstr ""
+msgstr "Paneldagi chiqish menyusini ko'rsating."
 
 #: usr/lib/lightdm-settings/lightdm-settings:279
 msgid "Clock"
-msgstr ""
+msgstr "Soat"
 
 #: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "Show a clock in the panel."
-msgstr ""
+msgstr "Soatni panelda ko'ratish"
 
 #: usr/lib/lightdm-settings/lightdm-settings:290
 msgid "Clock format"
-msgstr ""
+msgstr "Soat formati"
 
 #: usr/lib/lightdm-settings/lightdm-settings:291
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
+"Formatlashtirish haqida qo'shimcha ma'lumot olish uchun "
+"https://www.foragoodstrftime.com saytiga qarang."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:199
 msgid "Choose an Image File"
