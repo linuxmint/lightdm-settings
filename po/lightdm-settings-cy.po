@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-11-30 11:30+0000\n"
-"PO-Revision-Date: 2020-11-30 19:05+0000\n"
-"Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
+"PO-Revision-Date: 2021-10-20 17:09+0000\n"
+"Last-Translator: Rhoslyn Prys <Unknown>\n"
 "Language-Team: Welsh <cy@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:42+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2021-12-06 15:06+0000\n"
+"X-Generator: Launchpad (build f92b6e0bb2624f8a9125e3f45b7621c6e230c5ff)\n"
+"Language: cy\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
@@ -44,7 +45,7 @@ msgstr "Lliw cefndir"
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "Stretch background across multiple monitors"
-msgstr "Ymestyn y cefndir ar draws nifer o fonitorau"
+msgstr "Ymestyn y cefndir ar draws nifer o ddangosyddion"
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw user backgrounds"
@@ -52,7 +53,7 @@ msgstr "Lluniadu cefndir defnyddwyr"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "When a user is selected, show that user's background."
-msgstr "Pan mae defnyddiwr yn cael ei ddewis, dngos cefndir y defnyddiwr"
+msgstr "Pan mae defnyddiwr yn cael ei ddewis, dangos cefndir y defnyddiwr"
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Draw a grid"
@@ -194,7 +195,7 @@ msgstr "Gosodwch numlock i ddefnyddio'r dewis hwn."
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Activate numlock in the login window."
-msgstr "Cychwyn numlock o fen y ffenestr mewngofnodi"
+msgstr "Cychwyn numlock o fewn y ffenestr mewngofnodi"
 
 #: usr/lib/lightdm-settings/lightdm-settings:244
 #: usr/lib/lightdm-settings/lightdm-settings:251
@@ -215,7 +216,7 @@ msgstr "Cefnogi HIDPI"
 
 #: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "Support for high pixel density and Retina displays."
-msgstr "Ceffnogaeth ar gyfer dangosyddion picseli dwysedd uchel a retina."
+msgstr "Cefnogaeth ar gyfer dangosyddion picseli dwysedd uchel a retina."
 
 #: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Monitor"
@@ -226,8 +227,8 @@ msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
-"Dewiswch pa fonitor ddylai ddangos y ffenestr mewngofnodi neu ddewis 'Awto' "
-"os ydych am iddo ddilyn y llygoden."
+"Dewiswch pa ddangosydd ddylai ddangos y ffenestr mewngofnodi neu ddewis "
+"'Awto' os ydych am iddo ddilyn y llygoden."
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Panel indicators"
@@ -309,4 +310,4 @@ msgstr "Ffeiliau delwedd"
 
 #: generate_desktop_files:25
 msgid "Configure the login window"
-msgstr "Ffurfweddu'r ffeneste mewngofnodi"
+msgstr "Ffurfweddu'r ffenestr mewngofnodi"

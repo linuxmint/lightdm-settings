@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-11-30 11:30+0000\n"
-"PO-Revision-Date: 2020-11-30 19:10+0000\n"
+"PO-Revision-Date: 2021-08-18 14:52+0000\n"
 "Last-Translator: Butterfly <Unknown>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:42+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2021-12-06 15:05+0000\n"
+"X-Generator: Launchpad (build f92b6e0bb2624f8a9125e3f45b7621c6e230c5ff)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
@@ -142,8 +142,8 @@ msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
-"Konukların bilgisayarı şifre olmadan kullanmasına izin ver. Geçici bir konuk "
-"hesabı oturum açıldığında otomatik olarak oluşturulur."
+"Konukların bilgisayarı parola olmadan kullanmasına izin ver. Geçici bir "
+"konuk hesabı oturum açıldığında otomatik olarak oluşturulur."
 
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Automatic login"

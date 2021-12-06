@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-11-30 11:30+0000\n"
-"PO-Revision-Date: 2020-05-07 14:43+0000\n"
+"PO-Revision-Date: 2021-08-08 15:39+0000\n"
 "Last-Translator: Quentin PAGÈS <Unknown>\n"
 "Language-Team: Occitan (post 1500) <oc@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:42+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2021-12-06 15:06+0000\n"
+"X-Generator: Launchpad (build f92b6e0bb2624f8a9125e3f45b7621c6e230c5ff)\n"
+"Language: oc\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
@@ -44,7 +45,7 @@ msgstr "Color de rèireplan"
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "Stretch background across multiple monitors"
-msgstr ""
+msgstr "Estirar lo rèireplan sus mantun monitor"
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw user backgrounds"
@@ -57,11 +58,11 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Draw a grid"
-msgstr ""
+msgstr "Afichar una grasilha"
 
 #: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Draw a grid of white dots on top of the background."
-msgstr ""
+msgstr "Dessenhar una grasilha de ponchons blancs sul fons d’ecran."
 
 #: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "Themes"
@@ -95,6 +96,8 @@ msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
+"S’avètz mantun monitor, la lista d’utilizaires es plaçada sul monitor actiu "
+"e aqueste imatge sus l’autre."
 
 #: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
@@ -122,7 +125,7 @@ msgstr "Autorizar la connexion manuala"
 msgid "Add an option in the login window to enter a username."
 msgstr ""
 "Ajustar una opcion dins la fenèstra de connexion per picar un nom "
-"d’utilizaire"
+"d’utilizaire."
 
 #: usr/lib/lightdm-settings/lightdm-settings:199
 msgid "Hide the user list"
@@ -130,7 +133,7 @@ msgstr "Amagar la lista d’utilizaires"
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Hide the list of users in the login window."
-msgstr "Amagar la lista d’utilizaire dins la fenèstra de connexion"
+msgstr "Amagar la lista d’utilizaire dins la fenèstra de connexion."
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "Guest sessions"
@@ -145,6 +148,8 @@ msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
+"Permetre als convidats d’utilizar l’ordenador sens senhal. Se crearà un "
+"compte convidat temporari automaticament a la connexion."
 
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Automatic login"
@@ -158,6 +163,8 @@ msgstr "Nom d'utilizaire"
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
+"Avertiment : la connexion automatica capitarà pas se lo repertòri personal "
+"de l’utilizaire es chifrat."
 
 #: usr/lib/lightdm-settings/lightdm-settings:218
 msgid "Delay before connection (in seconds)"
@@ -169,10 +176,14 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
+"S'aquesta opcion es definida l'ecran de connexion serà mostrat aprèp lo "
+"nombre de segondas definidas abans la connexion automatica. Quina activitat "
+"de l’utilizaire que siá anullarà lo descompte."
 
 #: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "These settings require a computer reboot to take effect."
 msgstr ""
+"Cal reaviar l’ordenador per qu’aqueles paramètres sián preses en compte."
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 #: usr/lib/lightdm-settings/lightdm-settings:228
@@ -186,11 +197,11 @@ msgstr "Activar pavat numeric"
 
 #: usr/lib/lightdm-settings/lightdm-settings:236
 msgid "Please install numlockx to use this option."
-msgstr ""
+msgstr "Volgatz utilizar numlockx per utilizar aquesta opcion."
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Activate numlock in the login window."
-msgstr ""
+msgstr "Activar lo varrolh numeric a l’ecran de connexion."
 
 #: usr/lib/lightdm-settings/lightdm-settings:244
 #: usr/lib/lightdm-settings/lightdm-settings:251
@@ -212,6 +223,7 @@ msgstr "Compatibilitat HiDPI"
 #: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "Support for high pixel density and Retina displays."
 msgstr ""
+"Compatibilitat de la nauta densitat de pixèls e de l’afichatge Retina."
 
 #: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Monitor"
@@ -222,6 +234,8 @@ msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
+"Causissètz quin monitor deu afichar la fenèstra de connexion, o causissètz "
+"« Auto » se volètz que seguisca la mirga."
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Panel indicators"
@@ -277,12 +291,14 @@ msgstr "Afichar un relòtge pel panèl."
 
 #: usr/lib/lightdm-settings/lightdm-settings:290
 msgid "Clock format"
-msgstr ""
+msgstr "Format del relòtge"
 
 #: usr/lib/lightdm-settings/lightdm-settings:291
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
+"Consultatz https://www.foragoodstrftime.com per mai d’informacions sul "
+"format d’ora."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:199
 msgid "Choose an Image File"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-11-30 11:30+0000\n"
-"PO-Revision-Date: 2018-02-15 09:29+0000\n"
-"Last-Translator: Matic Gradišer <Unknown>\n"
+"PO-Revision-Date: 2021-11-13 17:33+0000\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:42+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2021-12-06 15:06+0000\n"
+"X-Generator: Launchpad (build f92b6e0bb2624f8a9125e3f45b7621c6e230c5ff)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
@@ -44,11 +44,11 @@ msgstr "Barva ozadja"
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "Stretch background across multiple monitors"
-msgstr ""
+msgstr "Raztegni ozadje čez več zaslonov"
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw user backgrounds"
-msgstr ""
+msgstr "Nariši uporabniška ozadja"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "When a user is selected, show that user's background."
@@ -79,11 +79,11 @@ msgstr "Tema ikon"
 #: usr/lib/lightdm-settings/lightdm-settings:173
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Mouse cursor"
-msgstr ""
+msgstr "Miškin kazalec"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
-msgstr ""
+msgstr "Neobvezne slike"
 
 #: usr/lib/lightdm-settings/lightdm-settings:179
 msgid "Other monitors"
@@ -94,6 +94,8 @@ msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
+"Če imate več zaslonov, se seznam uporabnikov postavi na aktivnega, ta slika "
+"pa na enega od preostalih."
 
 #: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
@@ -101,7 +103,7 @@ msgstr "Spodaj levo"
 
 #: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr ""
+msgstr "Izberite sliko za prikaz levo spodaj v prijavnem oknu"
 
 #: usr/lib/lightdm-settings/lightdm-settings:190
 msgid "Users"
@@ -113,11 +115,11 @@ msgstr "Seznam uporabnikov"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid "Allow manual login"
-msgstr ""
+msgstr "Dovoli ročno prijavo"
 
 #: usr/lib/lightdm-settings/lightdm-settings:195
 msgid "Add an option in the login window to enter a username."
-msgstr ""
+msgstr "Dodajte možnost, da v prijavnem oknu vnesete uporabniško ime."
 
 #: usr/lib/lightdm-settings/lightdm-settings:199
 msgid "Hide the user list"
@@ -140,6 +142,8 @@ msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
+"Omogočite gostom, da uporabljajo računalnik brez gesla. Začasni račun gosta "
+"se ustvari samodejno, ko se prijavi."
 
 #: usr/lib/lightdm-settings/lightdm-settings:210
 msgid "Automatic login"
@@ -153,10 +157,12 @@ msgstr "Uporabniško ime"
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
+"Opozorilo: samodejna prijava spodleti, če je domača mapa uporabnika "
+"šifrirana."
 
 #: usr/lib/lightdm-settings/lightdm-settings:218
 msgid "Delay before connection (in seconds)"
-msgstr ""
+msgstr "Časovni zamik pred povezavo (v sekundah)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid ""
@@ -164,10 +170,13 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
+"Če je nastavljena ta možnost, bo prijavni zaslon prikazan toliko časa "
+"(sekund), preden se izvede samodejna prijava. Vsakršna dejavnost uporabnika "
+"prekliče odštevanje."
 
 #: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "These settings require a computer reboot to take effect."
-msgstr ""
+msgstr "Za uveljavitev teh sprememb je potreben ponovni zagon računalnika."
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 #: usr/lib/lightdm-settings/lightdm-settings:228
@@ -177,15 +186,15 @@ msgstr "Nastavitve"
 #: usr/lib/lightdm-settings/lightdm-settings:230
 #: usr/lib/lightdm-settings/lightdm-settings:236
 msgid "Activate numlock"
-msgstr ""
+msgstr "Aktiviraj številsko tipkovnico"
 
 #: usr/lib/lightdm-settings/lightdm-settings:236
 msgid "Please install numlockx to use this option."
-msgstr ""
+msgstr "Za to možnost morate namestiti numlockx."
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 msgid "Activate numlock in the login window."
-msgstr ""
+msgstr "Aktiviraj zaklepalko številčnice v prijavnem oknu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:244
 #: usr/lib/lightdm-settings/lightdm-settings:251
@@ -206,21 +215,23 @@ msgstr "HiDPI podpora"
 
 #: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "Support for high pixel density and Retina displays."
-msgstr ""
+msgstr "Podpora za visoko gostoto slikovnih točk in zaslone Retina"
 
 #: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Monitor"
-msgstr ""
+msgstr "Zaslon"
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
+"Izberite zaslon, na katerem naj bo prikazano prijavno okno, ali izberite "
+"»Samodejno«, če želite, da okno sledi miški."
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Panel indicators"
-msgstr ""
+msgstr "Indikatorji v podoknu"
 
 #: usr/lib/lightdm-settings/lightdm-settings:258
 msgid "Hostname"
@@ -228,23 +239,23 @@ msgstr "Ime gostitelja"
 
 #: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Show the computer hostname in the panel."
-msgstr ""
+msgstr "Pokaži ime računalnika gostitelja v podoknu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:262
 msgid "Accessibility options"
-msgstr ""
+msgstr "Možnosti dostopnosti"
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Show accessibility options in the panel."
-msgstr ""
+msgstr "Pokaži možnosti dostopnosti v podoknu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:266
 msgid "Battery power"
-msgstr ""
+msgstr "Moč baterije"
 
 #: usr/lib/lightdm-settings/lightdm-settings:267
 msgid "On laptops, show the battery power in the panel."
-msgstr ""
+msgstr "Na prenosnikih pokaži moč baterije v podoknu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:270
 msgid "Keyboard layout"
@@ -252,15 +263,15 @@ msgstr "Razpored tipkovnice"
 
 #: usr/lib/lightdm-settings/lightdm-settings:271
 msgid "Show the keyboard layout in the panel."
-msgstr ""
+msgstr "Pokaži postavitev tipkovnice v podoknu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:274
 msgid "Quit menu"
-msgstr ""
+msgstr "Izhod iz menija"
 
 #: usr/lib/lightdm-settings/lightdm-settings:275
 msgid "Show the quit menu in the panel."
-msgstr ""
+msgstr "Pokaži meni izhoda iz programa v podoknu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:279
 msgid "Clock"
@@ -268,20 +279,21 @@ msgstr "Ura"
 
 #: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "Show a clock in the panel."
-msgstr ""
+msgstr "Pokaži uro v podoknu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:290
 msgid "Clock format"
-msgstr ""
+msgstr "Oblika ure"
 
 #: usr/lib/lightdm-settings/lightdm-settings:291
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
+"Podrobnosti o oblikovanju glejte na naslovu https://www.foragoodstrftime.com"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:199
 msgid "Choose an Image File"
-msgstr ""
+msgstr "Izberite slikovno datoteko"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:202
 msgid "_Cancel"
@@ -297,4 +309,4 @@ msgstr "Datoteke slik"
 
 #: generate_desktop_files:25
 msgid "Configure the login window"
-msgstr ""
+msgstr "Prilagodite prijavno okno"
