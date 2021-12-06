@@ -1,3 +1,10 @@
+lightdm-settings (1.5.6) una; urgency=medium
+
+  * l10n: Update translations
+  * l10n: Update files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 06 Dec 2021 15:35:16 +0000
+
 lightdm-settings (1.5.5) uma; urgency=medium
 
   * l10n: Update translations
