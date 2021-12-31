@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-11-30 11:30+0000\n"
-"PO-Revision-Date: 2021-05-24 14:03+0000\n"
+"PO-Revision-Date: 2021-12-07 17:14+0000\n"
 "Last-Translator: Anton Hryb <Unknown>\n"
 "Language-Team: Belarusian <be@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-12-06 15:06+0000\n"
-"X-Generator: Launchpad (build f92b6e0bb2624f8a9125e3f45b7621c6e230c5ff)\n"
+"X-Launchpad-Export-Date: 2021-12-31 12:25+0000\n"
+"X-Generator: Launchpad (build adb364d6a74a28e7b95d51cd30446ec16160de6c)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
@@ -40,7 +40,7 @@ msgstr "Фон"
 #: usr/lib/lightdm-settings/lightdm-settings:145
 #: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "Background color"
-msgstr "Колер фону"
+msgstr "Фонавы колер"
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "Stretch background across multiple monitors"
@@ -48,7 +48,7 @@ msgstr "Расцягнуць фон на некалькі манітораў"
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw user backgrounds"
-msgstr "Намаляваць свой фон"
+msgstr "Адлюстраваць фон канкрэтнага карыстальніка"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "When a user is selected, show that user's background."
@@ -56,11 +56,11 @@ msgstr "Калі карыстальнік выбраны, паказаць яг�
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Draw a grid"
-msgstr "Намаляваць сетку"
+msgstr "Паказаць сетку"
 
 #: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Draw a grid of white dots on top of the background."
-msgstr "Намаляваць сетку з белых кропак зверху фону."
+msgstr "Паказаць сетку з белых кропак зверху фону."
 
 #: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "Themes"
@@ -119,7 +119,7 @@ msgstr "Дазволіць ручны ўваход"
 
 #: usr/lib/lightdm-settings/lightdm-settings:195
 msgid "Add an option in the login window to enter a username."
-msgstr "Дадаць опцыю для ўводу імя карыстальніка ў акно ўваходу."
+msgstr "Дадаць опцыю для ўводу імя карыстальніка ў акне ўваходу."
 
 #: usr/lib/lightdm-settings/lightdm-settings:199
 msgid "Hide the user list"
@@ -177,7 +177,7 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "These settings require a computer reboot to take effect."
 msgstr ""
-"Гэтыя налады патрабуюць перазагрузкі камп'ютара, каб уступіць у сілу."
+"Каб уступіць у сілу, гэтыя налады патрабуюць перазагрузкі камп'ютара."
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 #: usr/lib/lightdm-settings/lightdm-settings:228
@@ -208,7 +208,7 @@ msgstr "Уключыць"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Disable"
-msgstr "Выключыць"
+msgstr "Адключыць"
 
 #: usr/lib/lightdm-settings/lightdm-settings:247
 msgid "HiDPI support"
@@ -228,7 +228,7 @@ msgid ""
 "you want it to follow the mouse."
 msgstr ""
 "Выберыце на якім маніторы трэба паказваць акно ўваходу, або выберыце "
-"'Аўтаматычна', калі вы жадаеце прытрымлівацца мышы."
+"'Аўтаматычна', калі жадаеце прытрымлівацца курсора мышы."
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Panel indicators"
@@ -244,11 +244,11 @@ msgstr "Паказваць імя хаста камп'ютара на панэл
 
 #: usr/lib/lightdm-settings/lightdm-settings:262
 msgid "Accessibility options"
-msgstr "Опцыі доступу"
+msgstr "Опцыі даступнасці"
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Show accessibility options in the panel."
-msgstr "Паказваць опцыі доступу на панэлі."
+msgstr "Паказваць опцыі даступнасці на панэлі."
 
 #: usr/lib/lightdm-settings/lightdm-settings:266
 msgid "Battery power"
@@ -256,7 +256,7 @@ msgstr "Зарад батарэі"
 
 #: usr/lib/lightdm-settings/lightdm-settings:267
 msgid "On laptops, show the battery power in the panel."
-msgstr "Для ноўтбукаў паказваць зарад батарэі на панэлі."
+msgstr "Паказваць зарад батарэі ноўтбука на панэлі."
 
 #: usr/lib/lightdm-settings/lightdm-settings:270
 msgid "Keyboard layout"
