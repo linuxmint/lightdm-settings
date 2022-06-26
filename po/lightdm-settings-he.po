@@ -8,20 +8,20 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-11-30 11:30+0000\n"
-"PO-Revision-Date: 2021-05-06 09:06+0000\n"
-"Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
+"PO-Revision-Date: 2022-03-11 12:42+0000\n"
+"Last-Translator: Omer I.S. <Unknown>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-12-31 12:25+0000\n"
-"X-Generator: Launchpad (build adb364d6a74a28e7b95d51cd30446ec16160de6c)\n"
+"X-Launchpad-Export-Date: 2022-06-26 11:28+0000\n"
+"X-Generator: Launchpad (build 51a2e4fa2e9b8e45f00904ad7f53546f45ac48a5)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:43
 #: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
 #: generate_desktop_files:52
 msgid "Login Window"
-msgstr "חלון כניסה"
+msgstr "חלונית כניסה"
 
 #: usr/lib/lightdm-settings/lightdm-settings:65
 msgid "Quit"
@@ -29,7 +29,7 @@ msgstr "יציאה"
 
 #: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Appearance"
-msgstr "חזות"
+msgstr "מראה"
 
 #: usr/lib/lightdm-settings/lightdm-settings:139
 #: usr/lib/lightdm-settings/lightdm-settings:141
@@ -48,7 +48,7 @@ msgstr "מתיחת הרקע על פני מספר צגים"
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw user backgrounds"
-msgstr "שרטוט רקעי משתמש"
+msgstr "הצגת רקעי המשתמשים"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "When a user is selected, show that user's background."
@@ -56,11 +56,11 @@ msgstr "הצגת רקע משתמש, כאשר נבחר משתמש."
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Draw a grid"
-msgstr "שרטוט שבכה"
+msgstr "שרטוט רשת"
 
 #: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Draw a grid of white dots on top of the background."
-msgstr "שרטוט שבכה של נקודןת ךבנות על פני הרקע."
+msgstr "שרטוט רשת של נקודות לבנות על פני הרקע."
 
 #: usr/lib/lightdm-settings/lightdm-settings:163
 msgid "Themes"
@@ -69,12 +69,12 @@ msgstr "ערכות נושא"
 #: usr/lib/lightdm-settings/lightdm-settings:165
 #: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "GTK theme"
-msgstr "ערכת נושא GTK"
+msgstr "ערכת נושא ל־GTK"
 
 #: usr/lib/lightdm-settings/lightdm-settings:169
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Icon theme"
-msgstr "ערכת נושא צלמית"
+msgstr "ערכת סמלים"
 
 #: usr/lib/lightdm-settings/lightdm-settings:173
 #: usr/lib/lightdm-settings/lightdm-settings:174
@@ -99,7 +99,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
-msgstr "למטה, משמאל"
+msgstr "למטה משמאל"
 
 #: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Select a picture to show on the bottom left of the login window."
@@ -115,7 +115,7 @@ msgstr "רשימת משתמשים"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid "Allow manual login"
-msgstr "אפשור כניסה ידנית"
+msgstr "לאפשר כניסה ידנית"
 
 #: usr/lib/lightdm-settings/lightdm-settings:195
 msgid "Add an option in the login window to enter a username."
@@ -123,7 +123,7 @@ msgstr "הוספת אפשרות בחלון הכניסה להזנת שם משתמ
 
 #: usr/lib/lightdm-settings/lightdm-settings:199
 msgid "Hide the user list"
-msgstr "הסתרת רשימת משתמשים"
+msgstr "הסתרת רשימת המשתמשים"
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Hide the list of users in the login window."
@@ -156,7 +156,7 @@ msgstr "שם משתמש"
 #: usr/lib/lightdm-settings/lightdm-settings:214
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
-msgstr "אזהרה: התחברות אוטומטית תיכשל אם ספריית הבית של המשתמש מוצפנת."
+msgstr "אזהרה: התחברות אוטומטית תיכשל אם תיקיית הבית של המשתמש מוצפנת."
 
 #: usr/lib/lightdm-settings/lightdm-settings:218
 msgid "Delay before connection (in seconds)"
@@ -173,7 +173,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "These settings require a computer reboot to take effect."
-msgstr "הגדרות אלה מחייבות הפעלה מחדש של המחשב כדי שיכנסו לתוקף."
+msgstr "נדרשת הפעלת המחשב מחדש כדי שהשינויים ייכנסו לתוקף."
 
 #: usr/lib/lightdm-settings/lightdm-settings:227
 #: usr/lib/lightdm-settings/lightdm-settings:228
@@ -200,15 +200,15 @@ msgstr "אוטומטי"
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Enable"
-msgstr "אפשור"
+msgstr "לאפשר"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Disable"
-msgstr "נטרל"
+msgstr "השבתה"
 
 #: usr/lib/lightdm-settings/lightdm-settings:247
 msgid "HiDPI support"
-msgstr "תמיכת HiDPI"
+msgstr "תמיכה ב־HiDPI"
 
 #: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "Support for high pixel density and Retina displays."
@@ -247,7 +247,7 @@ msgstr "הצגת אפשרויות נגישות בלוח."
 
 #: usr/lib/lightdm-settings/lightdm-settings:266
 msgid "Battery power"
-msgstr "עצמת סוללה"
+msgstr "עוצמת סוללה"
 
 #: usr/lib/lightdm-settings/lightdm-settings:267
 msgid "On laptops, show the battery power in the panel."
@@ -284,8 +284,7 @@ msgstr "תבנות שעון"
 #: usr/lib/lightdm-settings/lightdm-settings:291
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
-msgstr ""
-"מידע נוסף אודות עיצוב, ניתן למצוא ב- https://www.foragoodstrftime.com"
+msgstr "אפשר לעיין ב־https://www.foragoodstrftime.com למידע נוסף על התבניות."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:199
 msgid "Choose an Image File"
@@ -301,7 +300,7 @@ msgstr "_פתיחה"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:206
 msgid "Image files"
-msgstr "קובץ תמונה"
+msgstr "קובצי תמונה"
 
 #: generate_desktop_files:25
 msgid "Configure the login window"
