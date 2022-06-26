@@ -1,3 +1,10 @@
+lightdm-settings (1.5.8) vanessa; urgency=medium
+
+  * l10n: Update translations
+  * l10n: Update files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 26 Jun 2022 15:54:17 +0200
+
 lightdm-settings (1.5.7) una; urgency=medium
 
   * l10n: Update translations
