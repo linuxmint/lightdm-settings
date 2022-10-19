@@ -8,7 +8,7 @@ import sys
 import glob
 import subprocess, binascii
 from SettingsWidgets import *
-from distutils.version import LooseVersion
+from packaging.version import Version
 
 gi.require_version('Gtk', '3.0')
 from gi.repository import GObject, Gtk, Gdk, Gio, GLib
@@ -465,7 +465,7 @@ class Application(Gtk.Application):
 
             print("lightdm version: %s" % version_string)
 
-            return LooseVersion(version_string) >= LooseVersion("1.26.0")
+            return Version(version_string) >= Version("1.26.0")
         except OSError as e:
             print("lightdm not in path, is it installed? %s" % e)
         except subprocess.CalledProcessError as e:
