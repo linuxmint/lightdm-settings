@@ -8,7 +8,6 @@ import sys
 import glob
 import subprocess, binascii
 from SettingsWidgets import *
-from packaging.version import Version
 
 gi.require_version('Gtk', '3.0')
 from gi.repository import GObject, Gtk, Gdk, Gio, GLib
@@ -151,10 +150,9 @@ class Application(Gtk.Application):
         row = SettingsRow(Gtk.Label(label=_("Stretch background across multiple monitors")), SettingsSwitch(keyfile, settings, "stretch-background-across-monitors"))
         section.add_row(row)
 
-        if self.should_show_user_bg_switch ():
-                row = SettingsRow(Gtk.Label(label=_("Draw user backgrounds")), SettingsSwitch(keyfile, settings, "draw-user-backgrounds"))
-                row.set_tooltip_text(_("When a user is selected, show that user's background."))
-                section.add_row(row)
+        row = SettingsRow(Gtk.Label(label=_("Draw user backgrounds")), SettingsSwitch(keyfile, settings, "draw-user-backgrounds"))
+        row.set_tooltip_text(_("When a user is selected, show that user's background."))
+        section.add_row(row)
 
         row = SettingsRow(Gtk.Label(label=_("Draw a grid")), SettingsSwitch(keyfile, settings, "draw-grid"))
         row.set_tooltip_text(_("Draw a grid of white dots on top of the background."))
@@ -450,30 +448,6 @@ class Application(Gtk.Application):
                     except:
                         pass
         return (value)
-
-    def should_show_user_bg_switch (self):
-        # Showing the current user's background on the login screen is unsupported
-        # in versions < 1.25.2.
-
-        try:
-            ret = subprocess.run(["lightdm", "--version"],
-                                 stdout=subprocess.PIPE,
-                                 stderr=subprocess.STDOUT,
-                                 check=True)
-
-            version_string = ret.stdout.decode("UTF-8").strip("\n").strip("lightdm").strip()
-
-            print("lightdm version: %s" % version_string)
-
-            return Version(version_string) >= Version("1.26.0")
-        except OSError as e:
-            print("lightdm not in path, is it installed? %s" % e)
-        except subprocess.CalledProcessError as e:
-            print("Problem getting lightdm version: ", e)
-        except Exception as e:
-            print(e)
-
-        return False
 
     def get_monitors(self):
         monitors = []
