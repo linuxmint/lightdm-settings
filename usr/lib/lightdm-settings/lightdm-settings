@@ -164,6 +164,10 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Mouse cursor"))
         section.add_row(row)
 
+        row = SettingsRow(Gtk.Label(label=_("Mouse cursor size")), SettingsRange(keyfile, settings, "cursor-theme-size", 5, 50, 24, 1, size_group))
+        row.set_tooltip_text(_("Mouse cursor size"))
+        section.add_row(row)
+
         section = page.add_section(_("Optional pictures"))
 
         row = SettingsRow(Gtk.Label(label=_("Other monitors")), SettingsPictureChooser(keyfile, settings, "other-monitors-logo"))

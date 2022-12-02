@@ -115,6 +115,42 @@ class SettingsRow(Gtk.ListBoxRow):
         if self.alternative_widget is not None:
             self.stack.set_visible_child(self.alternative_widget)
 
+class SettingsRange(Gtk.Box):
+    def __init__(self, keyfile, settings, key, min_value, max_value, default_value, step, size_group=None):
+        super(SettingsRange, self).__init__(orientation=Gtk.Orientation.HORIZONTAL, margin_start=6, margin_bottom=6, margin_end=6)
+
+        if size_group:
+            size_group.add_widget(self)
+
+        self.key = key
+        self.keyfile = keyfile
+        try:
+            self.value = keyfile.get_integer(GROUP_NAME, key)
+        except:
+            self.value = settings.get_int(key)
+
+        self.delay_timeout = 0
+
+        self.content_widget = Gtk.Scale.new_with_range(Gtk.Orientation.HORIZONTAL, min_value, max_value, step)
+        self.content_widget.set_value(self.value)
+        self.content_widget.set_digits(0)
+        self.content_widget.set_increments(1, 1)
+        self.content_widget.set_draw_value(True)
+        self.content_widget.add_mark(default_value, Gtk.PositionType.TOP, None)
+        self.content_widget.connect("value-changed", self.on_value_changed)
+
+        self.pack_start(self.content_widget, True, True, 0)
+
+    def on_value_changed(self, widget, data=None):
+        def apply(self):
+            self.keyfile.set_integer(GROUP_NAME, self.key, self.content_widget.get_value())
+            self.keyfile.save_to_file(CONF_PATH)
+            self.delay_timeout = 0
+
+        if self.delay_timeout > 0:
+            GLib.source_remove(self.delay_timeout)
+        self.delay_timeout = GLib.timeout_add(300, apply, self)
+
 class SettingsSpinButton(Gtk.SpinButton):
     def __init__(self, keyfile, settings, key, min_value, max_value):
         self.key = key
