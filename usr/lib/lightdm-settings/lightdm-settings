@@ -160,12 +160,12 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Icon theme"))
         section.add_row(row)
 
-        row = SettingsRow(Gtk.Label(label=_("Mouse cursor")), SettingsCombo(keyfile, settings, "cursor-theme-name", self.get_mouse_pointers(), "string", size_group))
-        row.set_tooltip_text(_("Mouse cursor"))
+        row = SettingsRow(Gtk.Label(label=_("Mouse pointer")), SettingsCombo(keyfile, settings, "cursor-theme-name", self.get_mouse_pointers(), "string", size_group))
+        row.set_tooltip_text(_("Mouse pointer"))
         section.add_row(row)
 
-        row = SettingsRow(Gtk.Label(label=_("Mouse cursor size")), SettingsRange(keyfile, settings, "cursor-theme-size", 5, 50, 24, 1, size_group))
-        row.set_tooltip_text(_("Mouse cursor size"))
+        row = SettingsRow(Gtk.Label(label=_("Mouse pointer size")), SettingsRange(keyfile, settings, "cursor-theme-size", 5, 50, 24, 1, size_group))
+        row.set_tooltip_text(_("Mouse pointer size"))
         section.add_row(row)
 
         section = page.add_section(_("Optional pictures"))
