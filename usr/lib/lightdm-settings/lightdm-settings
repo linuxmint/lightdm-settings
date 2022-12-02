@@ -21,7 +21,6 @@ setproctitle.setproctitle("lightdm-settings")
 
 gettext.install("lightdm-settings", "/usr/share/locale")
 
-MPOINTER_CONF_PATH = "/usr/share/icons/default/index.theme"
 CONF_PATH = "/etc/lightdm/slick-greeter.conf"
 LIGHTDM_CONF_PATH = "/etc/lightdm/lightdm.conf"
 LIGHTDM_GROUP_NAMES = ["SeatDefaults", "Seat:*"]
@@ -125,13 +124,6 @@ class Application(Gtk.Application):
         except Exception:
             print("Could not load %s." % LIGHTDM_CONF_PATH)
 
-        # Mouse Pointer settings
-        mpointer_keyfile = GLib.KeyFile()
-        try:
-            mpointer_keyfile.load_from_file(MPOINTER_CONF_PATH, GLib.KeyFileFlags.KEEP_COMMENTS)
-        except Exception:
-            print("Could not load %s." % MPOINTER_CONF_PATH)
-
         # APPEARANCE
         page = SettingsPage()
         self.main_stack.add_titled(page, "appearance", _("Appearance"))
@@ -168,7 +160,7 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Icon theme"))
         section.add_row(row)
 
-        row = SettingsRow(Gtk.Label(label=_("Mouse cursor")), SettingsComboMousePointer(mpointer_keyfile, "Inherits", MPOINTER_CONF_PATH, self.get_mouse_pointers(), "string", size_group))
+        row = SettingsRow(Gtk.Label(label=_("Mouse cursor")), SettingsCombo(keyfile, settings, "cursor-theme-name", self.get_mouse_pointers(), "string", size_group))
         row.set_tooltip_text(_("Mouse cursor"))
         section.add_row(row)
 
