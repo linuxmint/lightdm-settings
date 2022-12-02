@@ -1,3 +1,18 @@
+lightdm-settings (1.6.0) vera; urgency=medium
+
+  [ Clement Lefebvre ]
+  * l10n: Update translations
+
+  [ Michael Webster ]
+  * Use the new 'cursor-theme-name' setting to set the cursor theme instead of modifying /usr/share/icons/default/index.theme.
+  * Add a setting to configure the cursor-theme-size.
+
+  [ Clement Lefebvre ]
+  * Call a mouse a mouse
+  * l10n: Update POT
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 02 Dec 2022 18:07:46 +0000
+
 lightdm-settings (1.5.10) vera; urgency=medium
 
   [ Leigh Scott ]
