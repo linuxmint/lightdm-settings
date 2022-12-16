@@ -7,89 +7,94 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-11-30 11:30+0000\n"
-"PO-Revision-Date: 2021-06-03 06:11+0000\n"
-"Last-Translator: Dusan Kazik <prescott66@gmail.com>\n"
+"POT-Creation-Date: 2022-12-02 18:07+0000\n"
+"PO-Revision-Date: 2022-12-03 13:05+0000\n"
+"Last-Translator: menom <Unknown>\n"
 "Language-Team: Slovak <sk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-12-02 13:17+0000\n"
-"X-Generator: Launchpad (build 51cef3d08dff1e227b5ada709bd67280c567d4be)\n"
+"X-Launchpad-Export-Date: 2022-12-16 11:47+0000\n"
+"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:43
-#: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
+#: usr/lib/lightdm-settings/lightdm-settings:41
+#: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:25
 #: generate_desktop_files:52
 msgid "Login Window"
 msgstr "Prihlasovacie okno"
 
-#: usr/lib/lightdm-settings/lightdm-settings:65
+#: usr/lib/lightdm-settings/lightdm-settings:63
 msgid "Quit"
 msgstr "Ukončiť"
 
-#: usr/lib/lightdm-settings/lightdm-settings:138
+#: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Appearance"
 msgstr "Vzhľad"
 
-#: usr/lib/lightdm-settings/lightdm-settings:139
-#: usr/lib/lightdm-settings/lightdm-settings:141
-#: usr/lib/lightdm-settings/lightdm-settings:142
+#: usr/lib/lightdm-settings/lightdm-settings:130
+#: usr/lib/lightdm-settings/lightdm-settings:132
+#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
 msgstr "Pozadie"
 
-#: usr/lib/lightdm-settings/lightdm-settings:145
-#: usr/lib/lightdm-settings/lightdm-settings:146
+#: usr/lib/lightdm-settings/lightdm-settings:136
+#: usr/lib/lightdm-settings/lightdm-settings:137
 msgid "Background color"
 msgstr "Farba pozadia"
 
-#: usr/lib/lightdm-settings/lightdm-settings:151
+#: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Stretch background across multiple monitors"
 msgstr "Roztiahnuť pozadie na viaceré monitory"
 
-#: usr/lib/lightdm-settings/lightdm-settings:155
+#: usr/lib/lightdm-settings/lightdm-settings:145
 msgid "Draw user backgrounds"
 msgstr "Vykresliť pozadia používateľa"
 
-#: usr/lib/lightdm-settings/lightdm-settings:156
+#: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "When a user is selected, show that user's background."
 msgstr "Zobraziť pozadie vybraného používateľa."
 
-#: usr/lib/lightdm-settings/lightdm-settings:159
+#: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid"
 msgstr "Vykresliť mriežku"
 
-#: usr/lib/lightdm-settings/lightdm-settings:160
+#: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Draw a grid of white dots on top of the background."
 msgstr "Vykresliť mriežku z bielych bodov ponad pozadie."
 
-#: usr/lib/lightdm-settings/lightdm-settings:163
+#: usr/lib/lightdm-settings/lightdm-settings:153
 msgid "Themes"
 msgstr "Motívy"
 
-#: usr/lib/lightdm-settings/lightdm-settings:165
-#: usr/lib/lightdm-settings/lightdm-settings:166
+#: usr/lib/lightdm-settings/lightdm-settings:155
+#: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "GTK theme"
 msgstr "Motív GTK"
 
-#: usr/lib/lightdm-settings/lightdm-settings:169
-#: usr/lib/lightdm-settings/lightdm-settings:170
+#: usr/lib/lightdm-settings/lightdm-settings:159
+#: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Icon theme"
 msgstr "Motív ikon"
 
-#: usr/lib/lightdm-settings/lightdm-settings:173
-#: usr/lib/lightdm-settings/lightdm-settings:174
-msgid "Mouse cursor"
-msgstr "Kurzor myši"
+#: usr/lib/lightdm-settings/lightdm-settings:163
+#: usr/lib/lightdm-settings/lightdm-settings:164
+msgid "Mouse pointer"
+msgstr "Ukazovateľ myši"
 
-#: usr/lib/lightdm-settings/lightdm-settings:177
+#: usr/lib/lightdm-settings/lightdm-settings:167
+#: usr/lib/lightdm-settings/lightdm-settings:168
+msgid "Mouse pointer size"
+msgstr "Veľkosť ukazovateľa myši"
+
+#: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Optional pictures"
 msgstr "Voliteľné obrázky"
 
-#: usr/lib/lightdm-settings/lightdm-settings:179
+#: usr/lib/lightdm-settings/lightdm-settings:173
 msgid "Other monitors"
 msgstr "Ostatné monitory"
 
-#: usr/lib/lightdm-settings/lightdm-settings:180
+#: usr/lib/lightdm-settings/lightdm-settings:174
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
@@ -97,48 +102,48 @@ msgstr ""
 "Ak máte viacero monitorov, zoznam používateľov bude umiestnený na aktívnom "
 "monitore a tento obrázok na ostatných monitoroch."
 
-#: usr/lib/lightdm-settings/lightdm-settings:183
+#: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Bottom left"
 msgstr "Vľavo dole"
 
-#: usr/lib/lightdm-settings/lightdm-settings:184
+#: usr/lib/lightdm-settings/lightdm-settings:178
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr "Vybrať obrázok, ktorý sa zobrazí vľavo dole v prihlasovacom okne."
 
-#: usr/lib/lightdm-settings/lightdm-settings:190
+#: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Users"
 msgstr "Používatelia"
 
-#: usr/lib/lightdm-settings/lightdm-settings:191
+#: usr/lib/lightdm-settings/lightdm-settings:185
 msgid "User list"
 msgstr "Zoznam používateľov"
 
-#: usr/lib/lightdm-settings/lightdm-settings:194
+#: usr/lib/lightdm-settings/lightdm-settings:188
 msgid "Allow manual login"
 msgstr "Umožniť ručné prihlásenie"
 
-#: usr/lib/lightdm-settings/lightdm-settings:195
+#: usr/lib/lightdm-settings/lightdm-settings:189
 msgid "Add an option in the login window to enter a username."
 msgstr ""
 "Pridať voľbu do prihlasovacieho okna na zadávanie používateľského mena."
 
-#: usr/lib/lightdm-settings/lightdm-settings:199
+#: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Hide the user list"
 msgstr "Skryť zoznam používateľov"
 
-#: usr/lib/lightdm-settings/lightdm-settings:200
+#: usr/lib/lightdm-settings/lightdm-settings:194
 msgid "Hide the list of users in the login window."
 msgstr "Skryť zoznam používateľov v prihlasovacom okne."
 
-#: usr/lib/lightdm-settings/lightdm-settings:204
+#: usr/lib/lightdm-settings/lightdm-settings:198
 msgid "Guest sessions"
 msgstr "Relácie pre hostí"
 
-#: usr/lib/lightdm-settings/lightdm-settings:206
+#: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Allow guest sessions"
 msgstr "Povoliť hosťovské relácie"
 
-#: usr/lib/lightdm-settings/lightdm-settings:207
+#: usr/lib/lightdm-settings/lightdm-settings:201
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
@@ -146,26 +151,26 @@ msgstr ""
 "Umožniť hosťom používať počítač bez zadania hesla. Po prihlásení je hosťovi "
 "vytvorené dočasný účet."
 
-#: usr/lib/lightdm-settings/lightdm-settings:210
+#: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "Automatic login"
 msgstr "Automatické prihlásenie"
 
-#: usr/lib/lightdm-settings/lightdm-settings:213
+#: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Username"
 msgstr "Používateľské meno"
 
-#: usr/lib/lightdm-settings/lightdm-settings:214
+#: usr/lib/lightdm-settings/lightdm-settings:208
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
 "Upozornenie: Automatické prihlásenie zlyhá, ak je domovský priečinok "
 "používateľa zašifrovaný."
 
-#: usr/lib/lightdm-settings/lightdm-settings:218
+#: usr/lib/lightdm-settings/lightdm-settings:212
 msgid "Delay before connection (in seconds)"
 msgstr "Oneskorenie pred pripojením (v sekundách)"
 
-#: usr/lib/lightdm-settings/lightdm-settings:219
+#: usr/lib/lightdm-settings/lightdm-settings:213
 msgid ""
 "If this option is set the login screen will be shown for this many seconds "
 "before the automatic login occurs. Any user activity will cancel the "
@@ -175,54 +180,54 @@ msgstr ""
 "sekúnd pred automatickým prihlásením. Akákoľvek činnosť používateľa zruší "
 "odpočítavanie."
 
-#: usr/lib/lightdm-settings/lightdm-settings:222
+#: usr/lib/lightdm-settings/lightdm-settings:216
 msgid "These settings require a computer reboot to take effect."
 msgstr "Na uplatnenie týchto nastavení sa vyžaduje reštart počítača."
 
-#: usr/lib/lightdm-settings/lightdm-settings:227
-#: usr/lib/lightdm-settings/lightdm-settings:228
+#: usr/lib/lightdm-settings/lightdm-settings:221
+#: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "Settings"
 msgstr "Nastavenia"
 
+#: usr/lib/lightdm-settings/lightdm-settings:224
 #: usr/lib/lightdm-settings/lightdm-settings:230
-#: usr/lib/lightdm-settings/lightdm-settings:236
 msgid "Activate numlock"
 msgstr "Aktivovať funkciu Numlock"
 
-#: usr/lib/lightdm-settings/lightdm-settings:236
+#: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Please install numlockx to use this option."
 msgstr "Na použitie tejto voľby, prosím, nainštalujte program numlockx."
 
-#: usr/lib/lightdm-settings/lightdm-settings:238
+#: usr/lib/lightdm-settings/lightdm-settings:232
 msgid "Activate numlock in the login window."
 msgstr "Aktivovať funkciu Numlock v prihlasovacom okne."
 
-#: usr/lib/lightdm-settings/lightdm-settings:244
-#: usr/lib/lightdm-settings/lightdm-settings:251
+#: usr/lib/lightdm-settings/lightdm-settings:238
+#: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Auto"
 msgstr "Automaticky"
 
-#: usr/lib/lightdm-settings/lightdm-settings:245
+#: usr/lib/lightdm-settings/lightdm-settings:239
 msgid "Enable"
 msgstr "Povoliť"
 
-#: usr/lib/lightdm-settings/lightdm-settings:246
+#: usr/lib/lightdm-settings/lightdm-settings:240
 msgid "Disable"
 msgstr "Zakázať"
 
-#: usr/lib/lightdm-settings/lightdm-settings:247
+#: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "HiDPI support"
 msgstr "Podpora rozlíšenia HiDPI"
 
-#: usr/lib/lightdm-settings/lightdm-settings:248
+#: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Support for high pixel density and Retina displays."
 msgstr "Podpora vysokej hustoty pixelov a displejov Retina."
 
-#: usr/lib/lightdm-settings/lightdm-settings:252
+#: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Monitor"
 msgstr "Monitor"
 
-#: usr/lib/lightdm-settings/lightdm-settings:253
+#: usr/lib/lightdm-settings/lightdm-settings:247
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
@@ -230,82 +235,82 @@ msgstr ""
 "Zvoľte, na ktorom monitore má byť zobrazené prihlasovacie okno, alebo "
 "vyberte voľbu „Auto“, ak chcete aby nasledovalo myš."
 
-#: usr/lib/lightdm-settings/lightdm-settings:256
+#: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Panel indicators"
 msgstr "Indikátory panela"
 
-#: usr/lib/lightdm-settings/lightdm-settings:258
+#: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Hostname"
 msgstr "Názov hostiteľa"
 
-#: usr/lib/lightdm-settings/lightdm-settings:259
+#: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Show the computer hostname in the panel."
 msgstr "Zobraziť hostiteľký názov počítača v paneli."
 
-#: usr/lib/lightdm-settings/lightdm-settings:262
+#: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Accessibility options"
 msgstr "Voľby zjednodušeného ovládania"
 
-#: usr/lib/lightdm-settings/lightdm-settings:263
+#: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Show accessibility options in the panel."
 msgstr "Zobraziť voľby zjednodušeného ovládania v paneli."
 
-#: usr/lib/lightdm-settings/lightdm-settings:266
+#: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Battery power"
 msgstr "Energia batérie"
 
-#: usr/lib/lightdm-settings/lightdm-settings:267
+#: usr/lib/lightdm-settings/lightdm-settings:261
 msgid "On laptops, show the battery power in the panel."
 msgstr "Na prenosných počítačoch zobraziť stav energie batérie v paneli."
 
-#: usr/lib/lightdm-settings/lightdm-settings:270
+#: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "Keyboard layout"
 msgstr "Rozloženie klávesnice"
 
-#: usr/lib/lightdm-settings/lightdm-settings:271
+#: usr/lib/lightdm-settings/lightdm-settings:265
 msgid "Show the keyboard layout in the panel."
 msgstr "Zobraziť rozloženie klávesnice v paneli."
 
-#: usr/lib/lightdm-settings/lightdm-settings:274
+#: usr/lib/lightdm-settings/lightdm-settings:268
 msgid "Quit menu"
 msgstr "Ponuka ukončenia"
 
-#: usr/lib/lightdm-settings/lightdm-settings:275
+#: usr/lib/lightdm-settings/lightdm-settings:269
 msgid "Show the quit menu in the panel."
 msgstr "Zobraziť ponuku ukončenia v paneli."
 
-#: usr/lib/lightdm-settings/lightdm-settings:279
+#: usr/lib/lightdm-settings/lightdm-settings:273
 msgid "Clock"
 msgstr "Hodiny"
 
-#: usr/lib/lightdm-settings/lightdm-settings:280
+#: usr/lib/lightdm-settings/lightdm-settings:274
 msgid "Show a clock in the panel."
 msgstr "Zobraziť hodiny v paneli."
 
-#: usr/lib/lightdm-settings/lightdm-settings:290
+#: usr/lib/lightdm-settings/lightdm-settings:284
 msgid "Clock format"
 msgstr "Formát hodín"
 
-#: usr/lib/lightdm-settings/lightdm-settings:291
+#: usr/lib/lightdm-settings/lightdm-settings:285
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
 "Na adrese https://www.foragoodstrftime.com získate viac informácií o "
 "formátovaní."
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:199
+#: usr/lib/lightdm-settings/SettingsWidgets.py:235
 msgid "Choose an Image File"
 msgstr "Výber súboru obrázku"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:202
+#: usr/lib/lightdm-settings/SettingsWidgets.py:238
 msgid "_Cancel"
 msgstr "_Zrušiť"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:203
+#: usr/lib/lightdm-settings/SettingsWidgets.py:239
 msgid "_Open"
 msgstr "_Otvoriť"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:206
+#: usr/lib/lightdm-settings/SettingsWidgets.py:242
 msgid "Image files"
 msgstr "Súbory obrázkov"
 

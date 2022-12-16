@@ -7,89 +7,94 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-11-30 11:30+0000\n"
-"PO-Revision-Date: 2022-06-18 17:55+0000\n"
+"POT-Creation-Date: 2022-12-02 18:07+0000\n"
+"PO-Revision-Date: 2022-12-05 08:22+0000\n"
 "Last-Translator: Anton Hryb <Unknown>\n"
 "Language-Team: Belarusian <be@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-12-02 13:17+0000\n"
-"X-Generator: Launchpad (build 51cef3d08dff1e227b5ada709bd67280c567d4be)\n"
+"X-Launchpad-Export-Date: 2022-12-16 11:47+0000\n"
+"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:43
-#: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
+#: usr/lib/lightdm-settings/lightdm-settings:41
+#: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:25
 #: generate_desktop_files:52
 msgid "Login Window"
 msgstr "Акно ўваходу"
 
-#: usr/lib/lightdm-settings/lightdm-settings:65
+#: usr/lib/lightdm-settings/lightdm-settings:63
 msgid "Quit"
 msgstr "Выйсці"
 
-#: usr/lib/lightdm-settings/lightdm-settings:138
+#: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Appearance"
 msgstr "Выгляд"
 
-#: usr/lib/lightdm-settings/lightdm-settings:139
-#: usr/lib/lightdm-settings/lightdm-settings:141
-#: usr/lib/lightdm-settings/lightdm-settings:142
+#: usr/lib/lightdm-settings/lightdm-settings:130
+#: usr/lib/lightdm-settings/lightdm-settings:132
+#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
 msgstr "Фон"
 
-#: usr/lib/lightdm-settings/lightdm-settings:145
-#: usr/lib/lightdm-settings/lightdm-settings:146
+#: usr/lib/lightdm-settings/lightdm-settings:136
+#: usr/lib/lightdm-settings/lightdm-settings:137
 msgid "Background color"
 msgstr "Фонавы колер"
 
-#: usr/lib/lightdm-settings/lightdm-settings:151
+#: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Stretch background across multiple monitors"
 msgstr "Расцягнуць фон на некалькі манітораў"
 
-#: usr/lib/lightdm-settings/lightdm-settings:155
+#: usr/lib/lightdm-settings/lightdm-settings:145
 msgid "Draw user backgrounds"
 msgstr "Адлюстраваць фон канкрэтнага карыстальніка"
 
-#: usr/lib/lightdm-settings/lightdm-settings:156
+#: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "When a user is selected, show that user's background."
 msgstr "Калі карыстальнік выбраны, паказаць яго ўласны фон."
 
-#: usr/lib/lightdm-settings/lightdm-settings:159
+#: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid"
 msgstr "Паказаць сетку"
 
-#: usr/lib/lightdm-settings/lightdm-settings:160
+#: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Draw a grid of white dots on top of the background."
 msgstr "Паказаць сетку з белых кропак зверху фону."
 
-#: usr/lib/lightdm-settings/lightdm-settings:163
+#: usr/lib/lightdm-settings/lightdm-settings:153
 msgid "Themes"
 msgstr "Тэмы"
 
-#: usr/lib/lightdm-settings/lightdm-settings:165
-#: usr/lib/lightdm-settings/lightdm-settings:166
+#: usr/lib/lightdm-settings/lightdm-settings:155
+#: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "GTK theme"
 msgstr "Тэма  GTK"
 
-#: usr/lib/lightdm-settings/lightdm-settings:169
-#: usr/lib/lightdm-settings/lightdm-settings:170
+#: usr/lib/lightdm-settings/lightdm-settings:159
+#: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Icon theme"
 msgstr "Тэма значкоў"
 
-#: usr/lib/lightdm-settings/lightdm-settings:173
-#: usr/lib/lightdm-settings/lightdm-settings:174
-msgid "Mouse cursor"
-msgstr "Курсор мышы"
+#: usr/lib/lightdm-settings/lightdm-settings:163
+#: usr/lib/lightdm-settings/lightdm-settings:164
+msgid "Mouse pointer"
+msgstr "Указальнік мышы"
 
-#: usr/lib/lightdm-settings/lightdm-settings:177
+#: usr/lib/lightdm-settings/lightdm-settings:167
+#: usr/lib/lightdm-settings/lightdm-settings:168
+msgid "Mouse pointer size"
+msgstr "Памер указальніка мышы"
+
+#: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Optional pictures"
 msgstr "Дадатковыя малюнкі"
 
-#: usr/lib/lightdm-settings/lightdm-settings:179
+#: usr/lib/lightdm-settings/lightdm-settings:173
 msgid "Other monitors"
 msgstr "Іншыя маніторы"
 
-#: usr/lib/lightdm-settings/lightdm-settings:180
+#: usr/lib/lightdm-settings/lightdm-settings:174
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
@@ -97,47 +102,47 @@ msgstr ""
 "Калі ў вас ёсць некалькі манітораў, спіс карыстальнікаў размяшчаецца на "
 "актыўным, а гэты малюнак на іншых."
 
-#: usr/lib/lightdm-settings/lightdm-settings:183
+#: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Bottom left"
 msgstr "Унізе злева"
 
-#: usr/lib/lightdm-settings/lightdm-settings:184
+#: usr/lib/lightdm-settings/lightdm-settings:178
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr "Выбраць малюнак для паказу ўнізе злева акна ўваходу."
 
-#: usr/lib/lightdm-settings/lightdm-settings:190
+#: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Users"
 msgstr "Карыстальнікі"
 
-#: usr/lib/lightdm-settings/lightdm-settings:191
+#: usr/lib/lightdm-settings/lightdm-settings:185
 msgid "User list"
 msgstr "Спіс карыстальнікаў"
 
-#: usr/lib/lightdm-settings/lightdm-settings:194
+#: usr/lib/lightdm-settings/lightdm-settings:188
 msgid "Allow manual login"
 msgstr "Дазволіць ручны ўваход"
 
-#: usr/lib/lightdm-settings/lightdm-settings:195
+#: usr/lib/lightdm-settings/lightdm-settings:189
 msgid "Add an option in the login window to enter a username."
 msgstr "Дадаць опцыю для ўводу імя карыстальніка ў акне ўваходу."
 
-#: usr/lib/lightdm-settings/lightdm-settings:199
+#: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Hide the user list"
 msgstr "Схаваць спіс карыстальнікаў"
 
-#: usr/lib/lightdm-settings/lightdm-settings:200
+#: usr/lib/lightdm-settings/lightdm-settings:194
 msgid "Hide the list of users in the login window."
 msgstr "Схаваць спіс карыстальнікаў у акне ўваходу."
 
-#: usr/lib/lightdm-settings/lightdm-settings:204
+#: usr/lib/lightdm-settings/lightdm-settings:198
 msgid "Guest sessions"
 msgstr "Гасцявыя сесіі"
 
-#: usr/lib/lightdm-settings/lightdm-settings:206
+#: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Allow guest sessions"
 msgstr "Дазволіць гасцявыя сесіі"
 
-#: usr/lib/lightdm-settings/lightdm-settings:207
+#: usr/lib/lightdm-settings/lightdm-settings:201
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
@@ -145,26 +150,26 @@ msgstr ""
 "Дазволіць гасцям карыстацца камп'ютарам без пароля. Часовы ўліковы запіс "
 "госця ствараецца аўтаматычна калі ён уваходзіць."
 
-#: usr/lib/lightdm-settings/lightdm-settings:210
+#: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "Automatic login"
 msgstr "Аўтаматычны ўваход"
 
-#: usr/lib/lightdm-settings/lightdm-settings:213
+#: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Username"
 msgstr "Імя карыстальніка"
 
-#: usr/lib/lightdm-settings/lightdm-settings:214
+#: usr/lib/lightdm-settings/lightdm-settings:208
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
 "Папярэджанне: Аўтаматычны ўваход будзе няўдалым, калі хатні каталог "
 "карыстальніка зашыфраваны."
 
-#: usr/lib/lightdm-settings/lightdm-settings:218
+#: usr/lib/lightdm-settings/lightdm-settings:212
 msgid "Delay before connection (in seconds)"
 msgstr "Затрымка перад злучэннем (у секундах)"
 
-#: usr/lib/lightdm-settings/lightdm-settings:219
+#: usr/lib/lightdm-settings/lightdm-settings:213
 msgid ""
 "If this option is set the login screen will be shown for this many seconds "
 "before the automatic login occurs. Any user activity will cancel the "
@@ -174,55 +179,55 @@ msgstr ""
 "секунд перад аўтаматычным уваходам. Любая актыўнасць карыстальніка скасуе "
 "адлік."
 
-#: usr/lib/lightdm-settings/lightdm-settings:222
+#: usr/lib/lightdm-settings/lightdm-settings:216
 msgid "These settings require a computer reboot to take effect."
 msgstr ""
 "Каб уступіць у сілу, гэтыя налады патрабуюць перазагрузкі камп'ютара."
 
-#: usr/lib/lightdm-settings/lightdm-settings:227
-#: usr/lib/lightdm-settings/lightdm-settings:228
+#: usr/lib/lightdm-settings/lightdm-settings:221
+#: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "Settings"
 msgstr "Налады"
 
+#: usr/lib/lightdm-settings/lightdm-settings:224
 #: usr/lib/lightdm-settings/lightdm-settings:230
-#: usr/lib/lightdm-settings/lightdm-settings:236
 msgid "Activate numlock"
 msgstr "Актывізаваць Num Lock"
 
-#: usr/lib/lightdm-settings/lightdm-settings:236
+#: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Please install numlockx to use this option."
 msgstr "Усталюйце numlockx каб карыстацца гэтай опцыяй."
 
-#: usr/lib/lightdm-settings/lightdm-settings:238
+#: usr/lib/lightdm-settings/lightdm-settings:232
 msgid "Activate numlock in the login window."
 msgstr "Актывізаваць Num Lock у акне ўваходу"
 
-#: usr/lib/lightdm-settings/lightdm-settings:244
-#: usr/lib/lightdm-settings/lightdm-settings:251
+#: usr/lib/lightdm-settings/lightdm-settings:238
+#: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Auto"
 msgstr "Аўтаматычна"
 
-#: usr/lib/lightdm-settings/lightdm-settings:245
+#: usr/lib/lightdm-settings/lightdm-settings:239
 msgid "Enable"
 msgstr "Уключыць"
 
-#: usr/lib/lightdm-settings/lightdm-settings:246
+#: usr/lib/lightdm-settings/lightdm-settings:240
 msgid "Disable"
 msgstr "Адключыць"
 
-#: usr/lib/lightdm-settings/lightdm-settings:247
+#: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "HiDPI support"
 msgstr "Падтрымка HiDPI"
 
-#: usr/lib/lightdm-settings/lightdm-settings:248
+#: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Support for high pixel density and Retina displays."
 msgstr "Падтрымка высокай шчыльнасці пікселяў і манітораў Retina."
 
-#: usr/lib/lightdm-settings/lightdm-settings:252
+#: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Monitor"
 msgstr "Манітор"
 
-#: usr/lib/lightdm-settings/lightdm-settings:253
+#: usr/lib/lightdm-settings/lightdm-settings:247
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
@@ -230,81 +235,81 @@ msgstr ""
 "Выберыце на якім маніторы трэба паказваць акно ўваходу, або выберыце "
 "'Аўтаматычна', калі жадаеце прытрымлівацца курсора мышы."
 
-#: usr/lib/lightdm-settings/lightdm-settings:256
+#: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Panel indicators"
 msgstr "Індыкатары панэлі"
 
-#: usr/lib/lightdm-settings/lightdm-settings:258
+#: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Hostname"
 msgstr "Імя хаста"
 
-#: usr/lib/lightdm-settings/lightdm-settings:259
+#: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Show the computer hostname in the panel."
 msgstr "Паказваць імя хаста камп'ютара на панэлі."
 
-#: usr/lib/lightdm-settings/lightdm-settings:262
+#: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Accessibility options"
 msgstr "Опцыі даступнасці"
 
-#: usr/lib/lightdm-settings/lightdm-settings:263
+#: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Show accessibility options in the panel."
 msgstr "Паказваць опцыі даступнасці на панэлі."
 
-#: usr/lib/lightdm-settings/lightdm-settings:266
+#: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Battery power"
 msgstr "Зарад батарэі"
 
-#: usr/lib/lightdm-settings/lightdm-settings:267
+#: usr/lib/lightdm-settings/lightdm-settings:261
 msgid "On laptops, show the battery power in the panel."
 msgstr "Паказваць зарад батарэі ноўтбука на панэлі."
 
-#: usr/lib/lightdm-settings/lightdm-settings:270
+#: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "Keyboard layout"
 msgstr "Раскладка клавіятуры"
 
-#: usr/lib/lightdm-settings/lightdm-settings:271
+#: usr/lib/lightdm-settings/lightdm-settings:265
 msgid "Show the keyboard layout in the panel."
 msgstr "Паказваць раскладку клавіятуры на панэлі."
 
-#: usr/lib/lightdm-settings/lightdm-settings:274
+#: usr/lib/lightdm-settings/lightdm-settings:268
 msgid "Quit menu"
 msgstr "Меню выхаду"
 
-#: usr/lib/lightdm-settings/lightdm-settings:275
+#: usr/lib/lightdm-settings/lightdm-settings:269
 msgid "Show the quit menu in the panel."
 msgstr "Паказваць меню выхаду на панэлі."
 
-#: usr/lib/lightdm-settings/lightdm-settings:279
+#: usr/lib/lightdm-settings/lightdm-settings:273
 msgid "Clock"
 msgstr "Гадзіннік"
 
-#: usr/lib/lightdm-settings/lightdm-settings:280
+#: usr/lib/lightdm-settings/lightdm-settings:274
 msgid "Show a clock in the panel."
 msgstr "Паказваць гадзіннік на панэлі."
 
-#: usr/lib/lightdm-settings/lightdm-settings:290
+#: usr/lib/lightdm-settings/lightdm-settings:284
 msgid "Clock format"
 msgstr "Фармат гадзінніка"
 
-#: usr/lib/lightdm-settings/lightdm-settings:291
+#: usr/lib/lightdm-settings/lightdm-settings:285
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
 "Глядзіце падрабязней аб фарматах на https://www.foragoodstrftime.com."
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:199
+#: usr/lib/lightdm-settings/SettingsWidgets.py:235
 msgid "Choose an Image File"
 msgstr "Выбраць выяву"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:202
+#: usr/lib/lightdm-settings/SettingsWidgets.py:238
 msgid "_Cancel"
 msgstr "_Скасаваць"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:203
+#: usr/lib/lightdm-settings/SettingsWidgets.py:239
 msgid "_Open"
 msgstr "_Адкрыць"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:206
+#: usr/lib/lightdm-settings/SettingsWidgets.py:242
 msgid "Image files"
 msgstr "Выявы"
 

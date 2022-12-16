@@ -7,89 +7,94 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-11-30 11:30+0000\n"
-"PO-Revision-Date: 2020-12-01 18:39+0000\n"
+"POT-Creation-Date: 2022-12-02 18:07+0000\n"
+"PO-Revision-Date: 2022-12-03 12:09+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-12-02 13:17+0000\n"
-"X-Generator: Launchpad (build 51cef3d08dff1e227b5ada709bd67280c567d4be)\n"
+"X-Launchpad-Export-Date: 2022-12-16 11:47+0000\n"
+"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:43
-#: usr/lib/lightdm-settings/lightdm-settings:75 generate_desktop_files:25
+#: usr/lib/lightdm-settings/lightdm-settings:41
+#: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:25
 #: generate_desktop_files:52
 msgid "Login Window"
 msgstr "Zaslon prijave"
 
-#: usr/lib/lightdm-settings/lightdm-settings:65
+#: usr/lib/lightdm-settings/lightdm-settings:63
 msgid "Quit"
 msgstr "Zatvori"
 
-#: usr/lib/lightdm-settings/lightdm-settings:138
+#: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Appearance"
 msgstr "Izgled"
 
-#: usr/lib/lightdm-settings/lightdm-settings:139
-#: usr/lib/lightdm-settings/lightdm-settings:141
-#: usr/lib/lightdm-settings/lightdm-settings:142
+#: usr/lib/lightdm-settings/lightdm-settings:130
+#: usr/lib/lightdm-settings/lightdm-settings:132
+#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
 msgstr "Pozadina"
 
-#: usr/lib/lightdm-settings/lightdm-settings:145
-#: usr/lib/lightdm-settings/lightdm-settings:146
+#: usr/lib/lightdm-settings/lightdm-settings:136
+#: usr/lib/lightdm-settings/lightdm-settings:137
 msgid "Background color"
 msgstr "Boja pozadine"
 
-#: usr/lib/lightdm-settings/lightdm-settings:151
+#: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Stretch background across multiple monitors"
 msgstr "Rastegni pozadinu na više zaslona"
 
-#: usr/lib/lightdm-settings/lightdm-settings:155
+#: usr/lib/lightdm-settings/lightdm-settings:145
 msgid "Draw user backgrounds"
 msgstr "Iscrtaj pozadine korisnika"
 
-#: usr/lib/lightdm-settings/lightdm-settings:156
+#: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "When a user is selected, show that user's background."
 msgstr "Kada je korisnik odabran, prikaži pozadinu odabranog korisnika."
 
-#: usr/lib/lightdm-settings/lightdm-settings:159
+#: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid"
 msgstr "Iscrtaj mrežu"
 
-#: usr/lib/lightdm-settings/lightdm-settings:160
+#: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Draw a grid of white dots on top of the background."
 msgstr "Iscrtaj mrežu od bijelih točkica preko pozadine."
 
-#: usr/lib/lightdm-settings/lightdm-settings:163
+#: usr/lib/lightdm-settings/lightdm-settings:153
 msgid "Themes"
 msgstr "Teme"
 
-#: usr/lib/lightdm-settings/lightdm-settings:165
-#: usr/lib/lightdm-settings/lightdm-settings:166
+#: usr/lib/lightdm-settings/lightdm-settings:155
+#: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "GTK theme"
 msgstr "GTK tema"
 
-#: usr/lib/lightdm-settings/lightdm-settings:169
-#: usr/lib/lightdm-settings/lightdm-settings:170
+#: usr/lib/lightdm-settings/lightdm-settings:159
+#: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Icon theme"
 msgstr "Ikona teme"
 
-#: usr/lib/lightdm-settings/lightdm-settings:173
-#: usr/lib/lightdm-settings/lightdm-settings:174
-msgid "Mouse cursor"
+#: usr/lib/lightdm-settings/lightdm-settings:163
+#: usr/lib/lightdm-settings/lightdm-settings:164
+msgid "Mouse pointer"
 msgstr "Pokazivač miša"
 
-#: usr/lib/lightdm-settings/lightdm-settings:177
+#: usr/lib/lightdm-settings/lightdm-settings:167
+#: usr/lib/lightdm-settings/lightdm-settings:168
+msgid "Mouse pointer size"
+msgstr "Veličina pokazivača miša"
+
+#: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Optional pictures"
 msgstr "Dodatne slike"
 
-#: usr/lib/lightdm-settings/lightdm-settings:179
+#: usr/lib/lightdm-settings/lightdm-settings:173
 msgid "Other monitors"
 msgstr "Ostali zasloni"
 
-#: usr/lib/lightdm-settings/lightdm-settings:180
+#: usr/lib/lightdm-settings/lightdm-settings:174
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
@@ -97,48 +102,48 @@ msgstr ""
 "Ako imate više zaslona, popis korisnika je smješten na aktivnom zaslonu  a "
 "slike na ostalima."
 
-#: usr/lib/lightdm-settings/lightdm-settings:183
+#: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Bottom left"
 msgstr "Pri dnu lijevo"
 
-#: usr/lib/lightdm-settings/lightdm-settings:184
+#: usr/lib/lightdm-settings/lightdm-settings:178
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr ""
 "Odaberite sliku koja će se prikazati pri dnu lijevo od zaslona prijave."
 
-#: usr/lib/lightdm-settings/lightdm-settings:190
+#: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Users"
 msgstr "Korisnici"
 
-#: usr/lib/lightdm-settings/lightdm-settings:191
+#: usr/lib/lightdm-settings/lightdm-settings:185
 msgid "User list"
 msgstr "Popis korisnika"
 
-#: usr/lib/lightdm-settings/lightdm-settings:194
+#: usr/lib/lightdm-settings/lightdm-settings:188
 msgid "Allow manual login"
 msgstr "Dopusti ručnu prijavu"
 
-#: usr/lib/lightdm-settings/lightdm-settings:195
+#: usr/lib/lightdm-settings/lightdm-settings:189
 msgid "Add an option in the login window to enter a username."
 msgstr "Dodaje mogućnost upisa korisničkog imena u prozor prijave."
 
-#: usr/lib/lightdm-settings/lightdm-settings:199
+#: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Hide the user list"
 msgstr "Sakrij popis korisnika"
 
-#: usr/lib/lightdm-settings/lightdm-settings:200
+#: usr/lib/lightdm-settings/lightdm-settings:194
 msgid "Hide the list of users in the login window."
 msgstr "Sakriva popis korisnika u zaslonu prijave."
 
-#: usr/lib/lightdm-settings/lightdm-settings:204
+#: usr/lib/lightdm-settings/lightdm-settings:198
 msgid "Guest sessions"
 msgstr "Prijava gosta"
 
-#: usr/lib/lightdm-settings/lightdm-settings:206
+#: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Allow guest sessions"
 msgstr "Dopusti prijavu gosta"
 
-#: usr/lib/lightdm-settings/lightdm-settings:207
+#: usr/lib/lightdm-settings/lightdm-settings:201
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
@@ -146,26 +151,26 @@ msgstr ""
 "Dopušta gostujućim korisnicima korištenje računala bez lozinke. Stvara se "
 "privremeni gostujući račun automatski nakon prijave gosta."
 
-#: usr/lib/lightdm-settings/lightdm-settings:210
+#: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "Automatic login"
 msgstr "Automatska prijava"
 
-#: usr/lib/lightdm-settings/lightdm-settings:213
+#: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Username"
 msgstr "Korisničko ime"
 
-#: usr/lib/lightdm-settings/lightdm-settings:214
+#: usr/lib/lightdm-settings/lightdm-settings:208
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
 "Upozorenje: Automatska prijava neće uspjeti ako je osobna mapa korisnika "
 "šifrirana."
 
-#: usr/lib/lightdm-settings/lightdm-settings:218
+#: usr/lib/lightdm-settings/lightdm-settings:212
 msgid "Delay before connection (in seconds)"
 msgstr "Odgoda prije prijave (u sekundama)"
 
-#: usr/lib/lightdm-settings/lightdm-settings:219
+#: usr/lib/lightdm-settings/lightdm-settings:213
 msgid ""
 "If this option is set the login screen will be shown for this many seconds "
 "before the automatic login occurs. Any user activity will cancel the "
@@ -175,56 +180,56 @@ msgstr ""
 "sekundi ovdje postavljenih  prije automatske prijave. Bilo kakva aktivnost "
 "korisnika poništiti će odbrojavanje."
 
-#: usr/lib/lightdm-settings/lightdm-settings:222
+#: usr/lib/lightdm-settings/lightdm-settings:216
 msgid "These settings require a computer reboot to take effect."
 msgstr ""
 "Ove postavke zahtijevaju ponovno pokretanje računala kako bi se promjene "
 "primijenile."
 
-#: usr/lib/lightdm-settings/lightdm-settings:227
-#: usr/lib/lightdm-settings/lightdm-settings:228
+#: usr/lib/lightdm-settings/lightdm-settings:221
+#: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "Settings"
 msgstr "Postavke"
 
+#: usr/lib/lightdm-settings/lightdm-settings:224
 #: usr/lib/lightdm-settings/lightdm-settings:230
-#: usr/lib/lightdm-settings/lightdm-settings:236
 msgid "Activate numlock"
 msgstr "Aktiviraj numlock"
 
-#: usr/lib/lightdm-settings/lightdm-settings:236
+#: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Please install numlockx to use this option."
 msgstr "Instalirajte numlockx za korištenje ove mogućnosti."
 
-#: usr/lib/lightdm-settings/lightdm-settings:238
+#: usr/lib/lightdm-settings/lightdm-settings:232
 msgid "Activate numlock in the login window."
 msgstr "Aktiviraj brojčanu tipkovnicu u prozoru prijave."
 
-#: usr/lib/lightdm-settings/lightdm-settings:244
-#: usr/lib/lightdm-settings/lightdm-settings:251
+#: usr/lib/lightdm-settings/lightdm-settings:238
+#: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Auto"
 msgstr "Automatski"
 
-#: usr/lib/lightdm-settings/lightdm-settings:245
+#: usr/lib/lightdm-settings/lightdm-settings:239
 msgid "Enable"
 msgstr "Omogući"
 
-#: usr/lib/lightdm-settings/lightdm-settings:246
+#: usr/lib/lightdm-settings/lightdm-settings:240
 msgid "Disable"
 msgstr "Onemogući"
 
-#: usr/lib/lightdm-settings/lightdm-settings:247
+#: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "HiDPI support"
 msgstr "HiDPI podrška"
 
-#: usr/lib/lightdm-settings/lightdm-settings:248
+#: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Support for high pixel density and Retina displays."
 msgstr "Podrška za Retina i zaslone visoke razlučivosti."
 
-#: usr/lib/lightdm-settings/lightdm-settings:252
+#: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Monitor"
 msgstr "Zaslon"
 
-#: usr/lib/lightdm-settings/lightdm-settings:253
+#: usr/lib/lightdm-settings/lightdm-settings:247
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
@@ -232,82 +237,82 @@ msgstr ""
 "Odaberite na kojemu će se zaslonu prikazati zaslon prijave, ili odaberite "
 "'Automatski' ako želite slijediti miš."
 
-#: usr/lib/lightdm-settings/lightdm-settings:256
+#: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Panel indicators"
 msgstr "Indikatori panela"
 
-#: usr/lib/lightdm-settings/lightdm-settings:258
+#: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Hostname"
 msgstr "Naziv računala"
 
-#: usr/lib/lightdm-settings/lightdm-settings:259
+#: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Show the computer hostname in the panel."
 msgstr "Prikzuje naziv računala na panelu."
 
-#: usr/lib/lightdm-settings/lightdm-settings:262
+#: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Accessibility options"
 msgstr "Mogućnosti pristupačnosti"
 
-#: usr/lib/lightdm-settings/lightdm-settings:263
+#: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Show accessibility options in the panel."
 msgstr "Prikazuje mogućnosti pristupačnosti na panelu."
 
-#: usr/lib/lightdm-settings/lightdm-settings:266
+#: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Battery power"
 msgstr "Energija baterije"
 
-#: usr/lib/lightdm-settings/lightdm-settings:267
+#: usr/lib/lightdm-settings/lightdm-settings:261
 msgid "On laptops, show the battery power in the panel."
 msgstr "Na prijenosnicima, prikaži energiju baterije na panelu."
 
-#: usr/lib/lightdm-settings/lightdm-settings:270
+#: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "Keyboard layout"
 msgstr "Raspored tipkovnice"
 
-#: usr/lib/lightdm-settings/lightdm-settings:271
+#: usr/lib/lightdm-settings/lightdm-settings:265
 msgid "Show the keyboard layout in the panel."
 msgstr "Prikaži raspored tipkovnice na panelu."
 
-#: usr/lib/lightdm-settings/lightdm-settings:274
+#: usr/lib/lightdm-settings/lightdm-settings:268
 msgid "Quit menu"
 msgstr "Izbornik isključivanja"
 
-#: usr/lib/lightdm-settings/lightdm-settings:275
+#: usr/lib/lightdm-settings/lightdm-settings:269
 msgid "Show the quit menu in the panel."
 msgstr "Prikaži izbornik isključivanja na panelu."
 
-#: usr/lib/lightdm-settings/lightdm-settings:279
+#: usr/lib/lightdm-settings/lightdm-settings:273
 msgid "Clock"
 msgstr "Sat"
 
-#: usr/lib/lightdm-settings/lightdm-settings:280
+#: usr/lib/lightdm-settings/lightdm-settings:274
 msgid "Show a clock in the panel."
 msgstr "Prikaži sat na panelu."
 
-#: usr/lib/lightdm-settings/lightdm-settings:290
+#: usr/lib/lightdm-settings/lightdm-settings:284
 msgid "Clock format"
 msgstr "Format sata"
 
-#: usr/lib/lightdm-settings/lightdm-settings:291
+#: usr/lib/lightdm-settings/lightdm-settings:285
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
 "Posjetite https://www.foragoodstrftime.com za više informacija o formatu "
 "sata."
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:199
+#: usr/lib/lightdm-settings/SettingsWidgets.py:235
 msgid "Choose an Image File"
 msgstr "Odaberi datoteku slike"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:202
+#: usr/lib/lightdm-settings/SettingsWidgets.py:238
 msgid "_Cancel"
 msgstr "_Odustani"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:203
+#: usr/lib/lightdm-settings/SettingsWidgets.py:239
 msgid "_Open"
 msgstr "_Otvori"
 
-#: usr/lib/lightdm-settings/SettingsWidgets.py:206
+#: usr/lib/lightdm-settings/SettingsWidgets.py:242
 msgid "Image files"
 msgstr "Datoteke slika"
 
