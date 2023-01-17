@@ -257,6 +257,18 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Show accessibility options in the panel."))
         section.add_row(row)
 
+        onboard_layouts_path = "/usr/share/onboard/layouts"
+        if os.path.exists(onboard_layouts_path):
+            layout_options = []
+            for filename in sorted(os.listdir(onboard_layouts_path)):
+                if filename.endswith(".onboard"):
+                    path = os.path.join(onboard_layouts_path, filename)
+                    name = filename.replace(".onboard", "").replace("_", " ").title()
+                    layout_options.append([path, name])
+            if len(layout_options) > 0:
+                row = SettingsRow(Gtk.Label(label=_("On-screen keyboard layout")), SettingsCombo(keyfile, settings, "onscreen-keyboard-layout", layout_options, "string", size_group))
+                section.add_row(row)
+
         row = SettingsRow(Gtk.Label(label=_("Battery power")), SettingsSwitch(keyfile, settings, "show-power"))
         row.set_tooltip_text(_("On laptops, show the battery power in the panel."))
         section.add_row(row)
