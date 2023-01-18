@@ -130,7 +130,7 @@ class Application(Gtk.Application):
         section = page.add_section(_("Background"))
 
         row = SettingsRow(Gtk.Label(label=_("Background")), SettingsPictureChooser(keyfile, settings, "background"))
-        row.set_tooltip_text(_("Background"))
+        row.set_tooltip_text(_("Note: Don't select a background from your home directory if it's encrypted or if its permissions are restricted."))
         section.add_row(row)
 
         row = SettingsRow(Gtk.Label(label=_("Background color")), SettingsColorChooser(keyfile, settings, "background-color"))
