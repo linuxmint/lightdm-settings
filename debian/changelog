@@ -1,3 +1,11 @@
+lightdm-settings (1.8.0) victoria; urgency=medium
+
+  * a11y: Make the onboard layout configurable
+  * Add a tooltip for the background setting.
+  * l10n: Update POT
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 01 Jun 2023 11:14:22 +0100
+
 lightdm-settings (1.6.1) vera; urgency=medium
 
   * l10n: Update translations
