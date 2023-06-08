@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-12-02 18:07+0000\n"
-"PO-Revision-Date: 2022-12-05 22:30+0000\n"
-"Last-Translator: Gilberto vagner <vagner.unix@gmail.com>\n"
+"POT-Creation-Date: 2023-06-01 11:14+0100\n"
+"PO-Revision-Date: 2023-06-02 22:10+0000\n"
+"Last-Translator: Alberlan Lopes <alberlan@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-12-16 11:47+0000\n"
-"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
+"X-Launchpad-Export-Date: 2023-06-08 10:22+0000\n"
+"X-Generator: Launchpad (build 620cd5280e3a973662e263ebf9346837ed657a46)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:25
@@ -33,9 +33,16 @@ msgstr "Aparência"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 #: usr/lib/lightdm-settings/lightdm-settings:132
-#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
 msgstr "Plano de Fundo"
+
+#: usr/lib/lightdm-settings/lightdm-settings:133
+msgid ""
+"Note: Don't select a background from your home directory if it's encrypted "
+"or if its permissions are restricted."
+msgstr ""
+"Observação: Não selecione um plano de fundo de seu diretório inical se ele "
+"estiver encriptado ou se suas permissões forem restritas."
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:137
@@ -260,43 +267,47 @@ msgstr "Opções de acessibilidade"
 msgid "Show accessibility options in the panel."
 msgstr "Exibe opções de acessibilidade no painel."
 
-#: usr/lib/lightdm-settings/lightdm-settings:260
+#: usr/lib/lightdm-settings/lightdm-settings:269
+msgid "On-screen keyboard layout"
+msgstr "Disposição do teclado na tela"
+
+#: usr/lib/lightdm-settings/lightdm-settings:272
 msgid "Battery power"
 msgstr "Energia da bateria"
 
-#: usr/lib/lightdm-settings/lightdm-settings:261
+#: usr/lib/lightdm-settings/lightdm-settings:273
 msgid "On laptops, show the battery power in the panel."
 msgstr "Em notebooks, exibe o nível de energia da bateria no painel."
 
-#: usr/lib/lightdm-settings/lightdm-settings:264
+#: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "Keyboard layout"
 msgstr "Leiaute do teclado"
 
-#: usr/lib/lightdm-settings/lightdm-settings:265
+#: usr/lib/lightdm-settings/lightdm-settings:277
 msgid "Show the keyboard layout in the panel."
 msgstr "Mostrar o leiaute do teclado no painel."
 
-#: usr/lib/lightdm-settings/lightdm-settings:268
+#: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "Quit menu"
 msgstr "Menu Sair"
 
-#: usr/lib/lightdm-settings/lightdm-settings:269
+#: usr/lib/lightdm-settings/lightdm-settings:281
 msgid "Show the quit menu in the panel."
 msgstr "Exibe o menu Sair no painel."
 
-#: usr/lib/lightdm-settings/lightdm-settings:273
+#: usr/lib/lightdm-settings/lightdm-settings:285
 msgid "Clock"
 msgstr "Relógio"
 
-#: usr/lib/lightdm-settings/lightdm-settings:274
+#: usr/lib/lightdm-settings/lightdm-settings:286
 msgid "Show a clock in the panel."
 msgstr "Exibe o relógio no painel."
 
-#: usr/lib/lightdm-settings/lightdm-settings:284
+#: usr/lib/lightdm-settings/lightdm-settings:296
 msgid "Clock format"
 msgstr "Formato do relógio"
 
-#: usr/lib/lightdm-settings/lightdm-settings:285
+#: usr/lib/lightdm-settings/lightdm-settings:297
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""

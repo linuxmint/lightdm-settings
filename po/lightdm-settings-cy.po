@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-12-02 18:07+0000\n"
-"PO-Revision-Date: 2022-12-05 10:09+0000\n"
+"POT-Creation-Date: 2023-06-01 11:14+0100\n"
+"PO-Revision-Date: 2023-06-01 13:24+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: Welsh <cy@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-12-16 11:47+0000\n"
-"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
+"X-Launchpad-Export-Date: 2023-06-08 10:22+0000\n"
+"X-Generator: Launchpad (build 620cd5280e3a973662e263ebf9346837ed657a46)\n"
 "Language: cy\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:41
@@ -34,9 +34,16 @@ msgstr "Gwedd"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 #: usr/lib/lightdm-settings/lightdm-settings:132
-#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
 msgstr "Cefndir"
+
+#: usr/lib/lightdm-settings/lightdm-settings:133
+msgid ""
+"Note: Don't select a background from your home directory if it's encrypted "
+"or if its permissions are restricted."
+msgstr ""
+"Sylw: Peidiwch â dewis cefndir o'ch cyfeiriadur cartref os yw wedi ei "
+"amgryptio neu os yw ei ganiatâd wedi eu cyfyngu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:137
@@ -255,43 +262,47 @@ msgstr "Dewisiadau hygyrchedd"
 msgid "Show accessibility options in the panel."
 msgstr "Dangos dewisiadau hygyrchedd yn y panel."
 
-#: usr/lib/lightdm-settings/lightdm-settings:260
+#: usr/lib/lightdm-settings/lightdm-settings:269
+msgid "On-screen keyboard layout"
+msgstr "Cynllun bysellfwrdd ar-sgrin"
+
+#: usr/lib/lightdm-settings/lightdm-settings:272
 msgid "Battery power"
 msgstr "Pŵer batri"
 
-#: usr/lib/lightdm-settings/lightdm-settings:261
+#: usr/lib/lightdm-settings/lightdm-settings:273
 msgid "On laptops, show the battery power in the panel."
 msgstr "Ar liniaduron, dangos pŵer y batri yn y panel."
 
-#: usr/lib/lightdm-settings/lightdm-settings:264
+#: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "Keyboard layout"
 msgstr "Cynllun bysellfwrdd"
 
-#: usr/lib/lightdm-settings/lightdm-settings:265
+#: usr/lib/lightdm-settings/lightdm-settings:277
 msgid "Show the keyboard layout in the panel."
 msgstr "Dangos cynllun y bysellfwrdd yn y panel"
 
-#: usr/lib/lightdm-settings/lightdm-settings:268
+#: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "Quit menu"
 msgstr "Gadael y ddewislen"
 
-#: usr/lib/lightdm-settings/lightdm-settings:269
+#: usr/lib/lightdm-settings/lightdm-settings:281
 msgid "Show the quit menu in the panel."
 msgstr "Dangos y ddewislen gadael yn y panel."
 
-#: usr/lib/lightdm-settings/lightdm-settings:273
+#: usr/lib/lightdm-settings/lightdm-settings:285
 msgid "Clock"
 msgstr "Cloc"
 
-#: usr/lib/lightdm-settings/lightdm-settings:274
+#: usr/lib/lightdm-settings/lightdm-settings:286
 msgid "Show a clock in the panel."
 msgstr "Dangos cloc yn y panel"
 
-#: usr/lib/lightdm-settings/lightdm-settings:284
+#: usr/lib/lightdm-settings/lightdm-settings:296
 msgid "Clock format"
 msgstr "Fformat y cloc"
 
-#: usr/lib/lightdm-settings/lightdm-settings:285
+#: usr/lib/lightdm-settings/lightdm-settings:297
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""

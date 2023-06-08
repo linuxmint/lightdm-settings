@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-12-02 18:07+0000\n"
-"PO-Revision-Date: 2022-12-03 16:34+0000\n"
-"Last-Translator: Cornelius Zwalin <Unknown>\n"
+"POT-Creation-Date: 2023-06-01 11:14+0100\n"
+"PO-Revision-Date: 2023-06-05 11:44+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-12-16 11:47+0000\n"
-"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
+"X-Launchpad-Export-Date: 2023-06-08 10:21+0000\n"
+"X-Generator: Launchpad (build 620cd5280e3a973662e263ebf9346837ed657a46)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:25
@@ -33,9 +33,17 @@ msgstr "Erscheinungsbild"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 #: usr/lib/lightdm-settings/lightdm-settings:132
-#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
 msgstr "Hintergrund"
+
+#: usr/lib/lightdm-settings/lightdm-settings:133
+msgid ""
+"Note: Don't select a background from your home directory if it's encrypted "
+"or if its permissions are restricted."
+msgstr ""
+"Hinweis: wählen Sie keinen Hintergrund aus Ihrem persönlichen Ordner aus, "
+"wenn dieses verschlüsselt ist oder wenn seine Berechtigungen eingeschränkt "
+"sind."
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:137
@@ -258,43 +266,47 @@ msgstr "Barrierefreiheitsoptionen"
 msgid "Show accessibility options in the panel."
 msgstr "Die Barrierefreiheitsoptionen in der Leiste anzeigen."
 
-#: usr/lib/lightdm-settings/lightdm-settings:260
+#: usr/lib/lightdm-settings/lightdm-settings:269
+msgid "On-screen keyboard layout"
+msgstr "Bildschirmtastaturbelegung"
+
+#: usr/lib/lightdm-settings/lightdm-settings:272
 msgid "Battery power"
 msgstr "Akkuleistung"
 
-#: usr/lib/lightdm-settings/lightdm-settings:261
+#: usr/lib/lightdm-settings/lightdm-settings:273
 msgid "On laptops, show the battery power in the panel."
 msgstr "Auf Laptops die Akkuleistung in der Leiste anzeigen."
 
-#: usr/lib/lightdm-settings/lightdm-settings:264
+#: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "Keyboard layout"
 msgstr "Tastaturbelegung"
 
-#: usr/lib/lightdm-settings/lightdm-settings:265
+#: usr/lib/lightdm-settings/lightdm-settings:277
 msgid "Show the keyboard layout in the panel."
 msgstr "Die Tastaturbelegung in der Leiste anzeigen."
 
-#: usr/lib/lightdm-settings/lightdm-settings:268
+#: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "Quit menu"
 msgstr "Beendenmenü"
 
-#: usr/lib/lightdm-settings/lightdm-settings:269
+#: usr/lib/lightdm-settings/lightdm-settings:281
 msgid "Show the quit menu in the panel."
 msgstr "Das Beendenmenü in der Leiste anzeigen."
 
-#: usr/lib/lightdm-settings/lightdm-settings:273
+#: usr/lib/lightdm-settings/lightdm-settings:285
 msgid "Clock"
 msgstr "Uhr"
 
-#: usr/lib/lightdm-settings/lightdm-settings:274
+#: usr/lib/lightdm-settings/lightdm-settings:286
 msgid "Show a clock in the panel."
 msgstr "Eine Uhr in der Leiste anzeigen."
 
-#: usr/lib/lightdm-settings/lightdm-settings:284
+#: usr/lib/lightdm-settings/lightdm-settings:296
 msgid "Clock format"
 msgstr "Uhrformat"
 
-#: usr/lib/lightdm-settings/lightdm-settings:285
+#: usr/lib/lightdm-settings/lightdm-settings:297
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""

@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-12-02 18:07+0000\n"
-"PO-Revision-Date: 2022-12-05 13:13+0000\n"
+"POT-Creation-Date: 2023-06-01 11:14+0100\n"
+"PO-Revision-Date: 2023-06-02 22:38+0000\n"
 "Last-Translator: Isidro Pisa <isidro@utils.info>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-12-16 11:47+0000\n"
-"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
+"X-Launchpad-Export-Date: 2023-06-08 10:21+0000\n"
+"X-Generator: Launchpad (build 620cd5280e3a973662e263ebf9346837ed657a46)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:25
@@ -33,9 +33,16 @@ msgstr "Aparença"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 #: usr/lib/lightdm-settings/lightdm-settings:132
-#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
 msgstr "Fons"
+
+#: usr/lib/lightdm-settings/lightdm-settings:133
+msgid ""
+"Note: Don't select a background from your home directory if it's encrypted "
+"or if its permissions are restricted."
+msgstr ""
+"Nota: no seleccioneu un fons del vostre directori d'inici si aquest està "
+"xifrat o si té permisos restringits."
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:137
@@ -259,43 +266,47 @@ msgstr "Opcions d'accessibilitat"
 msgid "Show accessibility options in the panel."
 msgstr "Mostra les opcions d'accessibilitat al tauler."
 
-#: usr/lib/lightdm-settings/lightdm-settings:260
+#: usr/lib/lightdm-settings/lightdm-settings:269
+msgid "On-screen keyboard layout"
+msgstr "Disposició del teclat en pantalla"
+
+#: usr/lib/lightdm-settings/lightdm-settings:272
 msgid "Battery power"
 msgstr "Càrrega de la bateria"
 
-#: usr/lib/lightdm-settings/lightdm-settings:261
+#: usr/lib/lightdm-settings/lightdm-settings:273
 msgid "On laptops, show the battery power in the panel."
 msgstr "Als ordinadors portàtils, mostra la càrrega de la bateria al tauler."
 
-#: usr/lib/lightdm-settings/lightdm-settings:264
+#: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "Keyboard layout"
 msgstr "Disposició del teclat"
 
-#: usr/lib/lightdm-settings/lightdm-settings:265
+#: usr/lib/lightdm-settings/lightdm-settings:277
 msgid "Show the keyboard layout in the panel."
 msgstr "Mostra la disposició del teclat al tauler."
 
-#: usr/lib/lightdm-settings/lightdm-settings:268
+#: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "Quit menu"
 msgstr "Menú de tancament"
 
-#: usr/lib/lightdm-settings/lightdm-settings:269
+#: usr/lib/lightdm-settings/lightdm-settings:281
 msgid "Show the quit menu in the panel."
 msgstr "Mostra el menú de tancament al tauler."
 
-#: usr/lib/lightdm-settings/lightdm-settings:273
+#: usr/lib/lightdm-settings/lightdm-settings:285
 msgid "Clock"
 msgstr "Rellotge"
 
-#: usr/lib/lightdm-settings/lightdm-settings:274
+#: usr/lib/lightdm-settings/lightdm-settings:286
 msgid "Show a clock in the panel."
 msgstr "Mostra un rellotge al tauler."
 
-#: usr/lib/lightdm-settings/lightdm-settings:284
+#: usr/lib/lightdm-settings/lightdm-settings:296
 msgid "Clock format"
 msgstr "Format del rellotge"
 
-#: usr/lib/lightdm-settings/lightdm-settings:285
+#: usr/lib/lightdm-settings/lightdm-settings:297
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""

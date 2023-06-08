@@ -7,22 +7,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-12-02 18:07+0000\n"
-"PO-Revision-Date: 2022-12-04 10:41+0000\n"
+"POT-Creation-Date: 2023-06-01 11:14+0100\n"
+"PO-Revision-Date: 2023-06-02 17:21+0000\n"
 "Last-Translator: Kimmo Kujansuu <Unknown>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-12-16 11:47+0000\n"
-"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
+"X-Launchpad-Export-Date: 2023-06-08 10:21+0000\n"
+"X-Generator: Launchpad (build 620cd5280e3a973662e263ebf9346837ed657a46)\n"
 "Language: fi\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:41
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:25
 #: generate_desktop_files:52
 msgid "Login Window"
-msgstr "Kirjautumisikkuna"
+msgstr "Kirjautuminen"
 
 #: usr/lib/lightdm-settings/lightdm-settings:63
 msgid "Quit"
@@ -34,9 +34,16 @@ msgstr "Ulkoasu"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 #: usr/lib/lightdm-settings/lightdm-settings:132
-#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
 msgstr "Taustakuva"
+
+#: usr/lib/lightdm-settings/lightdm-settings:133
+msgid ""
+"Note: Don't select a background from your home directory if it's encrypted "
+"or if its permissions are restricted."
+msgstr ""
+"Huomaa: Älä valitse kotihakemiston taustaa, jos se on salattu tai sen "
+"käyttöoikeuksia on rajoitettu."
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:137
@@ -45,15 +52,17 @@ msgstr "Taustaväri"
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Stretch background across multiple monitors"
-msgstr "Venytä taustaa useille näytöille"
+msgstr "Venytä tausta kattamaan kaikki näytöt"
 
 #: usr/lib/lightdm-settings/lightdm-settings:145
 msgid "Draw user backgrounds"
-msgstr "Piirrä käyttäjien taustakuvat"
+msgstr "Näytä käyttäjän valitsema taustakuva"
 
 #: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "When a user is selected, show that user's background."
-msgstr "Kun käyttäjä on valittu, näytä kyseisen käyttäjän taustakuva."
+msgstr ""
+"Heti kun käyttäjä on valittu, näytetään kyseisen käyttäjän valitsema "
+"taustakuva."
 
 #: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid"
@@ -70,12 +79,12 @@ msgstr "Teemat"
 #: usr/lib/lightdm-settings/lightdm-settings:155
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "GTK theme"
-msgstr "GTK-teema"
+msgstr "Teema"
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 #: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Icon theme"
-msgstr "Kuvaketeema"
+msgstr "Kuvakkeet"
 
 #: usr/lib/lightdm-settings/lightdm-settings:163
 #: usr/lib/lightdm-settings/lightdm-settings:164
@@ -100,17 +109,17 @@ msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
-"Jos sinulla on useita näyttöjä, käyttäjälista asetetaan aktiiviselle "
-"näytölle ja tämä kuva muille."
+"Jos sinulla on useita näyttöjä, tietokoneen käyttäjät mainitaan aktiiviselle "
+"näytölle, sekä kuva."
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Bottom left"
-msgstr "Vasen alareuna"
+msgstr "Vasen alakulma"
 
 #: usr/lib/lightdm-settings/lightdm-settings:178
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr ""
-"Valitse kuva, joka näytetään kirjautumisikkunan vasemmassa alakulmassa."
+"Valitse kuva, joka näytetään kirjautumisen ikkunassa vasemmassa alakulmassa."
 
 #: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Users"
@@ -126,7 +135,8 @@ msgstr "Salli manuaalinen kirjautuminen"
 
 #: usr/lib/lightdm-settings/lightdm-settings:189
 msgid "Add an option in the login window to enter a username."
-msgstr "Lisää kirjautumisikkunaan vaihtoehdon käyttäjänimen syöttämiseksi."
+msgstr ""
+"Lisää kirjautumisen ikkunaan vaihtoehdon käyttäjänimen kirjoittamiseksi."
 
 #: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Hide the user list"
@@ -134,7 +144,7 @@ msgstr "Piilota käyttäjäluettelo"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid "Hide the list of users in the login window."
-msgstr "Piilota käyttäjäluettelo kirjautumisikkunassa."
+msgstr "Piilota käyttäjäluettelo kirjautumisen ikkunassa."
 
 #: usr/lib/lightdm-settings/lightdm-settings:198
 msgid "Guest sessions"
@@ -195,15 +205,15 @@ msgstr "Asetukset"
 #: usr/lib/lightdm-settings/lightdm-settings:224
 #: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Activate numlock"
-msgstr "Aktivoi numlock"
+msgstr "Aktivoi numlock - numeronäppäimet käyttöön"
 
 #: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Please install numlockx to use this option."
-msgstr "Asenna ohjelma numlockx käyttääksesi tätä."
+msgstr "Asenna ohjelma nimeltä numlockx käyttääksesi tätä ominaisuutta."
 
 #: usr/lib/lightdm-settings/lightdm-settings:232
 msgid "Activate numlock in the login window."
-msgstr "Aktivoi numlock kirjautumisikkunassa."
+msgstr "Aktivoi numeronäppäimet kirjautumisen ikkunassa."
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 #: usr/lib/lightdm-settings/lightdm-settings:245
@@ -220,7 +230,7 @@ msgstr "Poista käytöstä"
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "HiDPI support"
-msgstr "HiDPI tuki"
+msgstr "Tuki HiDPI, 4K, Quad HD, UHD"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Support for high pixel density and Retina displays."
@@ -244,11 +254,11 @@ msgstr "Paneelin ilmaisimet"
 
 #: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Hostname"
-msgstr "Laitenimi"
+msgstr "Koneen nimi"
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Show the computer hostname in the panel."
-msgstr "Näytä tietokoneen laitenimi paneelissa."
+msgstr "Näytä tietokoneen nimen paneelissa."
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Accessibility options"
@@ -258,43 +268,47 @@ msgstr "Esteettömyys"
 msgid "Show accessibility options in the panel."
 msgstr "Näytä esteettömyyden vaihtoehdot paneelissa."
 
-#: usr/lib/lightdm-settings/lightdm-settings:260
+#: usr/lib/lightdm-settings/lightdm-settings:269
+msgid "On-screen keyboard layout"
+msgstr "Näyttönäppäimistö"
+
+#: usr/lib/lightdm-settings/lightdm-settings:272
 msgid "Battery power"
 msgstr "Akun varaus"
 
-#: usr/lib/lightdm-settings/lightdm-settings:261
+#: usr/lib/lightdm-settings/lightdm-settings:273
 msgid "On laptops, show the battery power in the panel."
-msgstr "Näytä kannettavilla tietokoneilla, akun varaus paneelissa."
+msgstr "Kannettavilla tietokoneilla, näytetään akun varaus paneelissa."
 
-#: usr/lib/lightdm-settings/lightdm-settings:264
+#: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "Keyboard layout"
-msgstr "Näppäimistöasettelu"
+msgstr "Näppäimistö"
 
-#: usr/lib/lightdm-settings/lightdm-settings:265
+#: usr/lib/lightdm-settings/lightdm-settings:277
 msgid "Show the keyboard layout in the panel."
-msgstr "Näytä näppäimistöasettelu paneelissa."
+msgstr "Näytä näppäimistön kieliasettelu paneelissa."
 
-#: usr/lib/lightdm-settings/lightdm-settings:268
+#: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "Quit menu"
 msgstr "Lopetusvalikko"
 
-#: usr/lib/lightdm-settings/lightdm-settings:269
+#: usr/lib/lightdm-settings/lightdm-settings:281
 msgid "Show the quit menu in the panel."
 msgstr "Näytä lopetusvalikko paneelissa."
 
-#: usr/lib/lightdm-settings/lightdm-settings:273
+#: usr/lib/lightdm-settings/lightdm-settings:285
 msgid "Clock"
 msgstr "Kello"
 
-#: usr/lib/lightdm-settings/lightdm-settings:274
+#: usr/lib/lightdm-settings/lightdm-settings:286
 msgid "Show a clock in the panel."
 msgstr "Näytä kello paneelissa."
 
-#: usr/lib/lightdm-settings/lightdm-settings:284
+#: usr/lib/lightdm-settings/lightdm-settings:296
 msgid "Clock format"
 msgstr "Kellon esitysmuoto"
 
-#: usr/lib/lightdm-settings/lightdm-settings:285
+#: usr/lib/lightdm-settings/lightdm-settings:297
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
@@ -318,4 +332,4 @@ msgstr "Kuvatiedostot"
 
 #: generate_desktop_files:25
 msgid "Configure the login window"
-msgstr "Määritä kirjautumisikkuna"
+msgstr "Määritä kirjautumisen ikkuna"

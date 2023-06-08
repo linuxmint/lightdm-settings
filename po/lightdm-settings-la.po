@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-12-02 18:07+0000\n"
-"PO-Revision-Date: 2021-06-10 10:21+0000\n"
+"POT-Creation-Date: 2023-06-01 11:14+0100\n"
+"PO-Revision-Date: 2023-02-14 11:57+0000\n"
 "Last-Translator: Davide Novemila <Unknown>\n"
 "Language-Team: Latin <la@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-12-16 11:47+0000\n"
-"X-Generator: Launchpad (build 31c78762a8046acf7ab47372e5d588ebb3759d2e)\n"
+"X-Launchpad-Export-Date: 2023-06-08 10:22+0000\n"
+"X-Generator: Launchpad (build 620cd5280e3a973662e263ebf9346837ed657a46)\n"
 "Language: la\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:41
@@ -34,9 +34,14 @@ msgstr "Facies"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 #: usr/lib/lightdm-settings/lightdm-settings:132
-#: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Background"
 msgstr "Fundus"
+
+#: usr/lib/lightdm-settings/lightdm-settings:133
+msgid ""
+"Note: Don't select a background from your home directory if it's encrypted "
+"or if its permissions are restricted."
+msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:137
@@ -80,12 +85,12 @@ msgstr "Thema iconis"
 #: usr/lib/lightdm-settings/lightdm-settings:163
 #: usr/lib/lightdm-settings/lightdm-settings:164
 msgid "Mouse pointer"
-msgstr ""
+msgstr "Cursor muris"
 
 #: usr/lib/lightdm-settings/lightdm-settings:167
 #: usr/lib/lightdm-settings/lightdm-settings:168
 msgid "Mouse pointer size"
-msgstr ""
+msgstr "Magnitudo cursoris muris"
 
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Optional pictures"
@@ -149,7 +154,7 @@ msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
-"Hospites permitte sine tessera computatrum uti. Inscriptio caduca hospite "
+"Hospites permitte sine tessera computatorem uti. Inscriptio caduca hospite "
 "ingrediente automatice creatur."
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
@@ -181,7 +186,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:216
 msgid "These settings require a computer reboot to take effect."
-msgstr "Haec configuratio post computatrum iterum accensum efficetur."
+msgstr "Haec configuratio post computatorem iterum accensum efficetur."
 
 #: usr/lib/lightdm-settings/lightdm-settings:221
 #: usr/lib/lightdm-settings/lightdm-settings:222
@@ -244,7 +249,7 @@ msgstr "Nomen hospitis"
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Show the computer hostname in the panel."
-msgstr "Nomen hospitis computatri in tabulam ostende."
+msgstr "Nomen hospitis computatoris in tabulam ostende."
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Accessibility options"
@@ -254,43 +259,47 @@ msgstr "Optiones aditus universalis"
 msgid "Show accessibility options in the panel."
 msgstr "Optiones aditus universalis in tabulam ostende."
 
-#: usr/lib/lightdm-settings/lightdm-settings:260
+#: usr/lib/lightdm-settings/lightdm-settings:269
+msgid "On-screen keyboard layout"
+msgstr ""
+
+#: usr/lib/lightdm-settings/lightdm-settings:272
 msgid "Battery power"
 msgstr "Alimonia pilis"
 
-#: usr/lib/lightdm-settings/lightdm-settings:261
+#: usr/lib/lightdm-settings/lightdm-settings:273
 msgid "On laptops, show the battery power in the panel."
 msgstr "In laptop, vim pilarum in tabulam ostende."
 
-#: usr/lib/lightdm-settings/lightdm-settings:264
+#: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "Keyboard layout"
 msgstr "Structura claviaturae"
 
-#: usr/lib/lightdm-settings/lightdm-settings:265
+#: usr/lib/lightdm-settings/lightdm-settings:277
 msgid "Show the keyboard layout in the panel."
 msgstr "Structuram claviaturae in tabulam ostende."
 
-#: usr/lib/lightdm-settings/lightdm-settings:268
+#: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "Quit menu"
 msgstr "Indicem relinque"
 
-#: usr/lib/lightdm-settings/lightdm-settings:269
+#: usr/lib/lightdm-settings/lightdm-settings:281
 msgid "Show the quit menu in the panel."
 msgstr "Indicem exitus in tabulam ostende."
 
-#: usr/lib/lightdm-settings/lightdm-settings:273
+#: usr/lib/lightdm-settings/lightdm-settings:285
 msgid "Clock"
 msgstr "Horologium"
 
-#: usr/lib/lightdm-settings/lightdm-settings:274
+#: usr/lib/lightdm-settings/lightdm-settings:286
 msgid "Show a clock in the panel."
 msgstr "Horologium in septo ostende."
 
-#: usr/lib/lightdm-settings/lightdm-settings:284
+#: usr/lib/lightdm-settings/lightdm-settings:296
 msgid "Clock format"
 msgstr "Structura horologii"
 
-#: usr/lib/lightdm-settings/lightdm-settings:285
+#: usr/lib/lightdm-settings/lightdm-settings:297
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""

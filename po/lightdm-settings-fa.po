@@ -1,16 +1,16 @@
-# Norwegian Bokmal translation for linuxmint
-# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# Persian translation for linuxmint
+# Copyright (c) 2023 Rosetta Contributors and Canonical Ltd 2023
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-06-01 11:14+0100\n"
-"PO-Revision-Date: 2019-10-16 20:01+0000\n"
-"Last-Translator: Alexander Vinbæk Strand <Unknown>\n"
-"Language-Team: Norwegian Bokmal <nb@li.org>\n"
+"PO-Revision-Date: 2023-03-24 10:38+0000\n"
+"Last-Translator: Mr.Ravi <Unknown>\n"
+"Language-Team: Persian <fa@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,20 +21,20 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:25
 #: generate_desktop_files:52
 msgid "Login Window"
-msgstr "Innloggingsvindu"
+msgstr "پنجرهٔ ورود به سیستم"
 
 #: usr/lib/lightdm-settings/lightdm-settings:63
 msgid "Quit"
-msgstr "Avslutt"
+msgstr "خروج"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Appearance"
-msgstr "Utseende"
+msgstr "ظاهر"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 #: usr/lib/lightdm-settings/lightdm-settings:132
 msgid "Background"
-msgstr "Bakgrunn"
+msgstr "پس‌زمینه"
 
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid ""
@@ -45,136 +45,136 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:137
 msgid "Background color"
-msgstr "Bakgrunnsfarge"
+msgstr "رنگ پس‌زمینه"
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 msgid "Stretch background across multiple monitors"
-msgstr ""
+msgstr "کشیدن پس زمینه به همه نمایشگر ها"
 
 #: usr/lib/lightdm-settings/lightdm-settings:145
 msgid "Draw user backgrounds"
-msgstr "Tegn brukerbakgrunner"
+msgstr "کشیدن پس‌زمینه کاربر"
 
 #: usr/lib/lightdm-settings/lightdm-settings:146
 msgid "When a user is selected, show that user's background."
-msgstr "Når en bruker er valgt, vis denne brukerens bakgrunn"
+msgstr "هنگامی که کاربری انتخاب شده، پس‌زمینه همان کاربر را نشان بده."
 
 #: usr/lib/lightdm-settings/lightdm-settings:149
 msgid "Draw a grid"
-msgstr "Tegn opp rutenett"
+msgstr "کشیدن توری"
 
 #: usr/lib/lightdm-settings/lightdm-settings:150
 msgid "Draw a grid of white dots on top of the background."
-msgstr "Tegn et rutenett med hvite prikker på toppen av bakgrunnen"
+msgstr "کشیدن یک توری از نقاط سفید بر روی پس‌زمینه."
 
 #: usr/lib/lightdm-settings/lightdm-settings:153
 msgid "Themes"
-msgstr "Temaer"
+msgstr "تم‌ها"
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "GTK theme"
-msgstr "GTK-tema"
+msgstr "تم GTK"
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 #: usr/lib/lightdm-settings/lightdm-settings:160
 msgid "Icon theme"
-msgstr "Ikontema"
+msgstr "تم نمادها"
 
 #: usr/lib/lightdm-settings/lightdm-settings:163
 #: usr/lib/lightdm-settings/lightdm-settings:164
 msgid "Mouse pointer"
-msgstr ""
+msgstr "نشانگر ماوس"
 
 #: usr/lib/lightdm-settings/lightdm-settings:167
 #: usr/lib/lightdm-settings/lightdm-settings:168
 msgid "Mouse pointer size"
-msgstr ""
+msgstr "اندازه نشانگر ماوس"
 
 #: usr/lib/lightdm-settings/lightdm-settings:171
 msgid "Optional pictures"
-msgstr "Valgfrie bilder"
+msgstr "تصاویر اختیاری"
 
 #: usr/lib/lightdm-settings/lightdm-settings:173
 msgid "Other monitors"
-msgstr "Andre skjermer"
+msgstr "نمایشگرهای دیگر"
 
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
-"Hvis du har flere skjermer, er brukerlisten plassert på den aktive, og dette "
-"bildet på de andre"
+"اگر چند نمایشگر دارید، لیست کاربران بر نمایشگر فعال قرار میگیرد  و این تصویر "
+"بر نمایشگر های دیگر."
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Bottom left"
-msgstr "Nederst til venstre"
+msgstr "چپ پایین"
 
 #: usr/lib/lightdm-settings/lightdm-settings:178
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr ""
-"Velg et bilde som skal vises nederst til venstre i innloggingsvinduet."
+"تصویری را برای نمایش در پایین سمت چپ پنجره ورود به سیستم انتخاب کنید."
 
 #: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Users"
-msgstr "Brukere"
+msgstr "كاربران"
 
 #: usr/lib/lightdm-settings/lightdm-settings:185
 msgid "User list"
-msgstr "Brukerliste"
+msgstr "فهرست کاربر"
 
 #: usr/lib/lightdm-settings/lightdm-settings:188
 msgid "Allow manual login"
-msgstr "Godta manuell innlogging"
+msgstr "مجاز کردن ورود دستی"
 
 #: usr/lib/lightdm-settings/lightdm-settings:189
 msgid "Add an option in the login window to enter a username."
 msgstr ""
-"Legg til et alternativ i innloggingsvinduet for å skrive inn et brukernavn."
+"گزینه ای برای وارد کردن نام کاربری به پنجره ورود به سیستم اضافه کنید."
 
 #: usr/lib/lightdm-settings/lightdm-settings:193
 msgid "Hide the user list"
-msgstr "Skjul brukerlisten"
+msgstr "پنهان کردن فهرست کاربر"
 
 #: usr/lib/lightdm-settings/lightdm-settings:194
 msgid "Hide the list of users in the login window."
-msgstr "Skjul listen over brukere i innlogginsvinduet"
+msgstr "پنهان کردن فهرست کاربران در پنجره ورود به سیستم."
 
 #: usr/lib/lightdm-settings/lightdm-settings:198
 msgid "Guest sessions"
-msgstr "Gjesteøkter"
+msgstr "نشست های میهمان"
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Allow guest sessions"
-msgstr "Godta Gjesteøkter"
+msgstr "مجاز کردن نشست های میهمان"
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
-"Tillat at gjestene bruker datamaskinen uten et passord. En midlertidig "
-"gjestekonto blir opprettet automatisk når de logger på."
+"میهمانان را مجاز کنید بدون کلمه عبور از رایانه استفاده کنند. یک حساب کاربریِ "
+"میهمان موقت به صورت خودکار هنگام ورود به سیستم ساخته میشود."
 
 #: usr/lib/lightdm-settings/lightdm-settings:204
 msgid "Automatic login"
-msgstr "Automatisk innlogging"
+msgstr "ورود خودکار به سیستم"
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Username"
-msgstr "Brukernavn"
+msgstr "نام‌کاربری"
 
 #: usr/lib/lightdm-settings/lightdm-settings:208
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
-"Advarsel: Automatisk innlogging mislykkes hvis brukerens hjemmekatalog er "
-"kryptert."
+"هشدار: درصورت رمزگذاری شده بودن مسیر خانه کاربر ورود به سیستم خودکار شکست "
+"میخورد."
 
 #: usr/lib/lightdm-settings/lightdm-settings:212
 msgid "Delay before connection (in seconds)"
-msgstr "Forsinkelse før tilkobling (i sekunder)"
+msgstr "وقفه قبل از اتصال (به ثانیه)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:213
 msgid ""
@@ -182,82 +182,84 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
-"Hvis dette alternativet er satt, vises innloggingsskjermen i så mange "
-"sekunder før den automatiske innloggingen skjer. Enhver brukeraktivitet vil "
-"avbryte nedtellingen."
+"درصورت فعال بودن این گزینه، صفحه ورود به سیستم قبل از ورود خودکار برای "
+"اینقدر ثانیه نمایش داده میشود.هرگونه فعالیت کاربر شمارش معکوس را لغو خواهد "
+"کرد."
 
 #: usr/lib/lightdm-settings/lightdm-settings:216
 msgid "These settings require a computer reboot to take effect."
-msgstr "Disse innstillingene krever at datamaskinen starter opp igjen."
+msgstr "این تنظیمات برای تاثیر گذاشتن نیازمند راه‌اندازی مجدد سیستم هستند."
 
 #: usr/lib/lightdm-settings/lightdm-settings:221
 #: usr/lib/lightdm-settings/lightdm-settings:222
 msgid "Settings"
-msgstr "Innstillinger"
+msgstr "تنظیمات"
 
 #: usr/lib/lightdm-settings/lightdm-settings:224
 #: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Activate numlock"
-msgstr ""
+msgstr "فعال کردن قفل صفحه‌کلید اعداد"
 
 #: usr/lib/lightdm-settings/lightdm-settings:230
 msgid "Please install numlockx to use this option."
-msgstr "Vennligst installer numlockx for å bruke dette valget"
+msgstr "لطفا برای استفاده از این گزینه numlockx را نصب کنید."
 
 #: usr/lib/lightdm-settings/lightdm-settings:232
 msgid "Activate numlock in the login window."
-msgstr ""
+msgstr "فعال کردن قفل صفحه‌کلید اعداد در پنجره ورود به سیستم."
 
 #: usr/lib/lightdm-settings/lightdm-settings:238
 #: usr/lib/lightdm-settings/lightdm-settings:245
 msgid "Auto"
-msgstr "Automatisk"
+msgstr "خودکار"
 
 #: usr/lib/lightdm-settings/lightdm-settings:239
 msgid "Enable"
-msgstr "Slå på"
+msgstr "فعال کردن"
 
 #: usr/lib/lightdm-settings/lightdm-settings:240
 msgid "Disable"
-msgstr "Slå av"
+msgstr "غیر فعال کردن"
 
 #: usr/lib/lightdm-settings/lightdm-settings:241
 msgid "HiDPI support"
-msgstr "Støtte for HiDPI"
+msgstr "پشتیبانی از HiDPI"
 
 #: usr/lib/lightdm-settings/lightdm-settings:242
 msgid "Support for high pixel density and Retina displays."
-msgstr "Støtte for høy pixel tetthet og retina skjermer."
+msgstr "پشتیبانی برای تراکم پیکسلی بالا و نمایشگرهای Retina."
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Monitor"
-msgstr "Skjerm"
+msgstr "نمایشگر"
 
 #: usr/lib/lightdm-settings/lightdm-settings:247
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
+"انتخاب کنید کدام نمایشگر باید پنجره ورود را نشان دهد، یا برای دنبال کردن "
+"ماوس «خودکار» را انتخاب کنید."
 
 #: usr/lib/lightdm-settings/lightdm-settings:250
 msgid "Panel indicators"
-msgstr "Panel indikatorer"
+msgstr "نشانگر های پنل"
 
 #: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Hostname"
-msgstr "Vertsnavn"
+msgstr "نام میزبان"
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Show the computer hostname in the panel."
-msgstr "Viser datamaskinens vertsnavn i panelet"
+msgstr "نشان دادن نام میزبان رایانه در پنل."
 
 #: usr/lib/lightdm-settings/lightdm-settings:256
 msgid "Accessibility options"
-msgstr "Tilgjengelighets alternativer"
+msgstr "قابلیت های دسترسی"
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Show accessibility options in the panel."
-msgstr ""
+msgstr "نمایش قابلیت های دسترسی در پنل."
 
 #: usr/lib/lightdm-settings/lightdm-settings:269
 msgid "On-screen keyboard layout"
@@ -265,61 +267,63 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:272
 msgid "Battery power"
-msgstr "Batteristrøm"
+msgstr "قدرت باتری"
 
 #: usr/lib/lightdm-settings/lightdm-settings:273
 msgid "On laptops, show the battery power in the panel."
-msgstr "På bærbare pcer, vis batteri strømnivå i panelet"
+msgstr "در لپ‌تاپ ها، قدرت باتری را در پنل نشان میدهد."
 
 #: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "Keyboard layout"
-msgstr "Tastaturoppsett"
+msgstr "چیدمان صفحه‌کلید"
 
 #: usr/lib/lightdm-settings/lightdm-settings:277
 msgid "Show the keyboard layout in the panel."
-msgstr "Vis tastaturoppsettet i panelet."
+msgstr "نشان دادن چیدمان صفحه‌کلید در پنل."
 
 #: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "Quit menu"
-msgstr "Avslutt meny"
+msgstr "فهرست خروج"
 
 #: usr/lib/lightdm-settings/lightdm-settings:281
 msgid "Show the quit menu in the panel."
-msgstr "Vis avslutningsmenyen i panelet."
+msgstr "نشان دادن فهرست خروج در پنل."
 
 #: usr/lib/lightdm-settings/lightdm-settings:285
 msgid "Clock"
-msgstr "Klokke"
+msgstr "ساعت"
 
 #: usr/lib/lightdm-settings/lightdm-settings:286
 msgid "Show a clock in the panel."
-msgstr "Vis en klokke i panelet"
+msgstr "نشان دادن ساعت در پنل."
 
 #: usr/lib/lightdm-settings/lightdm-settings:296
 msgid "Clock format"
-msgstr ""
+msgstr "قالب‌بندی ساعت"
 
 #: usr/lib/lightdm-settings/lightdm-settings:297
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
+"برای اطلاعات بیشتر درباره قالب‌بندی به https://www.foragoodstrftime.com سر "
+"بزنید."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:235
 msgid "Choose an Image File"
-msgstr "Velg en bildefil"
+msgstr "یک فایل تصویر انتخاب کنید"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:238
 msgid "_Cancel"
-msgstr "_Avbryt"
+msgstr "_لغو"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:239
 msgid "_Open"
-msgstr "_Åpne"
+msgstr "_بازکردن"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:242
 msgid "Image files"
-msgstr "Bildefiler"
+msgstr "فایل های تصویری"
 
 #: generate_desktop_files:25
 msgid "Configure the login window"
-msgstr "Konfigurér innloggingsvinduet"
+msgstr "پیکربندی پنجره ورود به سیستم"
