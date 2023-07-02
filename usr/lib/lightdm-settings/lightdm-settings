@@ -122,6 +122,17 @@ class Application(Gtk.Application):
         # APPEARANCE
         page = SettingsPage()
         self.main_stack.add_titled(page, "appearance", _("Appearance"))
+        section = page.add_section(_("General"))
+        size_group = Gtk.SizeGroup(mode=Gtk.SizeGroupMode.HORIZONTAL)
+        
+        align_options = []
+        align_options.append(["left", _("Left")])
+        align_options.append(["center", _("Center")])
+        align_options.append(["right", _("Right")])
+        row = SettingsRow(Gtk.Label(label=_("Content alignment")), SettingsCombo(keyfile, settings, "content-align", align_options, "string", size_group))
+        row.set_tooltip_text(_("Set the alignment of the main content."))
+        section.add_row(row)
+
         section = page.add_section(_("Background"))
 
         row = SettingsRow(Gtk.Label(label=_("Background")), SettingsPictureChooser(keyfile, settings, "background"))
@@ -175,6 +186,7 @@ class Application(Gtk.Application):
 
         # USERS
         page = SettingsPage()
+        size_group = Gtk.SizeGroup(mode=Gtk.SizeGroupMode.HORIZONTAL)
 
         self.main_stack.add_titled(page, "users", _("Users"))
         section = page.add_section(_("User list"))
