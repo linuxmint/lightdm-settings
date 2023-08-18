@@ -12,11 +12,6 @@ from SettingsWidgets import *
 gi.require_version('Gtk', '3.0')
 from gi.repository import GObject, Gtk, Gdk, Gio, GLib
 
-try:
-    import lsb_release
-except:
-    pass
-
 setproctitle.setproctitle("lightdm-settings")
 
 gettext.install("lightdm-settings", "/usr/share/locale")
