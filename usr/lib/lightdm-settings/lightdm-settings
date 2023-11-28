@@ -124,13 +124,13 @@ class Application(Gtk.Application):
         self.main_stack.add_titled(page, "appearance", _("Appearance"))
         section = page.add_section(_("General"))
         size_group = Gtk.SizeGroup(mode=Gtk.SizeGroupMode.HORIZONTAL)
-        
+
         align_options = []
         align_options.append(["left", _("Left")])
         align_options.append(["center", _("Center")])
         align_options.append(["right", _("Right")])
-        row = SettingsRow(Gtk.Label(label=_("Content alignment")), SettingsCombo(keyfile, settings, "content-align", align_options, "string", size_group))
-        row.set_tooltip_text(_("Set the alignment of the main content."))
+        row = SettingsRow(Gtk.Label(label=_("Alignment")), SettingsCombo(keyfile, settings, "content-align", align_options, "string", size_group))
+        row.set_tooltip_text(_("Alignment of the login box"))
         section.add_row(row)
 
         section = page.add_section(_("Background"))
