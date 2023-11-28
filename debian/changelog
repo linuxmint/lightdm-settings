@@ -1,3 +1,16 @@
+lightdm-settings (2.0.0) virginia; urgency=medium
+
+  [ Michael Webster ]
+  * Remove unused lsb_release import.
+
+  [ Eugenio Depalo ]
+  * Add a setting to configure the user list alignment
+
+  [ Clement Lefebvre ]
+  * l10n: Update POT
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 28 Nov 2023 17:07:54 +0000
+
 lightdm-settings (1.8.2) victoria; urgency=medium
 
   * l10n: Update translations
