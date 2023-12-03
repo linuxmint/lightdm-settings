@@ -7,293 +7,317 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2023-06-01 11:14+0100\n"
-"PO-Revision-Date: 2020-12-16 19:33+0000\n"
+"POT-Creation-Date: 2023-11-28 17:06+0000\n"
+"PO-Revision-Date: 2023-12-02 11:01+0000\n"
 "Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-07-07 12:57+0000\n"
-"X-Generator: Launchpad (build 2ac9e3bf4ab511504f8fc651371e24a6a047ba12)\n"
+"X-Launchpad-Export-Date: 2023-12-03 13:34+0000\n"
+"X-Generator: Launchpad (build 886068b1e1d10de444fbd53b0c7d3f6d4fb3e658)\n"
 "Language: ja\n"
 
-#: usr/lib/lightdm-settings/lightdm-settings:41
-#: usr/lib/lightdm-settings/lightdm-settings:73 generate_desktop_files:25
+#: usr/lib/lightdm-settings/lightdm-settings:36
+#: usr/lib/lightdm-settings/lightdm-settings:68 generate_desktop_files:25
 #: generate_desktop_files:52
 msgid "Login Window"
 msgstr "ログイン画面"
 
-#: usr/lib/lightdm-settings/lightdm-settings:63
+#: usr/lib/lightdm-settings/lightdm-settings:58
 msgid "Quit"
 msgstr "終了"
 
-#: usr/lib/lightdm-settings/lightdm-settings:129
+#: usr/lib/lightdm-settings/lightdm-settings:124
 msgid "Appearance"
 msgstr "外観"
 
+#: usr/lib/lightdm-settings/lightdm-settings:125
+msgid "General"
+msgstr "一般"
+
+#: usr/lib/lightdm-settings/lightdm-settings:129
+msgid "Left"
+msgstr "左"
+
 #: usr/lib/lightdm-settings/lightdm-settings:130
+msgid "Center"
+msgstr "中央"
+
+#: usr/lib/lightdm-settings/lightdm-settings:131
+msgid "Right"
+msgstr "右"
+
 #: usr/lib/lightdm-settings/lightdm-settings:132
+msgid "Alignment"
+msgstr "配置"
+
+#: usr/lib/lightdm-settings/lightdm-settings:133
+msgid "Alignment of the login box"
+msgstr "ログインボックスを配置する場所です"
+
+#: usr/lib/lightdm-settings/lightdm-settings:136
+#: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Background"
 msgstr "背景画像"
 
-#: usr/lib/lightdm-settings/lightdm-settings:133
+#: usr/lib/lightdm-settings/lightdm-settings:139
 msgid ""
 "Note: Don't select a background from your home directory if it's encrypted "
 "or if its permissions are restricted."
-msgstr ""
+msgstr "注意: ホームディレクトリに暗号化やパーミッションの制限がかけられている場合、そこにある画像は選択しないでください。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:136
-#: usr/lib/lightdm-settings/lightdm-settings:137
+#: usr/lib/lightdm-settings/lightdm-settings:142
+#: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "Background color"
 msgstr "背景色"
 
-#: usr/lib/lightdm-settings/lightdm-settings:142
+#: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Stretch background across multiple monitors"
 msgstr "背景を複数のモニターに渡り引き伸ばす"
 
-#: usr/lib/lightdm-settings/lightdm-settings:145
+#: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "Draw user backgrounds"
 msgstr "ユーザーのデスクトップ背景を表示"
 
-#: usr/lib/lightdm-settings/lightdm-settings:146
+#: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "When a user is selected, show that user's background."
 msgstr "ユーザーを選択したら、そのユーザーの背景を表示します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:149
+#: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw a grid"
 msgstr "グリッドを表示"
 
-#: usr/lib/lightdm-settings/lightdm-settings:150
+#: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "Draw a grid of white dots on top of the background."
 msgstr "背景の上に白い点のグリッドを描画します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:153
+#: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Themes"
 msgstr "テーマ"
 
-#: usr/lib/lightdm-settings/lightdm-settings:155
-#: usr/lib/lightdm-settings/lightdm-settings:156
+#: usr/lib/lightdm-settings/lightdm-settings:161
+#: usr/lib/lightdm-settings/lightdm-settings:162
 msgid "GTK theme"
 msgstr "GTK テーマ"
 
-#: usr/lib/lightdm-settings/lightdm-settings:159
-#: usr/lib/lightdm-settings/lightdm-settings:160
+#: usr/lib/lightdm-settings/lightdm-settings:165
+#: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "Icon theme"
 msgstr "アイコンのテーマ"
 
-#: usr/lib/lightdm-settings/lightdm-settings:163
-#: usr/lib/lightdm-settings/lightdm-settings:164
+#: usr/lib/lightdm-settings/lightdm-settings:169
+#: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Mouse pointer"
-msgstr ""
+msgstr "マウスポインター"
 
-#: usr/lib/lightdm-settings/lightdm-settings:167
-#: usr/lib/lightdm-settings/lightdm-settings:168
+#: usr/lib/lightdm-settings/lightdm-settings:173
+#: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Mouse pointer size"
-msgstr ""
+msgstr "マウスポインターの大きさ"
 
-#: usr/lib/lightdm-settings/lightdm-settings:171
+#: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
 msgstr "画像オプション"
 
-#: usr/lib/lightdm-settings/lightdm-settings:173
+#: usr/lib/lightdm-settings/lightdm-settings:179
 msgid "Other monitors"
 msgstr "他のモニター"
 
-#: usr/lib/lightdm-settings/lightdm-settings:174
+#: usr/lib/lightdm-settings/lightdm-settings:180
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
-msgstr "複数のモニターがある場合、ユーザーリストはアクティブなモニターに配置され、この画像は他のモニターに配置されます。"
+msgstr "複数のモニターがある場合、ユーザーの一覧はアクティブなモニターに配置され、この画像は他のモニターに配置されます。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:177
+#: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
 msgstr "左下"
 
-#: usr/lib/lightdm-settings/lightdm-settings:178
+#: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr "ログイン画面の左下に表示する画像を選択します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:184
+#: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "Users"
 msgstr "ユーザー"
 
-#: usr/lib/lightdm-settings/lightdm-settings:185
+#: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "User list"
-msgstr "ユーザーリスト"
+msgstr "ユーザーの一覧"
 
-#: usr/lib/lightdm-settings/lightdm-settings:188
+#: usr/lib/lightdm-settings/lightdm-settings:195
 msgid "Allow manual login"
 msgstr "手動ログインを許可"
 
-#: usr/lib/lightdm-settings/lightdm-settings:189
+#: usr/lib/lightdm-settings/lightdm-settings:196
 msgid "Add an option in the login window to enter a username."
 msgstr "ログイン画面にユーザー名を入力するオプションを追加します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:193
+#: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Hide the user list"
-msgstr "ユーザーリストを表示しない"
+msgstr "ユーザーの一覧を表示しない"
 
-#: usr/lib/lightdm-settings/lightdm-settings:194
+#: usr/lib/lightdm-settings/lightdm-settings:201
 msgid "Hide the list of users in the login window."
-msgstr "ログイン画面のユーザーリストを非表示にします。"
+msgstr "ログイン画面のユーザーの一覧を非表示にします。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:198
+#: usr/lib/lightdm-settings/lightdm-settings:205
 msgid "Guest sessions"
 msgstr "ゲストセッション"
 
-#: usr/lib/lightdm-settings/lightdm-settings:200
+#: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Allow guest sessions"
 msgstr "ゲストセッションを許可"
 
-#: usr/lib/lightdm-settings/lightdm-settings:201
+#: usr/lib/lightdm-settings/lightdm-settings:208
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr "ゲストがパスワードなしでコンピューターを使用できるようにします。一時的なゲストアカウントが、ログイン時に自動で作成されます。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:204
+#: usr/lib/lightdm-settings/lightdm-settings:211
 msgid "Automatic login"
 msgstr "自動ログイン"
 
-#: usr/lib/lightdm-settings/lightdm-settings:207
+#: usr/lib/lightdm-settings/lightdm-settings:214
 msgid "Username"
 msgstr "ユーザー名"
 
-#: usr/lib/lightdm-settings/lightdm-settings:208
+#: usr/lib/lightdm-settings/lightdm-settings:215
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr "警告: ユーザーのホームディレクトリが暗号化されている場合、自動ログインは失敗します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:212
+#: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "Delay before connection (in seconds)"
 msgstr "接続までの遅延時間 (秒)"
 
-#: usr/lib/lightdm-settings/lightdm-settings:213
+#: usr/lib/lightdm-settings/lightdm-settings:220
 msgid ""
 "If this option is set the login screen will be shown for this many seconds "
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
-"このオプションが設定されていると、自動的にログインする前に、この秒数の間だけ待機します。ユーザーが何か操作をすると、カウントダウンを中止します。"
+"このオプションを設定すると、自動的にログインする前に、この秒数の間だけ待機します。ユーザーが何か操作をすると、カウントダウンを中止します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:216
+#: usr/lib/lightdm-settings/lightdm-settings:223
 msgid "These settings require a computer reboot to take effect."
 msgstr "これらの設定を有効にするには、コンピューターの再起動が必要です。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:221
-#: usr/lib/lightdm-settings/lightdm-settings:222
+#: usr/lib/lightdm-settings/lightdm-settings:228
+#: usr/lib/lightdm-settings/lightdm-settings:229
 msgid "Settings"
 msgstr "設定"
 
-#: usr/lib/lightdm-settings/lightdm-settings:224
-#: usr/lib/lightdm-settings/lightdm-settings:230
+#: usr/lib/lightdm-settings/lightdm-settings:231
+#: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Activate numlock"
 msgstr "Num Lock を有効化"
 
-#: usr/lib/lightdm-settings/lightdm-settings:230
+#: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Please install numlockx to use this option."
-msgstr "このオプションを使用するには、numlockx をインストールしてください。"
+msgstr "このオプションを使用するには numlockx をインストールしてください。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:232
+#: usr/lib/lightdm-settings/lightdm-settings:239
 msgid "Activate numlock in the login window."
 msgstr "ログイン画面で Num Lock を有効にします。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:238
 #: usr/lib/lightdm-settings/lightdm-settings:245
+#: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Auto"
 msgstr "自動"
 
-#: usr/lib/lightdm-settings/lightdm-settings:239
+#: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Enable"
 msgstr "有効"
 
-#: usr/lib/lightdm-settings/lightdm-settings:240
+#: usr/lib/lightdm-settings/lightdm-settings:247
 msgid "Disable"
 msgstr "無効"
 
-#: usr/lib/lightdm-settings/lightdm-settings:241
+#: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "HiDPI support"
 msgstr "高 DPI サポート"
 
-#: usr/lib/lightdm-settings/lightdm-settings:242
+#: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Support for high pixel density and Retina displays."
 msgstr "高ピクセルな密度と Retina ディスプレイのサポートを使用します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:246
+#: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Monitor"
 msgstr "モニター"
 
-#: usr/lib/lightdm-settings/lightdm-settings:247
+#: usr/lib/lightdm-settings/lightdm-settings:254
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
-msgstr "ログイン画面を表示するモニターを選択します。'自動' にすると、マウスカーソルのあるモニターに表示します。"
+msgstr "ログイン画面を表示するモニターを選択します。'自動' にすると、マウスカーソルがあるモニターに表示します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:250
+#: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Panel indicators"
 msgstr "パネルインジケーター"
 
-#: usr/lib/lightdm-settings/lightdm-settings:252
+#: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Hostname"
 msgstr "ホスト名"
 
-#: usr/lib/lightdm-settings/lightdm-settings:253
+#: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Show the computer hostname in the panel."
 msgstr "パネルにホスト名を表示します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:256
+#: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Accessibility options"
 msgstr "ユーザー補助オプション"
 
-#: usr/lib/lightdm-settings/lightdm-settings:257
+#: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "Show accessibility options in the panel."
 msgstr "パネルにユーザー補助オプションを表示します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:269
+#: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "On-screen keyboard layout"
-msgstr ""
+msgstr "スクリーンキーボードのレイアウト"
 
-#: usr/lib/lightdm-settings/lightdm-settings:272
+#: usr/lib/lightdm-settings/lightdm-settings:279
 msgid "Battery power"
 msgstr "バッテリー"
 
-#: usr/lib/lightdm-settings/lightdm-settings:273
+#: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "On laptops, show the battery power in the panel."
 msgstr "ノート PC の場合、パネルにバッテリーを表示します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:276
+#: usr/lib/lightdm-settings/lightdm-settings:283
 msgid "Keyboard layout"
 msgstr "キーボードレイアウト"
 
-#: usr/lib/lightdm-settings/lightdm-settings:277
+#: usr/lib/lightdm-settings/lightdm-settings:284
 msgid "Show the keyboard layout in the panel."
 msgstr "パネルにキーボードレイアウトを表示します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:280
+#: usr/lib/lightdm-settings/lightdm-settings:287
 msgid "Quit menu"
 msgstr "終了メニュー"
 
-#: usr/lib/lightdm-settings/lightdm-settings:281
+#: usr/lib/lightdm-settings/lightdm-settings:288
 msgid "Show the quit menu in the panel."
 msgstr "パネルに終了メニューを表示します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:285
+#: usr/lib/lightdm-settings/lightdm-settings:292
 msgid "Clock"
 msgstr "時計"
 
-#: usr/lib/lightdm-settings/lightdm-settings:286
+#: usr/lib/lightdm-settings/lightdm-settings:293
 msgid "Show a clock in the panel."
 msgstr "パネルに時計を表示します。"
 
-#: usr/lib/lightdm-settings/lightdm-settings:296
+#: usr/lib/lightdm-settings/lightdm-settings:303
 msgid "Clock format"
 msgstr "時計の形式"
 
-#: usr/lib/lightdm-settings/lightdm-settings:297
+#: usr/lib/lightdm-settings/lightdm-settings:304
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
-msgstr "フォーマットの詳細については、https://www.foragoodstrftime.com を参照してください。"
+msgstr "フォーマットの詳細については https://www.foragoodstrftime.com を参照してください。"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:235
 msgid "Choose an Image File"
