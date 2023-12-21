@@ -254,15 +254,7 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Choose which monitor should display the login window, or select 'Auto' if you want it to follow the mouse."))
         section.add_row(row)
 
-        section = page.add_section(_("Panel indicators"))
-
-        row = SettingsRow(Gtk.Label(label=_("Hostname")), SettingsSwitch(keyfile, settings, "show-hostname"))
-        row.set_tooltip_text(_("Show the computer hostname in the panel."))
-        section.add_row(row)
-
-        row = SettingsRow(Gtk.Label(label=_("Accessibility options")), SettingsSwitch(keyfile, settings, "show-a11y"))
-        row.set_tooltip_text(_("Show accessibility options in the panel."))
-        section.add_row(row)
+        section = page.add_section(_("On-screen keyboard"))
 
         onboard_layouts_path = "/usr/share/onboard/layouts"
         if os.path.exists(onboard_layouts_path):
@@ -275,6 +267,16 @@ class Application(Gtk.Application):
             if len(layout_options) > 0:
                 row = SettingsRow(Gtk.Label(label=_("On-screen keyboard layout")), SettingsCombo(keyfile, settings, "onscreen-keyboard-layout", layout_options, "string", size_group))
                 section.add_row(row)
+
+        section = page.add_section(_("Panel indicators"))
+
+        row = SettingsRow(Gtk.Label(label=_("Hostname")), SettingsSwitch(keyfile, settings, "show-hostname"))
+        row.set_tooltip_text(_("Show the computer hostname in the panel."))
+        section.add_row(row)
+
+        row = SettingsRow(Gtk.Label(label=_("Accessibility options")), SettingsSwitch(keyfile, settings, "show-a11y"))
+        row.set_tooltip_text(_("Show accessibility options in the panel."))
+        section.add_row(row)
 
         row = SettingsRow(Gtk.Label(label=_("Battery power")), SettingsSwitch(keyfile, settings, "show-power"))
         row.set_tooltip_text(_("On laptops, show the battery power in the panel."))
