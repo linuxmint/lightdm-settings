@@ -256,6 +256,10 @@ class Application(Gtk.Application):
 
         section = page.add_section(_("On-screen keyboard"))
 
+        row = SettingsRow(Gtk.Label(label=_("On-screen keyboard")), SettingsSwitch(keyfile, settings, "onscreen-keyboard"))
+        row.set_tooltip_text(_("Enable the on-screen keyboard."))
+        section.add_row(row)
+
         onboard_layouts_path = "/usr/share/onboard/layouts"
         if os.path.exists(onboard_layouts_path):
             layout_options = []
