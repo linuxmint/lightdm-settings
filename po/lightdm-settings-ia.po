@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-28 17:06+0000\n"
-"PO-Revision-Date: 2021-06-16 15:25+0000\n"
-"Last-Translator: karm <melo@carmu.com>\n"
+"PO-Revision-Date: 2023-12-30 06:27+0000\n"
+"Last-Translator: famese <Unknown>\n"
 "Language-Team: Interlingua <ia@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-12-03 13:34+0000\n"
-"X-Generator: Launchpad (build 886068b1e1d10de444fbd53b0c7d3f6d4fb3e658)\n"
+"X-Launchpad-Export-Date: 2024-01-04 14:58+0000\n"
+"X-Generator: Launchpad (build e1eeab5b20e19239bd7d5f36676f7a52988db88b)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:36
 #: usr/lib/lightdm-settings/lightdm-settings:68 generate_desktop_files:25
@@ -33,27 +33,27 @@ msgstr "Apparentia"
 
 #: usr/lib/lightdm-settings/lightdm-settings:125
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Left"
-msgstr ""
+msgstr "Sinistra"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 msgid "Center"
-msgstr ""
+msgstr "Centro"
 
 #: usr/lib/lightdm-settings/lightdm-settings:131
 msgid "Right"
-msgstr ""
+msgstr "Dextra"
 
 #: usr/lib/lightdm-settings/lightdm-settings:132
 msgid "Alignment"
-msgstr ""
+msgstr "Alineamento"
 
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Alignment of the login box"
-msgstr ""
+msgstr "Alineamento del quadro de apertura de session"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:138
@@ -65,6 +65,8 @@ msgid ""
 "Note: Don't select a background from your home directory if it's encrypted "
 "or if its permissions are restricted."
 msgstr ""
+"Nota: Non selige un fundo ex tu directorio personal si illo es encryptite o "
+"si su permissiones es restringite."
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 #: usr/lib/lightdm-settings/lightdm-settings:143
@@ -108,12 +110,12 @@ msgstr "Thema del icone"
 #: usr/lib/lightdm-settings/lightdm-settings:169
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Mouse pointer"
-msgstr ""
+msgstr "Punctator de mus"
 
 #: usr/lib/lightdm-settings/lightdm-settings:173
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Mouse pointer size"
-msgstr ""
+msgstr "Dimension del punctator de mus"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
@@ -121,15 +123,15 @@ msgstr "Immagines optional"
 
 #: usr/lib/lightdm-settings/lightdm-settings:179
 msgid "Other monitors"
-msgstr "Altere schermos"
+msgstr "Altere monitores"
 
 #: usr/lib/lightdm-settings/lightdm-settings:180
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
-"Si on ha plure schermos, le lista de usator es mittite solo sur le schermo "
-"active, e iste imagine sur le alteros."
+"Si on ha multiple monitores, le lista de usator es placiate solo sur le "
+"schermo active, e iste imagine sur le alteros."
 
 #: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
@@ -138,7 +140,7 @@ msgstr "In basso a sinistra"
 #: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr ""
-"Elige un imagine a monstrar in basso a sinistra del fenestra de connexion."
+"Selige un imagine a monstrar in basso a sinistra del fenestra de connexion."
 
 #: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "Users"
@@ -171,7 +173,7 @@ msgstr "Session del hospite"
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Allow guest sessions"
-msgstr "Consentir sessiones de hospites"
+msgstr "Permitter sessiones de hospites"
 
 #: usr/lib/lightdm-settings/lightdm-settings:208
 msgid ""
@@ -193,7 +195,7 @@ msgstr "Nomine de usator"
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
-"Attention: le connexion automatic fallera si le directorio principal del "
+"Advertentia: le connexion automatic fallera si le directorio principal del "
 "usator es cryptate."
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
@@ -206,9 +208,9 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
-"Si iste option es activate le schermo de accesso sera monstrate per ille "
+"Si iste option es activate le schermo de accesso essera monstrate per ille "
 "numero de secundas ante que eveni le connexion automatic. Ulle activitate de "
-"usator cancellara le conto al retro."
+"usator cancellara le contator regressiva."
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 msgid "These settings require a computer reboot to take effect."
@@ -224,7 +226,7 @@ msgstr "Configurationes"
 #: usr/lib/lightdm-settings/lightdm-settings:231
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Activate numlock"
-msgstr "Activar le bloco del majusculas"
+msgstr "Activar le bloco numeric"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Please install numlockx to use this option."
@@ -232,7 +234,7 @@ msgstr "Per favor installar numlockx pro usar iste option"
 
 #: usr/lib/lightdm-settings/lightdm-settings:239
 msgid "Activate numlock in the login window."
-msgstr "Activa le bloco del majusculas in le fenestra de connexion"
+msgstr "Activa le bloco numeric in le fenestra de connexion"
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 #: usr/lib/lightdm-settings/lightdm-settings:252
@@ -264,7 +266,7 @@ msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
-"Elige qual monitor debe monstrar le fenestra de authentication, elige  "
+"Elige qual monitor debe monstrar le fenestra de authentication, selige  "
 "'Auto' si tu vole sequer le mus."
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
@@ -281,15 +283,15 @@ msgstr "Monstra le nomine del computator host sur le quadro."
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Accessibility options"
-msgstr "Optiones de accesso"
+msgstr "Optiones de accessibilitate"
 
 #: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "Show accessibility options in the panel."
-msgstr "Monstra le optiones de accesso in le quadro"
+msgstr "Monstra le optiones de accessibilitate in le quadro"
 
 #: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "On-screen keyboard layout"
-msgstr ""
+msgstr "Disposition de claviero sur le schermo"
 
 #: usr/lib/lightdm-settings/lightdm-settings:279
 msgid "Battery power"
@@ -297,15 +299,15 @@ msgstr "Carga del batteria"
 
 #: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "On laptops, show the battery power in the panel."
-msgstr "Monstra le carga del batteria sur le portabiles."
+msgstr "In portatiles, monstra le carga del batteria in le pannello."
 
 #: usr/lib/lightdm-settings/lightdm-settings:283
 msgid "Keyboard layout"
-msgstr "Mappa del claviero"
+msgstr "Disposition de claviero"
 
 #: usr/lib/lightdm-settings/lightdm-settings:284
 msgid "Show the keyboard layout in the panel."
-msgstr "Monstrar le mappa del claviero sur le quadro."
+msgstr "Monstrar le disposition de claviero in le pannello."
 
 #: usr/lib/lightdm-settings/lightdm-settings:287
 msgid "Quit menu"
@@ -313,7 +315,7 @@ msgstr "Menu quitar"
 
 #: usr/lib/lightdm-settings/lightdm-settings:288
 msgid "Show the quit menu in the panel."
-msgstr "Monstra le menu de arresto sur le quadro."
+msgstr "Monstra le menu de quitar in le pannello."
 
 #: usr/lib/lightdm-settings/lightdm-settings:292
 msgid "Clock"
@@ -321,7 +323,7 @@ msgstr "Horologio"
 
 #: usr/lib/lightdm-settings/lightdm-settings:293
 msgid "Show a clock in the panel."
-msgstr "Monstrar un horologio sur le quadro."
+msgstr "Monstrar un horologio in le pannello."
 
 #: usr/lib/lightdm-settings/lightdm-settings:303
 msgid "Clock format"
@@ -331,7 +333,8 @@ msgstr "Formato horologio"
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
-"Vide https://www.foragoodstrftime.com pro saper plus re le formattation."
+"Vide https://www.foragoodstrftime.com pro plus information super le "
+"formattation."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:235
 msgid "Choose an Image File"
@@ -343,7 +346,7 @@ msgstr "_Cancellar"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:239
 msgid "_Open"
-msgstr "Aperir (_Open)"
+msgstr "Aperir (_O)"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:242
 msgid "Image files"

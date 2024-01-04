@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-28 17:06+0000\n"
-"PO-Revision-Date: 2022-06-24 12:16+0000\n"
+"PO-Revision-Date: 2023-12-08 21:02+0000\n"
 "Last-Translator: Piet Coppens <Unknown>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-12-03 13:34+0000\n"
-"X-Generator: Launchpad (build 886068b1e1d10de444fbd53b0c7d3f6d4fb3e658)\n"
+"X-Launchpad-Export-Date: 2024-01-04 14:58+0000\n"
+"X-Generator: Launchpad (build e1eeab5b20e19239bd7d5f36676f7a52988db88b)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:36
 #: usr/lib/lightdm-settings/lightdm-settings:68 generate_desktop_files:25
@@ -33,27 +33,27 @@ msgstr "Aspekto"
 
 #: usr/lib/lightdm-settings/lightdm-settings:125
 msgid "General"
-msgstr ""
+msgstr "Ĝenerale"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Left"
-msgstr ""
+msgstr "Maldekstre"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 msgid "Center"
-msgstr ""
+msgstr "Centre"
 
 #: usr/lib/lightdm-settings/lightdm-settings:131
 msgid "Right"
-msgstr ""
+msgstr "Dekstre"
 
 #: usr/lib/lightdm-settings/lightdm-settings:132
 msgid "Alignment"
-msgstr ""
+msgstr "Ĝisrandigo"
 
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Alignment of the login box"
-msgstr ""
+msgstr "Ĝisrandigo de la ensalutujo"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:138
@@ -65,6 +65,8 @@ msgid ""
 "Note: Don't select a background from your home directory if it's encrypted "
 "or if its permissions are restricted."
 msgstr ""
+"Komento: ne elektu fonon de via hejma dosierujo, se ĝi estas ĉifrita aŭ se "
+"ĝiaj permesoj estas limigitaj."
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 #: usr/lib/lightdm-settings/lightdm-settings:143
@@ -108,12 +110,12 @@ msgstr "Bildsimbola etoso"
 #: usr/lib/lightdm-settings/lightdm-settings:169
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Mouse pointer"
-msgstr ""
+msgstr "Musmontrilo"
 
 #: usr/lib/lightdm-settings/lightdm-settings:173
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Mouse pointer size"
-msgstr ""
+msgstr "Grando de musmontrilo"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
@@ -286,7 +288,7 @@ msgstr "Montri opciojn de alireblo en la panelo."
 
 #: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "On-screen keyboard layout"
-msgstr ""
+msgstr "Aranĝo de ekranklavaro"
 
 #: usr/lib/lightdm-settings/lightdm-settings:279
 msgid "Battery power"
