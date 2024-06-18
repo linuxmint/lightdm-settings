@@ -1,3 +1,10 @@
+lightdm-settings (2.0.4) wilma; urgency=medium
+
+  * l10n: Update translations
+  * Update generate_desktop_files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 18 Jun 2024 19:33:14 +0100
+
 lightdm-settings (2.0.3) wilma; urgency=medium
 
   [ Michael Webster ]
