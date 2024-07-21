@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-28 17:06+0000\n"
-"PO-Revision-Date: 2019-12-05 12:11+0000\n"
-"Last-Translator: AlephAlpha <alephalpha911@gmail.com>\n"
+"PO-Revision-Date: 2024-07-19 03:29+0000\n"
+"Last-Translator: 张鹏 <Unknown>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-06-18 17:56+0000\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:02+0000\n"
 "X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:36
@@ -33,27 +33,27 @@ msgstr "外观"
 
 #: usr/lib/lightdm-settings/lightdm-settings:125
 msgid "General"
-msgstr ""
+msgstr "常规"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Left"
-msgstr ""
+msgstr "左"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 msgid "Center"
-msgstr ""
+msgstr "中"
 
 #: usr/lib/lightdm-settings/lightdm-settings:131
 msgid "Right"
-msgstr ""
+msgstr "右"
 
 #: usr/lib/lightdm-settings/lightdm-settings:132
 msgid "Alignment"
-msgstr ""
+msgstr "对齐方式"
 
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Alignment of the login box"
-msgstr ""
+msgstr "登录框的对齐方式"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:138
@@ -64,7 +64,7 @@ msgstr "背景"
 msgid ""
 "Note: Don't select a background from your home directory if it's encrypted "
 "or if its permissions are restricted."
-msgstr ""
+msgstr "注意：请不要从主目录中选择已加密或权限受到限制的背景图片。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 #: usr/lib/lightdm-settings/lightdm-settings:143
@@ -73,7 +73,7 @@ msgstr "背景颜色"
 
 #: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Stretch background across multiple monitors"
-msgstr ""
+msgstr "在多个显示器上拉伸背景"
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "Draw user backgrounds"
@@ -108,12 +108,12 @@ msgstr "图标主题"
 #: usr/lib/lightdm-settings/lightdm-settings:169
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Mouse pointer"
-msgstr ""
+msgstr "鼠标指针"
 
 #: usr/lib/lightdm-settings/lightdm-settings:173
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Mouse pointer size"
-msgstr ""
+msgstr "鼠标指针大小"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
@@ -274,7 +274,7 @@ msgstr "在面板中显示辅助功能选项。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "On-screen keyboard layout"
-msgstr ""
+msgstr "屏幕键盘布局"
 
 #: usr/lib/lightdm-settings/lightdm-settings:279
 msgid "Battery power"
@@ -310,12 +310,12 @@ msgstr "在面板中显示时钟。"
 
 #: usr/lib/lightdm-settings/lightdm-settings:303
 msgid "Clock format"
-msgstr ""
+msgstr "时钟格式"
 
 #: usr/lib/lightdm-settings/lightdm-settings:304
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
-msgstr ""
+msgstr "访问 https://www.foragoodstrftime.com 查看更多时间格式文档。"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:235
 msgid "Choose an Image File"
