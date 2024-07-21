@@ -11,9 +11,11 @@
 <message>Login Window</message>
 <message xml:lang="am">የ መግቢያ መስኮት</message>
 <message xml:lang="ar">نافذة تسجيل الدخول</message>
+<message xml:lang="ast">Ventana d'aniciu de sesión</message>
 <message xml:lang="be">Акно ўваходу</message>
 <message xml:lang="bg">Прозорец за влизане</message>
 <message xml:lang="bn">লগইন উইন্ডো</message>
+<message xml:lang="br">Prenestr kennaskañ</message>
 <message xml:lang="ca">Finestra d'inici de sessió</message>
 <message xml:lang="ca@valencia">Finestra d'inici de sessió</message>
 <message xml:lang="cs">Přihlašovací okno</message>
