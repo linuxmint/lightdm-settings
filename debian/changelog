@@ -1,3 +1,10 @@
+lightdm-settings (2.0.5) wilma; urgency=medium
+
+  * l10n: Update translations
+  * l10n: Update files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 21 Jul 2024 10:32:02 +0100
+
 lightdm-settings (2.0.4) wilma; urgency=medium
 
   * l10n: Update translations
