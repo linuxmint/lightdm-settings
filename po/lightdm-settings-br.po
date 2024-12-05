@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-28 17:06+0000\n"
-"PO-Revision-Date: 2024-07-11 14:29+0000\n"
-"Last-Translator: Anthony Guechoum <a.guechoum@gmail.com>\n"
+"PO-Revision-Date: 2024-07-24 09:38+0000\n"
+"Last-Translator: Anthony Guechoum <a.guechoum@proton.me>\n"
 "Language-Team: Breton <br@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-07-21 09:02+0000\n"
-"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
+"X-Launchpad-Export-Date: 2024-12-05 10:18+0000\n"
+"X-Generator: Launchpad (build 1519c6efe8e9bd78e6c5ebf2eb5bcb040b95ad32)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:36
 #: usr/lib/lightdm-settings/lightdm-settings:68 generate_desktop_files:25
@@ -49,11 +49,11 @@ msgstr "Dehou"
 
 #: usr/lib/lightdm-settings/lightdm-settings:132
 msgid "Alignment"
-msgstr ""
+msgstr "Steudañ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Alignment of the login box"
-msgstr ""
+msgstr "Steudañ ar voest kennaskañ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:138
@@ -85,11 +85,11 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw a grid"
-msgstr ""
+msgstr "Diskouez ur gael"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "Draw a grid of white dots on top of the background."
-msgstr ""
+msgstr "Tresañ ur gael a bikoù bihan gwenn war an drekleur."
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Themes"
@@ -108,16 +108,16 @@ msgstr "Tem an arlunioù"
 #: usr/lib/lightdm-settings/lightdm-settings:169
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Mouse pointer"
-msgstr ""
+msgstr "Biz al logodenn"
 
 #: usr/lib/lightdm-settings/lightdm-settings:173
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Mouse pointer size"
-msgstr ""
+msgstr "Ment biz al logodenn"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
-msgstr ""
+msgstr "Skeudennoù diret"
 
 #: usr/lib/lightdm-settings/lightdm-settings:179
 msgid "Other monitors"
@@ -131,7 +131,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
-msgstr ""
+msgstr "En traoñ a-gleiz"
 
 #: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Select a picture to show on the bottom left of the login window."
@@ -139,15 +139,15 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "Users"
-msgstr "Implijerien"
+msgstr "Arveriaded"
 
 #: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "User list"
-msgstr "Listenn an implijerien"
+msgstr "Listenn an arveriaded"
 
 #: usr/lib/lightdm-settings/lightdm-settings:195
 msgid "Allow manual login"
-msgstr ""
+msgstr "Aotren ar c'hennask dre zorn"
 
 #: usr/lib/lightdm-settings/lightdm-settings:196
 msgid "Add an option in the login window to enter a username."
@@ -155,19 +155,19 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Hide the user list"
-msgstr "Kuzhat listenn an implijerien"
+msgstr "Kuzhat listenn an arveriaded"
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid "Hide the list of users in the login window."
-msgstr ""
+msgstr "Kuzhat listenn an arveriaded er prenestr kennaskañ."
 
 #: usr/lib/lightdm-settings/lightdm-settings:205
 msgid "Guest sessions"
-msgstr ""
+msgstr "Estezioù kouviad"
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Allow guest sessions"
-msgstr ""
+msgstr "Aotren an estezioù kouviad"
 
 #: usr/lib/lightdm-settings/lightdm-settings:208
 msgid ""
@@ -177,11 +177,11 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:211
 msgid "Automatic login"
-msgstr ""
+msgstr "Kennask emgefreek"
 
 #: usr/lib/lightdm-settings/lightdm-settings:214
 msgid "Username"
-msgstr "Anv-implijer"
+msgstr "Anv-arveriad"
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid ""
@@ -190,7 +190,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "Delay before connection (in seconds)"
-msgstr ""
+msgstr "Dale a-raok ar c'hennask (e eilennoù)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:220
 msgid ""
@@ -262,7 +262,7 @@ msgstr "Anv ostiz"
 
 #: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Show the computer hostname in the panel."
-msgstr ""
+msgstr "Diskouez anv ostiz an urzhiataer war ar penel."
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Accessibility options"
@@ -298,7 +298,7 @@ msgstr ""
 
 #: usr/lib/lightdm-settings/lightdm-settings:288
 msgid "Show the quit menu in the panel."
-msgstr ""
+msgstr "Diskouez al lañser \"kuitaat\" war ar penel."
 
 #: usr/lib/lightdm-settings/lightdm-settings:292
 msgid "Clock"
@@ -306,7 +306,7 @@ msgstr "Horolaj"
 
 #: usr/lib/lightdm-settings/lightdm-settings:293
 msgid "Show a clock in the panel."
-msgstr ""
+msgstr "Diskouez un horolaj war ar penel."
 
 #: usr/lib/lightdm-settings/lightdm-settings:303
 msgid "Clock format"

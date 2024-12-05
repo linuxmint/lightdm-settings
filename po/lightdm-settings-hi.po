@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-28 17:06+0000\n"
-"PO-Revision-Date: 2020-12-03 14:20+0000\n"
-"Last-Translator: Panwar <Unknown>\n"
+"PO-Revision-Date: 2024-09-14 10:49+0000\n"
+"Last-Translator: Divya kalra <Unknown>\n"
 "Language-Team: Hindi <hi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2024-07-21 09:02+0000\n"
-"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
+"X-Launchpad-Export-Date: 2024-12-05 10:18+0000\n"
+"X-Generator: Launchpad (build 1519c6efe8e9bd78e6c5ebf2eb5bcb040b95ad32)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:36
 #: usr/lib/lightdm-settings/lightdm-settings:68 generate_desktop_files:25
@@ -33,27 +33,27 @@ msgstr "स्वरूप"
 
 #: usr/lib/lightdm-settings/lightdm-settings:125
 msgid "General"
-msgstr ""
+msgstr "सामान्य"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Left"
-msgstr ""
+msgstr "बाएँ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 msgid "Center"
-msgstr ""
+msgstr "केंद्र"
 
 #: usr/lib/lightdm-settings/lightdm-settings:131
 msgid "Right"
-msgstr ""
+msgstr "दाएँ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:132
 msgid "Alignment"
-msgstr ""
+msgstr "संरेखण"
 
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Alignment of the login box"
-msgstr ""
+msgstr "लॉगिन बॉक्स का संरेखण"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:138
@@ -65,6 +65,8 @@ msgid ""
 "Note: Don't select a background from your home directory if it's encrypted "
 "or if its permissions are restricted."
 msgstr ""
+"नोट: अपनी होम निर्देशिका से पृष्ठभूमि का चयन न करें यदि यह एन्क्रिप्ट किया "
+"गया है या यदि इसकी अनुमतियां प्रतिबंधित हैं।"
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 #: usr/lib/lightdm-settings/lightdm-settings:143
@@ -108,12 +110,12 @@ msgstr "आइकन थीम"
 #: usr/lib/lightdm-settings/lightdm-settings:169
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Mouse pointer"
-msgstr ""
+msgstr "माउस सूचक"
 
 #: usr/lib/lightdm-settings/lightdm-settings:173
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Mouse pointer size"
-msgstr ""
+msgstr "माउस सूचक आकार"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
@@ -284,7 +286,7 @@ msgstr "पैनल में अभिगम्यता विकल्प �
 
 #: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "On-screen keyboard layout"
-msgstr ""
+msgstr "ऑन-स्क्रीन कुंजीपटल लेआउट"
 
 #: usr/lib/lightdm-settings/lightdm-settings:279
 msgid "Battery power"
