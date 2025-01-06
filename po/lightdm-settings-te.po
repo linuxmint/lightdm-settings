@@ -1,4 +1,4 @@
-# Asturian translation for linuxmint
+# Telugu translation for linuxmint
 # Copyright (c) 2024 Rosetta Contributors and Canonical Ltd 2024
 # This file is distributed under the same license as the linuxmint package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-28 17:06+0000\n"
-"PO-Revision-Date: 2024-07-19 10:42+0000\n"
-"Last-Translator: Havi <Unknown>\n"
-"Language-Team: Asturian <ast@li.org>\n"
+"PO-Revision-Date: 2024-12-07 04:03+0000\n"
+"Last-Translator: Aryan Karamtoth <Unknown>\n"
+"Language-Team: Telugu <te@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,187 +21,184 @@ msgstr ""
 #: usr/lib/lightdm-settings/lightdm-settings:68 generate_desktop_files:25
 #: generate_desktop_files:52
 msgid "Login Window"
-msgstr "Ventana d'aniciu de sesión"
+msgstr "లాగిన్ విండో"
 
 #: usr/lib/lightdm-settings/lightdm-settings:58
 msgid "Quit"
-msgstr "Colar"
+msgstr "నిష్క్రమించు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:124
 msgid "Appearance"
-msgstr "Aspeutu"
+msgstr "రూపం"
 
 #: usr/lib/lightdm-settings/lightdm-settings:125
 msgid "General"
-msgstr "Xeneral"
+msgstr "సాధారణ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Left"
-msgstr "Esquierda"
+msgstr "ఎడమ వైపు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 msgid "Center"
-msgstr "Centru"
+msgstr "మద్య"
 
 #: usr/lib/lightdm-settings/lightdm-settings:131
 msgid "Right"
-msgstr "Drecha"
+msgstr "కుడి వైపు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:132
 msgid "Alignment"
-msgstr "Alliniación"
+msgstr "సర్దుబాటు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Alignment of the login box"
-msgstr "Alliniación de la caxa d¡aniciu de sesión"
+msgstr "లాగిన్ బాక్స్ యొక్క అమరిక"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:138
 msgid "Background"
-msgstr "Fondu"
+msgstr "వెనుతలం"
 
 #: usr/lib/lightdm-settings/lightdm-settings:139
 msgid ""
 "Note: Don't select a background from your home directory if it's encrypted "
 "or if its permissions are restricted."
 msgstr ""
-"Nota: Nun escoyas un fondu del to direutoriu home si ta cifráu o si tien "
-"permisos restrinxíos"
+"గమనిక: మీ హోమ్ డైరెక్టరీ ఎన్‌క్రిప్ట్ చేయబడినా లేదా దాని అనుమతులు పరిమితం "
+"చేయబడినా దాని నుండి నేపథ్యాన్ని ఎంచుకోవద్దు."
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 #: usr/lib/lightdm-settings/lightdm-settings:143
 msgid "Background color"
-msgstr "Collor de fondu"
+msgstr "నేపథ్యపు రంగు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Stretch background across multiple monitors"
-msgstr "Espurrir el fondu a lo llargu de tolos monitores"
+msgstr "బహుళ మానిటర్‌లలో నేపథ్యాన్ని విస్తరించండి"
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "Draw user backgrounds"
-msgstr "Debuxar fondos d'usuariu"
+msgstr "వినియోగదారు నేపథ్యాలను గీయండి"
 
 #: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "When a user is selected, show that user's background."
-msgstr "Cuandu un usuariu ta esbilláu, amosar que ye el fondu de l'usuariu"
+msgstr "వినియోగదారుని ఎంచుకున్నప్పుడు, ఆ వినియోగదారు నేపథ్యాన్ని చూపండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw a grid"
-msgstr "Debuxa una cuadrícula"
+msgstr "గ్రిడ్ గీయండి"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "Draw a grid of white dots on top of the background."
-msgstr "Debuxa una cuadrícula con puntos blancos enriba del fondu"
+msgstr "నేపథ్యం పైన తెల్లటి చుక్కల గ్రిడ్‌ను గీయండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Themes"
-msgstr "Plantíes"
+msgstr "థీమ్‌లు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:161
 #: usr/lib/lightdm-settings/lightdm-settings:162
 msgid "GTK theme"
-msgstr "Tema GTK"
+msgstr "GTK థీమ్"
 
 #: usr/lib/lightdm-settings/lightdm-settings:165
 #: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "Icon theme"
-msgstr "Tema d'iconos"
+msgstr "వైవిద్యాంశ ప్రతిమ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:169
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Mouse pointer"
-msgstr "Punteru del mur"
+msgstr "మౌస్ పాయింటర్"
 
 #: usr/lib/lightdm-settings/lightdm-settings:173
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Mouse pointer size"
-msgstr "Tamañu del punteru del mur"
+msgstr "మౌస్ పాయింటర్ పరిమాణం"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
-msgstr "Imáxenes opcionales"
+msgstr "ఐచ్ఛిక చిత్రాలు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:179
 msgid "Other monitors"
-msgstr "Otres pantalles"
+msgstr "ఇతర మానిటర్లు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:180
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
-"Si ties varies pantalles, la llista d'usuariu aparez na que ta autiva, ya "
-"esta imaxe nes otres."
+"మీరు బహుళ మానిటర్‌లను కలిగి ఉన్నట్లయితే, వినియోగదారు జాబితా యాక్టివ్‌లో "
+"ఉంచబడుతుంది మరియు ఈ చిత్రం ఇతరులపై ఉంచబడుతుంది."
 
 #: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
-msgstr "Abaxo esquierda"
+msgstr "దిగువ ఎడమ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr ""
-"Seleiciona una imaxe pa amosala abaxu a la esquierda de la ventana d'aniciu "
-"de sesión."
+msgstr "లాగిన్ విండో దిగువన ఎడమవైపు చూపడానికి చిత్రాన్ని ఎంచుకోండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "Users"
-msgstr "Usuarios"
+msgstr "వినియోగదారులు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "User list"
-msgstr "Llista d'usuarios"
+msgstr "వినియోగదారు జాబితా"
 
 #: usr/lib/lightdm-settings/lightdm-settings:195
 msgid "Allow manual login"
-msgstr "Permitir aniciu de sesión manual"
+msgstr "మాన్యువల్ లాగిన్‌ని అనుమతించండి"
 
 #: usr/lib/lightdm-settings/lightdm-settings:196
 msgid "Add an option in the login window to enter a username."
-msgstr ""
-"Añedir una opción na ventana d'aniciu de sesión pa meter el nome d'usuariu"
+msgstr "వినియోగదారు పేరును నమోదు చేయడానికి లాగిన్ విండోలో ఎంపికను జోడించండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Hide the user list"
-msgstr "Escuende la llista d'usuarios"
+msgstr "వినియోగదారు జాబితాను దాచండి"
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid "Hide the list of users in the login window."
-msgstr "Escuende la llista d'usuarios na ventana de login"
+msgstr "లాగిన్ విండోలో వినియోగదారుల జాబితాను దాచండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:205
 msgid "Guest sessions"
-msgstr "Sesiones d'invitáu"
+msgstr "అతిథి సెషన్లు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Allow guest sessions"
-msgstr "Permitir sesiones d'invitáu"
+msgstr "అతిథి సెషన్‌లను అనుమతించండి"
 
 #: usr/lib/lightdm-settings/lightdm-settings:208
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
-"Dexar que los invitáos usen l'ordenador ensin conseña. Faerase una cuenta "
-"d'invitau temporal automaticamente al aniciar."
+"పాస్‌వర్డ్ లేకుండా కంప్యూటర్‌ని ఉపయోగించడానికి అతిథులను అనుమతించండి. వారు "
+"లాగిన్ చేసినప్పుడు తాత్కాలిక అతిథి ఖాతా స్వయంచాలకంగా సృష్టించబడుతుంది."
 
 #: usr/lib/lightdm-settings/lightdm-settings:211
 msgid "Automatic login"
-msgstr "Coneutase Automáticamente"
+msgstr "స్వయంచాలక ప్రవేశద్వారం"
 
 #: usr/lib/lightdm-settings/lightdm-settings:214
 msgid "Username"
-msgstr "Nome d'usuariu"
+msgstr "వినియోగదారుని నామం"
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
-"Cuidáu: L'aniciu automáticu de sesión nun furrula si el direutoriu home ta "
-"cifráu"
+"హెచ్చరిక: వినియోగదారు హోమ్ డైరెక్టరీ ఎన్‌క్రిప్ట్ చేయబడితే ఆటోమేటిక్ లాగిన్ "
+"విఫలమవుతుంది."
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "Delay before connection (in seconds)"
-msgstr "Tiempu d'espera enantes de la conexón (en segundos)"
+msgstr "కనెక్షన్ ముందు ఆలస్యం (సెకన్లలో)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:220
 msgid ""
@@ -209,149 +206,147 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
-"Esta opción fae que la ventana d'aniciu de sesión s'amuese durante un tiempu "
-"determináu de segundos enantes del login automáticu. Cualesquier aición de "
-"l'usuariu encaboxará la cunta atrás."
+"ఈ ఎంపికను సెట్ చేస్తే, ఆటోమేటిక్ లాగిన్ జరగడానికి చాలా సెకన్ల ముందు లాగిన్ "
+"స్క్రీన్ చూపబడుతుంది. ఏదైనా వినియోగదారు కార్యాచరణ కౌంట్‌డౌన్‌ను రద్దు "
+"చేస్తుంది."
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 msgid "These settings require a computer reboot to take effect."
-msgstr "Estos axustes requiren un reaniciu pa que faigan efeutu."
+msgstr "ఈ సెట్టింగ్‌లు అమలులోకి రావడానికి కంప్యూటర్ రీబూట్ అవసరం."
 
 #: usr/lib/lightdm-settings/lightdm-settings:228
 #: usr/lib/lightdm-settings/lightdm-settings:229
 msgid "Settings"
-msgstr "Axustes"
+msgstr "అమరికలు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:231
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Activate numlock"
-msgstr "Activar numlock"
+msgstr "నమ్‌లాక్‌ని యాక్టివేట్ చేయండి"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Please install numlockx to use this option."
-msgstr "Istalar numlockx pa usar esta opción"
+msgstr "దయచేసి ఈ ఎంపికను ఉపయోగించడానికి numlockxని ఇన్‌స్టాల్ చేయండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:239
 msgid "Activate numlock in the login window."
-msgstr "Activar numlock na ventana de login"
+msgstr "లాగిన్ విండోలో నమ్‌లాక్‌ని యాక్టివేట్ చేయండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 #: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Auto"
-msgstr "Automáticu"
+msgstr "స్వయం"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Enable"
-msgstr "Activar"
+msgstr "చేతనించు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:247
 msgid "Disable"
-msgstr "Desactivar"
+msgstr "అచేతనించు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "HiDPI support"
-msgstr "Soportar HiDPI"
+msgstr "HiDPI మద్దతు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Support for high pixel density and Retina displays."
-msgstr "Soporte pa alta densidá de píxeles ya pantalles Retina"
+msgstr "అధిక పిక్సెల్ సాంద్రత మరియు రెటినా డిస్ప్లేలకు మద్దతు."
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Monitor"
-msgstr "Monitor"
+msgstr "మానిటర్"
 
 #: usr/lib/lightdm-settings/lightdm-settings:254
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
-"Escoye qué pantalla debería amosar la ventana de login, o seleiciona "
-"\"Auto\" si quies que siga el mur."
+"లాగిన్ విండోను ఏ మానిటర్ ప్రదర్శించాలో ఎంచుకోండి లేదా మీరు మౌస్‌ని "
+"అనుసరించాలనుకుంటే 'ఆటో' ఎంచుకోండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Panel indicators"
-msgstr "Indicadores de panel"
+msgstr "ప్యానెల్ సూచికలు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Hostname"
-msgstr "Nome de dominiu"
+msgstr "అతిధేయపేరు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Show the computer hostname in the panel."
-msgstr "Amosar el nome de dominiu del ordenador nel panel"
+msgstr "ప్యానెల్‌లో కంప్యూటర్ హోస్ట్ పేరును చూపండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Accessibility options"
-msgstr "Accesibilidá"
+msgstr "యాక్సెసిబిలిటీ ఎంపికలు"
 
 #: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "Show accessibility options in the panel."
-msgstr "Amosar opciones  d'accesibilidá nel panel"
+msgstr "ప్యానెల్‌లో ప్రాప్యత ఎంపికలను చూపండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "On-screen keyboard layout"
-msgstr "Estilu del tecláu en pantalla"
+msgstr "ఆన్-స్క్రీన్ కీబోర్డ్ లేఅవుట్"
 
 #: usr/lib/lightdm-settings/lightdm-settings:279
 msgid "Battery power"
-msgstr "Porcentax d'enerxía"
+msgstr "బ్యాటరీ శక్తి"
 
 #: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "On laptops, show the battery power in the panel."
-msgstr ""
-"Nos ordenadores portátiles, amuesa en ñivel d'enerxía de la batería nel "
-"panel."
+msgstr "ల్యాప్‌టాప్‌లలో, ప్యానెల్‌లో బ్యాటరీ శక్తిని చూపండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:283
 msgid "Keyboard layout"
-msgstr "Distribución del tecláu"
+msgstr "కీబోర్డు నమూనా"
 
 #: usr/lib/lightdm-settings/lightdm-settings:284
 msgid "Show the keyboard layout in the panel."
-msgstr "Amuesa la distribución del tecláu nel panel."
+msgstr "ప్యానెల్‌లో కీబోర్డ్ లేఅవుట్‌ను చూపండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:287
 msgid "Quit menu"
-msgstr "Menú d'apagáu"
+msgstr "నిష్క్రమణ మెను"
 
 #: usr/lib/lightdm-settings/lightdm-settings:288
 msgid "Show the quit menu in the panel."
-msgstr "Amosar el menú d'apagáu nel panel"
+msgstr "ప్యానెల్‌లో నిష్క్రమణ మెనుని చూపండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:292
 msgid "Clock"
-msgstr "Reló"
+msgstr "గడియారం"
 
 #: usr/lib/lightdm-settings/lightdm-settings:293
 msgid "Show a clock in the panel."
-msgstr "Amuesa un reló nel panel"
+msgstr "ప్యానెల్‌లో గడియారాన్ని చూపండి."
 
 #: usr/lib/lightdm-settings/lightdm-settings:303
 msgid "Clock format"
-msgstr "Formatu del reló"
+msgstr "గడియార ఆకృతి"
 
 #: usr/lib/lightdm-settings/lightdm-settings:304
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
-"Ver https://www.foragoodstrftime.com pa más información al rodiu'l formatu"
+"ఫార్మాటింగ్‌పై మరింత సమాచారం కోసం https://www.foragoodstrftime.comని చూడండి."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:235
 msgid "Choose an Image File"
-msgstr "Escoye un archivu d'imaxe"
+msgstr "ఇమేజ్ ఫైల్‌ను ఎంచుకోండి"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:238
 msgid "_Cancel"
-msgstr "En_caboxar"
+msgstr "రద్దుచేయి (_C)"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:239
 msgid "_Open"
-msgstr "(_O) Abrir"
+msgstr "తెరువు (_O)"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:242
 msgid "Image files"
-msgstr "Ficheros d'imaxe"
+msgstr "ప్రతిరూప ఫైళ్ళు"
 
 #: generate_desktop_files:25
 msgid "Configure the login window"
-msgstr "Configurar ventana de Login"
+msgstr "లాగిన్ విండోను కాన్ఫిగర్ చేయండి"
