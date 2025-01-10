@@ -5,7 +5,7 @@ import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, Gio, Gdk, GLib, GdkPixbuf
 
-CONF_PATH = "/etc/lightdm/slick-greeter.conf"
+CONF_PATH = "/etc/lightdm/lightdm.conf.d/slick-greeter.conf"
 GROUP_NAME = "Greeter"
 
 LIGHTDM_CONF_PATH = "/etc/lightdm/lightdm.conf"
