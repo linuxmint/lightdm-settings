@@ -158,6 +158,10 @@ class Application(Gtk.Application):
         row.set_tooltip_text(_("Draw a grid of white dots on top of the background."))
         section.add_row(row)
 
+        row = SettingsRow(Gtk.Label(label=_("Enable blur effect")), SettingsSwitch(keyfile, settings, "enable-blur"))
+        row.set_tooltip_text(_("Enable a blur effect on the background image."))
+        section.add_row(row)
+
         section = page.add_section(_("Themes"))
 
         row = SettingsRow(Gtk.Label(label=_("GTK theme")), SettingsCombo(keyfile, settings, "theme-name", self.get_gtk_themes(), "string", size_group))
