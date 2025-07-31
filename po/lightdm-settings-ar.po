@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-28 17:06+0000\n"
-"PO-Revision-Date: 2020-11-25 19:40+0000\n"
-"Last-Translator: radwan emad <Unknown>\n"
+"PO-Revision-Date: 2025-05-14 23:22+0000\n"
+"Last-Translator: Abdualrahman Hasan <Unknown>\n"
 "Language-Team: anwar AL_iskandrany <anwar eleskndrany13@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-01-06 11:59+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
+"X-Launchpad-Export-Date: 2025-07-31 09:23+0000\n"
+"X-Generator: Launchpad (build 647c49fc7f614412c17a151d8ba4fadd90c06a00)\n"
 "Language: ar_EG\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:36
@@ -29,27 +29,27 @@ msgstr "المظهر"
 
 #: usr/lib/lightdm-settings/lightdm-settings:125
 msgid "General"
-msgstr ""
+msgstr "عامّ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Left"
-msgstr ""
+msgstr "اليسار"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 msgid "Center"
-msgstr ""
+msgstr "الوسط"
 
 #: usr/lib/lightdm-settings/lightdm-settings:131
 msgid "Right"
-msgstr ""
+msgstr "اليمين"
 
 #: usr/lib/lightdm-settings/lightdm-settings:132
 msgid "Alignment"
-msgstr ""
+msgstr "محاذاة"
 
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Alignment of the login box"
-msgstr ""
+msgstr "محاذاة صندوق تسجيل الدخول"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:138
@@ -61,6 +61,8 @@ msgid ""
 "Note: Don't select a background from your home directory if it's encrypted "
 "or if its permissions are restricted."
 msgstr ""
+"ملاحظة: لا تحدد خلفية من مجلد المنزل الخاص بك إذا كان مشفرا أو أن أذوناته "
+"مقيدة."
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 #: usr/lib/lightdm-settings/lightdm-settings:143
@@ -104,12 +106,12 @@ msgstr "أيقونة الثيم"
 #: usr/lib/lightdm-settings/lightdm-settings:169
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Mouse pointer"
-msgstr ""
+msgstr "مؤشر الفأرة"
 
 #: usr/lib/lightdm-settings/lightdm-settings:173
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Mouse pointer size"
-msgstr ""
+msgstr "حجم مؤشر الفأرة"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
@@ -279,7 +281,7 @@ msgstr "عرض خيارات سهولة الوصول في الشريط."
 
 #: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "On-screen keyboard layout"
-msgstr ""
+msgstr "تخطيط لوحة مفاتيح الشاشة"
 
 #: usr/lib/lightdm-settings/lightdm-settings:279
 msgid "Battery power"
@@ -315,12 +317,13 @@ msgstr "عرض الساعة في الشريط"
 
 #: usr/lib/lightdm-settings/lightdm-settings:303
 msgid "Clock format"
-msgstr ""
+msgstr "نسق الساعة"
 
 #: usr/lib/lightdm-settings/lightdm-settings:304
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
+"انظر إلى https://www.foragoodstrftime.com للمزيد من المعلومات عن التنسيقات."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:235
 msgid "Choose an Image File"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-28 17:06+0000\n"
-"PO-Revision-Date: 2023-11-11 21:03+0000\n"
+"PO-Revision-Date: 2025-06-15 12:31+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <ka@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-01-06 11:59+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
+"X-Launchpad-Export-Date: 2025-07-31 09:23+0000\n"
+"X-Generator: Launchpad (build 647c49fc7f614412c17a151d8ba4fadd90c06a00)\n"
 "Language: ka\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:36
@@ -34,27 +34,27 @@ msgstr "გარეგნობა"
 
 #: usr/lib/lightdm-settings/lightdm-settings:125
 msgid "General"
-msgstr ""
+msgstr "ზოგადი"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Left"
-msgstr ""
+msgstr "მარცხენა"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 msgid "Center"
-msgstr ""
+msgstr "ცენტრი"
 
 #: usr/lib/lightdm-settings/lightdm-settings:131
 msgid "Right"
-msgstr ""
+msgstr "მარჯვენა"
 
 #: usr/lib/lightdm-settings/lightdm-settings:132
 msgid "Alignment"
-msgstr ""
+msgstr "სწორება"
 
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Alignment of the login box"
-msgstr ""
+msgstr "შესვლის ფანჯრის სწორება"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:138
@@ -66,6 +66,8 @@ msgid ""
 "Note: Don't select a background from your home directory if it's encrypted "
 "or if its permissions are restricted."
 msgstr ""
+"შენიშვნა: არ აირჩიოთ ფონი თქვენი საწყისის საქაღალდიდან, თუ ის დაშიფრულია, ან "
+"მისი წვდომები შეზღუდულია."
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 #: usr/lib/lightdm-settings/lightdm-settings:143
@@ -74,15 +76,15 @@ msgstr "ფონის ფერი"
 
 #: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Stretch background across multiple monitors"
-msgstr ""
+msgstr "ფონის გაჭიმვა ერთზე მეტ ეკრანზე"
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "Draw user backgrounds"
-msgstr ""
+msgstr "მომხმარებლის ფონების დახატვა"
 
 #: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "When a user is selected, show that user's background."
-msgstr ""
+msgstr "როცა მომხმარებელი მონიშნულია, იმ მომხმარებლის ფონის ჩვენება."
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw a grid"
@@ -90,7 +92,7 @@ msgstr "ბადის დახატვა"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "Draw a grid of white dots on top of the background."
-msgstr ""
+msgstr "თეთრი წერტილების ბადის დახატვა ფონის ზემოთა მხარეს."
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Themes"
@@ -129,6 +131,8 @@ msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
+"თუ გაქვთ ერთზე მეტი ეკრანი, მომხმარებლების სია მოთავსდება აქტიურზე და ეს "
+"სურათი დანარჩენ ყველაზე."
 
 #: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
@@ -137,6 +141,7 @@ msgstr "ქვედა მარცხენა"
 #: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Select a picture to show on the bottom left of the login window."
 msgstr ""
+"აირჩიეთ სურათი, რომელიც შესვლის ფანჯრის ქვედა მარცხენა მხარეს გამოჩნდება."
 
 #: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "Users"
@@ -152,7 +157,7 @@ msgstr "ხელით შესვლის დაშვება"
 
 #: usr/lib/lightdm-settings/lightdm-settings:196
 msgid "Add an option in the login window to enter a username."
-msgstr ""
+msgstr "შესვლის ფანჯარაზე მომხმარებლის სახელის შეყვანის ზოლის დამატება."
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Hide the user list"
@@ -160,7 +165,7 @@ msgstr "მომხმარებლების სიის დამალ�
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid "Hide the list of users in the login window."
-msgstr ""
+msgstr "შესვლის ფანჯარაში მომხმარებლების სიის დამალვა."
 
 #: usr/lib/lightdm-settings/lightdm-settings:205
 msgid "Guest sessions"
@@ -175,6 +180,8 @@ msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
+"სტუმრებისთვის კომპიუტერის პაროლის გარეშე გამოყენების უფლების დართვა. მათი "
+"შესვლისას დროებითი სტუმრის ანგარიში ავტომატურად შეიქმნება."
 
 #: usr/lib/lightdm-settings/lightdm-settings:211
 msgid "Automatic login"
@@ -188,10 +195,12 @@ msgstr "მომხმარებლის სახელი"
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
+"გაფრთხილება: ავტომატური შესვლა ჩავარდება, თუ მომხმარებლის საწყისი საქაღალდე "
+"დაშიფრულია."
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "Delay before connection (in seconds)"
-msgstr ""
+msgstr "დაყოვნება მიერთებამდე (წამებში)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:220
 msgid ""
@@ -199,10 +208,13 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
+"თუ ეს დაყენებულია, ნაჩვენები შესვლის ეკრანი ნაჩვენები იქნება ამდენი წამით, "
+"სანამ ავტომატური შესვლა მოხდება. მომხმარებლის ნებისმიერი აქტივობა გააუქმებს "
+"ამ ათვლას."
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 msgid "These settings require a computer reboot to take effect."
-msgstr ""
+msgstr "ამ პარამეტრებს ძალაში შესასვლელად კომპიუტერის გადატვირთვა სჭირდებათ."
 
 #: usr/lib/lightdm-settings/lightdm-settings:228
 #: usr/lib/lightdm-settings/lightdm-settings:229
@@ -216,11 +228,11 @@ msgstr "NumLock-ის ჩართვა"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Please install numlockx to use this option."
-msgstr ""
+msgstr "ამის გამოსაყენებლად დააყენეთ პაკეტი numlockx."
 
 #: usr/lib/lightdm-settings/lightdm-settings:239
 msgid "Activate numlock in the login window."
-msgstr ""
+msgstr "NumLock-ის ჩართვა შესვლის ფანჯარაში."
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 #: usr/lib/lightdm-settings/lightdm-settings:252
@@ -241,7 +253,7 @@ msgstr "HiDPI-ის მხარდაჭერა"
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Support for high pixel density and Retina displays."
-msgstr ""
+msgstr "მაღალი პიქსელების სიმკვრივის და Retina ეკრანების მხარდაჭერა."
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Monitor"
@@ -252,6 +264,8 @@ msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
+"აირჩიეთ, რომელმა ეკრანმა უნდა აჩვენოს შესვლის ფანჯარა, ან აირციეთ 'ავტო', თუ "
+"გნებავთ, ის თაგუნას მიჰყვეს."
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Panel indicators"
@@ -263,19 +277,19 @@ msgstr "ჰოსტის სახელი"
 
 #: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Show the computer hostname in the panel."
-msgstr ""
+msgstr "კომპიუტერის ჰოსტის სახელის ჩვენება პანელზე."
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Accessibility options"
-msgstr ""
+msgstr "წვდომადობის მორგება"
 
 #: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "Show accessibility options in the panel."
-msgstr ""
+msgstr "წვდომადობის პარამეტრების ჩვენება პანელზე."
 
 #: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "On-screen keyboard layout"
-msgstr ""
+msgstr "ეკრანზე კლავიატურის განლაგება"
 
 #: usr/lib/lightdm-settings/lightdm-settings:279
 msgid "Battery power"
@@ -283,7 +297,7 @@ msgstr "ელემენტის კვება"
 
 #: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "On laptops, show the battery power in the panel."
-msgstr ""
+msgstr "ნოუთბუქებზე ელემენტის დარჩენილი მუხტის ჩვენება პანელზე."
 
 #: usr/lib/lightdm-settings/lightdm-settings:283
 msgid "Keyboard layout"
@@ -291,7 +305,7 @@ msgstr "კლავიატურის განლაგება"
 
 #: usr/lib/lightdm-settings/lightdm-settings:284
 msgid "Show the keyboard layout in the panel."
-msgstr ""
+msgstr "კლავიატურის განლაგება პანელზე."
 
 #: usr/lib/lightdm-settings/lightdm-settings:287
 msgid "Quit menu"
@@ -299,7 +313,7 @@ msgstr "მენიუდან გასვლა"
 
 #: usr/lib/lightdm-settings/lightdm-settings:288
 msgid "Show the quit menu in the panel."
-msgstr ""
+msgstr "გასვლის მენიუს ჩვენება პანელზე."
 
 #: usr/lib/lightdm-settings/lightdm-settings:292
 msgid "Clock"
@@ -307,20 +321,22 @@ msgstr "საათი"
 
 #: usr/lib/lightdm-settings/lightdm-settings:293
 msgid "Show a clock in the panel."
-msgstr ""
+msgstr "საათის ჩვენება პანელზე."
 
 #: usr/lib/lightdm-settings/lightdm-settings:303
 msgid "Clock format"
-msgstr ""
+msgstr "საათის ფორმატი"
 
 #: usr/lib/lightdm-settings/lightdm-settings:304
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
+"დაფორმატების შესახებ მეტი ინფორმაციისთვის იხილეთ ვებგვერდი "
+"https://www.foragoodstrftime.com."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:235
 msgid "Choose an Image File"
-msgstr ""
+msgstr "აირჩიეთ გამოსახულების ფაილი"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:238
 msgid "_Cancel"
