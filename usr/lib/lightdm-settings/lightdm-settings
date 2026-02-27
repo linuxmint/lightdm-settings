@@ -312,6 +312,23 @@ class Application(Gtk.Application):
 
         clock_switch.bind_property("active", row, "sensitive", GObject.BindingFlags.DEFAULT | GObject.BindingFlags.SYNC_CREATE)
 
+        # SYSTEM USE NOTIFICATION (AC-8)
+        section = page.add_section(_("System Use Notification"))
+
+        banner_switch = SettingsSwitch(keyfile, settings, "show-banner")
+        row = SettingsRow(Gtk.Label(label=_("Show System Use Notification")), banner_switch)
+        row.set_tooltip_text(_("Display a System Use Notification that the user must accept before the login UI is shown (NIST AC-8)."))
+        section.add_row(row)
+
+        entry = SettingsEntry(keyfile, settings, "banner-file")
+        entry.set_placeholder_text("/etc/issue")
+        box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+        box.pack_end(entry, False, False, 0)
+        row = SettingsRow(Gtk.Label(label=_("Notification file")), box)
+        row.set_tooltip_text(_("Path to the text file shown as the System Use Notification. Defaults to /etc/issue if left blank."))
+        section.add_row(row)
+        banner_switch.bind_property("active", row, "sensitive", GObject.BindingFlags.DEFAULT | GObject.BindingFlags.SYNC_CREATE)
+
         self.window.add(self.main_box)
 
         self.window.show_all()
