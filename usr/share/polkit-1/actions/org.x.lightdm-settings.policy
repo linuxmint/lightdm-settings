@@ -9,6 +9,7 @@
 
   <action id="org.x.lightdm-settings">
 <message>Login Window</message>
+<message xml:lang="af">Aanmeldvenster</message>
 <message xml:lang="am">የ መግቢያ መስኮት</message>
 <message xml:lang="ar">نافذة تسجيل الدخول</message>
 <message xml:lang="ast">Ventana d'aniciu de sesión</message>
@@ -45,7 +46,7 @@
 <message xml:lang="ja">ログイン画面</message>
 <message xml:lang="ka">შესვლის ფანჯარა</message>
 <message xml:lang="kab">Asfaylu n unekcum</message>
-<message xml:lang="kk">Жүйеге кіру терезесі</message>
+<message xml:lang="kk">Кіру терезесі</message>
 <message xml:lang="ko">로그인 창</message>
 <message xml:lang="ku">Paceya têketinê</message>
 <message xml:lang="la">Fenestra Ingressus</message>
@@ -53,6 +54,7 @@
 <message xml:lang="lt">Prisijungimo langas</message>
 <message xml:lang="lv">Pieteikšanās logs</message>
 <message xml:lang="mai">लोगिन विंडो</message>
+<message xml:lang="mi">Matapihi takiurunga</message>
 <message xml:lang="mr">प्रवेश पटल</message>
 <message xml:lang="ms">Tetingkap Log Masuk</message>
 <message xml:lang="nap">Fenestra d''o Login</message>
@@ -77,6 +79,7 @@
 <message xml:lang="te">లాగిన్ విండో</message>
 <message xml:lang="th">หน้าต่างการเข้าสู่ระบบ</message>
 <message xml:lang="tr">Giriş Ekranı</message>
+<message xml:lang="ug">كىرىش كۆزنىكى</message>
 <message xml:lang="uk">Вікно входу в систему</message>
 <message xml:lang="uz">Tizimga kirish oynasi</message>
 <message xml:lang="vi">Màn hình đăng nhập</message>
