@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-28 17:06+0000\n"
-"PO-Revision-Date: 2023-11-29 07:32+0000\n"
-"Last-Translator: Vasilis Kosmidis <Unknown>\n"
+"PO-Revision-Date: 2026-10-13 17:41+0000\n"
+"Last-Translator: Dimitris Spentzos <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:42+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 11:58+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
 "Language: el\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:36
@@ -66,8 +66,8 @@ msgid ""
 "Note: Don't select a background from your home directory if it's encrypted "
 "or if its permissions are restricted."
 msgstr ""
-"Σημείωση: Μην επιλέγετε φόντο από τον αρχικό σας κατάλογο, εάν είναι "
-"κρυπτογραφημένο ή εάν τα δικαιώματά του είναι περιορισμένα."
+"Σημείωση: Μην επιλέγετε φόντο από τον προσωπικό σας φάκελο αν είναι "
+"κρυπτογραφημένος ή εάν τα δικαιώματά του είναι περιορισμένα."
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 #: usr/lib/lightdm-settings/lightdm-settings:143
@@ -84,7 +84,7 @@ msgstr "Σχεδίαση φόντου χρηστών"
 
 #: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "When a user is selected, show that user's background."
-msgstr "Όταν επιλεγεί ένας χρήστης, δείξτε το φόντο του χρήστη."
+msgstr "Όταν επιλέγεται ένας χρήστης, να εμφανίζεται το αντίστοιχο φόντο."
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw a grid"
@@ -92,7 +92,7 @@ msgstr "Σχεδίαση πλέγματος"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "Draw a grid of white dots on top of the background."
-msgstr "Σχεδιάστε ένα πλέγμα λευκών κουκκίδων στην κορυφή του φόντου."
+msgstr "Να σχεδιάζεται ένα πλέγμα λευκών κουκκίδων πάνω από το φόντο."
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Themes"
@@ -131,8 +131,8 @@ msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
-"Εάν έχετε πολλές οθόνες, η λίστα χρηστών τοποθετείται στην ενεργή και αυτή η "
-"εικόνα στις άλλες."
+"Εάν έχετε πολλές οθόνες, η λίστα χρηστών τοποθετείται στην ενεργή οθόνη και "
+"αυτή η εικόνα στις υπόλοιπες."
 
 #: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
@@ -154,29 +154,29 @@ msgstr "Λίστα χρηστών"
 
 #: usr/lib/lightdm-settings/lightdm-settings:195
 msgid "Allow manual login"
-msgstr "Επιτρέψτε τη χειροκίνητη σύνδεση"
+msgstr "Να επιτρέπεται η χειροκίνητη σύνδεση"
 
 #: usr/lib/lightdm-settings/lightdm-settings:196
 msgid "Add an option in the login window to enter a username."
 msgstr ""
-"Προσθέστε μια επιλογή στο παράθυρο σύνδεσης για να εισαγάγετε ένα όνομα "
+"Θα προστεθεί μια επιλογή στο παράθυρο σύνδεσης για την εισαγωγή ονόματος "
 "χρήστη."
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Hide the user list"
-msgstr "Απόκρυψη της λίστας χρηστών"
+msgstr "Απόκρυψη λίστας χρηστών"
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid "Hide the list of users in the login window."
-msgstr "Απόκρυψη της λίστας χρηστών στο παράθυρο σύνδεσης."
+msgstr "Να αποκρύπτεται η λίστα χρηστών στο παράθυρο σύνδεσης."
 
 #: usr/lib/lightdm-settings/lightdm-settings:205
 msgid "Guest sessions"
-msgstr "Συνεδρίες επισκεπτών"
+msgstr "Συνεδρίες επισκέπτη"
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Allow guest sessions"
-msgstr "Να επιτρέπονται συνεδρίες επισκέπτη"
+msgstr "Να επιτρέπονται οι συνεδρίες επισκέπτη"
 
 #: usr/lib/lightdm-settings/lightdm-settings:208
 msgid ""
@@ -184,12 +184,12 @@ msgid ""
 "account is created automatically when they log in."
 msgstr ""
 "Να επιτρέπεται στους επισκέπτες να χρησιμοποιούν τον υπολογιστή χωρίς κωδικό "
-"πρόσβασης. Ένας προσωρινός λογαριασμός επισκέπτη δημιουργείται αυτόματα όταν "
-"συνδεθείτε."
+"πρόσβασης. Θα δημιουργείται αυτόματα ένας προσωρινός λογαριασμός επισκέπτη "
+"κατά τη σύνδεσή τους."
 
 #: usr/lib/lightdm-settings/lightdm-settings:211
 msgid "Automatic login"
-msgstr "Αυτόματη είσοδος"
+msgstr "Αυτόματη σύνδεση"
 
 #: usr/lib/lightdm-settings/lightdm-settings:214
 msgid "Username"
@@ -199,12 +199,12 @@ msgstr "Όνομα χρήστη"
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
-"Προειδοποίηση: Η αυτόματη σύνδεση θα αποτύχει εάν ο αρχικός κατάλογος του "
+"Προειδοποίηση: Η αυτόματη σύνδεση θα αποτυγχάνει αν ο προσωπικός φάκελος του "
 "χρήστη είναι κρυπτογραφημένος."
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "Delay before connection (in seconds)"
-msgstr "Καθυστέρηση πριν τη σύνδεση (σε δευτερόλεπτα)"
+msgstr "Καθυστέρηση πριν από τη σύνδεση (σε δευτερόλεπτα)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:220
 msgid ""
@@ -212,13 +212,15 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
-"Εάν αυτή η επιλογή έχει οριστεί, η οθόνη σύνδεσης θα εμφανιστεί για τόσα "
-"δευτερόλεπτα πριν από την αυτόματη σύνδεση. Κάθε δραστηριότητα χρήστη θα "
-"ακυρώσει την αντίστροφη μέτρηση."
+"Η οθόνη σύνδεσης θα εμφανίζεται για όσα δευτερόλεπτα έχετε ορίσει για αυτήν "
+"την επιλογή, προτού πραγματοποιηθεί αυτόματη σύνδεση. Οποιαδήποτε ενέργεια "
+"από τον χρήση θα ακυρώσει την αντίστροφη μέτρηση."
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 msgid "These settings require a computer reboot to take effect."
-msgstr "Αυτές οι ρυθμίσεις απαιτούν την επανεκκίνηση του υπολογιστή σας."
+msgstr ""
+"Απαιτείται επανεκκίνηση του υπολογιστή σας για να τεθούν σε ισχύ αυτές οι "
+"ρυθμίσεις."
 
 #: usr/lib/lightdm-settings/lightdm-settings:228
 #: usr/lib/lightdm-settings/lightdm-settings:229
@@ -228,7 +230,7 @@ msgstr "Ρυθμίσεις"
 #: usr/lib/lightdm-settings/lightdm-settings:231
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Activate numlock"
-msgstr "Ενεργοποιήστε το numlock"
+msgstr "Ενεργοποίηση του NumLock"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Please install numlockx to use this option."
@@ -236,12 +238,12 @@ msgstr "Εγκαταστήστε το numlockx για να χρησιμοποι�
 
 #: usr/lib/lightdm-settings/lightdm-settings:239
 msgid "Activate numlock in the login window."
-msgstr "Ενεργοποιήστε το numlock στο παράθυρο σύνδεσης."
+msgstr "Ενεργοποίηση του NumLock στο παράθυρο σύνδεσης."
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 #: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Auto"
-msgstr "Αυτόματο"
+msgstr "Αυτόματα"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Enable"
@@ -257,7 +259,9 @@ msgstr "Υποστήριξη HiDPI"
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Support for high pixel density and Retina displays."
-msgstr "Υποστήριξη για υψηλή πυκνότητα εικονοστοιχείων και οθόνη Retina."
+msgstr ""
+"Υποστήριξη για οθόνες υψηλής πυκνότητας εικονοστοιχείων και οθόνες τύπου "
+"Retina."
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Monitor"
@@ -268,20 +272,20 @@ msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
-"Επιλέξτε ποια οθόνη θα εμφανίσει το παράθυρο σύνδεσης ή επιλέξτε 'Αυτόματα' "
-"εάν θέλετε να ακολουθήσει το ποντίκι."
+"Επιλέξτε ποια οθόνη θα εμφανίζει το παράθυρο σύνδεσης ή επιλέξτε «Αυτόματα» "
+"αν θέλετε να ακολουθεί το ποντίκι."
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Panel indicators"
-msgstr "Ενδείξεις πλαισίου"
+msgstr "Ενδείξεις γραμμής συστήματος"
 
 #: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Hostname"
-msgstr "Όνομα παρόχου"
+msgstr "Όνομα υπολογιστή"
 
 #: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Show the computer hostname in the panel."
-msgstr "Εμφάνιση του ονόματος του υπολογιστή στο πλαίσιο"
+msgstr "Να εμφανίζεται το όνομα του υπολογιστή στη γραμμή συστήματος."
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Accessibility options"
@@ -289,7 +293,7 @@ msgstr "Επιλογές προσβασιμότητας"
 
 #: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "Show accessibility options in the panel."
-msgstr "Εμφάνιση επιλογών προσβασιμότητας στο πλαίσιο"
+msgstr "Να εμφανίζονται οι επιλογές προσβασιμότητας στη γραμμή συστήματος."
 
 #: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "On-screen keyboard layout"
@@ -301,7 +305,9 @@ msgstr "Ισχύς μπαταρίας"
 
 #: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "On laptops, show the battery power in the panel."
-msgstr "Στα laptop, δείξε την ισχύ της μπαταρίας στο πλαίσιο."
+msgstr ""
+"Σε φορητούς υπολογιστές, να εμφανίζεται η στάθμη ισχύος της μπαταρίας στη "
+"γραμμή συστήματος."
 
 #: usr/lib/lightdm-settings/lightdm-settings:283
 msgid "Keyboard layout"
@@ -309,15 +315,15 @@ msgstr "Διάταξη πληκτρολογίου"
 
 #: usr/lib/lightdm-settings/lightdm-settings:284
 msgid "Show the keyboard layout in the panel."
-msgstr "Εμφάνιση Διάταξης Πληκτρολογίου στο πλαίσιο"
+msgstr "Να εμφανίζεται η διάταξη πληκτρολογίου στη γραμμή συστήματος."
 
 #: usr/lib/lightdm-settings/lightdm-settings:287
 msgid "Quit menu"
-msgstr "Μενού Τερματισμού"
+msgstr "Μενού τερματισμού"
 
 #: usr/lib/lightdm-settings/lightdm-settings:288
 msgid "Show the quit menu in the panel."
-msgstr "Εμφάνιση του μενού τερματισμού στο πλαίσιο"
+msgstr "Να εμφανίζεται το μενού τερματισμού στη γραμμή συστήματος."
 
 #: usr/lib/lightdm-settings/lightdm-settings:292
 msgid "Clock"
@@ -325,21 +331,22 @@ msgstr "Ρολόι"
 
 #: usr/lib/lightdm-settings/lightdm-settings:293
 msgid "Show a clock in the panel."
-msgstr "Εμφάνιση ενός ρολογιού στο πλαίσιο."
+msgstr "Να εμφανίζεται ένα ρολόι στη γραμμή συστήματος."
 
 #: usr/lib/lightdm-settings/lightdm-settings:303
 msgid "Clock format"
-msgstr "Μορφή ώρας ρολογιού"
+msgstr "Μορφή ρολογιού"
 
 #: usr/lib/lightdm-settings/lightdm-settings:304
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
-"Δείτε στο https://www.foragoodstrftime.com για περισσότερες πληροφορίες."
+"Επισκεφθείτε το https://www.foragoodstrftime.com για περισσότερες "
+"πληροφορίες σχετικά με τη μορφοποίηση."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:235
 msgid "Choose an Image File"
-msgstr "Επιλέξτε ένα αρχείο Εικόνας"
+msgstr "Επιλογή αρχείου εικόνας"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:238
 msgid "_Cancel"

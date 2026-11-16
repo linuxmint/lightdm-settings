@@ -8,20 +8,21 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-28 17:06+0000\n"
-"PO-Revision-Date: 2018-07-18 16:03+0000\n"
-"Last-Translator: Murat Käribay <d2vsd1@mail.ru>\n"
+"PO-Revision-Date: 2026-01-24 16:39+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <Unknown>\n"
 "Language-Team: Kazakh <kk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:42+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 11:58+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"Language: kk\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:36
 #: usr/lib/lightdm-settings/lightdm-settings:68 generate_desktop_files:25
 #: generate_desktop_files:52
 msgid "Login Window"
-msgstr "Жүйеге кіру терезесі"
+msgstr "Кіру терезесі"
 
 #: usr/lib/lightdm-settings/lightdm-settings:58
 msgid "Quit"
@@ -29,31 +30,31 @@ msgstr "Шығу"
 
 #: usr/lib/lightdm-settings/lightdm-settings:124
 msgid "Appearance"
-msgstr ""
+msgstr "Сыртқы түрі"
 
 #: usr/lib/lightdm-settings/lightdm-settings:125
 msgid "General"
-msgstr ""
+msgstr "Жалпы"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Left"
-msgstr ""
+msgstr "Сол жақ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:130
 msgid "Center"
-msgstr ""
+msgstr "Ортасы"
 
 #: usr/lib/lightdm-settings/lightdm-settings:131
 msgid "Right"
-msgstr ""
+msgstr "Оң жақ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:132
 msgid "Alignment"
-msgstr ""
+msgstr "Туралау"
 
 #: usr/lib/lightdm-settings/lightdm-settings:133
 msgid "Alignment of the login box"
-msgstr ""
+msgstr "Кіру блогын туралау"
 
 #: usr/lib/lightdm-settings/lightdm-settings:136
 #: usr/lib/lightdm-settings/lightdm-settings:138
@@ -65,6 +66,8 @@ msgid ""
 "Note: Don't select a background from your home directory if it's encrypted "
 "or if its permissions are restricted."
 msgstr ""
+"Ескертпе: Егер үй бумасы шифрланған немесе оның рұқсаттары шектелген болса, "
+"одан фонды таңдамаңыз."
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 #: usr/lib/lightdm-settings/lightdm-settings:143
@@ -73,124 +76,130 @@ msgstr "Фон түсі"
 
 #: usr/lib/lightdm-settings/lightdm-settings:148
 msgid "Stretch background across multiple monitors"
-msgstr ""
+msgstr "Фонды бірнеше мониторға созу"
 
 #: usr/lib/lightdm-settings/lightdm-settings:151
 msgid "Draw user backgrounds"
-msgstr ""
+msgstr "Пайдаланушы фондарын көрсету"
 
 #: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "When a user is selected, show that user's background."
-msgstr ""
+msgstr "Пайдаланушы таңдалған кезде, сол пайдаланушының фонын көрсету."
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw a grid"
-msgstr ""
+msgstr "Торды көрсету"
 
 #: usr/lib/lightdm-settings/lightdm-settings:156
 msgid "Draw a grid of white dots on top of the background."
-msgstr ""
+msgstr "Фонның үстінен ақ нүктелерден тұратын торды көрсету."
 
 #: usr/lib/lightdm-settings/lightdm-settings:159
 msgid "Themes"
-msgstr "Нақыштар"
+msgstr "Тақырыптар"
 
 #: usr/lib/lightdm-settings/lightdm-settings:161
 #: usr/lib/lightdm-settings/lightdm-settings:162
 msgid "GTK theme"
-msgstr ""
+msgstr "GTK тақырыбы"
 
 #: usr/lib/lightdm-settings/lightdm-settings:165
 #: usr/lib/lightdm-settings/lightdm-settings:166
 msgid "Icon theme"
-msgstr ""
+msgstr "Таңбашалар тақырыбы"
 
 #: usr/lib/lightdm-settings/lightdm-settings:169
 #: usr/lib/lightdm-settings/lightdm-settings:170
 msgid "Mouse pointer"
-msgstr ""
+msgstr "Тышқан курсоры"
 
 #: usr/lib/lightdm-settings/lightdm-settings:173
 #: usr/lib/lightdm-settings/lightdm-settings:174
 msgid "Mouse pointer size"
-msgstr ""
+msgstr "Тышқан курсорының өлшемі"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
-msgstr ""
+msgstr "Қосымша суреттер"
 
 #: usr/lib/lightdm-settings/lightdm-settings:179
 msgid "Other monitors"
-msgstr ""
+msgstr "Басқа мониторлар"
 
 #: usr/lib/lightdm-settings/lightdm-settings:180
 msgid ""
 "If you have multiple monitors, the user list is placed on the active one, "
 "and this picture on the others."
 msgstr ""
+"Егер сізде бірнеше монитор болса, пайдаланушылар тізімі белсенді мониторда, "
+"ал бұл сурет басқаларында орналасады."
 
 #: usr/lib/lightdm-settings/lightdm-settings:183
 msgid "Bottom left"
-msgstr ""
+msgstr "Төменгі сол жақ"
 
 #: usr/lib/lightdm-settings/lightdm-settings:184
 msgid "Select a picture to show on the bottom left of the login window."
-msgstr ""
+msgstr "Кіру терезесінің төменгі сол жағында көрсетілетін суретті таңдаңыз."
 
 #: usr/lib/lightdm-settings/lightdm-settings:191
 msgid "Users"
-msgstr ""
+msgstr "Пайдаланушылар"
 
 #: usr/lib/lightdm-settings/lightdm-settings:192
 msgid "User list"
-msgstr ""
+msgstr "Пайдаланушылар тізімі"
 
 #: usr/lib/lightdm-settings/lightdm-settings:195
 msgid "Allow manual login"
-msgstr ""
+msgstr "Қолмен кіруге рұқсат ету"
 
 #: usr/lib/lightdm-settings/lightdm-settings:196
 msgid "Add an option in the login window to enter a username."
-msgstr ""
+msgstr "Кіру терезесіне пайдаланушы атын енгізу опциясын қосу."
 
 #: usr/lib/lightdm-settings/lightdm-settings:200
 msgid "Hide the user list"
-msgstr ""
+msgstr "Пайдаланушылар тізімін жасыру"
 
 #: usr/lib/lightdm-settings/lightdm-settings:201
 msgid "Hide the list of users in the login window."
-msgstr ""
+msgstr "Кіру терезесінде пайдаланушылар тізімін жасыру."
 
 #: usr/lib/lightdm-settings/lightdm-settings:205
 msgid "Guest sessions"
-msgstr ""
+msgstr "Қонақ сеанстары"
 
 #: usr/lib/lightdm-settings/lightdm-settings:207
 msgid "Allow guest sessions"
-msgstr ""
+msgstr "Қонақ сеанстарына рұқсат ету"
 
 #: usr/lib/lightdm-settings/lightdm-settings:208
 msgid ""
 "Allow guests to use the computer without a password. A temporary guest "
 "account is created automatically when they log in."
 msgstr ""
+"Қонақтарға компьютерді парольсіз пайдалануға рұқсат ету. Олар жүйеге кірген "
+"кезде уақытша қонақ тіркелгісі автоматты түрде жасалады."
 
 #: usr/lib/lightdm-settings/lightdm-settings:211
 msgid "Automatic login"
-msgstr ""
+msgstr "Автоматты түрде кіру"
 
 #: usr/lib/lightdm-settings/lightdm-settings:214
 msgid "Username"
-msgstr ""
+msgstr "Пайдаланушы аты"
 
 #: usr/lib/lightdm-settings/lightdm-settings:215
 msgid ""
 "Warning: Automatic login will fail if the user's home directory is encrypted."
 msgstr ""
+"Ескерту: Егер пайдаланушының үй бумасы шифрланған болса, автоматты түрде "
+"кіру сәтсіз аяқталады."
 
 #: usr/lib/lightdm-settings/lightdm-settings:219
 msgid "Delay before connection (in seconds)"
-msgstr ""
+msgstr "Байланыс орнату алдындағы кідіріс (секундпен)"
 
 #: usr/lib/lightdm-settings/lightdm-settings:220
 msgid ""
@@ -198,141 +207,148 @@ msgid ""
 "before the automatic login occurs. Any user activity will cancel the "
 "countdown."
 msgstr ""
+"Егер бұл опция орнатылса, автоматты түрде кіру орындалғанға дейін кіру "
+"экраны осынша секунд бойы көрсетіледі. Пайдаланушының кез келген әрекеті "
+"кері санақты тоқтатады."
 
 #: usr/lib/lightdm-settings/lightdm-settings:223
 msgid "These settings require a computer reboot to take effect."
-msgstr ""
+msgstr "Бұл баптаулар күшіне енуі үшін компьютерді қайта жүктеу қажет."
 
 #: usr/lib/lightdm-settings/lightdm-settings:228
 #: usr/lib/lightdm-settings/lightdm-settings:229
 msgid "Settings"
-msgstr ""
+msgstr "Баптаулар"
 
 #: usr/lib/lightdm-settings/lightdm-settings:231
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Activate numlock"
-msgstr ""
+msgstr "Numlock-ты белсендіру"
 
 #: usr/lib/lightdm-settings/lightdm-settings:237
 msgid "Please install numlockx to use this option."
-msgstr ""
+msgstr "Бұл опцияны пайдалану үшін numlockx орнатыңыз."
 
 #: usr/lib/lightdm-settings/lightdm-settings:239
 msgid "Activate numlock in the login window."
-msgstr ""
+msgstr "Кіру терезесінде numlock-ты белсендіру."
 
 #: usr/lib/lightdm-settings/lightdm-settings:245
 #: usr/lib/lightdm-settings/lightdm-settings:252
 msgid "Auto"
-msgstr ""
+msgstr "Авто"
 
 #: usr/lib/lightdm-settings/lightdm-settings:246
 msgid "Enable"
-msgstr ""
+msgstr "Іске қосу"
 
 #: usr/lib/lightdm-settings/lightdm-settings:247
 msgid "Disable"
-msgstr ""
+msgstr "Сөндіру"
 
 #: usr/lib/lightdm-settings/lightdm-settings:248
 msgid "HiDPI support"
-msgstr ""
+msgstr "HiDPI қолдауы"
 
 #: usr/lib/lightdm-settings/lightdm-settings:249
 msgid "Support for high pixel density and Retina displays."
-msgstr ""
+msgstr "Жоғары пиксель тығыздығын және Retina дисплейлерін қолдау."
 
 #: usr/lib/lightdm-settings/lightdm-settings:253
 msgid "Monitor"
-msgstr ""
+msgstr "Монитор"
 
 #: usr/lib/lightdm-settings/lightdm-settings:254
 msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
+"Кіру терезесін қай монитор көрсету керектігін таңдаңыз немесе ол тышқан "
+"соңынан ерсін десеңіз, 'Авто' мәнін таңдаңыз."
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Panel indicators"
-msgstr ""
+msgstr "Панель индикаторлары"
 
 #: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Hostname"
-msgstr ""
+msgstr "Хост аты"
 
 #: usr/lib/lightdm-settings/lightdm-settings:260
 msgid "Show the computer hostname in the panel."
-msgstr ""
+msgstr "Панельде компьютердің хост атын көрсету."
 
 #: usr/lib/lightdm-settings/lightdm-settings:263
 msgid "Accessibility options"
-msgstr ""
+msgstr "Қолжетімділік опциялары"
 
 #: usr/lib/lightdm-settings/lightdm-settings:264
 msgid "Show accessibility options in the panel."
-msgstr ""
+msgstr "Панельде қолжетімділік опцияларын көрсету."
 
 #: usr/lib/lightdm-settings/lightdm-settings:276
 msgid "On-screen keyboard layout"
-msgstr ""
+msgstr "Экрандағы пернетақта жаймасы"
 
 #: usr/lib/lightdm-settings/lightdm-settings:279
 msgid "Battery power"
-msgstr ""
+msgstr "Батарея заряды"
 
 #: usr/lib/lightdm-settings/lightdm-settings:280
 msgid "On laptops, show the battery power in the panel."
-msgstr ""
+msgstr "Ноутбуктерде панельде батарея зарядын көрсету."
 
 #: usr/lib/lightdm-settings/lightdm-settings:283
 msgid "Keyboard layout"
-msgstr ""
+msgstr "Пернетақта жаймасы"
 
 #: usr/lib/lightdm-settings/lightdm-settings:284
 msgid "Show the keyboard layout in the panel."
-msgstr ""
+msgstr "Панельде пернетақта жаймасын көрсету."
 
 #: usr/lib/lightdm-settings/lightdm-settings:287
 msgid "Quit menu"
-msgstr ""
+msgstr "Шығу мәзірі"
 
 #: usr/lib/lightdm-settings/lightdm-settings:288
 msgid "Show the quit menu in the panel."
-msgstr ""
+msgstr "Панельде шығу мәзірін көрсету."
 
 #: usr/lib/lightdm-settings/lightdm-settings:292
 msgid "Clock"
-msgstr ""
+msgstr "Сағат"
 
 #: usr/lib/lightdm-settings/lightdm-settings:293
 msgid "Show a clock in the panel."
-msgstr ""
+msgstr "Панельде сағатты көрсету."
 
 #: usr/lib/lightdm-settings/lightdm-settings:303
 msgid "Clock format"
-msgstr ""
+msgstr "Сағат пішімі"
 
 #: usr/lib/lightdm-settings/lightdm-settings:304
 msgid ""
 "See https://www.foragoodstrftime.com for more information on formatting."
 msgstr ""
+"Пішімдеу туралы көбірек ақпарат алу үшін https://www.foragoodstrftime.com "
+"қараңыз."
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:235
 msgid "Choose an Image File"
-msgstr ""
+msgstr "Сурет файлын таңдаңыз"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:238
 msgid "_Cancel"
-msgstr ""
+msgstr "_Бас тарту"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:239
 msgid "_Open"
-msgstr ""
+msgstr "_Ашу"
 
 #: usr/lib/lightdm-settings/SettingsWidgets.py:242
 msgid "Image files"
-msgstr ""
+msgstr "Сурет файлдары"
 
 #: generate_desktop_files:25
 msgid "Configure the login window"
-msgstr ""
+msgstr "Кіру терезесін баптау"

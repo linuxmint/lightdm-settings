@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-11-28 17:06+0000\n"
-"PO-Revision-Date: 2025-01-08 22:52+0000\n"
+"PO-Revision-Date: 2026-11-07 03:48+0000\n"
 "Last-Translator: AO <Unknown>\n"
 "Language-Team: French (Canada) <fr_CA@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:42+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 11:58+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
 
 #: usr/lib/lightdm-settings/lightdm-settings:36
 #: usr/lib/lightdm-settings/lightdm-settings:68 generate_desktop_files:25
@@ -33,7 +33,7 @@ msgstr "Apparence"
 
 #: usr/lib/lightdm-settings/lightdm-settings:125
 msgid "General"
-msgstr "Général."
+msgstr "Général"
 
 #: usr/lib/lightdm-settings/lightdm-settings:129
 msgid "Left"
@@ -65,8 +65,8 @@ msgid ""
 "Note: Don't select a background from your home directory if it's encrypted "
 "or if its permissions are restricted."
 msgstr ""
-"Note : Ne sélectionnez pas un arrière-plan situé dans votre dossier "
-"personnel s’il est chiffré ou si ses droits d’accès sont restreints."
+"Note : ne choisissez pas un arrière-plan situé dans votre dossier personnel "
+"s’il est chiffré ou si ses droits d’accès sont restreints."
 
 #: usr/lib/lightdm-settings/lightdm-settings:142
 #: usr/lib/lightdm-settings/lightdm-settings:143
@@ -83,7 +83,7 @@ msgstr "Utiliser les arrière-plans des utilisateurs"
 
 #: usr/lib/lightdm-settings/lightdm-settings:152
 msgid "When a user is selected, show that user's background."
-msgstr "Quand un utilisateur est sélectionné, afficher son arrière-plan."
+msgstr "Quand un utilisateur est choisi, son arrière-plan est affiché."
 
 #: usr/lib/lightdm-settings/lightdm-settings:155
 msgid "Draw a grid"
@@ -119,7 +119,7 @@ msgstr "Taille du pointeur de la souris"
 
 #: usr/lib/lightdm-settings/lightdm-settings:177
 msgid "Optional pictures"
-msgstr "Images optionnelles"
+msgstr "Images facultatives"
 
 #: usr/lib/lightdm-settings/lightdm-settings:179
 msgid "Other monitors"
@@ -266,12 +266,12 @@ msgid ""
 "Choose which monitor should display the login window, or select 'Auto' if "
 "you want it to follow the mouse."
 msgstr ""
-"Choisissez le moniteur qui affichera la fenêtre de connexion ou sélectionnez "
+"Choisissez l’écran qui affichera la fenêtre de connexion, ou choisissez "
 "« Automatique » si vous voulez qu’elle suive la souris."
 
 #: usr/lib/lightdm-settings/lightdm-settings:257
 msgid "Panel indicators"
-msgstr "Indicateurs de paneau"
+msgstr "Indicateurs de panneau"
 
 #: usr/lib/lightdm-settings/lightdm-settings:259
 msgid "Hostname"
@@ -312,11 +312,11 @@ msgstr "Afficher la disposition du clavier dans le panneau."
 
 #: usr/lib/lightdm-settings/lightdm-settings:287
 msgid "Quit menu"
-msgstr "Menu « Quitter… »"
+msgstr "Menu « Fermer… »"
 
 #: usr/lib/lightdm-settings/lightdm-settings:288
 msgid "Show the quit menu in the panel."
-msgstr "Afficher le menu « Quitter… » dans le panneau."
+msgstr "Afficher le menu « Fermer… » dans le panneau."
 
 #: usr/lib/lightdm-settings/lightdm-settings:292
 msgid "Clock"
